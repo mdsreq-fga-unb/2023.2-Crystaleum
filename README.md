@@ -19,3 +19,19 @@ Crystaleum é um jogo singleplayer desenvolvido com o objetivo de servir como fo
 | 200026151 | Pedro Henrique Ferreira Nunes          | [pedrohhenriq](https://github.com/pedrohhenriq) | pedrolulhenrique@gmail.com |
 | 211045196 | Suzane Alves Duarte                    | [suzaneduarte](https://github.com/suzaneduarte) | ssuzane9@hotmail.com       |
 | 211030264 | Taynara Gabrielle Vitorino             | [taybalau](https://github.com/taybalau)         | taynaravitorino@gmail.com  |
+
+## Como configurar a documentação?
+
+Para realizar a configuração da documentação desse projeto é necessário instalar o mkdocs nas depedências locais do seu computador. Para isso, basta rodar os seguintes comandos:
+
+```bash
+pip install mkdocs
+```
+
+```bash
+pip install mkdocs-material
+```
+
+```bash
+pip install mkdocs-minify-plugin
+```
