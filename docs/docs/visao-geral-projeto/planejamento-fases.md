@@ -1,0 +1,19 @@
+# Planejamento das Fases e/ou Iterações do Projeto
+
+|**_Sprint_**|**_Produto(entrega)_**|**_Data Início_**|**_Data Fim_**|
+|---|---|---|---|
+|Sprint 1|- HeatMap do projeto - Idealização do produto |11/09/2023|15/09/2023|
+|Sprint 2| - Criação do GitPages - Definição final da Visão Geral do Produto - Definição da Visão Geral do Projeto|18/09/2023|22/09/2023|
+|**_Sprint 3_**|- Definição dos Fundamentos de Eng. Software - Definição dos processos, valores e princípios de Engenharia de Requisitos - Definição dos Tipos de Requisitos e Regras de Negócio - Definição dos Problemas e Necessidades |25/09/2023|29/09/2023|
+|Sprint 4|Aspectos humanos e sociais da Engenharia de Requisitos - Atividades e Técnicas de ER - Início das atividades de Estudo do framework Godot|02/10/2023|06/10/2023|
+|Sprint 5|- Definição do Backlog do Produto - Criação SAFe e User Story - Continuidade nas atividades de estudo do framework - Início das atividades práticas no framework|09/10/2023|13/10/2023|
+|**_Sprint 6_**|- Definição de MVP - Gravação do vídeo da missão 2 - Continuidade nas atividades de estudo do framework - Revisões da entrega da missão 2 - Início do desenvolvimento do jogo|16/10/2023|27/10/2023|
+|Sprint 7|- Desenvolvimento do jogo |23/10/2023|27/10/2023|
+|Sprint 8|- Fundamentos, conceitos e exercícios: PBB e BDD - Entrega das primeiras funcionalidades do jogo|30/10/2023|03/11/2023
+|Sprint 9|- Realização do User Story Mapping - Continuação do restantes das funcionalidades do jogo |06/11/2023|10/11/2023|
+|**_Sprint 10_**|- Entregas referentes ao Ponto de Controle 1|13/11/2023|17/11/2023|
+|**_Sprint 11_**|- Revisão da entrega da missão 3 - Gravação do vídeo da missão 3|20/11/2023|24/11/2023|
+|Sprint 12|- Desenvolvimento do jogo |27/11/2023|01/12/2023|
+|**_Sprint 13_**|- Entregas referentes ao Ponto de Controle 2|04/12/2023|08/12/2023|
+|**_Sprint 14_**|- Modelos de casos de uso - Especificação de casos de uso - Implementação e entrega do MVP - Revisão final das entregas da missão 4 - Gravação do vídeo da missão 4|11/12/2023|15/12/2023|
+|Sprint 15|- Aperfeiçoamento das últimas atividades relacionadas ao desenvolvimento do jogo|18/12/2023|20/12/2023|

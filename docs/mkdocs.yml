@@ -163,6 +163,12 @@ nav:
       - Problema: visao-geral-produto/problema.md
       - Declaração de Posição do Produto: visao-geral-produto/posicao-produto.md
       - Objetivos do Produto: visao-geral-produto/objetivos.md
+  - Visão Geral do Projeto: 
+      - Critério-replanejamento: visao-geral-projeto/criterio-replanejamento.md
+      - Gerenciamento de riscos: visao-geral-projeto/gerenciamento-riscos.md
+      - Matriz de comunicação: visao-geral-projeto/matriz-comunicacao.md
+      - Organizacao do Projeto: visao-geral-projeto/organizacao-projeto.md
+      - Planejamento Fases: visao-geral-projeto/planejamento-fases.md
 
   - Missão 1:
       - Fundamentos de Eng. Software: missao-1/fundamentos.md
