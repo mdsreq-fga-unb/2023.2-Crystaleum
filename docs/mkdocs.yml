@@ -162,13 +162,14 @@ nav:
   - Visão Geral do Produto:
       - Problema: visao-geral-produto/problema.md
       - Declaração de Posição do Produto: visao-geral-produto/posicao-produto.md
-      - Objetivos do Produto: visao-geral-produto/objetivos.md
-  - Visão Geral do Projeto: 
-      - Critério-replanejamento: visao-geral-projeto/criterio-replanejamento.md
-      - Gerenciamento de riscos: visao-geral-projeto/gerenciamento-riscos.md
-      - Matriz de comunicação: visao-geral-projeto/matriz-comunicacao.md
+      - Objetivos do Produto: visao-geral-produto/objetivos-e-tecnologias.md
+
+  - Visão Geral do Projeto:
       - Organizacao do Projeto: visao-geral-projeto/organizacao-projeto.md
       - Planejamento Fases: visao-geral-projeto/planejamento-fases.md
+      - Matriz de comunicação: visao-geral-projeto/matriz-comunicacao.md
+      - Gerenciamento de riscos: visao-geral-projeto/gerenciamento-riscos.md
+      - Critério-replanejamento: visao-geral-projeto/criterio-replanejamento.md
 
   - Missão 1:
       - Fundamentos de Eng. Software: missao-1/fundamentos.md
@@ -177,3 +178,4 @@ nav:
       - Valores e Princípios da ER: missao-1/valores-e-principios.md
       - Tipos de Requisitos e Regras de Negócio: missao-1/regras-de-negocios.md
       - Entendendo Problema e Necessidades: missao-1/problemas-e-necessidades.md
+      - Lições Aprendidas: missao-1/licoes-aprendidas.md
