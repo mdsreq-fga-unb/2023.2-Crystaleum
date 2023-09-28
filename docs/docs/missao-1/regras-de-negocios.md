@@ -1,4 +1,4 @@
-## Tipos de Requisitos e Regras de Negócio
+## **Tipos de Requisitos e Regras de Negócio**
 
 Desenvolver um jogo de gamificação para uma disciplina, como o Crystaleum, envolve a definição de vários tipos de requisitos e regras de negócio. Esses requisitos são fundamentais para garantir que o jogo atenda aos objetivos educacionais e de entretenimento.
 

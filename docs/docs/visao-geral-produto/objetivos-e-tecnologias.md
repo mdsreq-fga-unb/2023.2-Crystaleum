@@ -4,7 +4,7 @@
 
 O objetivo principal do produto é servir como meio de revisão da matéria e imersão na disciplina.
 
-## Tecnologias a serem utilizadas
+## **Tecnologias a serem utilizadas**
 
 | Ferramenta       | Utilidade                                                              |
 | ---------------- | ---------------------------------------------------------------------- |

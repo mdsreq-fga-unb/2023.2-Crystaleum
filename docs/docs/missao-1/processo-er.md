@@ -1,4 +1,4 @@
-## **Processo de ER (Engenharia de Requisitos)**
+## Processo de ER (Engenharia de Requisitos)
 
 O processo de Engenharia de Requisitos (ER) é um componente essencial do ciclo de vida do desenvolvimento de software, representando a base na qual um projeto é construído. Portanto, o processo de ER desempenha um papel fundamental no desenvolvimento do Crystaleum e para que seja alcançado um produto de sucesso, torna-se crucial compreender como esses processos se relacionam entre si. Desta forma, vejamos como as facetas dos processos interagem com o projeto:
 

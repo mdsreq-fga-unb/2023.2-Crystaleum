@@ -1,6 +1,6 @@
 # Valores e princípios
 
-## Valores
+## **Valores**
 
 - **Comunicação:** O nosso projeto envolve a constante comunicação com o cliente devido a grande quantidade de prototipação envolvida no RAD, portanto iremos focar em manter o compartilhamento de informações do projeto, utilizaremos uma comunicação parcialmente formal.
 - **FeedBack:** No decorrer do processo o feedback constante sobre os protótipos do jogo será de extrema importância para o desenvolvimento, portanto o objetivo é a possibilidade de criar protótipos constantemente para a obtenção constante de feedback sobre o produto de maneira rápida.
@@ -10,7 +10,7 @@
 - **Compromisso:** Todos do grupo terão pela formalização do que deve ser feito por quem será realizado e quando será realizado, sempre sendo discutido em conjunto com todos a fim de evitar descompromisso com as tarefas.
 - **Confiança:** Durante o desenvolvimento do projeto também existirá um desenvolvimento da própria equipe em conjunto ocasionando na criação de laços e confiança entre os membros baseados na sinceridade e responsabilidade de cada um.
 
-## Princípios
+## **Princípios**
 
 - **Orientação a valor:** Teremos um foco em agregar valor no produto a partir da declaração dos requisitos com objetivo de reduzir riscos, retrabalho e alcançar uma solução adequada.
 
