@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/mdsreq-fga-unb/2023.2-Crystaleum/missao-1/licoes-aprendidas/</loc>
+         <lastmod>2023-09-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/mdsreq-fga-unb/2023.2-Crystaleum/missao-1/problemas-e-necessidades/</loc>
          <lastmod>2023-09-28</lastmod>
          <changefreq>daily</changefreq>
@@ -41,7 +46,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/mdsreq-fga-unb/2023.2-Crystaleum/visao-geral-produto/objetivos/</loc>
+         <loc>https://github.com/mdsreq-fga-unb/2023.2-Crystaleum/visao-geral-produto/objetivos-e-tecnologias/</loc>
          <lastmod>2023-09-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
