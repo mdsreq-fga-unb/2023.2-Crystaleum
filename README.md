@@ -35,3 +35,10 @@ pip install mkdocs-material
 ```bash
 pip install mkdocs-minify-plugin
 ```
+## Histórico de Versão
+
+|   Data   | Versão  |                      Descrição                      |    Autor(es)     |  Revisor(es)  |
+| :--------: | :---: | :-------------------------------------------------: | :--------------: | :-----------: |
+| 17/09/2023 | `1.0` | Criação da versão inicial da documentação | Suzane Duarte | Taynara Vitorino|
+| 26/09/2023 | `1.1` |   Adicionando template para a documentação    |  Suzane Duarte   | Pablo Guilherme  |
+| 26/09/2023 | `1.2` |          Inclusão da Visão geral do projeto e do produto         |  Todos   | Suzane Duarte  |
