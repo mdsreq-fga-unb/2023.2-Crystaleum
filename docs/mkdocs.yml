@@ -180,3 +180,10 @@ nav:
       - Entendendo Problema e Necessidades: missao-1/problemas-e-necessidades.md
       - Lições Aprendidas: missao-1/licoes-aprendidas.md
       - Vídeo de Apresentação: missao-1/video-apresentacao.md
+
+  - Missão 2:
+      - Aspectos humanos e sociais da Engenharia de Requisitos: missao-2/aspectos-humanos-sociais.md
+      - Atividades e Técnicas de ER: missao-2/atividades-e-tecnicas.md
+      - Definição do Backlog do Produto: missao-2/backlog.md
+      - SAFe e User Story: missao-2/safe-e-userstory.md
+      - Definição de MVP: missao-2/mvp.md
