@@ -16,5 +16,5 @@
 | Quem                | Oportunidade do desenvolvimento de um produto inovador                                                                                         |
 | O (nome do produto) | Crystaleum                                                                                                                                     |
 | Que                 | Irá gerar um maior engajamento dos estudantes com a disciplina                                                                                 |
-| Ao contrário        | Do documento do super-R de 11 páginas, o jogo introduz a disciplina de forma lúdica e motiva os estudantes a lerem o documento posteriormente. |
+| Ao contrário        | Da metodologia tradicional de aula, o jogo introduz a disciplina de forma lúdica e motiva os estudantes a lerem o documento posteriormente. |
 | Nosso produto       | também irá servir como meio lúdico de revisão do conteúdo da matéria                                                                           |

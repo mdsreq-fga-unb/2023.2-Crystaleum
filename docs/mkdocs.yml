@@ -170,6 +170,11 @@ nav:
       - Matriz de comunicação: visao-geral-projeto/matriz-comunicacao.md
       - Gerenciamento de riscos: visao-geral-projeto/gerenciamento-riscos.md
       - Critério-replanejamento: visao-geral-projeto/criterio-replanejamento.md
+  
+  - Slides Apresentações:
+      - Apresentação da facção: slides-apresentacoes/apresentacao-1-faccao.md
+      - Apresentação do produto, abordagem, ciclo de vida e processo : slides-apresentacoes/apresentacao-2-produto-abordagem.md
+      - Apresentação do produto, abordagem, ciclo de vida e processo (Corrigida) : slides-apresentacoes/apresentacao-3-produto-abordagem-corrigidos.md
 
   - Missão 1:
       - Fundamentos de Eng. Software: missao-1/fundamentos.md
