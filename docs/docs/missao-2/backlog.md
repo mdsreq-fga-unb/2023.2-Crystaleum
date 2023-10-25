@@ -10,7 +10,7 @@
 
 ## Tabela do Backlog
 
-Neste projeto utilizamos o framework [SAFe](https://scaledagileframework.com) e organizamos os artefatos do backlog seguindo a desposição de Épicos, Capacidades, Features e US's que se derivam respectivamente, logo em seguida uma pequena descrição sobre cada um:
+Neste projeto utilizamos o framework SAFe<a href="#l2">²</a> e organizamos os artefatos do backlog seguindo a desposição de Épicos, Capacidades, Features e US's que se derivam respectivamente, logo em seguida uma pequena descrição sobre cada um:
 
 - **Épicos:** Um Épico é uma iniciativa significativa de desenvolvimento de soluções, de acordo com [SAFe - Epics](https://scaledagileframework.com/epic/)
 
@@ -56,7 +56,7 @@ Para facilitar a visualização da tabela do backlog propomos uma divisão do ba
 
 > <a id="l1" href="#anchor_1">1.</a>  K. Schwaber & J. Sutherland, The Scrum Guide, 2011
 >
-> <a id="l2" href="#anchor_2">2.</a> Referência 2
+><a id="l2" href="#anchor_2">2.</a> SAFe Framework, The Scrum Guide, Acesso em: [25/10/2023], <a href="https://safe.scaledagile.com/web/unauthenticated">SAFe Framework</a>
 
 ## Histórico de Versão
 
