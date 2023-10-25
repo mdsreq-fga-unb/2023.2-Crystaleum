@@ -29,3 +29,14 @@ Além disso, o RAD supre a necessidade de planejamento inicial mais detalhado e,
 - Escolha da abordagem ágil.
 - Curto período de tempo para entrega.
 - Ter feedbacks constantes em cima de protótipos seria de muita utilidade por se tratar de um jogo.
+
+
+## Referências Bibliográficas
+
+> <a id="l1" href="#anchor_1">1.</a> Livro:
+
+Sommerville, Ian. Engenharia de Software - 10a edição (2019)
+>
+> <a id="l2" href="#anchor_2">2.</a> Livro:
+
+IEEE. Software Engineering Body of Knowledge
