@@ -6,7 +6,7 @@ O emblema da facção MoonWalkers foi criada utilizando elementos visuais que re
 
 ![Emblema](../assets/images/emblema.png)
 
-## **História da facção**
+## História da facção
 
 A história dos MoonWalkers foi sendo construída gradativamente a partir da individualidade de cada um de seus membros. Sendo assim, para entender a verdadeira história dessa facção, antes, é necessário conhecer sobre cada um dos membros que a compoẽm.
 
