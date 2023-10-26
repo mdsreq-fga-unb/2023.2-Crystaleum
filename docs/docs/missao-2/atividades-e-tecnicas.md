@@ -62,20 +62,28 @@ Desta forma, segue a tabela abaixo para identificar as seguintes atividades e t�
 | Elicitação e Descoberta | Storyboard e Brainstorming| Teams/Miro | Lista de Requisitos RFs e RNFs brutos |
 | Análise e Consenso | Feedback | Teams/Miro | Lista de Requisitos RFs e RNFs |
 | Declaração | Temas, Épicos e Histórias de Usário  | Tems/Miro| Especificação de Requisitos, História de Usuário |
+| Representação| Prototipação Rápida | Papel |  |
 | Verificação e Validação | Feedback | Google Docs | Backlog e Priorização de Requisitos |
 | Organização e Atualização | Priorização | Teams/Miro | Backlog e Priorização de Requisitos|
 
 ### Storyboard - Elicitação e Descoberta
 Inicialmente para Elicitação e Descoberta, utilizamos um Storyboard, definindo em reunião três personas envolvidos no nosso projeto, descrevendo o que eles fazem e esperam do Crystaleum.
+![Storyboard](../assets/images/Storyboard.png)
 
 ### Brainstorming - Elicitação e Descoberta
 Nessa fase da Elicitação e Descoberta, atráves da reunião do grupo foi utilizado um Brainstorming de ideias para estabelecer possíveis problemas e soluções, descrevendo alguns dos requisitos funcionais e não funcionais.
+![Problemas e Soluções](../assets/images/Problemas_e_Solucoes.png)
 
 ### Brainstorming - Feedback
-Através dos Feedbacks dados em sala de aula, conforme o necessário, ajustamos os requisitos funcionais e não funcionais que não se alinhavam aos requisitos. Por meio do [Miro - Moonwalkers](https://miro.com/app/board/uXjVNZqImbk=/), é possível ver a diferença de como definimos inicialmente na fase de elicitação e descoberta e após na atividade de analise e consenso.  
+Através dos Feedbacks dados em sala de aula, conforme o necessário, ajustamos os requisitos funcionais e não funcionais que não se alinhavam aos requisitos. Por meio do [Miro - Moonwalkers](https://miro.com/app/board/uXjVNZqImbk=/), é possível ver a diferença de como definimos inicialmente na fase de elicitação e descoberta e após na atividade de analise e consenso.
+![Diferenças - Requisitos](../assets/images/diferencas_requisitos.png)  
 
 ### Declaração - Temas, Épicos e Histórias de Usário
 Utilizamos os Temas, Épicos e Histórias de Usuário como forma de documentar o nosso Backlog. Definindo também um problema principal nessa etapa e uma possível solução. 
+![Temas_Epicos_US](../assets/images/TemasEpicosUS.png)
+
+### Represetanção - Prototipação rápida
+Como forma de representação, foi utilizado a prototipação rápida utilizando um papel visando demonstrar como o jogo funcionará. 
 
 ### Verificação e Validação - Feedback
 O Feedback foi utilizado de forma externa, por meio de um grupo que avaliou nosso Backlog utilizando outras técnicas de Verificação e Validação. O documento está no seguinte acesso: [Documento- Insurgentes](https://docs.google.com/document/d/1LQgYhpjF86tWoar6K5Ryrx_JWKtUVAh7q3pIY0Bezts/edit#heading=h.br6rd3ecyvvx). Utilizamos esse feedback como forma de orientação para ajustar incongruências no Backlog.
@@ -83,23 +91,50 @@ O Feedback foi utilizado de forma externa, por meio de um grupo que avaliou noss
 ### Organização e Atualização - Priorização
 Inicialmente, utilizamos um gráfico de Priorização com um relação entre importância e viabilidade. Estabelecemos gráficos para as capacidades, funcionalidades e história dos usuários. Essa priorização foi realizada inicialmente com uma parcela do grupo, no entanto, após refletirmos e avaliarmos em uma outra reunião, percebemos que poderia haver uma forma melhor de estimarmos os valores de nossas histórias.
 
+![Grafico](../assets/images/Grafico.png)
+
 ### Organização e Atualização - Priorização
 Anteriormente haviamos definido importância e a viabilidade como métrica para definirmos o valor das histórias, no entanto, achamos melhor adicionar também uma categoria de complexidade, pois já estavamos abstraindo isso na questão da viabilidade, o que dificultava estabelecer a localização de cada história no gráfico, e por conta disso, decidimos mudar nossa priorização para uma tabela de valores de 1 a 3 para Valor de Negócio e Viabilidade e 3 à 1 para a complexidade. Estabelecemos um cálculo de (Total=Va*Vi/Co) e tomamos as histórias com maiores resultados para o MVP 1. 
 
+![Priorizacao](../assets/images/Priorizacao.png)
 
 Fonte: [Miro - Moonwalkers](https://miro.com/app/board/uXjVNZqImbk=/)
 
 Fonte: [Documento (Google Docs) - Insurgentes](https://docs.google.com/document/d/1LQgYhpjF86tWoar6K5Ryrx_JWKtUVAh7q3pIY0Bezts/edit#heading=h.br6rd3ecyvvx)
+ 
+## Avaliação
+Além das técnicas utilizadas para a criação do backlog, foi utilizado também técnicas de Verificação e Validação para avaliar o Backlog do outro grupo (Insurgentes). Desta forma, utilizamos como técnicas:
+- Invest 
+- Checklist de Validação
+- Checklist de Verificação
 
-## Avaliação 
+### Invest
+A técnica INVEST acrônimo para Independent, Negotiable, Valuable, Estimable, Small e Testable foi utilizada pelo grupo como forma de verificação e validação com objetivo de identificar se as histórias de usuários foram bem escritas tendo como métrica e referência cada um dos pontos abaixo:
 
+![INVEST](../assets/images/INVEST.png)
+
+![INVEST](../assets/images/INVEST_Aplicado.png)
+
+### Checklist de Validação
+O grupo decidiu utilizar a Checklist de Validação como maneira de validar se os requisitos estão adequados. Desta forma, a tabela leva em consideração a ambíguidade, consistência e se o requisito está completo.
+
+![Checklist Validação](../assets/images/Checklist_Validacao.png)
+
+### Checklist de Verificação
+A Checklist de Verificação foi utilizado para as capacidades tendo em vista dois aspectos, sendo eles, se a capacidade representa uma grande funcionalidade e se está de acordo com a padronização.
+
+![Checklist Verifiçao](../assets/images/Checklist_Verificacao.png)
+
+
+Fonte: [Miro (Validação e Verificação [Insurgentes] - Moonwalkers](https://miro.com/app/board/uXjVNYkAabA=/)
+
+## Atualizações no Backlog
 Uma avaliação foi realizada por parte de outro grupo (Insurgentes) utilizando técnicas de ER como Verificação e Validação no nosso Backlog inicial. Assim, foram utilizado por parte deste grupo as seguintes técnicas:
 - INVEST como forma de verificar se as US foram bem escritas;
 - Checklist como forma de verificar a estrutura da US (Ator, Ação, Valor de negócio);
 - Checklist para verificar a qualidade do backlog (Segue a estrutura do SAFe);
 - Checklist para validar as US (Declaração do produto, Objetivo, Problema).
 
-### Atualizações no Backlog
 Conforme as recomendações do grupo, alteramos e ajustamos alguns detalhes do Backlog seguindo suas orientações e observações. Além disso, por meio do Feedback geral descrito no final do documento entregue, observamos as incongruências ou falta de alguns objetos e padronizações estabelecidas na metologia utilizada (SAFE). No entanto, discordamos de algumas ponderações, tais quais algumas funcionalidade e histórias de usuário que o grupo avaliador acreditava não estar adequado por serem requisitos não funcionais, o que mantivemos conforme acreditamos estar alinhado tanto ao Backlog do nosso produto quanto no que diz respeito as funcionalidades.
 
 Fonte: [Documento (Google Docs) - Insurgentes](https://docs.google.com/document/d/1LQgYhpjF86tWoar6K5Ryrx_JWKtUVAh7q3pIY0Bezts/edit#heading=h.br6rd3ecyvvx)
@@ -119,3 +154,4 @@ Fonte: [Documento (Google Docs) - Insurgentes](https://docs.google.com/document/
 | ------ | ---------- | ----------------- | ------------------------------------------------ |
 | 1.0    | 22/10/2023 | Criação da página | [Suzane Duarte](https://github.com/suzaneduarte) |
 | 1.1    | 25/10/2023 | Descrição das atividades, avaliação e introdução de Engenharia de ER | [Pedro Henrique](https://github.com/PedroHhenriq) |
+| 1.2    | 25/10/2023 | Incrimentos, ajustes e adição das imagens | [Pedro Henrique](https://github.com/PedroHhenriq) |
