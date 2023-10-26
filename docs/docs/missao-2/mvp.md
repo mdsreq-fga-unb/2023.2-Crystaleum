@@ -17,6 +17,8 @@ Após realizada a discussão, para apresentar a priorização do Backlog de fato
 
 _Peso = (Valor de Negócio \* Viabilidade) / Complexibilidade_
 
+<center><b>Tabela 2: </b> Backlog Priorizado</center>
+
 | **Épico** | **Capacidade** | **Feature** | **User Stories**                                                                                                                                                                | **Peso** | **Valor de Negócio** | **Viabilidade** | **Complexidade** |
 | --------- | -------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------- | --------------- | ---------------- |
 | E1        | C1             | F1          | US2 - Eu, como aluno, gostaria de conversar com os Npc's para saber mais da história do jogo                                                                                    | 9        | 3                    | 3               | 1                |
@@ -38,7 +40,7 @@ _Peso = (Valor de Negócio \* Viabilidade) / Complexibilidade_
 | E2        | C4             | F9          | US17 - Eu como aluno quero que meus acertos sejam enviados ao power apps para mensurar meu progresso                                                                            | 1        | 3                    | 1               | 3                |
 | E2        | C4             | F9          | US 18 - Eu, como professor, desejo poder ser capaz de cadastrar novos jogadores para que eles possam acessar o jogo                                                             | 1        | 3                    | 1               | 3                |
 
-## MVP (Backlog priorizado)
+## MVP
 
 Para definir o MVP foram utilizados os pesos das histórias de usuário. O critério de maior influência foi essencialmente a viabilidade das histórias. Aquelas com viabilidade 1 e, portanto, peso 1, foram excluidas deste MVP.
 
