@@ -62,7 +62,7 @@ Desta forma, segue a tabela abaixo para identificar as seguintes atividades e t�
 | Elicitação e Descoberta | Storyboard e Brainstorming| Teams/Miro | Lista de Requisitos RFs e RNFs brutos |
 | Análise e Consenso | Feedback | Teams/Miro | Lista de Requisitos RFs e RNFs |
 | Declaração | Temas, Épicos e Histórias de Usário  | Tems/Miro| Especificação de Requisitos, História de Usuário |
-| Representação| Prototipação Rápida | Papel |  |
+| Representação| Prototipação Rápida | Papel | Protótipo em Desenho |
 | Verificação e Validação | Feedback | Google Docs | Backlog e Priorização de Requisitos |
 | Organização e Atualização | Priorização | Teams/Miro | Backlog e Priorização de Requisitos|
 
@@ -84,6 +84,9 @@ Utilizamos os Temas, Épicos e Histórias de Usuário como forma de documentar o
 
 ### Represetanção - Prototipação rápida
 Como forma de representação, foi utilizado a prototipação rápida utilizando um papel visando demonstrar como o jogo funcionará. 
+![Desenho 1](../assets/images/Desenho2.jpg)
+![Desenho 2](../assets/images/Desenho1.jpg)
+![Desenho 3](../assets/images/Desenho3.jpg)
 
 ### Verificação e Validação - Feedback
 O Feedback foi utilizado de forma externa, por meio de um grupo que avaliou nosso Backlog utilizando outras técnicas de Verificação e Validação. O documento está no seguinte acesso: [Documento- Insurgentes](https://docs.google.com/document/d/1LQgYhpjF86tWoar6K5Ryrx_JWKtUVAh7q3pIY0Bezts/edit#heading=h.br6rd3ecyvvx). Utilizamos esse feedback como forma de orientação para ajustar incongruências no Backlog.
