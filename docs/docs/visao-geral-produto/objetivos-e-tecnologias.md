@@ -9,9 +9,11 @@ Desenvolver um jogo mobile inovador com a temática de gamificação, baseado na
 ### Objetivos Específicos
 1. **Melhor Compreensão dos Conceitos:** Facilitar o entendimento dos conceitos de requisitos de software pelos alunos, auxiliando-os na aplicação prática dos conhecimentos adquiridos na disciplina.
 
-2. **Facilitar a Revisão de Conteúdo:** Oferecer uma ferramenta de revisão interativa que permite aos alunos consolidar seu conhecimento, rever os tópicos estudados.
+2. **Facilitar a Revisão de Conteúdo:** Oferecer uma ferramenta de revisão interativa que permite aos alunos consolidar seu conhecimento, rever parte dos tópicos estudados.
 
-2. **Aumentar a Motivação em Relação a Gamificação:** Incentivar os alunos a se envolverem de maneira mais motivada com a história da gamificação, transformando o processo de aprendizado em uma experiência mais estimulante.
+3. **Aumentar a Motivação em Relação a Gamificação:** Incentivar os alunos a se envolverem de maneira mais motivada com a história da gamificação, transformando o processo de aprendizado em uma experiência mais estimulante.
+
+4. **Promover o Uso de Recursos de Apoio:** Estimular o uso de ferramentas de aprendizado complementares, como o Crystaleum, como uma extensão do material didático fornecido em sala de aula.
 
 ## **Tecnologias a serem utilizadas**
 
