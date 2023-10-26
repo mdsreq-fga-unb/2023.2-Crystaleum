@@ -189,8 +189,9 @@ nav:
 
   - Missão 2:
       - Atividades e Técnicas de ER: missao-2/atividades-e-tecnicas.md
-      - Definição do Backlog do Produto: missao-2/backlog.md
       - SAFe e User Story: missao-2/safe-e-userstory.md
+      - Definição do Backlog do Produto: missao-2/backlog.md
       - Definição de MVP: missao-2/mvp.md
-      # - Lições Aprendidas: missao-2/licoes-aprendidas.md
+      - Verificação e Validação - Insurgentes: missao-2/avaliacao-insurgentes.md
+      - Lições Aprendidas: missao-2/licoes-aprendidas.md
       - Vídeo de Apresentação: missao-2/video-apresentacao.md

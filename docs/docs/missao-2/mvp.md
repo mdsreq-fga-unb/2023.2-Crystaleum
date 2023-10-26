@@ -3,13 +3,28 @@
 Inicialmente, conforme é possível visualizar nos gráficos abaixo, foi realizado uma dinâmica de discussão entre o grupo para buscar entender melhor onde cada uma das histórias de usuário do projeto se encaixava no contexto amplo do backlog.
 
 1. Priorização das Capacidades
-   ![Priorização das Capacidades](../assets/images/Capacidades.png)
+
+<center><b>Figura 1:</b> Gráfico de Priorização das Capacidades</center>
+
+![Priorização das Capacidades](../assets/images/Capacidades.png)
+
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNZqImbk=/" target="_blank">Miro Moonwalkers</a></center>
 
 2. Priorização das Features
-   ![Priorização das features](../assets/images/Features.png)
+
+<center><b>Figura 2:</b> Gráfico de Priorização das Features</center>
+
+![Priorização das features](../assets/images/Features.png)
+
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNZqImbk=/" target="_blank">Miro Moonwalkers</a></center>
 
 3. Priorização das Histórias de Usuário
-   ![Priorização das histórias de usuário](../assets/images/US.png)
+
+<center><b>Figura 3:</b> Gráfico de Priorização das Histórias de Usuário</center>
+
+![Priorização das histórias de usuário](../assets/images/US.png)
+
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNZqImbk=/" target="_blank">Miro Moonwalkers</a></center>
 
 ## Priorização do Backlog
 
@@ -100,3 +115,4 @@ Após realizado o MVP, foi possível realizar um alinhamento do mesmo aos objeti
 | ------ | ---------- | ------------------ | ------------------------------------------------ |
 | 1.0    | 22/10/2023 | Criação da página  | [Suzane Duarte](https://github.com/suzaneduarte) |
 | 2.0    | 25/10/2023 | Adicionar conteúdo | [Taynara Vitorino](https://github.com/taybalau)  |
+| 3.0    | 22/10/2023 | Alinhamento do MVP | [Suzane Duarte](https://github.com/suzaneduarte) |
