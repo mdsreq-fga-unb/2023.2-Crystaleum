@@ -11,7 +11,7 @@ Desenvolver um jogo mobile inovador com a temática de gamificação, baseado na
 
 2. **Facilitar a Revisão de Conteúdo:** Oferecer uma ferramenta de revisão interativa que permite aos alunos consolidar seu conhecimento, rever parte dos tópicos estudados.
 
-3. **Aumentar a Motivação em Relação a Gamificação:** Incentivar os alunos a se envolverem de maneira mais motivada com a história da gamificação, transformando o processo de aprendizado em uma experiência mais estimulante.
+3. **Aumentar a Imersão e Interesse na Gamificação:** Incentivar os alunos a se envolverem de maneira mais motivada com a história da gamificação, transformando o processo de aprendizado em uma experiência mais estimulante.
 
 4. **Promover o Uso de Recursos de Apoio:** Estimular o uso de ferramentas de aprendizado complementares, como o Crystaleum, como uma extensão do material didático fornecido em sala de aula.
 
