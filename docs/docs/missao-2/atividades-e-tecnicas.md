@@ -5,6 +5,7 @@
 As atividades e técnicas de Engenharia de Requisitos desempenham uma função essencial no desenvolvimento e na construção de um Software que busca atender as necessiades de seus Stakewolders.
 
 Desta forma, temos as seguintes atividades de ER:
+
 - Elicitação e Descoberta
 - Análise e Consenso
 - Declaração
@@ -67,25 +68,30 @@ Desta forma, segue a tabela abaixo para identificar as seguintes atividades e t�
 | Organização e Atualização | Priorização | Teams/Miro | Backlog e Priorização de Requisitos|
 
 ### Storyboard - Elicitação e Descoberta
-Inicialmente para Elicitação e Descoberta, utilizamos um Storyboard, definindo em reunião três personas envolvidos no nosso projeto, descrevendo o que eles fazem e esperam do Crystaleum.
+Inicialmente para Elicitação e Descoberta, utilizamos um Storyboard, pensamos em utilizar essa técnica ao invés de qualquer outra, pois nos ajudaria a visualizar quem são os nossos clientes e a quem é destinado o nosso produto. Portanto, definimos em reunião três personas envolvidos no nosso projeto, descrevendo o que eles fazem e esperam do Crystaleum. Sendo elas:
 ![Storyboard](../assets/images/Storyboard.png)
 
 ### Brainstorming - Elicitação e Descoberta
-Nessa fase da Elicitação e Descoberta, atráves da reunião do grupo foi utilizado um Brainstorming de ideias para estabelecer possíveis problemas e soluções, descrevendo alguns dos requisitos funcionais e não funcionais.
+Nessa fase da Elicitação e Descoberta, atráves da reunião do grupo foi utilizado um Brainstorming de ideias, a técnica foi escolhia por se apoiar muito na criativade e na imaginação, tendo como objetivo que cada membro gerasse o máximo possível de ideias e agrupassem-nas. Desta maneira, percebemos a importância dela inicialmente para encontrar possíveis problemas e suas soluções no projeto, assim como também identificar os requisitos funcionais e não funcionais, descrevendo  o tanto quanto conseguiamos pensar. 
+
+Segue o Brainstorming de ideias que pensamos sobre possíveis problemas:
 ![Problemas e Soluções](../assets/images/Problemas_e_Solucoes.png)
 
-### Brainstorming - Feedback
-Através dos Feedbacks dados em sala de aula, conforme o necessário, ajustamos os requisitos funcionais e não funcionais que não se alinhavam aos requisitos. Por meio do [Miro - Moonwalkers](https://miro.com/app/board/uXjVNZqImbk=/), é possível ver a diferença de como definimos inicialmente na fase de elicitação e descoberta e após na atividade de analise e consenso.
+### Feedback - Análise e Consenso
+O Feedback é uma importante técnica que por meio do cliente ou mesmo da equipe, nos permite identificar como o projeto está progredindo e se está fazendo isso da maneira certa. Assim, através dos Feedbacks dados em sala de aula, conforme o necessário, ajustamos os requisitos funcionais e não funcionais que não se alinhavam aos requisitos. Por meio do [Miro - Moonwalkers](https://miro.com/app/board/uXjVNZqImbk=/), é possível ver a diferença de como definimos inicialmente na fase de elicitação e descoberta e após na atividade de analise e consenso.
 ![Diferenças - Requisitos](../assets/images/diferencas_requisitos.png)  
 
 ### Declaração - Temas, Épicos e Histórias de Usário
-Utilizamos os Temas, Épicos e Histórias de Usuário como forma de documentar o nosso Backlog. Definindo também um problema principal nessa etapa e uma possível solução. 
+Utilizamos os Temas, Épicos e Histórias de Usuário como forma de documentar o nosso Backlog, pois além de se alinhar a metodologia utilizada, por meio da granularidade, conseguimos ir dissecando pouco a pouco cada um dos itens. Definimos também um problema principal nessa etapa e uma possível solução. 
 ![Temas_Epicos_US](../assets/images/TemasEpicosUS.png)
 
 ### Represetanção - Prototipação rápida
-Como forma de representação, foi utilizado a prototipação rápida utilizando um papel visando demonstrar como o jogo funcionará. 
+Como forma de representação, foi utilizado desde o início do projeto, a prototipação rápida, utilizando um papel visando demonstrar como o jogo funcionará. Assim, essae protótipo permite que possamos demonstrar de uma forma mais visual aquilo que imaginamos em nossa mente quando pensamos em nosso produto. Desta forma, escolhemos essa técnica, pois ela auxilia tanto na validação quanto na facilitação da comunicação do Crystaleum.
+#### Protótipo feito no início da disciplina
 ![Desenho 1](../assets/images/Desenho2.jpg)
-![Desenho 2](../assets/images/Desenho1.jpg)
+#### Protótipo mais recente
+![Desenho 2](../assets/images/Desenho4.jpg)
+#### Protótipo do mapa do jogo
 ![Desenho 3](../assets/images/Desenho3.jpg)
 
 ### Verificação e Validação - Feedback
@@ -106,25 +112,27 @@ Fonte: [Miro - Moonwalkers](https://miro.com/app/board/uXjVNZqImbk=/)
 Fonte: [Documento (Google Docs) - Insurgentes](https://docs.google.com/document/d/1LQgYhpjF86tWoar6K5Ryrx_JWKtUVAh7q3pIY0Bezts/edit#heading=h.br6rd3ecyvvx)
  
 ## Avaliação
-Além das técnicas utilizadas para a criação do backlog, foi utilizado também técnicas de Verificação e Validação para avaliar o Backlog do outro grupo (Insurgentes). Desta forma, utilizamos como técnicas:
+Além das técnicas utilizadas para a criação do backlog do Crystaleum, foi utilizado também técnicas de Verificação e Validação para avaliar o Backlog de outro grupo (Insurgentes). Desta forma, achamos adequado utilizar como técnicas:
+
 - Invest 
 - Checklist de Validação
 - Checklist de Verificação
 
 ### Invest
-A técnica INVEST acrônimo para Independent, Negotiable, Valuable, Estimable, Small e Testable foi utilizada pelo grupo como forma de verificação e validação com objetivo de identificar se as histórias de usuários foram bem escritas tendo como métrica e referência cada um dos pontos abaixo:
+A técnica INVEST acrônimo para Independent, Negotiable, Valuable, Estimable, Small e Testable foi utilizada pelo grupo pensando em como ela estabelece critérios muito importantes que definem a qualidade de uma história. Desta forma, temos como objetivo identificar se as histórias de usuários foram bem escritas tendo como métrica e referência cada um dos atributos abaixo: 
 
 ![INVEST](../assets/images/INVEST.png)
 
+#### Imagem do INVEST sendo aplicado nas US do grupo
 ![INVEST](../assets/images/INVEST_Aplicado.png)
 
 ### Checklist de Validação
-O grupo decidiu utilizar a Checklist de Validação como maneira de validar se os requisitos estão adequados. Desta forma, a tabela leva em consideração a ambíguidade, consistência e se o requisito está completo.
+O grupo decidiu utilizar a Checklist de Validação como maneira de validar se os requisitos se adequam a partir de um conjunto de item estabelecidos tendo como alternativa a resposta "Sim" ou "Não" para cada um deles. A partir de uma resposta positiva, conseguimos compreender que para aquele item, o requisito está adequado, enquanto para resposta negativa, entedemos que existe alguma incongruência que deve ser ajustada para que o requisito esteja correto. Desta forma, a tabela leva em consideração a ambíguidade, consistência e se o requisito está completo, auxiliando-nos a identificar se ele é válido.
 
 ![Checklist Validação](../assets/images/Checklist_Validacao.png)
 
 ### Checklist de Verificação
-A Checklist de Verificação foi utilizado para as capacidades tendo em vista dois aspectos, sendo eles, se a capacidade representa uma grande funcionalidade e se está de acordo com a padronização.
+Da mesma forma, escolhemos para a atividade de verificação, a técnica de Checklist também, sendo desta vez utilizada como forma de verificação para as Capacidades e analisando se estão apropriadas tendo em vista dois aspectos, sendo eles, se a capacidade representa uma grande funcionalidade e se está de acordo com a sua padronização.
 
 ![Checklist Verifiçao](../assets/images/Checklist_Verificacao.png)
 
@@ -158,3 +166,6 @@ Fonte: [Documento (Google Docs) - Insurgentes](https://docs.google.com/document/
 | 1.0    | 22/10/2023 | Criação da página | [Suzane Duarte](https://github.com/suzaneduarte) |
 | 1.1    | 25/10/2023 | Descrição das atividades, avaliação e introdução de Engenharia de ER | [Pedro Henrique](https://github.com/PedroHhenriq) |
 | 1.2    | 25/10/2023 | Incrimentos, ajustes e adição das imagens | [Pedro Henrique](https://github.com/PedroHhenriq) |
+| 1.3    | 26/10/2023 | Pequenos ajustes e descrições  | [Pedro Henrique](https://github.com/PedroHhenriq) |
+
+
