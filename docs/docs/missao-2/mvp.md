@@ -2,6 +2,21 @@
 
 ## Priorização do Backlog
 
+Em um primeiro momento, utilizamos gráficos os quais comparam o valor de negócio com viabilidade tanto de uma Capacidade, quanto Features e Histórias de Usuário. Isso nos auxiliou a entender melhor onde nossas histórias se encaixavam no contexto amplo do backlog.
+
+1. Priorização das Capacidades
+![Priorização das Capacidades](../assets/images/Capacidades.png)
+
+2. Priorização das Features
+![Priorização das features](../assets/images/Features.png)
+
+3. Priorização das Histórias de Usuário
+![Priorização das histórias de usuário](../assets/images/US.png)
+
+## Backlog priorizado
+
+No entanto, para priorizar o Backlog de fato, além do Valor de Negócio e da Viabilidade, tambémm utilizamos do parâmetro de Complexidade. Nesse modelo, foram atribuidas notas de 1 a 3 para cada critério e calculado o peso de cada US.
+
 | **Épico**   | **Capacidade** | **Feature**      | **User Stories**       | **Peso**     | **Valor de Negócio**   | **Viabilidade**  |  **Complexidade**   |
 | ----- | ---------- | ------------ | ------------------ | -------  | ------------------ | ------------ |  -------------  |
 | E1    | C1 | F1  | US2 - Eu, como aluno, gostaria de conversar com os Npc's para saber mais da história do jogo                                        | 9   | 3 | 3 | 1 |
@@ -24,6 +39,7 @@
 | E2    | C4 | F9  | US 18 - Eu, como professor, desejo poder ser capaz de cadastrar novos jogadores para que eles possam acessar o jogo                 | 1   | 3 | 1 | 3 |   
 
  *Peso = (Valor de Negócio * Viabilidade)/Complexibilidade*
+
 
 ## MVP
 
