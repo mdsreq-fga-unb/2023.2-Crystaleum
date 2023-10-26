@@ -1,4 +1,4 @@
-## **Lições Aprendidas da missão 1**
+# Lições Aprendidas da missão 1
 
 Durante a primeira missão, nossa equipe teve a oportunidade de aprender várias lições valiosas que afetaram diretamente nosso progresso e a qualidade do trabalho realizado.
 

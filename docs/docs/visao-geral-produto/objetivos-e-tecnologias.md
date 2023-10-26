@@ -2,7 +2,18 @@
 
 ## **Objetivos do Produto**
 
-O objetivo principal do produto é servir como meio de revisão da matéria e imersão na disciplina.
+### Objetivo Geral
+
+Desenvolver um jogo mobile inovador com a temática de gamificação, baseado na disciplina de Requisitos de Software do professor George Marsicano Corrêa, que proporcione uma experiência de aprendizado envolvente e eficaz para os alunos, enquanto oferece uma ferramenta de revisão interativa.
+
+### Objetivos Específicos
+1. **Melhor Compreensão dos Conceitos:** Facilitar o entendimento dos conceitos de requisitos de software pelos alunos, auxiliando-os na aplicação prática dos conhecimentos adquiridos na disciplina.
+
+2. **Facilitar a Revisão de Conteúdo:** Oferecer uma ferramenta de revisão interativa que permite aos alunos consolidar seu conhecimento, rever parte dos tópicos estudados.
+
+3. **Aumentar a Imersão e Interesse na Gamificação:** Incentivar os alunos a se envolverem de maneira mais motivada com a história da gamificação, transformando o processo de aprendizado em uma experiência mais estimulante.
+
+4. **Promover o Uso de Recursos de Apoio:** Estimular o uso de ferramentas de aprendizado complementares, como o Crystaleum, como uma extensão do material didático fornecido em sala de aula.
 
 ## **Tecnologias a serem utilizadas**
 

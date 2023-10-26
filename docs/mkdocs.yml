@@ -159,6 +159,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - MoonWalkers: moonwalkers/nossa-historia.md
   - Visão Geral do Produto:
       - Problema: visao-geral-produto/problema.md
       - Declaração de Posição do Produto: visao-geral-produto/posicao-produto.md
@@ -170,11 +171,11 @@ nav:
       - Matriz de comunicação: visao-geral-projeto/matriz-comunicacao.md
       - Gerenciamento de riscos: visao-geral-projeto/gerenciamento-riscos.md
       - Critério-replanejamento: visao-geral-projeto/criterio-replanejamento.md
-  
+
   - Slides Apresentações:
       - Apresentação da facção: slides-apresentacoes/apresentacao-1-faccao.md
-      - Apresentação do produto, abordagem, ciclo de vida e processo : slides-apresentacoes/apresentacao-2-produto-abordagem.md
-      - Apresentação do produto, abordagem, ciclo de vida e processo (Corrigida) : slides-apresentacoes/apresentacao-3-produto-abordagem-corrigidos.md
+      - Apresentação do produto, abordagem, ciclo de vida e processo: slides-apresentacoes/apresentacao-2-produto-abordagem.md
+      - Apresentação do produto, abordagem, ciclo de vida e processo (Corrigida): slides-apresentacoes/apresentacao-3-produto-abordagem-corrigidos.md
 
   - Missão 1:
       - Fundamentos de Eng. Software: missao-1/fundamentos.md
@@ -187,8 +188,10 @@ nav:
       - Vídeo de Apresentação: missao-1/video-apresentacao.md
 
   - Missão 2:
-      - Aspectos humanos e sociais da Engenharia de Requisitos: missao-2/aspectos-humanos-sociais.md
       - Atividades e Técnicas de ER: missao-2/atividades-e-tecnicas.md
-      - Definição do Backlog do Produto: missao-2/backlog.md
       - SAFe e User Story: missao-2/safe-e-userstory.md
+      - Definição do Backlog do Produto: missao-2/backlog.md
       - Definição de MVP: missao-2/mvp.md
+      - Verificação e Validação - Insurgentes: missao-2/avaliacao-insurgentes.md
+      - Lições Aprendidas: missao-2/licoes-aprendidas.md
+      - Vídeo de Apresentação: missao-2/video-apresentacao.md
