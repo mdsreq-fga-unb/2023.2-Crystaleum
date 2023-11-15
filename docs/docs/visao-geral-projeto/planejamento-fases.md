@@ -1,21 +1,20 @@
 # Visão Geral do Projeto
 
-## **Planejamento das Fases e/ou Iterações do Projeto**
+## **Planejamento das Iterações do Projeto**
 
-| **_Sprint_**    | **_Produto(entrega)_**                                                                                                                                                                                                    | **_Data Início_** | **_Data Fim_** |
+
+O projeto foi definido para ser feito em 4 iterações, em sincronia com as entregas da disciplina. O processo que escolhemos foi o RAD, que tem as fases de: planejamento inicial, prototipação rápida, teste e aprovação 1, desenvolvimento, teste e aprovação 2, integração, implementação e release. Para cada fase dele, separamos uma coluna no quadro Kanban, disponível abaixo. 
+
+Os itens da disciplina estão explícitos no kanban e foram retirados da tabela de planejamento de iterações. Além disso, a última coluna, da fase de implementação e release, adicionamos o "OK", que se refere a atividades essenciais do projeto porém que não são relativos à release, como por exemplo os critérios de aceitação.
+
+## Miro com o Kanban adaptado ao RAD
+
+<iframe width="768" height="432" src="https://miro.com/app/board/uXjVNOv3H60=/" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+| **_Iteração_**    | **_Produto(entrega)_**                                                                                                                                                                                                    | **_Data Início_** | **_Data Fim_** |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | -------------- |
-| Sprint 1        | - HeatMap do projeto <br/>- Ideia do produto                                                                                                                                                                             | 11/09/2023        | 15/09/2023     |
-| Sprint 2        | - GitPages criado <br/>-Definição final da Visão Geral do Produto <br/>- Definição da Visão Geral do Projeto                                                                                                                   | 18/09/2023        | 22/09/2023     |
-| **_Sprint 3_**  | - Definição dos Fundamentos de Eng. Software <br/>- Definição dos processos de Engenharia de Requisitos <br/>- Definição dos Problemas e Necessidades | 25/09/2023        | 29/09/2023     |
-| Sprint 4        | -Primeiros requisitos levantados                                                                                 | 02/10/2023        | 06/10/2023     |
-| Sprint 5        | -Backlog do Produto <br/>- SAFe e User Story                                                         | 09/10/2023        | 13/10/2023     |
-| **_Sprint 6_**  | - Definição de MVP <br/>- Vídeo da missão 2                                              | 16/10/2023        | 27/10/2023     |
-| Sprint 7        | - [US3, US7, US13](../missao-2/backlog.md#tabela-do-backlog)                                                                                                                                                                                                 | 23/10/2023        | 27/10/2023     |
-| Sprint 8        | - Fundamentos, conceitos e exercícios: PBB e BDD <br/>- [US2, US12](../missao-2/backlog.md#tabela-do-backlog)                                                                                                                        | 30/10/2023        | 03/11/2023     |
-| Sprint 9        | - Realização do User Story Mapping <br/>- [US5,US15](../missao-2/backlog.md#tabela-do-backlog)                                                                                                                           | 06/11/2023        | 10/11/2023     |
-| **_Sprint 10_** | - Entregas referentes ao Ponto de Controle 1            <br>           [US1,      US8, US9](../missao-2/backlog.md#tabela-do-backlog)                                                                                                                                              | 13/11/2023        | 17/11/2023     |
-| **_Sprint 11_** | - Entrega da missão 3 <br/>- Vídeo da missão 3 <br/>-            [US4, US14      ](../missao-2/backlog.md#tabela-do-backlog)                                                                                                                                          | 20/11/2023        | 24/11/2023     |
-| Sprint 12       | -   [US10        , US11](../missao-2/backlog.md#tabela-do-backlog)                                                                                                                                                                                         | 27/11/2023        | 01/12/2023     |
-| **_Sprint 13_** | - Entregas referentes ao Ponto de Controle 2  <br/>- Entrega do MVP                                                                                                                                                                            | 04/12/2023        | 08/12/2023     |
-| **_Sprint 14_** | - Modelos de casos de uso <br/>- Especificação de casos de uso <br/>- Vídeo da missão 4                                                       | 11/12/2023        | 15/12/2023     |
-| Sprint 15       | - MVP completo e revisado                                                                                                                                         | 18/12/2023        | 20/12/2023     |
+| Iteração 1        | - HeatMap do projeto <br/>- Ideia do produto   <br/>      - GitPages criado <br/>-Definição final da Visão Geral do Produto <br/>- Definição da Visão Geral do Projeto   <br/>- Arte do mapa <br/>- Arte da personagem principal  <br/>- Sprites NPC Guardião e Explorador <br/>- Arte de itens de subregiões do mapa  <br/>- Definição da abordagem, ciclo de vida e processo                                                                                                                                             | 11/09/2023        | 27/09/2023     |
+| Iteração 2        | -Definição dos processos de Engenharia de Requisitos <br/>- Épicos <br/>- Capacidades <br/>- Features <br/>- User Stories (US) <br/>- Backlog priorizado <br/>- Definição do MVP <br/>- Arte sprites mãe da Crys <br/>- Arte sub-regiões do mapa          | 03/10/2023        | 25/10/2023     |
+| Iteração 3  |  - Critérios de aceitação das US <br/>- DOR <br/>- DOD  <br/>- Arte Sprites do Comandante Estelar <br/>- NPC Mercenários e Caçadores <br/>- Enredo detalhado do jogo <br/>- US3, US7, US10, US1, US5 <br/>-RFN4 | 31/10/2023        | 22/11/2023     |
+| Iteração 4        | -RFN2, RFN3                 <br/>- US8, US2, US6, US4,US12, US11,                                                              | 28/11/2023        |13/12/2023     |
+| Iteração 5        | -RFN                <br/>- US                                                             | 28/11/2023        |13/12/2023     |
