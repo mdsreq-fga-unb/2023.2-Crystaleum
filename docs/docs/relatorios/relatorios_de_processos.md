@@ -1,8 +1,8 @@
-# Relatórios de Processos [Missão 3] 
+# Relatórios de Processos 
 
 ## Introdução
 
-Conforme estabelecido por meio da matriz de comunicação, estes relatórios tem como função documentar os processos realizados durante o período da Missão 3. Desta forma, utilizamos cada reunião em que foram realizados esses processos, definindo quando foram feitos e o que fizemos em cada uma delas. 
+Conforme estabelecido por meio da matriz de comunicação, estes relatórios tem como função documentar os processos realizados durante cada iteração e período do projeto. Desta forma, utilizamos cada reunião em que foram realizados esses processos, definindo quando foram feitos e o que fizemos em cada uma delas. 
 
 ## Template
 
