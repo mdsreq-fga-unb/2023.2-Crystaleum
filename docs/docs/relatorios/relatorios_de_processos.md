@@ -114,3 +114,8 @@ Segue abaixo os relatórios em ordem cronológica dividos por Iteração:
 | Conclusões | A reunião foi uma excelente atividade como forma de prática e estudo dos cenários e suas estruturas. Desta forma, através do PBB criado pelo grupo Insurgentes, definimos alguns cenários para cada uma dos critérios e US, colocando alguns valores testáveis quando cabíveis. Além disso, fizemos a validação e verificação através de uma tabela das suas histórias e dos seus critérios, colocando observações do que poderiam ter feito de diferente.  |
 | Próximos passos | Colocar e ajustar valores em alguns cenários  |
 | Observações | Apesar da validação e verificação realizada, não ajustamos e reestruturamos os critérios e nem as histórias inadequadas do grupo |
+
+| Versão | Data       | Descrição         | Autor(es)                                        |
+| ------ | ---------- | ----------------- | ------------------------------------------------ |
+| 1.0    | 15/11/2023 | Criação da página | [Pedro Henrique](https:github.com/PedroHhenriq) |
+| 1.1    | 15/11/2023 | Pequeno ajuste na descrição | [Pedro Henrique](https:github.com/PedroHhenriq) |
