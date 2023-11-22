@@ -159,7 +159,9 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - MoonWalkers: moonwalkers/nossa-historia.md
+  - História:
+      - História MoonWalkers: historia/nossa-historia.md
+      - História e Enredo Crystaleum: historia/crystaleum.md
   - Visão Geral do Produto:
       - Problema: visao-geral-produto/problema.md
       - Declaração de Posição do Produto: visao-geral-produto/posicao-produto.md
