@@ -1,3 +1,2 @@
-site
-docs/site
-**/__pycache__/
+# Godot 4+ specific ignores
+.godot/
