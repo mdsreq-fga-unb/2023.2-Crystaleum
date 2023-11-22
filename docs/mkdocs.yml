@@ -197,11 +197,12 @@ nav:
       - Vídeo de Apresentação: missao-2/video-apresentacao.md
 
   - Missão 3:
-    - Aspectos Humanos e Sociais: missao-3/aspectos-humanos.md
-    - PBB: missao-3/pbb.md
-    - Avaliação dos Insurgentes (v&v) : missao-3/avaliacao-insurgentes.md
-    - BDD: missao-3/bdd.md
-    - DoR e DoD: missao-3/dor-dod.md
+      - Aspectos Humanos e Sociais: missao-3/aspectos-humanos.md
+      - PBB: missao-3/pbb.md
+      - Avaliação dos Insurgentes (v&v): missao-3/avaliacao-insurgentes.md
+      - BDD: missao-3/bdd.md
+      - DoR e DoD: missao-3/dor-dod.md
+      - USM: missao-3/usm.md
 
   - Registro das reuniões:
       - Quadro com o registro das reuniões: registro-das-reunioes/registro-das-reunioes.md
