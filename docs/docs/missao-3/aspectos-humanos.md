@@ -14,6 +14,3 @@ Assim como as personalidades é importante reconhecer as diferentes habilidades 
 ## Responsabilidades e Engajamento:
 
 Por ser um projeto que nenhum dos integrantes do grupo havia feito antes, ele acaba se tornando um desafio. Um jogo é algo muito diferente do que já haviamos feito até então, mas desde a concepção da ideia todos do grupo ficaram bastante animados e motivados a realizarem esse desafio. No qual todos compartilham de um mesmo objetivo e tem noção de suas responsabilidades
-
-Explore como manter a motivação e o engajamento dos membros do grupo ao longo do projeto.
-Destaque a importância do reconhecimento e da valorização do trabalho individual para promover um ambiente positivo.
