@@ -198,6 +198,9 @@ nav:
 
   - Missão 3:
     - Aspectos Humanos e Sociais: missao-3/aspectos-humanos.md
+    - PBB: missao-3/pbb.md
+    - Avaliação dos Insurgentes (v&v) : missao-3/avaliacao-insurgentes.md
+    - BDD: missao-3/bdd.md
 
   - Registro das reuniões:
       - Quadro com o registro das reuniões: registro-das-reunioes/registro-das-reunioes.md
