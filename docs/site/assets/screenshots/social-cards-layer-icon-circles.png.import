@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2lnimqtruqvu"
-path="res://.godot/imported/social-cards-layer-icon-circles.png-cd57ffd663f254164a7d35e06d44e541.ctex"
+uid="uid://ca3oml6vbhcah"
+path="res://.godot/imported/social-cards-layer-icon-circles.png-6106861fe1acf5ae807f84526515543e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/social-cards-layer-icon-circles.png"
-dest_files=["res://.godot/imported/social-cards-layer-icon-circles.png-cd57ffd663f254164a7d35e06d44e541.ctex"]
+source_file="res://docs/docs/assets/screenshots/social-cards-layer-icon-circles.png"
+dest_files=["res://.godot/imported/social-cards-layer-icon-circles.png-6106861fe1acf5ae807f84526515543e.ctex"]
 
 [params]
 

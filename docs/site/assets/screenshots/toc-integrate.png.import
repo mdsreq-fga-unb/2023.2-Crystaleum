@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dexiehq1ekma"
-path="res://.godot/imported/toc-integrate.png-6904b9f6ebc5863a88a886729c24b94a.ctex"
+uid="uid://da70hho178cx7"
+path="res://.godot/imported/toc-integrate.png-0f92376c72eb457eb33ad11affed7ae5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/toc-integrate.png"
-dest_files=["res://.godot/imported/toc-integrate.png-6904b9f6ebc5863a88a886729c24b94a.ctex"]
+source_file="res://docs/docs/assets/screenshots/toc-integrate.png"
+dest_files=["res://.godot/imported/toc-integrate.png-0f92376c72eb457eb33ad11affed7ae5.ctex"]
 
 [params]
 

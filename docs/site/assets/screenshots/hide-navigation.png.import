@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ck06n118kvgo1"
-path="res://.godot/imported/hide-navigation.png-cd1d45bcc367f76d6c2e274f2166db86.ctex"
+uid="uid://b52i74434hgb1"
+path="res://.godot/imported/hide-navigation.png-a470ec65ecf0dc238aedb16d6c73bc2a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/hide-navigation.png"
-dest_files=["res://.godot/imported/hide-navigation.png-cd1d45bcc367f76d6c2e274f2166db86.ctex"]
+source_file="res://docs/docs/assets/screenshots/hide-navigation.png"
+dest_files=["res://.godot/imported/hide-navigation.png-a470ec65ecf0dc238aedb16d6c73bc2a.ctex"]
 
 [params]
 

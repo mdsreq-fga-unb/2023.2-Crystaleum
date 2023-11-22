@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnvj4q0532dfq"
-path="res://.godot/imported/navigation-path-on.png-c78d69e18149d985c4c22c156a11023a.ctex"
+uid="uid://c5pstm5esm2aa"
+path="res://.godot/imported/navigation-path-on.png-010d8a41846478b8428a0b40398d1a5c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/navigation-path-on.png"
-dest_files=["res://.godot/imported/navigation-path-on.png-c78d69e18149d985c4c22c156a11023a.ctex"]
+source_file="res://docs/docs/assets/screenshots/navigation-path-on.png"
+dest_files=["res://.godot/imported/navigation-path-on.png-010d8a41846478b8428a0b40398d1a5c.ctex"]
 
 [params]
 

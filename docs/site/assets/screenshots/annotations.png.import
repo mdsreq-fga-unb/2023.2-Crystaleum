@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0i8015luwahd"
-path="res://.godot/imported/annotations.png-667a3d1b720294c8a434656d77337a68.ctex"
+uid="uid://dvcq8e0tmt1hs"
+path="res://.godot/imported/annotations.png-d0c2dbb19171d2c396633e88712dd532.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/annotations.png"
-dest_files=["res://.godot/imported/annotations.png-667a3d1b720294c8a434656d77337a68.ctex"]
+source_file="res://docs/docs/assets/screenshots/annotations.png"
+dest_files=["res://.godot/imported/annotations.png-d0c2dbb19171d2c396633e88712dd532.ctex"]
 
 [params]
 

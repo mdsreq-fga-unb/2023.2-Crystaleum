@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://deu44lxus7d88"
-path="res://.godot/imported/social-cards-layer-typography.png-68d6032d0a2448212936615ea26c3958.ctex"
+uid="uid://yl8v2odq77uc"
+path="res://.godot/imported/social-cards-layer-typography.png-3ac97b2ec792425d035f4131dffca298.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/social-cards-layer-typography.png"
-dest_files=["res://.godot/imported/social-cards-layer-typography.png-68d6032d0a2448212936615ea26c3958.ctex"]
+source_file="res://docs/docs/assets/screenshots/social-cards-layer-typography.png"
+dest_files=["res://.godot/imported/social-cards-layer-typography.png-3ac97b2ec792425d035f4131dffca298.ctex"]
 
 [params]
 

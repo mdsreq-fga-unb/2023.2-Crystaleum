@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bomjv633jf2p6"
-path="res://.godot/imported/zelda-dark-world.png-6dbf614d7ff9e527735ed7f008149828.ctex"
+uid="uid://cd7byau8ev2qx"
+path="res://.godot/imported/zelda-dark-world.png-a2ff51f7762b5bfe215a967d63499cbe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/zelda-dark-world.png"
-dest_files=["res://.godot/imported/zelda-dark-world.png-6dbf614d7ff9e527735ed7f008149828.ctex"]
+source_file="res://docs/docs/assets/images/zelda-dark-world.png"
+dest_files=["res://.godot/imported/zelda-dark-world.png-a2ff51f7762b5bfe215a967d63499cbe.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cslnt37d5sji2"
-path="res://.godot/imported/social-cards-accent.png-a414a71614fcecc028213f8b48a8f222.ctex"
+uid="uid://dl7tavwem54ry"
+path="res://.godot/imported/social-cards-accent.png-7074588568ca06303d88d81fd1e76c80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/social-cards-accent.png"
-dest_files=["res://.godot/imported/social-cards-accent.png-a414a71614fcecc028213f8b48a8f222.ctex"]
+source_file="res://docs/docs/assets/screenshots/social-cards-accent.png"
+dest_files=["res://.godot/imported/social-cards-accent.png-7074588568ca06303d88d81fd1e76c80.ctex"]
 
 [params]
 

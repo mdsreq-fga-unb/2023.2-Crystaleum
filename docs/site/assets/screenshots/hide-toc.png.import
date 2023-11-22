@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baaii2giv4hwf"
-path="res://.godot/imported/hide-toc.png-d77a4aac07be5b37ea4aa4e77aef61d3.ctex"
+uid="uid://delshmadxa20e"
+path="res://.godot/imported/hide-toc.png-22af2b6c65e9356704ad5547fe3c1801.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/hide-toc.png"
-dest_files=["res://.godot/imported/hide-toc.png-d77a4aac07be5b37ea4aa4e77aef61d3.ctex"]
+source_file="res://docs/docs/assets/screenshots/hide-toc.png"
+dest_files=["res://.godot/imported/hide-toc.png-22af2b6c65e9356704ad5547fe3c1801.ctex"]
 
 [params]
 

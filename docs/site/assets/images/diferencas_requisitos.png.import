@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b342vpyprjowr"
-path="res://.godot/imported/diferencas_requisitos.png-d96a41b464e7e8fcdadf457cf3ed6b80.ctex"
+uid="uid://db5grdfb28kbb"
+path="res://.godot/imported/diferencas_requisitos.png-e2a6113369813404d5da4e69144d95e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/diferencas_requisitos.png"
-dest_files=["res://.godot/imported/diferencas_requisitos.png-d96a41b464e7e8fcdadf457cf3ed6b80.ctex"]
+source_file="res://docs/docs/assets/images/diferencas_requisitos.png"
+dest_files=["res://.godot/imported/diferencas_requisitos.png-e2a6113369813404d5da4e69144d95e7.ctex"]
 
 [params]
 

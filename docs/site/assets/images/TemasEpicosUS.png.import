@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yw0ur6f84n4e"
-path="res://.godot/imported/TemasEpicosUS.png-1d8504f7bc6250d5454507b92fdc6b76.ctex"
+uid="uid://dfh2yxybfh8fx"
+path="res://.godot/imported/TemasEpicosUS.png-de61ca1ed710b85b87b4019dfc4387d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/TemasEpicosUS.png"
-dest_files=["res://.godot/imported/TemasEpicosUS.png-1d8504f7bc6250d5454507b92fdc6b76.ctex"]
+source_file="res://docs/docs/assets/images/TemasEpicosUS.png"
+dest_files=["res://.godot/imported/TemasEpicosUS.png-de61ca1ed710b85b87b4019dfc4387d5.ctex"]
 
 [params]
 

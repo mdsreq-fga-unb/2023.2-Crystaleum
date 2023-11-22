@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfe3gg4nrwi3v"
-path="res://.godot/imported/social-cards-layer-3.png-f9aa074e6ffab0bf91555abaa8114b9d.ctex"
+uid="uid://3plb8b1ajukr"
+path="res://.godot/imported/social-cards-layer-3.png-ebc173c0754e10ace5522c1e03843e66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/social-cards-layer-3.png"
-dest_files=["res://.godot/imported/social-cards-layer-3.png-f9aa074e6ffab0bf91555abaa8114b9d.ctex"]
+source_file="res://docs/docs/assets/screenshots/social-cards-layer-3.png"
+dest_files=["res://.godot/imported/social-cards-layer-3.png-ebc173c0754e10ace5522c1e03843e66.ctex"]
 
 [params]
 

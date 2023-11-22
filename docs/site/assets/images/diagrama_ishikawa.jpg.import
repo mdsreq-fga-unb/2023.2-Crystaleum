@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjdj8v8xutocj"
-path="res://.godot/imported/diagrama_ishikawa.jpg-3ca6e5251c6cf678c99e8fff8bdc8bd0.ctex"
+uid="uid://bygv0th0xbjqd"
+path="res://.godot/imported/diagrama_ishikawa.jpg-7e7d4c76fe34eaba540555cf78066549.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/diagrama_ishikawa.jpg"
-dest_files=["res://.godot/imported/diagrama_ishikawa.jpg-3ca6e5251c6cf678c99e8fff8bdc8bd0.ctex"]
+source_file="res://docs/docs/assets/images/diagrama_ishikawa.jpg"
+dest_files=["res://.godot/imported/diagrama_ishikawa.jpg-7e7d4c76fe34eaba540555cf78066549.ctex"]
 
 [params]
 

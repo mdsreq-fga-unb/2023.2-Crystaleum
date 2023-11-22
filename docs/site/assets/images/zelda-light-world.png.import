@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ch1fk06ykc1tf"
-path="res://.godot/imported/zelda-light-world.png-f3611ec36c9976930bc0ac3298b2c1ef.ctex"
+uid="uid://cy8bdt8h4qgod"
+path="res://.godot/imported/zelda-light-world.png-5a053925fc00bdf0a37638f515b97ba8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/zelda-light-world.png"
-dest_files=["res://.godot/imported/zelda-light-world.png-f3611ec36c9976930bc0ac3298b2c1ef.ctex"]
+source_file="res://docs/docs/assets/images/zelda-light-world.png"
+dest_files=["res://.godot/imported/zelda-light-world.png-5a053925fc00bdf0a37638f515b97ba8.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1lubb5ce7s5h"
-path="res://.godot/imported/social-cards-invert.png-74f997622449611732c0b7b74c24f0da.ctex"
+uid="uid://6ga4iy2cuup7"
+path="res://.godot/imported/social-cards-invert.png-53af333ec0e5d5a6d3321aebeb9e0bc9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/social-cards-invert.png"
-dest_files=["res://.godot/imported/social-cards-invert.png-74f997622449611732c0b7b74c24f0da.ctex"]
+source_file="res://docs/docs/assets/screenshots/social-cards-invert.png"
+dest_files=["res://.godot/imported/social-cards-invert.png-53af333ec0e5d5a6d3321aebeb9e0bc9.ctex"]
 
 [params]
 

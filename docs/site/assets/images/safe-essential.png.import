@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://g3an65rqk1o3"
-path="res://.godot/imported/safe-essential.png-2a4c96497cc0e6b509c28a9c8f191434.ctex"
+uid="uid://wdoyldv6pxaf"
+path="res://.godot/imported/safe-essential.png-58e1c22b031c1826fccf1bbda66174cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/safe-essential.png"
-dest_files=["res://.godot/imported/safe-essential.png-2a4c96497cc0e6b509c28a9c8f191434.ctex"]
+source_file="res://docs/docs/assets/images/safe-essential.png"
+dest_files=["res://.godot/imported/safe-essential.png-58e1c22b031c1826fccf1bbda66174cd.ctex"]
 
 [params]
 

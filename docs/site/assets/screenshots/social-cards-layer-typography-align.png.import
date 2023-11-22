@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnv71g1xkucfm"
-path="res://.godot/imported/social-cards-layer-typography-align.png-d502f97738c11f7568a51c47a8817587.ctex"
+uid="uid://cdghq0dsqjjmx"
+path="res://.godot/imported/social-cards-layer-typography-align.png-d451898569de5b373ae9b01537b695a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/social-cards-layer-typography-align.png"
-dest_files=["res://.godot/imported/social-cards-layer-typography-align.png-d502f97738c11f7568a51c47a8817587.ctex"]
+source_file="res://docs/docs/assets/screenshots/social-cards-layer-typography-align.png"
+dest_files=["res://.godot/imported/social-cards-layer-typography-align.png-d451898569de5b373ae9b01537b695a8.ctex"]
 
 [params]
 

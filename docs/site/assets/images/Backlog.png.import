@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5yrrmly2b04k"
-path="res://.godot/imported/Backlog.png-04aa47a377f49c094412972f06839625.ctex"
+uid="uid://dl2qk5nvpgoy0"
+path="res://.godot/imported/Backlog.png-6a4231db3fd3cb991077fb26defb349e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/Backlog.png"
-dest_files=["res://.godot/imported/Backlog.png-04aa47a377f49c094412972f06839625.ctex"]
+source_file="res://docs/docs/assets/images/Backlog.png"
+dest_files=["res://.godot/imported/Backlog.png-6a4231db3fd3cb991077fb26defb349e.ctex"]
 
 [params]
 

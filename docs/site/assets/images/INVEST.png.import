@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddfisk7ijp3wh"
-path="res://.godot/imported/INVEST.png-b3724e51b4e4cb3d304e9bf8247bf280.ctex"
+uid="uid://0twsgyb2ca72"
+path="res://.godot/imported/INVEST.png-569cad1faa5424f712212838e74d5fef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/INVEST.png"
-dest_files=["res://.godot/imported/INVEST.png-b3724e51b4e4cb3d304e9bf8247bf280.ctex"]
+source_file="res://docs/docs/assets/images/INVEST.png"
+dest_files=["res://.godot/imported/INVEST.png-569cad1faa5424f712212838e74d5fef.ctex"]
 
 [params]
 

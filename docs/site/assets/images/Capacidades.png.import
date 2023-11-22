@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://v51a1j6nwkh0"
-path="res://.godot/imported/Capacidades.png-e0a87d66b58ef24d992acacc0e4393a1.ctex"
+uid="uid://cxj68wxvojaek"
+path="res://.godot/imported/Capacidades.png-a4401d442aa6f6475269a3cbfa21b09a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/Capacidades.png"
-dest_files=["res://.godot/imported/Capacidades.png-e0a87d66b58ef24d992acacc0e4393a1.ctex"]
+source_file="res://docs/docs/assets/images/Capacidades.png"
+dest_files=["res://.godot/imported/Capacidades.png-a4401d442aa6f6475269a3cbfa21b09a.ctex"]
 
 [params]
 

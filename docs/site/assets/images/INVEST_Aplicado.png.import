@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnpnh3761bikp"
-path="res://.godot/imported/INVEST_Aplicado.png-000263ac38b130f3ade78a0be6ec8374.ctex"
+uid="uid://bgjsk8w4wl5i8"
+path="res://.godot/imported/INVEST_Aplicado.png-2c8b2a40cf57c9b3bd8f67f6b1feaa1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/INVEST_Aplicado.png"
-dest_files=["res://.godot/imported/INVEST_Aplicado.png-000263ac38b130f3ade78a0be6ec8374.ctex"]
+source_file="res://docs/docs/assets/images/INVEST_Aplicado.png"
+dest_files=["res://.godot/imported/INVEST_Aplicado.png-2c8b2a40cf57c9b3bd8f67f6b1feaa1a.ctex"]
 
 [params]
 

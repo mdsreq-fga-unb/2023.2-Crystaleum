@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfv4lnc1iivkt"
-path="res://.godot/imported/Checklist_Validacao.png-1d37d649df48cedd1e58ea6ed2cfd0e8.ctex"
+uid="uid://bucjuwf68eh3y"
+path="res://.godot/imported/Checklist_Validacao.png-cc82ea33de52e1d7f1212f1d0c3bc529.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/Checklist_Validacao.png"
-dest_files=["res://.godot/imported/Checklist_Validacao.png-1d37d649df48cedd1e58ea6ed2cfd0e8.ctex"]
+source_file="res://docs/docs/assets/images/Checklist_Validacao.png"
+dest_files=["res://.godot/imported/Checklist_Validacao.png-cc82ea33de52e1d7f1212f1d0c3bc529.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4u48frjnp1dn"
-path="res://.godot/imported/social-cards-layer-typography-ellipsis.png-b871fafb492fe19e533af417e74145c0.ctex"
+uid="uid://b5v567hkkorf4"
+path="res://.godot/imported/social-cards-layer-typography-ellipsis.png-5ae8e0642d88cd55f25edc42b09ea73c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/social-cards-layer-typography-ellipsis.png"
-dest_files=["res://.godot/imported/social-cards-layer-typography-ellipsis.png-b871fafb492fe19e533af417e74145c0.ctex"]
+source_file="res://docs/docs/assets/screenshots/social-cards-layer-typography-ellipsis.png"
+dest_files=["res://.godot/imported/social-cards-layer-typography-ellipsis.png-5ae8e0642d88cd55f25edc42b09ea73c.ctex"]
 
 [params]
 

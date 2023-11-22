@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cssk1f1rk7egt"
-path="res://.godot/imported/navigation-tabs-sticky.png-7381f48e318d0ba0c0eb1632365ca330.ctex"
+uid="uid://mlefcrh4g01a"
+path="res://.godot/imported/navigation-tabs-sticky.png-0e789998eea59ba54420684146567d68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/screenshots/navigation-tabs-sticky.png"
-dest_files=["res://.godot/imported/navigation-tabs-sticky.png-7381f48e318d0ba0c0eb1632365ca330.ctex"]
+source_file="res://docs/docs/assets/screenshots/navigation-tabs-sticky.png"
+dest_files=["res://.godot/imported/navigation-tabs-sticky.png-0e789998eea59ba54420684146567d68.ctex"]
 
 [params]
 

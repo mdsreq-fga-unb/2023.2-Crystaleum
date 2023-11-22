@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b563pkrnt6mpv"
-path="res://.godot/imported/storyboard-ex1.png-8861f5c0e214ea56e07af9eb7e5d331c.ctex"
+uid="uid://chcy1jehal5ay"
+path="res://.godot/imported/storyboard-ex1.png-2534f3d22a12f76a83643e1c01212ae8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/site/assets/images/storyboard-ex1.png"
-dest_files=["res://.godot/imported/storyboard-ex1.png-8861f5c0e214ea56e07af9eb7e5d331c.ctex"]
+source_file="res://docs/docs/assets/images/storyboard-ex1.png"
+dest_files=["res://.godot/imported/storyboard-ex1.png-2534f3d22a12f76a83643e1c01212ae8.ctex"]
 
 [params]
 
