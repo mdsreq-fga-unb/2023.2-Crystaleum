@@ -22,23 +22,23 @@ Segue abaixo o nosso quadro no miro com o planejamento das reuniões e o quadro 
 Abaixo estaram dispostas tabelas com as informações detalhadas de cada artefato.
 
 
-### Iteração 1 - 05/09
+### Iteração 1 - 11/09
 
 <center>
 
-**Tabela 1:** Planning iteração 1 - 05/09
+**Tabela 1:** Planning iteração 1 - 11/09
 
 |Review the product backlog|Set interation GOAL|Aply DoR|Estabilish Interation Backlog|
 |---|---|---|---|
 |Início da construção do backlog|• Finalizar artes iniciais para demonstração<br><br> • Criar uma organização inicial do backlog do produtudo|O DoR ainda não estava estabelecido no projeto, então não utilizamos|• Elicitação de requisitos para construção do backlog<br><br>• Sprites da Crys<br><br>• Sprites do NPC guardião<br><br>• Sprites do NPC explorador<br><br>Mini-mapa<br><br>• Itens de cada subregião do mapa<br><br>|
 
-**Tabela 2:** Review da iteração 1 - 05/09
+**Tabela 2:** Review da iteração 1 - 11/09
 
 |Iteration backlog Itens|Iteration backlog Itens APPROVED|Enviroments Changes|What to do? (Actions)|
 |---|---|---|---|
 |• Elicitação de requisitos para construção do backlog<br><br>• Sprites da Crys<br><br>• Sprites do NPC guardião<br><br>• Sprites do NPC explorador<br><br>Mini-mapa<br><br>• Itens de cada subregião do mapa<br><br>|• Elicitação de requisitos para construção do backlog<br><br>• Sprites da Crys<br><br>• Sprites do NPC guardião<br><br>• Sprites do NPC explorador<br><br>Mini-mapa<br><br>• Itens de cada subregião do mapa<br><br>|• Mudanças de organização nos quadros do Miro<br><br>• Criação da organização do pages do Projeto|Refinar os requisitos e melhorar a organização do backlog|
 
-**Tabela 3:** Retrospective Meeting da iteração 1 - 05/09
+**Tabela 3:** Retrospective Meeting da iteração 1 - 11/09
 
 |What went WELL?| What Didn't go Well?|Actions plan and GOALs|
 |---|---|---|
