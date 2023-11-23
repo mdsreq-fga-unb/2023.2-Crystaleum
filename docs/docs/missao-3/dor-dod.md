@@ -29,6 +29,29 @@ Para que um item seja validado pelo DoD ele deve estar de acordo com todos os se
 - Contempla os critérios de aceite estabelecidos
 - É possivel jogar o incremento entregue
 
+## Checklist do DoR
+
+| US | Cada item do backlog deve ser possível de ser realizado em uma sprint |Todos os critérios de aceitação devem ser aprovados pelo PO | Todos os requisitos funcionais e não funcionais contemplados no MVP devem possuir critérios de aceitação | Os requisitos funcionais devem estar declarados em US's | Os itens do backlog devem ser independentes, caso tenham dependências, estas devem ser identificadas | Os itens do backlog devem ter sua primeira versão do protótipo finalizada e aprovada pela equipe |
+|---------|---------------------------|----------------------------|--------------------|-------------------|  -------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|US1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US2| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US3| ✅ | ✅ | ✅ | ✅ | ✅ | ❌  |
+|US4| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US5| ✅ | ✅ | ✅ | ✅ | ✅ | ❌  |
+|US6| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US7| ✅ | ✅ | ✅ | ✅ | ✅ | ❌  |
+|US8| ✅ | ✅ | ✅ | ✅ | ✅ | ❌  |
+|US9| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US10| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US11| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US12| ✅ | ✅ | ✅ | ✅ | ✅ | ❌  |
+|RNF1| ✅ | ✅ | ✅ | ✅ | ✅ | ❌  |
+|RNF2 | ✅ | ✅ | ✅ | N/A | ✅ | ✅ |
+|RNF4| ✅ | ✅ | ✅ | N/A | ✅ | N/A |
+|RNF5| ✅ | ✅ | ✅ | N/A | ✅ | N/A |
+|RNF6| ✅ | ✅ | ✅ | N/A | ✅ | N/A |
+
+
 | Versão | Data       | Descrição          | Autor(es)                                        |
 | ------ | ---------- | ------------------ | ------------------------------------------------ |
 |1.0     | 22/11/2023 | Criação da Página | [Pablo Guilherme](https://github.com/PabloGJBS)  |
