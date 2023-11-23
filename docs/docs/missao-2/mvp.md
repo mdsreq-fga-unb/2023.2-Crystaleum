@@ -45,7 +45,7 @@ Definido o backlog priorizado, utilizamos os pesos dados a cada item para defini
 | US5 - Eu, como aluno, gostaria de conseguir saltar no mini-game de shape para que seja possível que meu personagem avance no desenvolver do jogo                                                              |
 | US6 - Eu, como aluno, gostaria de jogar o mini-game de pesca para obter o item chave para avançar na história do jogo                                                             |
 | US7 - Eu como aluno gostaria de jogar o mini-game de shape para avançar na história do jogo. |
-| US8 - Eu como aluno, desejo salvar o meu progresso no jogo para quando for jogar novamente continuar de onde foi salvo                                                                                             |
+| US8 - Eu como aluno, desejo salvar o meu progresso no jogo para quando for jogar novamente continuar de onde foi salvo  |
 | US9 - Eu, como aluno, quero dialogar com os seis NPC's para iniciar um diálogo com eles e descobrir mais sobre a história das facções                                                                   |
 | US10 - Eu, como aluno, desejo escolher a minha facção para adquirir um sentimento de pertencimento com a temática da disciplina  |
 | US11 - Eu, como aluno, quero responder perguntas de um QUIZ aos NPC's para conseguir revisar a disciplina |
