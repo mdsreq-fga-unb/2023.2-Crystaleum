@@ -26,11 +26,39 @@ Retirados do MIRO, os tópicos abaixo são capturas de cada parte do canvas.
 <center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
 
 ## Personas
-![personas](../assets/images/PBB-Personas.png)
+![personas](../assets/images/pbb-persona6.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/pbb-persona5.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/pbb-persona4.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/pbb-persona3.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/pbb-persona2.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/pbb-persona1.png)
 <center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
 
 ## Features
-![features](../assets/images/PBB-Features.png)
+
+![features](../assets/images/PBB-f1.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/PBB-f2.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/PBB-f3.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/PBB-f4.png)
+<center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
+
+![features](../assets/images/PBB-f5.png)
 <center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
 
 ## PBI
@@ -38,6 +66,11 @@ Retirados do MIRO, os tópicos abaixo são capturas de cada parte do canvas.
 <center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
 
 ## PBI priorizado - COORG (Método de priorização)
+
+Para priorizar, utilizamos o método COORG. O cálculo dessa prioridade está na imagem abaixo:
+![pbi-priorizado](../assets/images/pbb-coorg.png)
+<center><b>Fonte:</b> <a>Marsicano (2023)</a></center>
+
 ![pbi-priorizado](../assets/images/Pbi-priorizado.png)
 <center><b>Fonte:</b> <a href="https://miro.com/app/board/uXjVNWRzFnM=/ target="_blank">Miro Moonwalkers</a></center>
 
