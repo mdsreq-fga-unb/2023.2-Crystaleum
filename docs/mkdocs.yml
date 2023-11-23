@@ -200,11 +200,12 @@ nav:
 
   - Missão 3:
       - Aspectos Humanos e Sociais: missao-3/aspectos-humanos.md
-      - PBB: missao-3/pbb.md
-      - Avaliação dos Insurgentes (v&v): missao-3/avaliacao-insurgentes.md
-      - BDD: missao-3/bdd.md
       - DoR e DoD: missao-3/dor-dod.md
+      - PBB: missao-3/pbb.md
+      - BDD: missao-3/bdd.md
+      - Avaliação dos Insurgentes (v&v): missao-3/avaliacao-insurgentes.md
       - USM: missao-3/usm.md
+      - Kanbam: missao-3/kanbam.md
       - Lições aprendidas: missao-3/licoes-aprendidas.md
       - Gravações de vídeo: missao-3/gravacoes.md
 
