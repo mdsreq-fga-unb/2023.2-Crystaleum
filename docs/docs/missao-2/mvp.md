@@ -24,10 +24,10 @@ _Peso = (Valor de Negócio \* Viabilidade) / Complexibilidade_
 | E1        | C2             | F5          | RNF4 - O jogo deve possuir efeitos sonoros para representar ações realizadas durante a gameplay  | 1      | 3                    | 2               | 1,5                |
 | E1        | C2             | F5          | RNF5 - O jogo deve possuir uma musica tema                                                                              | 2      | 2                    | 32               | 1,33                |
 | E1        | C1             | F4          | RNF1 -  O aluno deve conseguir aumentar ou diminuir o volume do jogo.                                                              | 1        | 1                    | 2               | 0,5                |
-| E2        | C2             | F4          | RNF3 -  O aluno deve conseguir escolher entre diferentes paletas de cores da personagem principalaprofundada.                                                      | 1        | 1                    | 3               | 0,33               |
+| E2        | C2             | F4          | RNF3 -  O aluno deve conseguir escolher entre diferentes paletas de cores da personagem principal.                                                      | 1        | 1                    | 3               | 0,33               |
 | E2        | C4             | F8          | US13 - Eu como aluno quero que meus acertos sejam enviados ao power apps para mensurar meu progresso                                                                            | 1        | 1                    | 3               | 0,33               |
 | E2        | C4             | F8          | US14 - Eu, como professor, desejo poder ser capaz de cadastrar novos jogadores para que eles possam acessar o jogo                                                             | 1        | 1                    | 3               | 0,33               |
-| E2        | C4             | F8          | RNF5 - O jogo deve ser integrado com o power apps da matéria                                                             | 1        | 1                    | 3               | 0,33               |
+| E2        | C4             | F8          | RNF7 - O jogo deve ser integrado com o power apps da matéria                                                             | 1        | 1                    | 3               | 0,33               |
 
 
 ## MVP
