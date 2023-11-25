@@ -1,0 +1,87 @@
+[gd_scene load_steps=4 format=3 uid="uid://c41nl5o573pp7"]
+
+[ext_resource type="Script" path="res://scripts/Menu.gd" id="1_0cip4"]
+[ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_y1brn"]
+[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/Kenney Space.ttf" id="3_ulc8t"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0cip4")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_y1brn")
+expand_mode = 2
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -117.0
+offset_top = -71.5
+offset_right = 117.0
+offset_bottom = 71.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="TextureRect/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.945098, 0, 1)
+theme_override_fonts/font = ExtResource("3_ulc8t")
+text = "Crystaleum"
+horizontal_alignment = 1
+justification_flags = 160
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+theme_override_constants/separation = 10
+
+[node name="Jogar" type="Button" parent="TextureRect/VBoxContainer/HBoxContainer/VBoxContainer" groups=["button"]]
+z_as_relative = false
+texture_filter = 4
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_constants/h_separation = 20
+theme_override_constants/icon_max_width = 0
+theme_override_fonts/font = ExtResource("3_ulc8t")
+theme_override_font_sizes/font_size = 11
+text = "Jogar"
+flat = true
+
+[node name="Config" type="Button" parent="TextureRect/VBoxContainer/HBoxContainer/VBoxContainer" groups=["button"]]
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_constants/icon_max_width = 0
+theme_override_fonts/font = ExtResource("3_ulc8t")
+theme_override_font_sizes/font_size = 11
+text = "Options"
+flat = true
+
+[node name="Sair" type="Button" parent="TextureRect/VBoxContainer/HBoxContainer/VBoxContainer" groups=["button"]]
+layout_mode = 2
+theme_override_constants/outline_size = 0
+theme_override_constants/icon_max_width = 0
+theme_override_font_sizes/font_size = 11
+text = "Sair"
+flat = true
