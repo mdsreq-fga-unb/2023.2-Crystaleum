@@ -6,13 +6,13 @@ somente no eixo y e ele não passa das bordas (do mar)
 
 var movement_time = 1
 
-var min_distance = -20
-var max_distance = 150
+var min_distance = -22
+var max_distance = 122
 
 var min_target = -100
 var max_target = 100
 
-var speed: float = 30
+var speed: float = 40
 var totalTime : float = 0
 var progress : float = 0
 var currentTime : float = 0

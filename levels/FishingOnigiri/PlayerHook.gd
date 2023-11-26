@@ -7,8 +7,8 @@ var currentTimeDown = 1
 var currentTimeUp = 1
 var gravity = 0.02
 
-var min_position = -60
-var max_position = 175
+var min_position = -32
+var max_position = 112
 
 var fishInside = false
 
@@ -27,21 +27,21 @@ func _process(delta):
 	fishing()
 	if Input.is_action_pressed("mouse_left_button"):
 		currentTimeDown = 1
-		if self.position.y > -60 and self.position.y <= max_position:
+		if self.position.y > min_position and self.position.y <= max_position:
 			currentTimeUp += gravity
 			self.velocity.y -= (speed * 1.2 * currentTimeUp) * delta
 		elif self.position.y >= max_position:
 			self.position.y = max_position
 		else:
-			self.position.y = -60
+			self.position.y = min_position
 			
 	else:
 		currentTimeDown += gravity
 		currentTimeUp = 1
-		if self.position.y < max_position and self.position.y >= -60:
+		if self.position.y < max_position and self.position.y >= min_position:
 			self.velocity.y = min((self.velocity.y + speed * 0.6 * currentTimeDown * delta) , maxVelocity)
-		elif self.position.y <= -60:
-			self.position.y = -60
+		elif self.position.y <= min_position:
+			self.position.y = min_position
 		else:
 			self.position.y = max_position
 	move_and_slide()
@@ -54,7 +54,7 @@ func _process(delta):
 			currentTimeUp = 1
 			currentTimeDown = 1
 			self.velocity.y = 0
-	elif position.y <= -60:
+	elif position.y <= min_position:
 		self.velocity.y = 0
 
 func fishing():

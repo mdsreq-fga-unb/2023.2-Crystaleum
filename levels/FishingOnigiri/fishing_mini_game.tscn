@@ -9,10 +9,10 @@
 [ext_resource type="Texture2D" uid="uid://bof3iq6cbca38" path="res://levels/FishingOnigiri/assets/Pirata e manivela 2.png" id="7_td02i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_23iq2"]
-size = Vector2(42.4999, 60)
+size = Vector2(42.4999, 37.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l64oo"]
-size = Vector2(42.5, 60)
+size = Vector2(42.4999, 37.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k8atw"]
 size = Vector2(141.667, 133.333)
@@ -61,13 +61,13 @@ collision_mask = 4
 script = ExtResource("5_nc1vi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHook"]
-position = Vector2(-876.25, -97.5)
-scale = Vector2(1, 1)
+position = Vector2(-876.25, -111.25)
+scale = Vector2(0.999999, 0.999999)
 shape = SubResource("RectangleShape2D_23iq2")
 
 [node name="Sprite2D" type="Sprite2D" parent="PlayerHook"]
-position = Vector2(-876.25, -97.5)
-scale = Vector2(0.923914, 1.30435)
+position = Vector2(-876.25, -111.25)
+scale = Vector2(0.923913, 0.815217)
 texture = ExtResource("3_k8b77")
 region_enabled = true
 region_rect = Rect2(332.039, 207.761, 46, 46)
@@ -76,7 +76,7 @@ region_rect = Rect2(332.039, 207.761, 46, 46)
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHook/Detect"]
-position = Vector2(-876.25, -97.5)
+position = Vector2(-876.25, -111.25)
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_l64oo")
 
