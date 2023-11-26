@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://dop5y81tldkrb"]
+
+[ext_resource type="Script" path="res://pracinha.gd" id="1_eu4og"]
+[ext_resource type="Texture2D" uid="uid://6fp8pchm7ssn" path="res://assets/pracinha.png" id="1_uyqq8"]
+[ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="2_5e0wf"]
+[ext_resource type="Script" path="res://Mini-mapa-button.gd" id="3_fjim0"]
+
+[node name="pracinha" type="Node2D"]
+script = ExtResource("1_eu4og")
+
+[node name="background" type="Sprite2D" parent="."]
+position = Vector2(376.5, 237)
+scale = Vector2(1.30729, 1.4875)
+texture = ExtResource("1_uyqq8")
+
+[node name="Mini-mapa-button" type="TextureButton" parent="."]
+offset_left = 12.0
+offset_top = 187.0
+offset_right = 76.0
+offset_bottom = 251.0
+texture_normal = ExtResource("2_5e0wf")
+script = ExtResource("3_fjim0")
+
+[connection signal="pressed" from="Mini-mapa-button" to="." method="_on_minimapabutton_pressed"]

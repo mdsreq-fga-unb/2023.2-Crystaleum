@@ -1,0 +1,55 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxeryqxs6ut5g"]
+
+[ext_resource type="Script" path="res://mini_mapa_aberto.gd" id="1_6e7wr"]
+[ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="1_24wer"]
+[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="2_q6ygb"]
+
+[node name="Mini-mapa-aberto" type="Node2D"]
+script = ExtResource("1_6e7wr")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(414, 276)
+scale = Vector2(13.1875, 8.85938)
+texture = ExtResource("2_q6ygb")
+
+[node name="Mapa-aberto" type="Sprite2D" parent="."]
+position = Vector2(414, 280)
+scale = Vector2(9.57812, 7.57813)
+texture = ExtResource("1_24wer")
+
+[node name="casa-button-mapa" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 275.0
+offset_top = 302.0
+offset_right = 432.0
+offset_bottom = 448.0
+metadata/_edit_use_anchors_ = true
+
+[node name="casa-abandonada-button-mapa" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 182.0
+offset_top = 193.0
+offset_right = 313.0
+offset_bottom = 290.0
+metadata/_edit_use_anchors_ = true
+
+[node name="pracinha-button-mapa" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 293.0
+offset_top = 55.0
+offset_right = 570.0
+offset_bottom = 203.0
+metadata/_edit_use_anchors_ = true
+
+[node name="farol-button-mapa" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 567.0
+offset_top = 192.0
+offset_right = 651.0
+offset_bottom = 336.0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="casa-button-mapa" to="." method="_on_casabuttonmapa_pressed"]
+[connection signal="pressed" from="casa-abandonada-button-mapa" to="." method="_on_casaabandonadabuttonmapa_pressed"]
+[connection signal="pressed" from="pracinha-button-mapa" to="." method="_on_pracinhabuttonmapa_pressed"]
+[connection signal="pressed" from="farol-button-mapa" to="." method="_on_farolbuttonmapa_pressed"]

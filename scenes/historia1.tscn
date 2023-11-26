@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1cqcrn3qooy"]
+
+[ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="1_q3jvy"]
+[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/Kenney Space.ttf" id="2_0hepk"]
+
+[node name="Historia" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_q3jvy")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="BoxContainer" type="BoxContainer" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/BoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="TextureRect/BoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_0hepk")
+theme_override_font_sizes/font_size = 8
+text = "alguma coisa alguma coisa 
+alguma coisa alguma coisa
+alguma coisa alguma coisa
+alguma coisa alguma coisa
+alguma coisa alguma coisa
+alguma coisa alguma coisa
+alguma coisa alguma coisa
+alguma coisa alguma coisa
+alguma coisa alguma coisa"
+text_direction = 1

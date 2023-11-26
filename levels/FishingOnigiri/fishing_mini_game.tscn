@@ -1,0 +1,140 @@
+[gd_scene load_steps=13 format=3 uid="uid://bojgvwhs7rkjp"]
+
+[ext_resource type="Script" path="res://FishingOnigiri/fishing_mini_game.gd" id="1_ahc27"]
+[ext_resource type="Texture2D" uid="uid://ys7yvhn1l85s" path="res://assets/local-pesca.png" id="2_jeixe"]
+[ext_resource type="Texture2D" uid="uid://d0ajepjvov07p" path="res://assets/pescaria-onigiri-completo.png" id="3_k8b77"]
+[ext_resource type="Texture2D" uid="uid://2rdd2pklhdsq" path="res://assets/barra de progresso.png" id="4_sgpah"]
+[ext_resource type="Script" path="res://FishingOnigiri/PlayerHook.gd" id="5_nc1vi"]
+[ext_resource type="Script" path="res://FishingOnigiri/Onigiri.gd" id="6_kldpi"]
+[ext_resource type="Texture2D" uid="uid://bof3iq6cbca38" path="res://assets/Pirata e manivela 2.png" id="7_td02i"]
+[ext_resource type="Texture2D" uid="uid://dy40t7wnbp1l1" path="res://assets/Pirata e manivela.png" id="8_p00ej"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_23iq2"]
+size = Vector2(90, 62.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l64oo"]
+size = Vector2(90, 62.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k8atw"]
+size = Vector2(291.666, 275)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gvjrv"]
+size = Vector2(37, 16)
+
+[node name="Fishing mini game" type="Node2D"]
+position = Vector2(256, 96)
+script = ExtResource("1_ahc27")
+
+[node name="Fundo" type="Sprite2D" parent="."]
+position = Vector2(198, 170)
+scale = Vector2(1.41094, 1.47222)
+texture = ExtResource("2_jeixe")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(-350, -78)
+scale = Vector2(2.02941, 1.26765)
+texture = ExtResource("3_k8b77")
+offset = Vector2(288, 160)
+region_enabled = true
+region_rect = Rect2(82, 10.5, 119.195, 340.066)
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_left = 287.0
+offset_top = -83.0
+offset_right = 348.0
+offset_bottom = 333.0
+value = 50.0
+fill_mode = 3
+nine_patch_stretch = true
+texture_progress = ExtResource("4_sgpah")
+
+[node name="PlayerHook" type="CharacterBody2D" parent="."]
+position = Vector2(284, 58)
+scale = Vector2(0.4, 0.4)
+collision_mask = 4
+script = ExtResource("5_nc1vi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHook"]
+position = Vector2(-142.5, 23.75)
+shape = SubResource("RectangleShape2D_23iq2")
+
+[node name="Sprite2D" type="Sprite2D" parent="PlayerHook"]
+position = Vector2(-142.5, 23.5)
+scale = Vector2(1.95652, 1.36956)
+texture = ExtResource("3_k8b77")
+region_enabled = true
+region_rect = Rect2(332.039, 207.761, 46, 46)
+
+[node name="Detect" type="Area2D" parent="PlayerHook"]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHook/Detect"]
+position = Vector2(-142.5, 23.75)
+shape = SubResource("RectangleShape2D_l64oo")
+
+[node name="Onigiri" type="CharacterBody2D" parent="."]
+position = Vector2(284, 244)
+scale = Vector2(0.12, 0.12)
+collision_layer = 2
+collision_mask = 4
+script = ExtResource("6_kldpi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Onigiri"]
+position = Vector2(-470.834, -137.5)
+shape = SubResource("RectangleShape2D_k8atw")
+
+[node name="Sprite2D" type="Sprite2D" parent="Onigiri"]
+position = Vector2(-470.833, -137.5)
+scale = Vector2(1.97072, 1.90972)
+texture = ExtResource("3_k8b77")
+region_enabled = true
+region_rect = Rect2(302.217, 33.083, 148.049, 144.579)
+
+[node name="top-margin" type="StaticBody2D" parent="."]
+position = Vector2(225, -80)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="top-margin"]
+position = Vector2(2.5, -2)
+shape = SubResource("RectangleShape2D_gvjrv")
+
+[node name="bottom-margin" type="StaticBody2D" parent="."]
+position = Vector2(284, 329)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bottom-margin"]
+position = Vector2(-58, 21)
+shape = SubResource("RectangleShape2D_gvjrv")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -152.0
+offset_top = -82.0
+offset_right = -80.0
+offset_bottom = -33.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+
+[node name="OnigiriLabel" type="Sprite2D" parent="."]
+position = Vector2(-207.875, -55.75)
+scale = Vector2(0.482026, 0.434932)
+texture = ExtResource("3_k8b77")
+region_enabled = true
+region_rect = Rect2(299, 32.5, 153, 146.377)
+
+[node name="pirata" type="Sprite2D" parent="."]
+position = Vector2(-46, 257)
+scale = Vector2(2.07576, 1.9812)
+texture = ExtResource("7_td02i")
+region_enabled = true
+region_rect = Rect2(18.2774, 33.47, 66.699, 133.012)
+
+[node name="manivela-vara" type="Sprite2D" parent="."]
+position = Vector2(113, 248)
+scale = Vector2(2.025, 2.07143)
+texture = ExtResource("8_p00ej")
+region_enabled = true
+region_rect = Rect2(129.872, 151.209, 40.2897, 35.2864)
+
+[connection signal="_progress_decreased" from="PlayerHook" to="." method="decreaseProgress"]
+[connection signal="_progress_increased" from="PlayerHook" to="." method="increaseProgress"]
+[connection signal="body_entered" from="PlayerHook/Detect" to="PlayerHook" method="_on_detect_body_entered"]
+[connection signal="body_exited" from="PlayerHook/Detect" to="PlayerHook" method="_on_detect_body_exited"]
