@@ -64,17 +64,11 @@ z_as_relative = false
 texture_filter = 4
 layout_mode = 2
 theme = ExtResource("4_tbowp")
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
-theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
-theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
-theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
-theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 0
 theme_override_constants/h_separation = 20
 theme_override_constants/icon_max_width = 0
 theme_override_fonts/font = ExtResource("3_ulc8t")
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 11
 text = "Jogar"
 
 [node name="Config" type="Button" parent="TextureRect/VBoxContainer/HBoxContainer/VBoxContainer" groups=["button"]]
@@ -83,7 +77,7 @@ theme = ExtResource("4_tbowp")
 theme_override_constants/outline_size = 0
 theme_override_constants/icon_max_width = 0
 theme_override_fonts/font = ExtResource("3_ulc8t")
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 11
 text = "Options"
 
 [node name="Sair" type="Button" parent="TextureRect/VBoxContainer/HBoxContainer/VBoxContainer" groups=["button"]]
@@ -92,6 +86,5 @@ size_flags_vertical = 4
 theme = ExtResource("4_tbowp")
 theme_override_constants/outline_size = 0
 theme_override_constants/icon_max_width = 0
-theme_override_fonts/font = ExtResource("3_ulc8t")
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 11
 text = "Sair"
