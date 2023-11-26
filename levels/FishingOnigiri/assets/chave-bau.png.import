@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0003w3pq12qj"
-path="res://.godot/imported/chave-bau.png-e6d9587b01ca0159433e14562e047f2d.ctex"
+path="res://.godot/imported/chave-bau.png-b3d81738dc3d39da597a6d43748a2a00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chave-bau.png"
-dest_files=["res://.godot/imported/chave-bau.png-e6d9587b01ca0159433e14562e047f2d.ctex"]
+source_file="res://levels/FishingOnigiri/assets/chave-bau.png"
+dest_files=["res://.godot/imported/chave-bau.png-b3d81738dc3d39da597a6d43748a2a00.ctex"]
 
 [params]
 

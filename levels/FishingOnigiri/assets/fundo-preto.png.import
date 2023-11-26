@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cy51onlmp74gt"
-path="res://.godot/imported/fundo-preto.png-8fa6aceab8899eb1b5df3be64a9aa079.ctex"
+path="res://.godot/imported/fundo-preto.png-d3c759774f6c484f744ff6966a0bea82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fundo-preto.png"
-dest_files=["res://.godot/imported/fundo-preto.png-8fa6aceab8899eb1b5df3be64a9aa079.ctex"]
+source_file="res://levels/FishingOnigiri/assets/fundo-preto.png"
+dest_files=["res://.godot/imported/fundo-preto.png-d3c759774f6c484f744ff6966a0bea82.ctex"]
 
 [params]
 
