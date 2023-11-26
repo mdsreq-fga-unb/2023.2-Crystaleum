@@ -1,0 +1,64 @@
+[gd_scene load_steps=10 format=3 uid="uid://dtb1d3rcu5ows"]
+
+[ext_resource type="Texture2D" uid="uid://dvqr8eh4lyl84" path="res://personagem/assets/caçador/CaçadorDeRecompensas.png" id="1_4426p"]
+[ext_resource type="Script" path="res://scenes/caçador.gd" id="1_a8f3m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l33le"]
+size = Vector2(26, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q38sg"]
+atlas = ExtResource("1_4426p")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gsbh5"]
+atlas = ExtResource("1_4426p")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_crgt4"]
+atlas = ExtResource("1_4426p")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u0obn"]
+atlas = ExtResource("1_4426p")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ts66u"]
+atlas = ExtResource("1_4426p")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o5ra6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q38sg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gsbh5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_crgt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u0obn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ts66u")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[node name="caçador" type="StaticBody2D"]
+script = ExtResource("1_a8f3m")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_l33le")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_o5ra6")
+autoplay = "default"
+frame = 1
+frame_progress = 0.154024

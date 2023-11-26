@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://cvx284nlocpcm"]
+
+[ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="1_qm64a"]
+[ext_resource type="PackedScene" uid="uid://b43d8vqylis1d" path="res://scenes/exploradora.tscn" id="2_ojw82"]
+[ext_resource type="PackedScene" uid="uid://dtfw7d3foembt" path="res://scenes/guardiao.tscn" id="3_k6bh1"]
+[ext_resource type="PackedScene" uid="uid://cgolxov5bpb55" path="res://scenes/mercenaria.tscn" id="4_reuh8"]
+[ext_resource type="PackedScene" uid="uid://dtb1d3rcu5ows" path="res://scenes/caçador.tscn" id="5_or3tq"]
+
+[node name="Mundo_teste" type="Node"]
+
+[node name="Crys" parent="." instance=ExtResource("1_qm64a")]
+position = Vector2(167, 85)
+
+[node name="exploradora" parent="." instance=ExtResource("2_ojw82")]
+position = Vector2(33, 32)
+
+[node name="guardiao" parent="." instance=ExtResource("3_k6bh1")]
+position = Vector2(33, 153)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("4_reuh8")]
+position = Vector2(291, 32)
+
+[node name="caçador" parent="." instance=ExtResource("5_or3tq")]
+position = Vector2(296, 149)

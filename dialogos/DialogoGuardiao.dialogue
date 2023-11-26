@@ -1,0 +1,11 @@
+~ startG
+
+Guardião: [[Olá|Saudações]], como vai jovem?
+- Vou bem!
+	Guardião: O que deseja?
+	- Queria saber mais sobre sua facção.
+		Guardião: O que deseja?
+	- Nada, deixa pra lá.
+	=> END
+- Tchau.
+=> END

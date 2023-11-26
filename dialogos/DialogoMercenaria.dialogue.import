@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bi81070wc0w66"
+path="res://.godot/imported/DialogoMercenaria.dialogue-581308c09acd0805679f5d9a13a0599b.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoMercenaria.dialogue"
+dest_files=["res://.godot/imported/DialogoMercenaria.dialogue-581308c09acd0805679f5d9a13a0599b.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,10 @@
+~ startC
+
+Caçador de recompensas: [[O que deseja?|O que foi jovem?]]
+- Você é estiloso! O que você faz?
+	Caçador de recompensas: Sobrevivo.
+	Caçador de recompensas: Como dizia Thanos, uma alma por outra alma.
+	Caçador de recompensas: O crime compensa.
+	=> END
+- Nada não.
+=> END

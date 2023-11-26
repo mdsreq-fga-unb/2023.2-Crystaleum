@@ -1,0 +1,12 @@
+~ start
+
+Exploradora: Oi, posso ajuda-la?
+- Oi, estou procurando algo.
+	Exploradora: O que você procura?
+	Exploradora: Um báu velho? Não me lembro de ter visto um recentemente.
+	Exploradora: Mas há uma cabana abandonada perto do rio. Talvez você encontre algo lá.
+	- Obrigada!
+		Exploradora: De nada! Foi um prazer te conhecer.
+		=> END
+- Tchau.
+=> END

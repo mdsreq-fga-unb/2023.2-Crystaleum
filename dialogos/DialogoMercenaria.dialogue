@@ -1,0 +1,9 @@
+~ startM
+
+Mercenária: [[Posso ajudá-la?|Como vai?]]
+- Oi! Gostaria de saber mais sobre sua facção.
+	Mercenária: Não sou boa com palavras mais vamos lá rs.
+	Mercenária: Minha facção vem de um lugar tão tão distante rs.
+	=> END
+- Nada não. Tchau.
+=> END
