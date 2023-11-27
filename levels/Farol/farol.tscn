@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://b6eanxffy4jw3"]
+[gd_scene load_steps=5 format=3 uid="uid://b6eanxffy4jw3"]
 
 [ext_resource type="Script" path="res://levels/Farol/farol.gd" id="1_k48ld"]
 [ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
 [ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="3_oa3nx"]
+[ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_o8imi"]
 
 [node name="farol" type="Node2D"]
 script = ExtResource("1_k48ld")
@@ -27,5 +28,14 @@ offset_bottom = 98.0
 texture_normal = ExtResource("3_oa3nx")
 stretch_mode = 0
 
+[node name="Mini-caderno-farol" type="TextureButton" parent="."]
+offset_left = 10.0
+offset_top = 105.0
+offset_right = 35.0
+offset_bottom = 133.0
+texture_normal = ExtResource("4_o8imi")
+stretch_mode = 0
+
 [connection signal="pressed" from="fishing minigame" to="." method="_on_fishing_minigame_pressed"]
 [connection signal="pressed" from="minimapabutton-farol" to="." method="_on_minimapabuttonfarol_pressed"]
+[connection signal="pressed" from="Mini-caderno-farol" to="." method="_on_minicadernofarol_pressed"]

@@ -18,3 +18,7 @@ func _on_fishing_minigame_pressed():
 
 func _on_minimapabuttonfarol_pressed():
 	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
+
+
+func _on_minicadernofarol_pressed():
+	get_tree().change_scene_to_file("res://levels/Farol/mini-caderno-farol.tscn")

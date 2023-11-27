@@ -13,3 +13,7 @@ func _process(delta):
 
 func _on_minimapabuttoncasacrys_pressed():
 	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
+
+
+func _on_minicadernocasaabandonada_pressed():
+	get_tree().change_scene_to_file("res://levels/Casa-Crys/mini-caderno-casa-Crys.tscn")

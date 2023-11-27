@@ -12,3 +12,7 @@ func _process(delta):
 
 func _on_minimapabuttoncasaabandonada_pressed():
 	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
+
+
+func _on_minicadernocasaabandonada_pressed():
+	get_tree().change_scene_to_file("res://levels/Casa-abandonada/mini-caderno-casa-abandonada.tscn")
