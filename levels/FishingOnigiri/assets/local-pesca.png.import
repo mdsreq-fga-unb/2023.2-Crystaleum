@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ys7yvhn1l85s"
-path="res://.godot/imported/local-pesca.png-1300ffcf219a1fed2198bf7fbe0f2750.ctex"
+path="res://.godot/imported/local-pesca.png-b3fb2b985c12bf7fb15870a73ccf9ba0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/local-pesca.png"
-dest_files=["res://.godot/imported/local-pesca.png-1300ffcf219a1fed2198bf7fbe0f2750.ctex"]
+source_file="res://levels/FishingOnigiri/assets/local-pesca.png"
+dest_files=["res://.godot/imported/local-pesca.png-b3fb2b985c12bf7fb15870a73ccf9ba0.ctex"]
 
 [params]
 

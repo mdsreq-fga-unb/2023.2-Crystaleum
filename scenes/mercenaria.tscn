@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://cgolxov5bpb55"]
 
 [ext_resource type="Texture2D" uid="uid://ccggpbi01u6fc" path="res://personagem/assets/mercenaria/mercenária.png" id="1_0b008"]
-[ext_resource type="Script" path="res://scenes/mercenaria.gd" id="1_2vm1d"]
+[ext_resource type="Script" path="res://scripts/mercenaria.gd" id="1_2vm1d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hdobj"]
 size = Vector2(17, 61)

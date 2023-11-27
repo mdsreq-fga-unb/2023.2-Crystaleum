@@ -11,9 +11,14 @@ func _process(delta):
 	pass
 
 
-func _on_minimapabutton_pressed():
-	get_tree().change_scene_to_file("res://mini_mapa_aberto.tscn")
-
-
 func _on_fishing_minigame_pressed():
-	get_tree().change_scene_to_file("res://FishingOnigiri/fishing_mini_game.tscn")
+	get_tree().change_scene_to_file("res://levels/FishingOnigiri/fishing_mini_game.tscn")
+
+
+
+func _on_minimapabuttonfarol_pressed():
+	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
+
+
+func _on_minicadernofarol_pressed():
+	get_tree().change_scene_to_file("res://levels/Farol/mini-caderno-farol.tscn")
