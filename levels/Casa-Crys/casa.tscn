@@ -1,24 +1,23 @@
-[gd_scene load_steps=5 format=3 uid="uid://dbn08dlco5i3m"]
+[gd_scene load_steps=4 format=3 uid="uid://dbn08dlco5i3m"]
 
-[ext_resource type="Script" path="res://casa.gd" id="1_srbx4"]
-[ext_resource type="Texture2D" uid="uid://ddfk8m7fx8lhg" path="res://assets/casa.png" id="1_tkha2"]
-[ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="2_586jv"]
-[ext_resource type="Script" path="res://Mini-mapa-button.gd" id="3_nu4rm"]
+[ext_resource type="Script" path="res://levels/Casa-Crys/casa.gd" id="1_g0hja"]
+[ext_resource type="Texture2D" uid="uid://ddfk8m7fx8lhg" path="res://levels/Casa-Crys/assets/casa.png" id="1_tkha2"]
+[ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="2_6371o"]
 
 [node name="casa" type="Node2D"]
-script = ExtResource("1_srbx4")
+script = ExtResource("1_g0hja")
 
 [node name="background-casa" type="Sprite2D" parent="."]
-position = Vector2(403, 237.5)
-scale = Vector2(1.39583, 1.47188)
+position = Vector2(160, 90)
+scale = Vector2(0.552083, 0.5625)
 texture = ExtResource("1_tkha2")
 
-[node name="Mini-mapa-button" type="TextureButton" parent="."]
-offset_left = 13.0
-offset_top = 203.0
-offset_right = 77.0
-offset_bottom = 267.0
-texture_normal = ExtResource("2_586jv")
-script = ExtResource("3_nu4rm")
+[node name="minimapabutton-casa-crys" type="TextureButton" parent="."]
+offset_left = 9.0
+offset_top = 70.0
+offset_right = 37.0
+offset_bottom = 98.0
+texture_normal = ExtResource("2_6371o")
+stretch_mode = 0
 
-[connection signal="pressed" from="Mini-mapa-button" to="." method="_on_minimapabutton_pressed"]
+[connection signal="pressed" from="minimapabutton-casa-crys" to="." method="_on_minimapabuttoncasacrys_pressed"]

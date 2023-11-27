@@ -1,55 +1,78 @@
 [gd_scene load_steps=4 format=3 uid="uid://bxeryqxs6ut5g"]
 
-[ext_resource type="Script" path="res://mini_mapa_aberto.gd" id="1_6e7wr"]
 [ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="1_24wer"]
-[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="2_q6ygb"]
+[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://levels/FishingOnigiri/assets/fundo-preto.png" id="2_q6ygb"]
+
+[sub_resource type="GDScript" id="GDScript_27lne"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+
+func _on_farolbuttonmapa_pressed():
+	get_tree().change_scene_to_file(\"res://levels/Farol/farol.tscn\")
+
+
+func _on_pracinhabuttonmapa_pressed():
+	get_tree().change_scene_to_file(\"res://levels/Pracinha/pracinha.tscn\")
+
+func _on_casaabandonadabuttonmapa_pressed():
+	get_tree().change_scene_to_file(\"res://levels/Casa-abandonada/casa_abandonada.tscn\")
+
+func _on_casabuttonmapa_pressed():
+	get_tree().change_scene_to_file(\"res://levels/Casa-Crys/casa.tscn\")
+"
 
 [node name="Mini-mapa-aberto" type="Node2D"]
-script = ExtResource("1_6e7wr")
+script = SubResource("GDScript_27lne")
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(414, 276)
-scale = Vector2(13.1875, 8.85938)
+position = Vector2(161.25, 90.875)
+scale = Vector2(5.02344, 2.84766)
 texture = ExtResource("2_q6ygb")
 
 [node name="Mapa-aberto" type="Sprite2D" parent="."]
-position = Vector2(414, 280)
-scale = Vector2(9.57812, 7.57813)
+position = Vector2(162, 91)
+scale = Vector2(3.64843, 2.78907)
 texture = ExtResource("1_24wer")
 
-[node name="casa-button-mapa" type="Button" parent="."]
+[node name="casabuttonmapa" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 275.0
-offset_top = 302.0
-offset_right = 432.0
-offset_bottom = 448.0
-metadata/_edit_use_anchors_ = true
+offset_left = 109.0
+offset_top = 101.0
+offset_right = 168.0
+offset_bottom = 151.0
 
-[node name="casa-abandonada-button-mapa" type="Button" parent="."]
+[node name="casaabandonadabuttonmapa" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 182.0
-offset_top = 193.0
-offset_right = 313.0
-offset_bottom = 290.0
-metadata/_edit_use_anchors_ = true
+offset_left = 69.0
+offset_top = 62.0
+offset_right = 127.0
+offset_bottom = 95.0
 
-[node name="pracinha-button-mapa" type="Button" parent="."]
+[node name="pracinhabuttonmapa" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 293.0
-offset_top = 55.0
-offset_right = 570.0
-offset_bottom = 203.0
-metadata/_edit_use_anchors_ = true
+offset_left = 124.0
+offset_top = 11.0
+offset_right = 220.0
+offset_bottom = 59.0
 
-[node name="farol-button-mapa" type="Button" parent="."]
+[node name="farolbuttonmapa" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 567.0
-offset_top = 192.0
-offset_right = 651.0
-offset_bottom = 336.0
-metadata/_edit_use_anchors_ = true
+offset_left = 219.0
+offset_top = 63.0
+offset_right = 253.0
+offset_bottom = 112.0
 
-[connection signal="pressed" from="casa-button-mapa" to="." method="_on_casabuttonmapa_pressed"]
-[connection signal="pressed" from="casa-abandonada-button-mapa" to="." method="_on_casaabandonadabuttonmapa_pressed"]
-[connection signal="pressed" from="pracinha-button-mapa" to="." method="_on_pracinhabuttonmapa_pressed"]
-[connection signal="pressed" from="farol-button-mapa" to="." method="_on_farolbuttonmapa_pressed"]
+[connection signal="pressed" from="casabuttonmapa" to="." method="_on_casabuttonmapa_pressed"]
+[connection signal="pressed" from="casaabandonadabuttonmapa" to="." method="_on_casaabandonadabuttonmapa_pressed"]
+[connection signal="pressed" from="pracinhabuttonmapa" to="." method="_on_pracinhabuttonmapa_pressed"]
+[connection signal="pressed" from="farolbuttonmapa" to="." method="_on_farolbuttonmapa_pressed"]

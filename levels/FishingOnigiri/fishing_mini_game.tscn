@@ -77,7 +77,6 @@ collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHook/Detect"]
 position = Vector2(-876.25, -111.25)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_l64oo")
 
 [node name="Onigiri" type="CharacterBody2D" parent="."]
@@ -89,7 +88,6 @@ script = ExtResource("6_kldpi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Onigiri"]
 position = Vector2(-379.167, -541.667)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_k8atw")
 
 [node name="Sprite2D" type="Sprite2D" parent="Onigiri"]
@@ -100,18 +98,16 @@ region_enabled = true
 region_rect = Rect2(302.217, 33.083, 148.049, 144.579)
 
 [node name="top-margin" type="StaticBody2D" parent="."]
-position = Vector2(-71, -90)
-metadata/_edit_group_ = true
+position = Vector2(-67, -90)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="top-margin"]
-position = Vector2(2.5, -2)
 shape = SubResource("RectangleShape2D_gvjrv")
 
 [node name="bottom-margin" type="StaticBody2D" parent="."]
 position = Vector2(284, 329)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bottom-margin"]
-position = Vector2(-352, -246)
+position = Vector2(-351, -247)
 shape = SubResource("RectangleShape2D_gvjrv")
 
 [node name="OnigiriLabel" type="Sprite2D" parent="."]

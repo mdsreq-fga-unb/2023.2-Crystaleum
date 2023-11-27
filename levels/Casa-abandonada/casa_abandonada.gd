@@ -10,6 +10,5 @@ func _ready():
 func _process(delta):
 	pass
 
-
-func _on_minimapabutton_pressed():
-	get_tree().change_scene_to_file("res://mini_mapa_aberto.tscn")
+func _on_minimapabuttoncasaabandonada_pressed():
+	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")

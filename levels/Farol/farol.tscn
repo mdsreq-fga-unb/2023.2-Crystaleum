@@ -1,32 +1,31 @@
-[gd_scene load_steps=5 format=3 uid="uid://b6eanxffy4jw3"]
+[gd_scene load_steps=4 format=3 uid="uid://b6eanxffy4jw3"]
 
-[ext_resource type="Script" path="res://farol.gd" id="1_k48ld"]
-[ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://assets/farol.png" id="1_sjqe1"]
-[ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="2_cnhe6"]
-[ext_resource type="Script" path="res://Mini-mapa-button.gd" id="3_3622h"]
+[ext_resource type="Script" path="res://levels/Farol/farol.gd" id="1_k48ld"]
+[ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
+[ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="3_oa3nx"]
 
 [node name="farol" type="Node2D"]
 script = ExtResource("1_k48ld")
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(385.5, 232)
-scale = Vector2(1.33854, 1.44375)
+position = Vector2(160, 90.5)
+scale = Vector2(0.555555, 0.559375)
 texture = ExtResource("1_sjqe1")
-
-[node name="Mini-mapa-button" type="TextureButton" parent="."]
-offset_left = 11.9999
-offset_top = 185.0
-offset_right = 75.9999
-offset_bottom = 249.0
-texture_normal = ExtResource("2_cnhe6")
-script = ExtResource("3_3622h")
 
 [node name="fishing minigame" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 676.0
-offset_top = 115.0
-offset_right = 762.0
-offset_bottom = 301.0
+offset_left = 278.0
+offset_top = 49.0
+offset_right = 314.0
+offset_bottom = 116.0
 
-[connection signal="pressed" from="Mini-mapa-button" to="." method="_on_minimapabutton_pressed"]
+[node name="minimapabutton-farol" type="TextureButton" parent="."]
+offset_left = 9.0
+offset_top = 70.0
+offset_right = 37.0
+offset_bottom = 98.0
+texture_normal = ExtResource("3_oa3nx")
+stretch_mode = 0
+
 [connection signal="pressed" from="fishing minigame" to="." method="_on_fishing_minigame_pressed"]
+[connection signal="pressed" from="minimapabutton-farol" to="." method="_on_minimapabuttonfarol_pressed"]

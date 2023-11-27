@@ -44,11 +44,8 @@ func caught_onigiri(): #falta chamar ela! ???
 	$TextureProgressBar.value = 0
 	if (numOnigirisCought >= 3):
 		get_tree().paused = true
-		get_tree().change_scene_to_file("res://end_key.tscn")
-	'''
-	if (numOnigirisCought > 20):
-		winFishingMiniGame()
-	'''
+		get_tree().change_scene_to_file("res://levels/FishingOnigiri/end_key.tscn")
+
 func update_label():
 	$Label.text = str(numOnigirisCought)
 	
