@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cysfuu0galaia"
-path="res://.godot/imported/sample003.jpg-e89f58dd5d611017864d7b6f787c022d.ctex"
+path="res://.godot/imported/sample003.jpg-9fb34cc985f90a132060a7e4bbe25031.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/starjedi/sample003.jpg"
-dest_files=["res://.godot/imported/sample003.jpg-e89f58dd5d611017864d7b6f787c022d.ctex"]
+source_file="res://assets/starwarsFonte/starjedi/sample003.jpg"
+dest_files=["res://.godot/imported/sample003.jpg-9fb34cc985f90a132060a7e4bbe25031.ctex"]
 
 [params]
 

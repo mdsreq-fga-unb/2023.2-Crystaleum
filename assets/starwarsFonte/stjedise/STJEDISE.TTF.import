@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://do47ib87n3yjw"
-path="res://.godot/imported/STJEDISE.TTF-19bbf7e1286fcb6a1cd2c7173d6b4a23.fontdata"
+path="res://.godot/imported/STJEDISE.TTF-1b8fbf1d451018c9c57534d3ec579305.fontdata"
 
 [deps]
 
-source_file="res://assets/stjedise/STJEDISE.TTF"
-dest_files=["res://.godot/imported/STJEDISE.TTF-19bbf7e1286fcb6a1cd2c7173d6b4a23.fontdata"]
+source_file="res://assets/starwarsFonte/stjedise/STJEDISE.TTF"
+dest_files=["res://.godot/imported/STJEDISE.TTF-1b8fbf1d451018c9c57534d3ec579305.fontdata"]
 
 [params]
 

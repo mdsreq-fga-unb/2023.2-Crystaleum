@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://xdsd267gc58c"
-path="res://.godot/imported/Stjldbl1.ttf-4725873b333e12940e938129a9a5ab6a.fontdata"
+path="res://.godot/imported/Stjldbl1.ttf-4c72dc0738debc7125736d79831a0669.fontdata"
 
 [deps]
 
-source_file="res://assets/stjelogo/Stjldbl1.ttf"
-dest_files=["res://.godot/imported/Stjldbl1.ttf-4725873b333e12940e938129a9a5ab6a.fontdata"]
+source_file="res://assets/starwarsFonte/stjelogo/Stjldbl1.ttf"
+dest_files=["res://.godot/imported/Stjldbl1.ttf-4c72dc0738debc7125736d79831a0669.fontdata"]
 
 [params]
 

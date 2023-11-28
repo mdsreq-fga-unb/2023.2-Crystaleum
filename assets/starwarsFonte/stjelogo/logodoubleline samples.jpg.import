@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfunchqysvos"
-path="res://.godot/imported/logodoubleline samples.jpg-6d4c77defe3b75b34be4123e2096a407.ctex"
+path="res://.godot/imported/logodoubleline samples.jpg-d265ced0a3109b4e7b0937cd870e0f08.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/stjelogo/logodoubleline samples.jpg"
-dest_files=["res://.godot/imported/logodoubleline samples.jpg-6d4c77defe3b75b34be4123e2096a407.ctex"]
+source_file="res://assets/starwarsFonte/stjelogo/logodoubleline samples.jpg"
+dest_files=["res://.godot/imported/logodoubleline samples.jpg-d265ced0a3109b4e7b0937cd870e0f08.ctex"]
 
 [params]
 
