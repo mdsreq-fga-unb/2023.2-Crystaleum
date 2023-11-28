@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwcwe0p7yr1ic"]
+
+[ext_resource type="Texture2D" uid="uid://bgy4omuv7bmwh" path="res://personagem/assets/mae_crys/Mãe Crys_0001.png" id="1_0yir1"]
+[ext_resource type="Script" path="res://scripts/mae_crys.gd" id="1_tfvmg"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_as5mu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0yir1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yp7wu"]
+size = Vector2(20, 53)
+
+[node name="mae_crys" type="StaticBody2D" groups=["npc"]]
+script = ExtResource("1_tfvmg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -8)
+scale = Vector2(1.51562, 1.6875)
+sprite_frames = SubResource("SpriteFrames_as5mu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_yp7wu")

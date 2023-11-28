@@ -1,11 +1,38 @@
-[gd_scene load_steps=4 format=3 uid="uid://bchey21unenbd"]
+[gd_scene load_steps=5 format=3 uid="uid://bchey21unenbd"]
 
+[ext_resource type="Script" path="res://resources/mini-caderno-resource/mini-caderno.gd" id="1_ay16l"]
 [ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="1_hkmns"]
-[ext_resource type="Script" path="res://levels/Casa-Crys/mini-caderno-casa-Crys.gd" id="1_jvjrf"]
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="2_c7xt6"]
 
+[sub_resource type="GDScript" id="GDScript_kxjju"]
+script/source = "extends Node2D
+
+@export var atividadeResource : Resource
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+	#get_node(\"../casa.tscn/Crys\").connect(falou_mae, mini_caderno_decisions_casa(false))
+	var atividade : String
+	if atividadeResource:
+		#atividade = atividadeResource.
+		pass
+	print (atividade)
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+
+
+func _on_botaode_saida_pressed():
+	get_tree().change_scene_to_file(\"res://levels/Casa-Crys/casa.tscn\")
+
+"
+
 [node name="mini-caderno-casa-Crys" type="Node2D"]
-script = ExtResource("1_jvjrf")
+script = SubResource("GDScript_kxjju")
+atividadeResource = ExtResource("1_ay16l")
 
 [node name="fundo preto" type="Sprite2D" parent="."]
 position = Vector2(161, 90.5)
@@ -30,5 +57,18 @@ offset_left = 202.0
 offset_top = 5.0
 offset_right = 233.0
 offset_bottom = 27.0
+
+[node name="atividade" type="Label" parent="."]
+offset_left = 134.0
+offset_top = 87.0
+offset_right = 219.0
+offset_bottom = 160.0
+
+[node name="Titulo" type="Label" parent="."]
+offset_left = 133.0
+offset_top = 42.0
+offset_right = 218.0
+offset_bottom = 65.0
+text = "Atividades:"
 
 [connection signal="pressed" from="botao-de saida" to="." method="_on_botaode_saida_pressed"]

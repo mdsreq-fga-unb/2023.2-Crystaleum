@@ -13,3 +13,4 @@ func _process(delta):
 
 func _on_botaode_saida_pressed():
 	get_tree().change_scene_to_file("res://levels/Pracinha/pracinha.tscn")
+

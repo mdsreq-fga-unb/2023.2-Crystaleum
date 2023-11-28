@@ -13,3 +13,8 @@ func _process(delta):
 
 func _on_botaode_saida_pressed():
 	get_tree().change_scene_to_file("res://levels/Farol/farol.tscn")
+
+func mini_caderno_decisions_farol():
+	var atividade
+	atividade = "Ir para o farol e pescar 3 oniguiris para ganhar a chave dos piratas espaciais"
+	return atividade
