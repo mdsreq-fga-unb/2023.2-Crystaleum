@@ -39,6 +39,13 @@ func _physics_process(_delta: float) -> void:
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
 				#falou_mae.emit(true)  como eu conecto esse signal com o 
 				#minicaderno de atividades???
+				'''
+				usr resource e ver se da pra fazer um mini caderno só
+				
+				na pasta root criar uma pasta chamada resource
+				colocar tudo dentro de um script no resource e dar um export
+				
+				'''
 				
 	_animate()
 	_move()
