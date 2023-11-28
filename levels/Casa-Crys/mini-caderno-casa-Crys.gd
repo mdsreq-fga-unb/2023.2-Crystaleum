@@ -13,3 +13,11 @@ func _process(delta):
 
 func _on_botaode_saida_pressed():
 	get_tree().change_scene_to_file("res://levels/Casa-Crys/casa.tscn")
+
+func mini_caderno_decisions_casa(falou_mae : bool):
+	var atividade
+	if (falou_mae):
+		atividade = "Ir pra casa abandonada do vovô e descobrir algo interessante"
+	else:
+		atividade = "Falar com a mamãe sobre o vovô e descobrir que baú é aquele"
+	$atividade.text = atividade

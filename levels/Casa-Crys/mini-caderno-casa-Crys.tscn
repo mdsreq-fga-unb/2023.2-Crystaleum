@@ -31,4 +31,17 @@ offset_top = 5.0
 offset_right = 233.0
 offset_bottom = 27.0
 
+[node name="atividade" type="Label" parent="."]
+offset_left = 134.0
+offset_top = 87.0
+offset_right = 219.0
+offset_bottom = 160.0
+
+[node name="Titulo" type="Label" parent="."]
+offset_left = 133.0
+offset_top = 42.0
+offset_right = 218.0
+offset_bottom = 65.0
+text = "Atividades:"
+
 [connection signal="pressed" from="botao-de saida" to="." method="_on_botaode_saida_pressed"]
