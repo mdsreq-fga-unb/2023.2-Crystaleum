@@ -25,8 +25,7 @@ func _process(delta):
 	pass
 '''
 Sobre essas funcoes aqui de baixo:
-Eu preciso dar um jeito de multiplicar elas por delta e tb reajustar 
-(tipo descer mais devagar do que subir)
+Elas controlam a barra de progresso, o quanto sobe e desce
 '''
 func increaseProgress():
 	$TextureProgressBar.value += 1 #* delta
@@ -38,17 +37,14 @@ func decreaseProgress():
 	if ($TextureProgressBar.value < 0):
 		$TextureProgressBar.value = 0
 	
-func caught_onigiri(): #falta chamar ela! ???
+func caught_onigiri(): 
 	numOnigirisCought += 1
 	update_label()
 	$TextureProgressBar.value = 0
 	if (numOnigirisCought >= 3):
 		get_tree().paused = true
-		get_tree().change_scene_to_file("res://end_key.tscn")
-	'''
-	if (numOnigirisCought > 20):
-		winFishingMiniGame()
-	'''
+		get_tree().change_scene_to_file("res://levels/FishingOnigiri/end_key.tscn")
+
 func update_label():
 	$Label.text = str(numOnigirisCought)
 	

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgy460hpyvgh3"
-path="res://.godot/imported/farol.png-c0dbf472fe67ef3c8807e97e972a5068.ctex"
+path="res://.godot/imported/farol.png-c035b7fb8c6091abe41f54a25c1e13ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/farol.png"
-dest_files=["res://.godot/imported/farol.png-c0dbf472fe67ef3c8807e97e972a5068.ctex"]
+source_file="res://levels/Farol/farol.png"
+dest_files=["res://.godot/imported/farol.png-c035b7fb8c6091abe41f54a25c1e13ad.ctex"]
 
 [params]
 

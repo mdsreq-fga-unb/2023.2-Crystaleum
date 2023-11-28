@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6fp8pchm7ssn"
-path="res://.godot/imported/pracinha.png-0c6a9f80743f79674b364f65a01dbb22.ctex"
+path="res://.godot/imported/pracinha.png-2de2fac6d3b2547175d31092027037a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pracinha.png"
-dest_files=["res://.godot/imported/pracinha.png-0c6a9f80743f79674b364f65a01dbb22.ctex"]
+source_file="res://levels/Pracinha/pracinha.png"
+dest_files=["res://.godot/imported/pracinha.png-2de2fac6d3b2547175d31092027037a6.ctex"]
 
 [params]
 

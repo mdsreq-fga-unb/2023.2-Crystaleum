@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://qrx56ykakqgw"
+path="res://.godot/imported/DialogoMaeCrys.dialogue-a0effa1b7725b5aa1166d12e64051633.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoMaeCrys.dialogue"
+dest_files=["res://.godot/imported/DialogoMaeCrys.dialogue-a0effa1b7725b5aa1166d12e64051633.tres"]
+
+[params]
+
+defaults=true

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy40t7wnbp1l1"
-path="res://.godot/imported/Pirata e manivela.png-31ccdff45603de0e53194b03887cbdfd.ctex"
+uid="uid://bgy4omuv7bmwh"
+path="res://.godot/imported/Mãe Crys_0001.png-f750db7fbe2b440e0218b5dbd674219f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pirata e manivela.png"
-dest_files=["res://.godot/imported/Pirata e manivela.png-31ccdff45603de0e53194b03887cbdfd.ctex"]
+source_file="res://personagem/assets/mae_crys/Mãe Crys_0001.png"
+dest_files=["res://.godot/imported/Mãe Crys_0001.png-f750db7fbe2b440e0218b5dbd674219f.ctex"]
 
 [params]
 
@@ -25,7 +25,7 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
-process/fix_alpha_border=false
+process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false

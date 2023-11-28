@@ -1,44 +1,46 @@
 [gd_scene load_steps=6 format=3 uid="uid://bbmcqt7lwugev"]
 
 [ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="1_p05dn"]
-[ext_resource type="Script" path="res://Background.gd" id="2_82w71"]
-[ext_resource type="Texture2D" uid="uid://c0003w3pq12qj" path="res://assets/chave-bau.png" id="3_g6lwf"]
-[ext_resource type="Texture2D" uid="uid://11n3nufeevic" path="res://assets/brilho-chave.png" id="4_tr0rq"]
-[ext_resource type="Texture2D" uid="uid://dqfacsbr67u8e" path="res://assets/comando-estelar.png" id="5_47rl1"]
+[ext_resource type="Script" path="res://levels/FishingOnigiri/Background.gd" id="2_82w71"]
+[ext_resource type="Texture2D" uid="uid://c0003w3pq12qj" path="res://levels/FishingOnigiri/assets/chave-bau.png" id="3_g6lwf"]
+[ext_resource type="Texture2D" uid="uid://11n3nufeevic" path="res://levels/FishingOnigiri/assets/brilho-chave.png" id="4_tr0rq"]
+[ext_resource type="Texture2D" uid="uid://dqfacsbr67u8e" path="res://levels/FishingOnigiri/assets/comando-estelar.png" id="5_47rl1"]
 
 [node name="end_key" type="Node2D"]
 
-[node name="Background" type="Sprite2D" parent="."]
-position = Vector2(287.5, 159.5)
-scale = Vector2(9.01562, 5.01562)
+[node name="Background-end-key" type="Sprite2D" parent="."]
+position = Vector2(160.5, 89.0001)
+scale = Vector2(5.04687, 2.8125)
 texture = ExtResource("1_p05dn")
 script = ExtResource("2_82w71")
 
+[node name="nave-ce2" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.254902)
+position = Vector2(160.5, 94.5)
+scale = Vector2(5.89062, 4.20312)
+texture = ExtResource("5_47rl1")
+
 [node name="Label" type="Label" parent="."]
-offset_left = 47.0
-offset_top = 32.0
-offset_right = 557.0
-offset_bottom = 92.0
+offset_left = 32.0
+offset_top = 8.0
+offset_right = 287.0
+offset_bottom = 42.0
 theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_font_sizes/font_size = 8
 text = "	                  Você conseguiu vencer os piratas espaciais!!!
 Com isso, você conseguiu ganhar a chave para o baú do seu avô!!!!"
 
 [node name="chave" type="Sprite2D" parent="."]
-position = Vector2(277, 211)
-scale = Vector2(1.4, 1.1475)
+position = Vector2(159, 106)
+scale = Vector2(0.84, 0.721875)
 texture = ExtResource("3_g6lwf")
 
 [node name="brilho-chave" type="Sprite2D" parent="."]
-position = Vector2(272.5, 205.5)
-scale = Vector2(2.075, 1.785)
+position = Vector2(160, 103)
+scale = Vector2(1.6, 1.12)
 texture = ExtResource("4_tr0rq")
 
 [node name="nave-ce1" type="Sprite2D" parent="."]
 position = Vector2(526.5, 275.5)
 scale = Vector2(1.51562, 1.35938)
-texture = ExtResource("5_47rl1")
-
-[node name="nave-ce2" type="Sprite2D" parent="."]
-position = Vector2(50, 278)
-scale = Vector2(1.52368, 1.33691)
 texture = ExtResource("5_47rl1")

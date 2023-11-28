@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bof3iq6cbca38"
-path="res://.godot/imported/Pirata e manivela 2.png-a7443170692566c2f6235f4c622b61a8.ctex"
+uid="uid://bqwg2g85jjhit"
+path="res://.godot/imported/mini-caderno.png-1646a408c326e588644928c7226f5185.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://levels/FishingOnigiri/assets/Pirata e manivela 2.png"
-dest_files=["res://.godot/imported/Pirata e manivela 2.png-a7443170692566c2f6235f4c622b61a8.ctex"]
+source_file="res://assets/mini-caderno.png"
+dest_files=["res://.godot/imported/mini-caderno.png-1646a408c326e588644928c7226f5185.ctex"]
 
 [params]
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://dtfw7d3foembt"]
 
 [ext_resource type="Texture2D" uid="uid://dox1th2ny1j1l" path="res://personagem/assets/guardião/guardião.png" id="1_edyhe"]
-[ext_resource type="Script" path="res://scenes/guardiao.gd" id="1_th6yb"]
+[ext_resource type="Script" path="res://scripts/guardiao.gd" id="1_th6yb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o1g43"]
 size = Vector2(28, 50)

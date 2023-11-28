@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://dtb1d3rcu5ows"]
 
 [ext_resource type="Texture2D" uid="uid://dvqr8eh4lyl84" path="res://personagem/assets/caçador/CaçadorDeRecompensas.png" id="1_4426p"]
-[ext_resource type="Script" path="res://scenes/caçador.gd" id="1_a8f3m"]
+[ext_resource type="Script" path="res://scripts/caçador.gd" id="1_a8f3m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l33le"]
 size = Vector2(26, 60)

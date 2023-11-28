@@ -1,24 +1,61 @@
-[gd_scene load_steps=5 format=3 uid="uid://dop5y81tldkrb"]
+[gd_scene load_steps=13 format=3 uid="uid://dop5y81tldkrb"]
 
-[ext_resource type="Script" path="res://pracinha.gd" id="1_eu4og"]
-[ext_resource type="Texture2D" uid="uid://6fp8pchm7ssn" path="res://assets/pracinha.png" id="1_uyqq8"]
-[ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="2_5e0wf"]
-[ext_resource type="Script" path="res://Mini-mapa-button.gd" id="3_fjim0"]
+[ext_resource type="Script" path="res://levels/Pracinha/pracinha.gd" id="1_eu4og"]
+[ext_resource type="Texture2D" uid="uid://6fp8pchm7ssn" path="res://levels/Pracinha/pracinha.png" id="1_uyqq8"]
+[ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="3_udgxu"]
+[ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_0rgwm"]
+[ext_resource type="PackedScene" uid="uid://civ6shmka5e8u" path="res://addons/dialogue_manager/components/code_edit.tscn" id="5_r44jh"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd" id="6_64xay"]
+[ext_resource type="PackedScene" uid="uid://dtb1d3rcu5ows" path="res://scenes/caçador.tscn" id="7_ui10n"]
+[ext_resource type="PackedScene" uid="uid://b43d8vqylis1d" path="res://scenes/exploradora.tscn" id="8_una6w"]
+[ext_resource type="PackedScene" uid="uid://dtfw7d3foembt" path="res://scenes/guardiao.tscn" id="9_1bfyn"]
+[ext_resource type="PackedScene" uid="uid://cgolxov5bpb55" path="res://scenes/mercenaria.tscn" id="10_5ntao"]
+[ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="11_px2go"]
+
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_bd8q8"]
+script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
 script = ExtResource("1_eu4og")
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(376.5, 237)
-scale = Vector2(1.30729, 1.4875)
+position = Vector2(160, 90)
+scale = Vector2(0.553819, 0.5625)
 texture = ExtResource("1_uyqq8")
 
-[node name="Mini-mapa-button" type="TextureButton" parent="."]
-offset_left = 12.0
-offset_top = 187.0
-offset_right = 76.0
-offset_bottom = 251.0
-texture_normal = ExtResource("2_5e0wf")
-script = ExtResource("3_fjim0")
+[node name="minimapabutton-pracinha" type="TextureButton" parent="."]
+offset_left = 9.0
+offset_top = 70.0
+offset_right = 37.0
+offset_bottom = 98.0
+texture_normal = ExtResource("3_udgxu")
+stretch_mode = 0
 
-[connection signal="pressed" from="Mini-mapa-button" to="." method="_on_minimapabutton_pressed"]
+[node name="Mini-caderno-pracinha" type="TextureButton" parent="."]
+offset_left = 10.0
+offset_top = 105.0
+offset_right = 35.0
+offset_bottom = 133.0
+texture_normal = ExtResource("4_0rgwm")
+stretch_mode = 0
+
+[node name="CodeEdit" parent="." instance=ExtResource("5_r44jh")]
+syntax_highlighter = SubResource("SyntaxHighlighter_bd8q8")
+
+[node name="caçador" parent="." instance=ExtResource("7_ui10n")]
+position = Vector2(282, 92)
+
+[node name="exploradora" parent="." instance=ExtResource("8_una6w")]
+position = Vector2(140, 89)
+
+[node name="guardiao" parent="." instance=ExtResource("9_1bfyn")]
+position = Vector2(79, 100)
+
+[node name="mercenaria" parent="." instance=ExtResource("10_5ntao")]
+position = Vector2(225, 91)
+
+[node name="Crys" parent="." instance=ExtResource("11_px2go")]
+position = Vector2(163, 148)
+
+[connection signal="pressed" from="minimapabutton-pracinha" to="." method="_on_minimapabuttonpracinha_pressed"]
+[connection signal="pressed" from="Mini-caderno-pracinha" to="." method="_on_minicadernopracinha_pressed"]
