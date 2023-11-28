@@ -1,19 +1,19 @@
-[gd_scene load_steps=6 format=3 uid="uid://d1cqcrn3qooy"]
+[gd_scene load_steps=6 format=3 uid="uid://dut6miaen2cmf"]
 
-[ext_resource type="Script" path="res://scripts/historia1.gd" id="1_73xqy"]
-[ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="1_q3jvy"]
-[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/Kenney Space.ttf" id="2_0hepk"]
-[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_q8cev"]
-[ext_resource type="FontFile" uid="uid://do47ib87n3yjw" path="res://assets/stjedise/STJEDISE.TTF" id="6_1fdj1"]
+[ext_resource type="Script" path="res://scripts/historia2.gd" id="1_kh127"]
+[ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_jn5so"]
+[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_p85fs"]
+[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/Kenney Space.ttf" id="4_v1eoi"]
+[ext_resource type="FontFile" uid="uid://do47ib87n3yjw" path="res://assets/stjedise/STJEDISE.TTF" id="6_w7oaq"]
 
-[node name="Historia" type="Control"]
+[node name="Historia2" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_73xqy")
+script = ExtResource("1_kh127")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -22,7 +22,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_q3jvy")
+texture = ExtResource("2_jn5so")
 expand_mode = 1
 stretch_mode = 3
 
@@ -45,19 +45,19 @@ size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_1fdj1")
+theme_override_fonts/font = ExtResource("6_w7oaq")
 theme_override_font_sizes/font_size = 8
-text = "No ano de 3257, a exploração 
-espacial é um negócio extremamente 
-lucrativo. Por não haver uma legislação 
-universal, várias corporações buscam 
-planetas distantes para explorar seus 
-recursos de maneira agressiva, 
-sem se importar com as consequências.
-Inúmeros planetas foram destruídos e 
-raças inteiras dizimadas pela ganância 
-de algumas corporações. 
-"
+text = "Diante deste cenário caótico em Calamum
+Caereleum foi fundado o Comando Estelar 
+uma força especial de combate que uniu
+as vítimas dos conglomerados em prol de
+restaurar o equilíbrio galático e frear o
+avanço predatório das grandes corporações.
+
+Motivada pela história de sua família
+e pelo seu grande senso de justiça a jovem
+Crys resolve inciar sua aventura em busca
+de se juntar ao Comando Estelar."
 text_direction = 1
 
 [node name="ButtonSkip" type="Button" parent="TextureRect/BoxContainer/HBoxContainer"]
@@ -67,8 +67,8 @@ layout_direction = 2
 layout_mode = 2
 size_flags_vertical = 0
 size_flags_stretch_ratio = 0.0
-theme = ExtResource("3_q8cev")
-theme_override_fonts/font = ExtResource("2_0hepk")
+theme = ExtResource("3_p85fs")
+theme_override_fonts/font = ExtResource("4_v1eoi")
 theme_override_font_sizes/font_size = 9
 text = "Skip>>"
 
