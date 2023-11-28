@@ -4,6 +4,9 @@ var _state_machine
 var npc_in_range = false
 var npc
 
+signal falou_mae(bool)
+
+
 @export_category("Variables")
 @export var _move_speed: float = 64.0
 
@@ -34,6 +37,9 @@ func _physics_process(_delta: float) -> void:
 		if npc == "mae_crys":
 			if Input.is_action_just_pressed("ui_accept"):
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
+				#falou_mae.emit(true)  como eu conecto esse signal com o 
+				#minicaderno de atividades???
+				
 	_animate()
 	_move()
 	move_and_slide()
