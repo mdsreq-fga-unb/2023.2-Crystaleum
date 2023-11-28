@@ -1,6 +1,7 @@
-extends Node
+extends Resource
 
 @export var atividade : String
+@export var mini_fase : int = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -10,7 +11,7 @@ func _ready():
 func _process(delta):
 	pass
 
-func mini_caderno_decisions (mini_fase : int):
+func mini_caderno_decisions ():
 	
 	match mini_fase:
 		0:
@@ -22,3 +23,4 @@ func mini_caderno_decisions (mini_fase : int):
 		3: 
 			atividade = "Ir para o farol e pescar 3 oniguiris para ganhar a chave dos piratas espaciais"
 
+	return atividade
