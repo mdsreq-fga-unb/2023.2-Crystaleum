@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/Menu.gd" id="1_0cip4"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_y1brn"]
-[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/Kenney Space.ttf" id="3_ulc8t"]
+[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/kenneyFonte/Kenney Space.ttf" id="3_ulc8t"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="4_tbowp"]
 
 [node name="Menu" type="Control"]

@@ -11,9 +11,5 @@ func _process(delta):
 	pass
 
 # Aqui começa o jogo
-#func _on_button_skip_pressed():
-	#pass # Replace with function body.
-
-
 func _on_button_skip_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://levels/Casa-Crys/casa.tscn")

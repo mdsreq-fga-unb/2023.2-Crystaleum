@@ -3,8 +3,8 @@
 [ext_resource type="Script" path="res://scripts/historia2.gd" id="1_kh127"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_jn5so"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_p85fs"]
-[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/Kenney Space.ttf" id="4_v1eoi"]
-[ext_resource type="FontFile" uid="uid://do47ib87n3yjw" path="res://assets/stjedise/STJEDISE.TTF" id="6_w7oaq"]
+[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/kenneyFonte/Kenney Space.ttf" id="4_v1eoi"]
+[ext_resource type="FontFile" uid="uid://do47ib87n3yjw" path="res://assets/starwarsFonte/stjedise/STJEDISE.TTF" id="6_w7oaq"]
 
 [node name="Historia2" type="Control"]
 layout_mode = 3

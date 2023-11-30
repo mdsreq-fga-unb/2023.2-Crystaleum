@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" path="res://scripts/historia1.gd" id="1_73xqy"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="1_q3jvy"]
-[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/Kenney Space.ttf" id="2_0hepk"]
+[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/kenneyFonte/Kenney Space.ttf" id="2_0hepk"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_q8cev"]
-[ext_resource type="FontFile" uid="uid://do47ib87n3yjw" path="res://assets/stjedise/STJEDISE.TTF" id="6_1fdj1"]
+[ext_resource type="FontFile" uid="uid://do47ib87n3yjw" path="res://assets/starwarsFonte/stjedise/STJEDISE.TTF" id="6_1fdj1"]
 
 [node name="Historia" type="Control"]
 layout_mode = 3
