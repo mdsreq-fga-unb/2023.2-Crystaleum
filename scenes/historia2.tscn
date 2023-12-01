@@ -48,14 +48,14 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("6_w7oaq")
 theme_override_font_sizes/font_size = 8
 text = "Diante deste cenário caótico em Calamum
-Caereleum foi fundado o Comando Estelar 
+Caereleum, foi fundado o Comando Estelar, 
 uma força especial de combate que uniu
 as vítimas dos conglomerados em prol de
 restaurar o equilíbrio galático e frear o
 avanço predatório das grandes corporações.
 
 Motivada pela história de sua família
-e pelo seu grande senso de justiça a jovem
+e pelo seu grande senso de justiça, a jovem
 Crys resolve inciar sua aventura em busca
 de se juntar ao Comando Estelar."
 text_direction = 1
