@@ -1,17 +1,15 @@
 extends Resource
 
+class_name CadernoResource
+
 @export var atividade : String
 @export var mini_fase : int = 0
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+func _set(mini_fase, value):
+	mini_fase=value
+	
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
-func mini_caderno_decisions ():
+func get_atividade ():
 	
 	match mini_fase:
 		0:

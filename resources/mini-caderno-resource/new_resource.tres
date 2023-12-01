@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="CadernoResource" load_steps=2 format=3 uid="uid://dvtp0is8uk2my"]
+
+[ext_resource type="Script" path="res://resources/mini-caderno-resource/mini-caderno.gd" id="1_vcuhk"]
+
+[resource]
+script = ExtResource("1_vcuhk")
+atividade = ""
+mini_fase = 0
