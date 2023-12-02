@@ -5,7 +5,7 @@ class_name CadernoResource
 @export var atividade : String
 @export var mini_fase : int = 0
 # Called when the node enters the scene tree for the first time.
-func _set(mini_fase, value):
+func set_mini_fase(value):
 	mini_fase=value
 	
 

@@ -16,6 +16,8 @@ signal falou_mae(bool)
 @export_category("Objects")
 @export var _animation_tree: AnimationTree = null
 
+var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
+
 func _ready() -> void:
 	_state_machine = _animation_tree["parameters/playback"]
 
@@ -37,14 +39,9 @@ func _physics_process(_delta: float) -> void:
 		if npc == "mae_crys":
 			if Input.is_action_just_pressed("ui_accept"):
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
-				#falou_mae.emit(true)  como eu conecto esse signal com o 
-				#minicaderno de atividades???
+				atividadeResource.set_mini_fase(1)
 				'''
-				usr resource e ver se da pra fazer um mini caderno só
-				
-				na pasta root criar uma pasta chamada resource
-				colocar tudo dentro de um script no resource e dar um export
-				
+				usando o resource aqui
 				'''
 				
 	_animate()
