@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://dh8tktgikwvca"]
+[gd_scene load_steps=4 format=3 uid="uid://dh8tktgikwvca"]
 
 [ext_resource type="Script" path="res://levels/SpaceShooter-mini-game/nave_player.gd" id="1_r77yc"]
+[ext_resource type="Texture2D" uid="uid://b3fps1ucmkiae" path="res://levels/SpaceShooter-mini-game/space-mini-game.png" id="2_m8q47"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_aac44"]
 
@@ -11,3 +12,9 @@ script = ExtResource("1_r77yc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="nave_player"]
 shape = SubResource("RectangleShape2D_aac44")
+
+[node name="Sprite2D" type="Sprite2D" parent="nave_player"]
+position = Vector2(147, 145)
+texture = ExtResource("2_m8q47")
+region_enabled = true
+region_rect = Rect2(116.729, 120.972, 48.3471, 34.776)

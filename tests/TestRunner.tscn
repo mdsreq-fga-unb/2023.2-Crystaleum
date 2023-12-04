@@ -4,6 +4,3 @@
 
 [node name="TestRunner" type="Node"]
 script = ExtResource("1_5hpsp")
-
-[node name="GutTest" type="Node" parent="."]
-script = ExtResource("1_5hpsp")
