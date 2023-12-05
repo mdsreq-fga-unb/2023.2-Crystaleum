@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://boaoqo62kqk2"]
+[gd_scene load_steps=34 format=3 uid="uid://boaoqo62kqk2"]
 
 [ext_resource type="Script" path="res://scripts/Crys.gd" id="1_76leb"]
 [ext_resource type="Texture2D" uid="uid://dx7n80gewg4r1" path="res://personagem/assets/crys andandoDireita.png" id="2_732ei"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://ba8vefn5bhi2l" path="res://personagem/assets/crysParadaEsquerda.png" id="6_qjm0l"]
 [ext_resource type="Texture2D" uid="uid://dj4q70sx81wev" path="res://personagem/assets/CrysParadaCima.png" id="8_6bbe1"]
 [ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://joystick/virtual_joystick.tscn" id="9_e4ic4"]
+[ext_resource type="Texture2D" uid="uid://cc2rlysar2dlo" path="res://assets/botao-acao.png" id="10_x6jgw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hk8c6"]
 size = Vector2(22, 5)
@@ -567,6 +568,14 @@ shape = SubResource("CircleShape2D_gejar")
 [node name="Test" type="Node2D" parent="."]
 
 [node name="UI" type="CanvasLayer" parent="Test"]
+
+[node name="TextureButton" type="TextureButton" parent="Test/UI"]
+offset_left = 10.0
+offset_top = 140.0
+offset_right = 74.0
+offset_bottom = 204.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("10_x6jgw")
 
 [node name="Virtual joystick left" parent="Test/UI" instance=ExtResource("9_e4ic4")]
 offset_left = 270.0

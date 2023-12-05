@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dh8tktgikwvca"]
+[gd_scene load_steps=4 format=3 uid="uid://dh8tktgikwvca"]
 
 [ext_resource type="PackedScene" uid="uid://bolpx3bhq0hl" path="res://levels/SpaceShooter-mini-game/scenes/player.tscn" id="1_t34wu"]
 [ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://joystick/virtual_joystick.tscn" id="2_8wwll"]
+[ext_resource type="Texture2D" uid="uid://cc2rlysar2dlo" path="res://assets/botao-acao.png" id="3_wskri"]
 
 [node name="SpaceGame" type="Node2D"]
 
@@ -21,3 +22,11 @@ scale = Vector2(0.2, 0.2)
 pressed_color = Color(0.843137, 0.74902, 0.152941, 1)
 deadzone_size = 5.0
 clampzone_size = 25.0
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 10.0
+offset_top = 140.0
+offset_right = 74.0
+offset_bottom = 204.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("3_wskri")
