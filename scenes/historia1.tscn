@@ -34,13 +34,12 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/BoxContainer"]
+[node name="Label" type="Label" parent="."]
 layout_mode = 2
-size_flags_horizontal = 6
-size_flags_vertical = 4
-
-[node name="Label" type="Label" parent="TextureRect/BoxContainer/HBoxContainer"]
-layout_mode = 2
+offset_left = 18.0
+offset_top = 10.0
+offset_right = 282.0
+offset_bottom = 170.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
@@ -60,11 +59,15 @@ de algumas corporações.
 "
 text_direction = 1
 
-[node name="ButtonSkip" type="Button" parent="TextureRect/BoxContainer/HBoxContainer"]
+[node name="ButtonSkip" type="Button" parent="."]
 texture_filter = 6
 texture_repeat = 1
 layout_direction = 2
 layout_mode = 2
+offset_left = 253.0
+offset_top = 153.0
+offset_right = 308.0
+offset_bottom = 172.0
 size_flags_vertical = 0
 size_flags_stretch_ratio = 0.0
 theme = ExtResource("3_q8cev")
@@ -72,4 +75,4 @@ theme_override_fonts/font = ExtResource("2_0hepk")
 theme_override_font_sizes/font_size = 9
 text = "Skip>>"
 
-[connection signal="pressed" from="TextureRect/BoxContainer/HBoxContainer/ButtonSkip" to="." method="_on_button_skip_pressed"]
+[connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]

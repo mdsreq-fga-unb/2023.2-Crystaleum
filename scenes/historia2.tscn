@@ -34,13 +34,28 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/BoxContainer"]
+[node name="ButtonSkip" type="Button" parent="."]
+texture_filter = 6
+texture_repeat = 1
+layout_direction = 2
 layout_mode = 2
-size_flags_horizontal = 6
-size_flags_vertical = 4
+offset_left = 257.0
+offset_top = 157.0
+offset_right = 312.0
+offset_bottom = 176.0
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme = ExtResource("3_p85fs")
+theme_override_fonts/font = ExtResource("4_v1eoi")
+theme_override_font_sizes/font_size = 9
+text = "Skip>>"
 
-[node name="Label" type="Label" parent="TextureRect/BoxContainer/HBoxContainer"]
+[node name="Label" type="Label" parent="."]
 layout_mode = 2
+offset_left = 18.0
+offset_top = 7.0
+offset_right = 313.0
+offset_bottom = 183.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
@@ -60,16 +75,4 @@ Crys resolve inciar sua aventura em busca
 de se juntar ao Comando Estelar."
 text_direction = 1
 
-[node name="ButtonSkip" type="Button" parent="TextureRect/BoxContainer/HBoxContainer"]
-texture_filter = 6
-texture_repeat = 1
-layout_direction = 2
-layout_mode = 2
-size_flags_vertical = 0
-size_flags_stretch_ratio = 0.0
-theme = ExtResource("3_p85fs")
-theme_override_fonts/font = ExtResource("4_v1eoi")
-theme_override_font_sizes/font_size = 9
-text = "Skip>>"
-
-[connection signal="pressed" from="TextureRect/BoxContainer/HBoxContainer/ButtonSkip" to="." method="_on_button_skip_pressed"]
+[connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]
