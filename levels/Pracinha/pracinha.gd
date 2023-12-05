@@ -11,10 +11,5 @@ func _process(delta):
 	pass
 
 
-
-func _on_minimapabuttonpracinha_pressed():
-	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
-
-
 func _on_minicadernopracinha_pressed():
 	get_tree().change_scene_to_file("res://levels/Pracinha/mini-caderno-pracinha.tscn")

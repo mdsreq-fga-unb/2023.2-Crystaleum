@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://boaoqo62kqk2"]
+[gd_scene load_steps=35 format=3 uid="uid://boaoqo62kqk2"]
 
 [ext_resource type="Script" path="res://scripts/Crys.gd" id="1_76leb"]
 [ext_resource type="Texture2D" uid="uid://dx7n80gewg4r1" path="res://personagem/assets/crys andandoDireita.png" id="2_732ei"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://dj4q70sx81wev" path="res://personagem/assets/CrysParadaCima.png" id="8_6bbe1"]
 [ext_resource type="Texture2D" uid="uid://c5ke6l2iia6sa" path="res://assets/bota-acao-altadefinicao.png" id="9_apie6"]
 [ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://joystick/virtual_joystick.tscn" id="9_e4ic4"]
+[ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="11_lc6on"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hk8c6"]
 size = Vector2(22, 5)
@@ -538,9 +539,8 @@ script = ExtResource("1_76leb")
 _animation_tree = NodePath("AnimationTree")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("6_qjm0l")
-flip_h = true
-hframes = 5
+texture = ExtResource("2_sugs7")
+hframes = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 20)
@@ -588,5 +588,14 @@ deadzone_size = 5.0
 clampzone_size = 25.0
 visibility_mode = 1
 
+[node name="minimapabutton-casa-crys" type="TextureButton" parent="Test/UI"]
+offset_left = 6.0
+offset_top = 5.0
+offset_right = 34.0
+offset_bottom = 33.0
+texture_normal = ExtResource("11_lc6on")
+stretch_mode = 0
+
 [connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
 [connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]
+[connection signal="pressed" from="Test/UI/minimapabutton-casa-crys" to="." method="_on_minimapabutton_pressed"]

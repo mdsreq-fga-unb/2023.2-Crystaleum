@@ -94,3 +94,8 @@ func _on_detection_area_body_entered(body):
 func _on_detection_area_body_exited(body):
 	if body.has_method("npc"):
 		npc_in_range = false
+
+
+func _on_minimapabutton_pressed():
+	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
+

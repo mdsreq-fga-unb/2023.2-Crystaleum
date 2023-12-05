@@ -1,8 +1,7 @@
-[gd_scene load_steps=13 format=3 uid="uid://dop5y81tldkrb"]
+[gd_scene load_steps=12 format=3 uid="uid://dop5y81tldkrb"]
 
 [ext_resource type="Script" path="res://levels/Pracinha/pracinha.gd" id="1_eu4og"]
 [ext_resource type="Texture2D" uid="uid://6fp8pchm7ssn" path="res://levels/Pracinha/pracinha.png" id="1_uyqq8"]
-[ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="3_udgxu"]
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_0rgwm"]
 [ext_resource type="PackedScene" uid="uid://civ6shmka5e8u" path="res://addons/dialogue_manager/components/code_edit.tscn" id="5_r44jh"]
 [ext_resource type="Script" path="res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd" id="6_64xay"]
@@ -12,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://cgolxov5bpb55" path="res://scenes/mercenaria.tscn" id="10_5ntao"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="11_px2go"]
 
-[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_bd8q8"]
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_7abdb"]
 script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
@@ -23,14 +22,6 @@ position = Vector2(160, 90)
 scale = Vector2(0.553819, 0.5625)
 texture = ExtResource("1_uyqq8")
 
-[node name="minimapabutton-pracinha" type="TextureButton" parent="."]
-offset_left = 9.0
-offset_top = 70.0
-offset_right = 37.0
-offset_bottom = 98.0
-texture_normal = ExtResource("3_udgxu")
-stretch_mode = 0
-
 [node name="Mini-caderno-pracinha" type="TextureButton" parent="."]
 offset_left = 10.0
 offset_top = 105.0
@@ -40,7 +31,7 @@ texture_normal = ExtResource("4_0rgwm")
 stretch_mode = 0
 
 [node name="CodeEdit" parent="." instance=ExtResource("5_r44jh")]
-syntax_highlighter = SubResource("SyntaxHighlighter_bd8q8")
+syntax_highlighter = SubResource("SyntaxHighlighter_7abdb")
 
 [node name="caçador" parent="." instance=ExtResource("7_ui10n")]
 position = Vector2(282, 92)
@@ -57,5 +48,4 @@ position = Vector2(225, 91)
 [node name="Crys" parent="." instance=ExtResource("11_px2go")]
 position = Vector2(163, 148)
 
-[connection signal="pressed" from="minimapabutton-pracinha" to="." method="_on_minimapabuttonpracinha_pressed"]
 [connection signal="pressed" from="Mini-caderno-pracinha" to="." method="_on_minicadernopracinha_pressed"]
