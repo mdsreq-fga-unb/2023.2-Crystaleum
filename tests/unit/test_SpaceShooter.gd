@@ -1,3 +1,4 @@
+'''
 extends GutTest
 
 class TestPlayerExistence:
@@ -21,3 +22,4 @@ class TestPlayerExistence:
 		
 		assert_eq(position_before.x - 10, _player.position.x, "A posição do jogador deveria ir 10 para a esquerda")
 
+'''

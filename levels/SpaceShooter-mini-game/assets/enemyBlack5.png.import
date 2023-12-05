@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3fps1ucmkiae"
-path="res://.godot/imported/space-mini-game.png-4edb8ae211bb261d32d759fb419e3284.ctex"
+uid="uid://ddj6xe5jrih37"
+path="res://.godot/imported/enemyBlack5.png-8399f2a6e219d84c5dc19c84543dc7dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://levels/SpaceShooter-mini-game/space-mini-game.png"
-dest_files=["res://.godot/imported/space-mini-game.png-4edb8ae211bb261d32d759fb419e3284.ctex"]
+source_file="res://levels/SpaceShooter-mini-game/assets/enemyBlack5.png"
+dest_files=["res://.godot/imported/enemyBlack5.png-8399f2a6e219d84c5dc19c84543dc7dd.ctex"]
 
 [params]
 
