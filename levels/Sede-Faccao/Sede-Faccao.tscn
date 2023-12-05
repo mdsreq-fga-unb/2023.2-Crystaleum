@@ -1,3 +1,25 @@
-[gd_scene format=3 uid="uid://d0phhojehq4u2"]
+[gd_scene load_steps=4 format=3 uid="uid://d0phhojehq4u2"]
+
+[ext_resource type="Texture2D" uid="uid://cvx8gvrlf5kt0" path="res://levels/Sede-Faccao/sede-faccao.png" id="1_2x3br"]
+[ext_resource type="Script" path="res://levels/Sede-Faccao/Sede-Faccao.gd" id="1_gxtd4"]
+[ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="2_o2r7p"]
 
 [node name="Sede-Faccao" type="Node2D"]
+script = ExtResource("1_gxtd4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(160, 92.5)
+scale = Vector2(0.555556, 0.578125)
+texture = ExtResource("1_2x3br")
+
+[node name="Crys" parent="." instance=ExtResource("2_o2r7p")]
+position = Vector2(157, 112)
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 249.0
+offset_top = 33.0
+offset_right = 279.0
+offset_bottom = 60.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
