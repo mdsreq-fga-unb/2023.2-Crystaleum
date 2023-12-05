@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bolpx3bhq0hl"]
+
+[ext_resource type="Texture2D" uid="uid://cf1hp6waeyeg3" path="res://levels/SpaceShooter-mini-game/assets/playerShip2_orange.png" id="1_0hgmf"]
+[ext_resource type="Script" path="res://levels/SpaceShooter-mini-game/scripts/player.gd" id="1_jmhdh"]
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_jmhdh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(19, 90)
+rotation = 1.5708
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_0hgmf")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(18, 76, 24, 87, 29, 89, 29, 91, 24, 94, 18, 104, 10, 100, 9, 90, 9, 81)
