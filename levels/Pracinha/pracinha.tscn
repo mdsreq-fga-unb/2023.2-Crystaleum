@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://cgolxov5bpb55" path="res://scenes/mercenaria.tscn" id="10_5ntao"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="11_px2go"]
 
-[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_7abdb"]
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_aivqs"]
 script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
@@ -31,7 +31,7 @@ texture_normal = ExtResource("4_0rgwm")
 stretch_mode = 0
 
 [node name="CodeEdit" parent="." instance=ExtResource("5_r44jh")]
-syntax_highlighter = SubResource("SyntaxHighlighter_7abdb")
+syntax_highlighter = SubResource("SyntaxHighlighter_aivqs")
 
 [node name="caçador" parent="." instance=ExtResource("7_ui10n")]
 position = Vector2(282, 92)
