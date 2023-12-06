@@ -5,7 +5,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2wq7e"]
 size = Vector2(87, 63.75)
 
-[node name="mesa_lencol" type="Node2D"]
+[node name="mesalencol" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3vwk0e882ytg"
-path="res://.godot/imported/mesa com lencol.png-82cb0820bd878ab611e5fad4aba6cd95.ctex"
+path="res://.godot/imported/mesalencol.png-889e4cd72533982c33f0143d13f730d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mesa com lencol.png"
-dest_files=["res://.godot/imported/mesa com lencol.png-82cb0820bd878ab611e5fad4aba6cd95.ctex"]
+source_file="res://assets/mesalencol.png"
+dest_files=["res://.godot/imported/mesalencol.png-889e4cd72533982c33f0143d13f730d5.ctex"]
 
 [params]
 
