@@ -26,7 +26,7 @@ offset_bottom = 133.0
 texture_normal = ExtResource("4_wm3k0")
 stretch_mode = 0
 
-[node name="mesa_lencol" parent="." instance=ExtResource("7_ufw1e")]
+[node name="mesalencol" parent="." instance=ExtResource("7_ufw1e")]
 position = Vector2(15, 35)
 
 [node name="diario_avo" parent="." instance=ExtResource("8_pyn12")]
