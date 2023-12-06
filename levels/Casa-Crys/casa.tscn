@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_82v4u"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="5_mvvd7"]
 [ext_resource type="PackedScene" uid="uid://bwcwe0p7yr1ic" path="res://scenes/mae_crys.tscn" id="6_4tu8d"]
-[ext_resource type="PackedScene" path="res://scenes/planta.tscn" id="6_eeleh"]
+[ext_resource type="PackedScene" uid="uid://bfufw66j05h7o" path="res://scenes/planta.tscn" id="6_eeleh"]
 
 [node name="casa" type="Node2D"]
 script = ExtResource("1_g0hja")
