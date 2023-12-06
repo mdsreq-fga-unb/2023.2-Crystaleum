@@ -6,6 +6,7 @@ extends CharacterBody2D
 @onready var muzzle = $Muzzle
 
 var laser_scene = preload("res://levels/SpaceShooter-mini-game/scenes/laser.tscn")
+var shoot_coll_down = false
 
 signal laser_shot(laser_scene, location)
 
@@ -22,5 +23,8 @@ func _physics_process(delta):
 	move_and_slide()
 	
 	if Input.is_action_pressed("action_button"):
-		laser_shot.emit(laser_scene, muzzle.global_position)
-
+		if !shoot_coll_down:
+			shoot_coll_down = true
+			laser_shot.emit(laser_scene, muzzle.global_position)
+			await get_tree().create_timer(0.25).timeout
+			shoot_coll_down = false
