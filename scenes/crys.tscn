@@ -479,9 +479,6 @@ _data = {
 "walk_up": SubResource("Animation_0y4cu")
 }
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_vh3tq"]
-animation = &"idle_up"
-
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_fgbtb"]
 animation = &"idle_down"
 
@@ -491,15 +488,19 @@ animation = &"idle_right"
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_buk87"]
 animation = &"idle_left"
 
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_5fuo5"]
+animation = &"idle_up"
+
 [sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_33nnd"]
-blend_point_0/node = SubResource("AnimationNodeAnimation_vh3tq")
-blend_point_0/pos = Vector2(0, -1)
-blend_point_1/node = SubResource("AnimationNodeAnimation_fgbtb")
-blend_point_1/pos = Vector2(0, 1)
-blend_point_2/node = SubResource("AnimationNodeAnimation_ooofq")
-blend_point_2/pos = Vector2(1, 0)
-blend_point_3/node = SubResource("AnimationNodeAnimation_buk87")
-blend_point_3/pos = Vector2(-1, 0)
+blend_point_0/node = SubResource("AnimationNodeAnimation_fgbtb")
+blend_point_0/pos = Vector2(0, 1)
+blend_point_1/node = SubResource("AnimationNodeAnimation_ooofq")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_buk87")
+blend_point_2/pos = Vector2(-1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_5fuo5")
+blend_point_3/pos = Vector2(0, -0.96)
+snap = Vector2(0.01, 0.01)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_o4b2l"]
 animation = &"walk_down"
@@ -553,10 +554,12 @@ libraries = {
 }
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_wanfo")
+}
 tree_root = SubResource("AnimationNodeStateMachine_0xodq")
 anim_player = NodePath("../AnimationPlayer")
-active = true
-parameters/Idle/blend_position = Vector2(0, 0)
+parameters/Idle/blend_position = Vector2(0.00169778, -0.00529099)
 parameters/Walk/blend_position = Vector2(1, 0)
 
 [node name="detection_area" type="Area2D" parent="."]

@@ -20,6 +20,7 @@ var atividadeResource = preload("res://resources/mini-caderno-resource/new_resou
 
 func _ready() -> void:
 	_state_machine = _animation_tree["parameters/playback"]
+	_animation_tree["parameters/Idle/blend_position"] = Vector2(0, 1)
 
 func _physics_process(_delta: float) -> void:
 	
@@ -68,9 +69,11 @@ func _move() -> void:
 	
 
 func _animate() -> void:
+	
 	if velocity.length() > 1:
 		_state_machine.travel("Walk")
 		return
+	
 	_state_machine.travel("Idle")
 	
 
