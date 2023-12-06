@@ -4,14 +4,18 @@
 [ext_resource type="Script" path="res://levels/SpaceShooter-mini-game/scripts/player.gd" id="1_jmhdh"]
 
 [node name="Player" type="CharacterBody2D"]
+position = Vector2(20, 90)
 motion_mode = 1
 script = ExtResource("1_jmhdh")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(19, 90)
 rotation = 1.5708
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_0hgmf")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(-20, -90)
 polygon = PackedVector2Array(18, 76, 24, 87, 29, 89, 29, 91, 24, 94, 18, 104, 10, 100, 9, 90, 9, 81)
+
+[node name="Muzzle" type="Marker2D" parent="."]
+position = Vector2(12, 0)
