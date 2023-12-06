@@ -1,9 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://cx368qpcw1v3l"]
+[gd_scene load_steps=10 format=3 uid="uid://cx368qpcw1v3l"]
 
 [ext_resource type="Script" path="res://levels/Casa-abandonada/casa_abandonada.gd" id="1_ej1c7"]
 [ext_resource type="Texture2D" uid="uid://b7u6b0ngs008j" path="res://levels/Casa-abandonada/casa-abandonada-avo.png" id="1_wba56"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_gxk8l"]
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_wm3k0"]
+[ext_resource type="PackedScene" uid="uid://ct78hm3edxn0q" path="res://scenes/aranha_caindo.tscn" id="5_k3l42"]
+[ext_resource type="PackedScene" uid="uid://brkxe4smyeasd" path="res://scenes/aranha.tscn" id="6_nr34f"]
+[ext_resource type="PackedScene" uid="uid://uk6lat85upm6" path="res://scenes/mesa_lencol.tscn" id="7_ufw1e"]
+[ext_resource type="PackedScene" uid="uid://cad84xn40t5wh" path="res://scenes/diario_avo.tscn" id="8_pyn12"]
+[ext_resource type="PackedScene" uid="uid://cuqoyarf0hotp" path="res://scenes/vela.tscn" id="9_abxcn"]
 
 [node name="casa-abandonada" type="Node2D"]
 script = ExtResource("1_ej1c7")
@@ -23,5 +28,20 @@ stretch_mode = 0
 
 [node name="Crys" parent="." instance=ExtResource("4_gxk8l")]
 position = Vector2(167, 111)
+
+[node name="aranha-caindo" parent="." instance=ExtResource("5_k3l42")]
+position = Vector2(151, 16)
+
+[node name="aranha" parent="." instance=ExtResource("6_nr34f")]
+position = Vector2(56, 10)
+
+[node name="mesa_lencol" parent="." instance=ExtResource("7_ufw1e")]
+position = Vector2(15, 35)
+
+[node name="diario_avo" parent="." instance=ExtResource("8_pyn12")]
+position = Vector2(167, -27)
+
+[node name="vela" parent="." instance=ExtResource("9_abxcn")]
+position = Vector2(150, 35)
 
 [connection signal="pressed" from="Mini-caderno-casa-abandonada" to="." method="_on_minicadernocasaabandonada_pressed"]

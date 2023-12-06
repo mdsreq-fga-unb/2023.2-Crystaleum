@@ -3,13 +3,14 @@
 [ext_resource type="Texture2D" uid="uid://b6v3gykup7a45" path="res://assets/planta.png" id="1_1s2ly"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x26y4"]
-size = Vector2(43, 64)
+size = Vector2(29, 44)
 
 [node name="planta" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(3.5, 0)
 shape = SubResource("RectangleShape2D_x26y4")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

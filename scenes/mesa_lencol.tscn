@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://uk6lat85upm6"]
+
+[ext_resource type="Texture2D" uid="uid://ctns1ov4a0q3b" path="res://assets/mesa-lencol.png" id="1_1imfg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2wq7e"]
+size = Vector2(88, 101.75)
+
+[node name="mesa_lencol" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(262, 63.125)
+shape = SubResource("RectangleShape2D_2wq7e")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(255, 40)
+scale = Vector2(0.5, 0.435)
+texture = ExtResource("1_1imfg")

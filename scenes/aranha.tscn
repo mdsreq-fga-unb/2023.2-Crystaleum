@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://brkxe4smyeasd"]
+
+[ext_resource type="Texture2D" uid="uid://bn7bm65i65alf" path="res://assets/aranha1.png" id="1_w7lt8"]
+
+[node name="aranha" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.127976, 0.124256)
+texture = ExtResource("1_w7lt8")

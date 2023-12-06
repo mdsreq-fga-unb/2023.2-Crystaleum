@@ -29,7 +29,7 @@ position = Vector2(255, 118)
 [node name="Crys" parent="." instance=ExtResource("5_mvvd7")]
 position = Vector2(83, 116)
 
-[node name="Item" parent="." instance=ExtResource("6_eeleh")]
+[node name="planta" parent="." instance=ExtResource("6_eeleh")]
 position = Vector2(299, 75)
 
 [connection signal="pressed" from="Mini-caderno-casa-crys" to="." method="_on_minicadernocasaabandonada_pressed"]

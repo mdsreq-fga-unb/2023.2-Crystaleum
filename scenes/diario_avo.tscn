@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cad84xn40t5wh"]
+
+[ext_resource type="Texture2D" uid="uid://loxphk1oaibi" path="res://assets/diario-avo.png" id="1_k7qo2"]
+
+[node name="diario_avo" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(103, 91)
+scale = Vector2(0.2025, 0.205)
+texture = ExtResource("1_k7qo2")

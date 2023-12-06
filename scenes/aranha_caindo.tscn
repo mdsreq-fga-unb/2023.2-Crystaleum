@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct78hm3edxn0q"]
+
+[ext_resource type="Texture2D" uid="uid://b5uifa3e8w4ey" path="res://assets/aranha2.png" id="1_37csm"]
+
+[node name="aranha-caindo" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.147704, 0.140051)
+texture = ExtResource("1_37csm")
