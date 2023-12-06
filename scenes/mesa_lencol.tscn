@@ -3,14 +3,14 @@
 [ext_resource type="Texture2D" uid="uid://ctns1ov4a0q3b" path="res://assets/mesa-lencol.png" id="1_1imfg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2wq7e"]
-size = Vector2(88, 101.75)
+size = Vector2(87, 63.75)
 
 [node name="mesa_lencol" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(262, 63.125)
+position = Vector2(262.5, 44.125)
 shape = SubResource("RectangleShape2D_2wq7e")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

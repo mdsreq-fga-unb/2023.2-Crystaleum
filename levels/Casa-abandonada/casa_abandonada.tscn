@@ -26,15 +26,6 @@ offset_bottom = 133.0
 texture_normal = ExtResource("4_wm3k0")
 stretch_mode = 0
 
-[node name="Crys" parent="." instance=ExtResource("4_gxk8l")]
-position = Vector2(167, 111)
-
-[node name="aranha-caindo" parent="." instance=ExtResource("5_k3l42")]
-position = Vector2(151, 16)
-
-[node name="aranha" parent="." instance=ExtResource("6_nr34f")]
-position = Vector2(56, 10)
-
 [node name="mesa_lencol" parent="." instance=ExtResource("7_ufw1e")]
 position = Vector2(15, 35)
 
@@ -43,5 +34,14 @@ position = Vector2(167, -27)
 
 [node name="vela" parent="." instance=ExtResource("9_abxcn")]
 position = Vector2(150, 35)
+
+[node name="Crys" parent="." instance=ExtResource("4_gxk8l")]
+position = Vector2(167, 111)
+
+[node name="aranha-caindo" parent="." instance=ExtResource("5_k3l42")]
+position = Vector2(151, 16)
+
+[node name="aranha" parent="." instance=ExtResource("6_nr34f")]
+position = Vector2(56, 10)
 
 [connection signal="pressed" from="Mini-caderno-casa-abandonada" to="." method="_on_minicadernocasaabandonada_pressed"]
