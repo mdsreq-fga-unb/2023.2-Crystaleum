@@ -102,3 +102,8 @@ func _on_detection_area_body_exited(body):
 func _on_minimapabutton_pressed():
 	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
 
+func _on_button_pressed():
+	Input.action_press("ui_accept")
+	await get_tree().create_timer(0.1).timeout
+	Input.action_release("ui_accept")
+
