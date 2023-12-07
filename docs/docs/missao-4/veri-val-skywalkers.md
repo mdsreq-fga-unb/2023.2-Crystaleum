@@ -2,18 +2,15 @@
 
 ## Introdução
 
-Neste artefato será apresentado a verificação e validação do Caso de Uso do estudo de caso Voyage X apresentado pelo grupo SkyWalkers
+Neste artefato será apresentado a verificação e validação do Caso de Uso do estudo de caso Voyage X apresentado pelo grupo SkyWalkers.
 
-![](../assets/images/voyagex.png)
-
-
-## **MIRO com o Checklist feito pelos Moonwalkers**
+## **MIRO com o Diagrama de Caso de Uso realizado pelos SkyWalkers**
 
 Para realizar as técnicas de verificação e validação do Caso de Uso apresentado pelo grupo citado, foi realizado um Checklist conforme apresentado a seguir: 
 
-<iframe width="768" height="432" src="https://miro.com/app/board/uXjVNHcKX9Y=/" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/board/uXjVNGlV7k8=/" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
-## Checklist 
+## Checklist feito pelos MoonWalkers
 
 |Questionamentos|Verificação e Validação|Observações|
 |:--:|:--:|:--:|
