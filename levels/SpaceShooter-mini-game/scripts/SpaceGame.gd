@@ -6,6 +6,7 @@ extends Node2D
 @onready var enemy_container = $EnemyContainer
 @onready var hud = $UiLayer/HUD
 @onready var gameOverScreen = $UiLayer/GameOverScreen
+@onready var gameWinScreen = $UiLayer/GameSpaceWinSpaceScreen
 @onready var timerEnemy = $EnemySpawnTimer
 @onready var paralBack = $ParallaxBackground
 
@@ -14,13 +15,16 @@ var score := 0:
 		score = value
 		hud.score = score
 
-var scroll_speed = 100
+var scroll_speed = 40
 
 func _process(delta):
-	timerEnemy.wait_time -= delta * 0.01
-	#paralBack.scroll_offset.x -= delta * scroll_speed
-#	if paralBack.scroll_offset.x >= 320:
-#		paralBack.scroll_offset.x = 0
+	timerEnemy.wait_time -= delta * 0.035
+	paralBack.scroll_offset.x -= delta * scroll_speed
+	if paralBack.scroll_offset.x >= 320:
+		paralBack.scroll_offset.x = 0
+	if score >= 100: 
+		await get_tree().create_timer(1).timeout
+		gameWinScreen.visible = true
 	
 func _ready():
 	hud.score = 0
@@ -41,7 +45,6 @@ func _on_enemy_spawn_timer_timeout():
 
 func _on_enemy_killed():
 	score += 1
-	print(score)
 	
 func _on_player_loose():
 	gameOverScreen.set_score(score)
