@@ -1,18 +1,52 @@
-[gd_scene load_steps=6 format=3 uid="uid://dh8tktgikwvca"]
+[gd_scene load_steps=11 format=3 uid="uid://dh8tktgikwvca"]
 
 [ext_resource type="Script" path="res://levels/SpaceShooter-mini-game/scripts/SpaceGame.gd" id="1_o4b5e"]
 [ext_resource type="PackedScene" uid="uid://bolpx3bhq0hl" path="res://levels/SpaceShooter-mini-game/scenes/player.tscn" id="1_t34wu"]
 [ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://joystick/virtual_joystick.tscn" id="2_8wwll"]
-[ext_resource type="PackedScene" uid="uid://b4ryd7m3w25xn" path="res://levels/SpaceShooter-mini-game/scenes/laser.tscn" id="3_ckib5"]
+[ext_resource type="PackedScene" uid="uid://b8rel6v7te5s0" path="res://levels/SpaceShooter-mini-game/scenes/hud.tscn" id="4_4n1oq"]
 [ext_resource type="Texture2D" uid="uid://c5ke6l2iia6sa" path="res://assets/bota-acao-altadefinicao.png" id="5_6tc51"]
+[ext_resource type="PackedScene" uid="uid://tx5aith2gsys" path="res://levels/SpaceShooter-mini-game/scenes/game_over_screen.tscn" id="5_gjdnt"]
+[ext_resource type="PackedScene" uid="uid://c8peyoai6pebm" path="res://levels/SpaceShooter-mini-game/scenes/enemy.tscn" id="6_12d7h"]
+[ext_resource type="PackedScene" uid="uid://b32t4of8mqt8j" path="res://levels/SpaceShooter-mini-game/scenes/slow_enemy.tscn" id="6_rsicd"]
+[ext_resource type="Texture2D" uid="uid://cjag02vpg50qs" path="res://levels/SpaceShooter-mini-game/assets/purple.png" id="9_sk0gd"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_c6lbk"]
+particle_flag_disable_z = true
+gravity = Vector3(0, 98, 0)
 
 [node name="SpaceGame" type="Node2D"]
 script = ExtResource("1_o4b5e")
+enemy_scenes = Array[PackedScene]([ExtResource("6_12d7h"), ExtResource("6_rsicd")])
+
+[node name="UiLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="UiLayer" instance=ExtResource("4_4n1oq")]
+
+[node name="GameOverScreen" parent="UiLayer" instance=ExtResource("5_gjdnt")]
+visible = false
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="UiLayer"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="UiLayer/ParallaxBackground"]
+motion_mirroring = Vector2(320, 0)
+
+[node name="PurpleStars" type="Sprite2D" parent="UiLayer/ParallaxBackground/ParallaxLayer"]
+texture_repeat = 2
+position = Vector2(160, 90)
+scale = Vector2(1.25, 0.703125)
+texture = ExtResource("9_sk0gd")
+
+[node name="StarParticleEffect" type="GPUParticles2D" parent="UiLayer"]
+position = Vector2(350, 90)
+amount = 15
+process_material = SubResource("ParticleProcessMaterial_c6lbk")
+
+[node name="EnemySpawnTimer" type="Timer" parent="."]
+wait_time = 1.5
+autostart = true
 
 [node name="Player" parent="." instance=ExtResource("1_t34wu")]
 position = Vector2(23, 90)
-
-[node name="Laser" parent="." instance=ExtResource("3_ckib5")]
 
 [node name="Test" type="Node2D" parent="."]
 
@@ -37,4 +71,7 @@ action = "action_button"
 [node name="LaserContainer" type="Node2D" parent="."]
 position = Vector2(-30, -40)
 
+[node name="EnemyContainer" type="Node2D" parent="."]
+
+[connection signal="timeout" from="EnemySpawnTimer" to="." method="_on_enemy_spawn_timer_timeout"]
 [connection signal="laser_shot" from="Player" to="." method="_on_player_laser_shot"]

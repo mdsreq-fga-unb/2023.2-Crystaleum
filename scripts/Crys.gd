@@ -48,6 +48,7 @@ func _physics_process(_delta: float) -> void:
 	_animate()
 	_move()
 	move_and_slide()
+	global_position = global_position.clamp(Vector2(0,90), get_viewport_rect().size)
 
 func _move() -> void:
 	var _direction: Vector2 = Vector2(
