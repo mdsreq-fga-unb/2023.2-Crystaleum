@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wts5q5e6fvj2"
-path="res://.godot/imported/cervejinha.png-f056ccc6dd8d9543509ccb19fd711edb.ctex"
+uid="uid://d5a1ficsriqe"
+path="res://.godot/imported/aguadiferente.png-6eb6f5431884dfc74108b25eb4f1445f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cervejinha.png"
-dest_files=["res://.godot/imported/cervejinha.png-f056ccc6dd8d9543509ccb19fd711edb.ctex"]
+source_file="res://assets/aguadiferente.png"
+dest_files=["res://.godot/imported/aguadiferente.png-6eb6f5431884dfc74108b25eb4f1445f.ctex"]
 
 [params]
 

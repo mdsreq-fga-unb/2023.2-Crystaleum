@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dctoc46g2vyk3"]
+
+[ext_resource type="Texture2D" uid="uid://dy1nhqjuc08f7" path="res://assets/comidinha.png" id="1_on6d0"]
+
+[node name="comidinha" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(185.75, 102)
+scale = Vector2(0.05625, 0.0533333)
+texture = ExtResource("1_on6d0")

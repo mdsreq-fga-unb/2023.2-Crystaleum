@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://nvx8v527847q"]
+
+[ext_resource type="Texture2D" uid="uid://3oprls5oex3s" path="res://assets/copinho.png" id="1_rhl2p"]
+
+[node name="copo" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(177.938, 114.062)
+scale = Vector2(0.0835492, 0.0822538)
+texture = ExtResource("1_rhl2p")

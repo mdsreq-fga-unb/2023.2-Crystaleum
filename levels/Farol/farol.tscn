@@ -1,9 +1,12 @@
-[gd_scene load_steps=5 format=3 uid="uid://b6eanxffy4jw3"]
+[gd_scene load_steps=8 format=3 uid="uid://b6eanxffy4jw3"]
 
 [ext_resource type="Script" path="res://levels/Farol/farol.gd" id="1_k48ld"]
 [ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_aqr8l"]
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_o8imi"]
+[ext_resource type="PackedScene" uid="uid://nvx8v527847q" path="res://scenes/copo.tscn" id="5_6s4eh"]
+[ext_resource type="PackedScene" uid="uid://blir15774l15d" path="res://scenes/mesadebar.tscn" id="5_enbos"]
+[ext_resource type="PackedScene" uid="uid://mlroccvbkqcq" path="res://scenes/bebidinha.tscn" id="6_dpqbg"]
 
 [node name="farol" type="Node2D"]
 script = ExtResource("1_k48ld")
@@ -20,6 +23,18 @@ offset_top = 49.0
 offset_right = 314.0
 offset_bottom = 116.0
 
+[node name="Crys" parent="." instance=ExtResource("4_aqr8l")]
+position = Vector2(169, 108)
+
+[node name="mesadebar" parent="." instance=ExtResource("5_enbos")]
+position = Vector2(-32, 67)
+
+[node name="copo" parent="mesadebar" instance=ExtResource("5_6s4eh")]
+position = Vector2(9, -49)
+
+[node name="bebidinha" parent="mesadebar" instance=ExtResource("6_dpqbg")]
+position = Vector2(-15, -24)
+
 [node name="Mini-caderno-farol" type="TextureButton" parent="."]
 offset_left = 10.0
 offset_top = 105.0
@@ -27,9 +42,6 @@ offset_right = 35.0
 offset_bottom = 133.0
 texture_normal = ExtResource("4_o8imi")
 stretch_mode = 0
-
-[node name="Crys" parent="." instance=ExtResource("4_aqr8l")]
-position = Vector2(169, 108)
 
 [connection signal="pressed" from="fishing minigame" to="." method="_on_fishing_minigame_pressed"]
 [connection signal="pressed" from="Mini-caderno-farol" to="." method="_on_minicadernofarol_pressed"]

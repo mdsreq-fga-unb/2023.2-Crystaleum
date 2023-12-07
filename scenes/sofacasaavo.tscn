@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://djff018uqjjom"]
+
+[ext_resource type="Texture2D" uid="uid://dsvyk2kbcmtk6" path="res://assets/sofacasavo.png" id="1_5cnav"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_blxny"]
+size = Vector2(88, 52)
+
+[node name="sofacasaavo" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(133, 101)
+shape = SubResource("RectangleShape2D_blxny")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(133, 99)
+scale = Vector2(0.1785, 0.151)
+texture = ExtResource("1_5cnav")
