@@ -67,7 +67,7 @@ offset_bottom = -12.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 12
-text = "Objetivo: Derrotar 100 naves"
+text = "Objetivo: Derrotar 75 naves"
 
 [node name="Score" type="Label" parent="Panel"]
 layout_mode = 1

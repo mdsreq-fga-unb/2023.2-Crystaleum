@@ -76,8 +76,8 @@ offset_right = 511.0
 offset_bottom = 178.0
 scale = Vector2(0.2, 0.2)
 pressed_color = Color(0.843137, 0.74902, 0.152941, 1)
-deadzone_size = 2.0
-clampzone_size = 25.0
+deadzone_size = 0.0
+clampzone_size = 5.0
 
 [node name="ActionButton" type="TouchScreenButton" parent="Test/UI"]
 position = Vector2(10, 140)

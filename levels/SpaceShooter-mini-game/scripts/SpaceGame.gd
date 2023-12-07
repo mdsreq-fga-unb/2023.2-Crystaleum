@@ -13,17 +13,20 @@ extends Node2D
 var score := 0:
 	set(value):
 		score = value
+		if score >= 75:
+			score = 75
 		hud.score = score
 
 var scroll_speed = 40
 
 func _process(delta):
-	timerEnemy.wait_time -= delta * 0.035
+	if timerEnemy.wait_time > 0.2:
+		timerEnemy.wait_time -= delta * 0.040
 	paralBack.scroll_offset.x -= delta * scroll_speed
 	if paralBack.scroll_offset.x >= 320:
 		paralBack.scroll_offset.x = 0
-	if score >= 100: 
-		await get_tree().create_timer(1).timeout
+	if score >= 75: 
+		await get_tree().create_timer(0.2).timeout
 		gameWinScreen.visible = true
 	
 func _ready():
