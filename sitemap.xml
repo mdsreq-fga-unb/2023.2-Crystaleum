@@ -141,6 +141,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/mdsreq-fga-unb/2023.2-Crystaleum/missao-4/casos-uso/</loc>
+         <lastmod>2023-12-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/mdsreq-fga-unb/2023.2-Crystaleum/missao-4/veri-val-skywalkers/</loc>
+         <lastmod>2023-12-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/mdsreq-fga-unb/2023.2-Crystaleum/registro-das-reunioes/registro-das-reunioes/</loc>
          <lastmod>2023-12-07</lastmod>
          <changefreq>daily</changefreq>
