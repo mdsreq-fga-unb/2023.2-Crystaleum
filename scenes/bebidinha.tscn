@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://mlroccvbkqcq"]
+
+[ext_resource type="Texture2D" uid="uid://d5a1ficsriqe" path="res://assets/aguadiferente.png" id="1_5pwn4"]
+
+[node name="bebidinha" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(218.192, 85.5)
+scale = Vector2(0.11123, 0.09)
+texture = ExtResource("1_5pwn4")

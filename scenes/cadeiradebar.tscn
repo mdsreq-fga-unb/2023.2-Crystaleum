@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmagvwanogav2"]
+
+[ext_resource type="Texture2D" uid="uid://doc8r74qal525" path="res://assets/cadeira.png" id="1_wncin"]
+
+[node name="cadeiradebar" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(200.125, 94.5)
+scale = Vector2(0.0955, 0.102)
+texture = ExtResource("1_wncin")
