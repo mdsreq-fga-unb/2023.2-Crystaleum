@@ -115,6 +115,25 @@ Segue abaixo os relatórios em ordem cronológica dividos por Iteração:
 | Próximos passos | Colocar e ajustar valores em alguns cenários  |
 | Observações | Apesar da validação e verificação realizada, não ajustamos e reestruturamos os critérios e nem as histórias inadequadas do grupo |
 
+## Iteração 4
+
+### Relatório de casos de uso
+
+| Tópico | Descrição |
+|---|---|
+| Data | 04/12/2023 |
+| Horário | HH:MM |
+| Local | Microsoft teams |
+| Participantes | Ana Carolina, Artur Jackson, Pablo Guilherme, Suzane Alves e Taynara Gabrielle |
+| Objetivo | Realizar a tarefa proposta em sala de aula |
+| Atos | Fizemos uma revisão dos conceitos de caso de uso e criamos casos de uso para o exercício proposto |
+| Conclusões |  A reunião foi uma excelente atividade como forma de prática e estudo da criação de casos de uso, a partir da colaboração mutua de todos os membros facilitou o processo de realização dessa atividade tanto em organização quanto em efetividade |
+| Próximos passos | Apresentar a atividade  |
+| Observações | sem observações |
+
+
+
+
 | Versão | Data       | Descrição         | Autor(es)                                        |
 | ------ | ---------- | ----------------- | ------------------------------------------------ |
 | 1.0    | 15/11/2023 | Criação da página | [Pedro Henrique](https:github.com/PedroHhenriq) |
