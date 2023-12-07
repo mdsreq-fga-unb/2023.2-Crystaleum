@@ -122,7 +122,7 @@ Segue abaixo os relatórios em ordem cronológica dividos por Iteração:
 | Tópico | Descrição |
 |---|---|
 | Data | 04/12/2023 |
-| Horário | HH:MM |
+| Horário | 19:30:22:00 |
 | Local | Microsoft teams |
 | Participantes | Ana Carolina, Artur Jackson, Pablo Guilherme, Suzane Alves e Taynara Gabrielle |
 | Objetivo | Realizar a tarefa proposta em sala de aula |
