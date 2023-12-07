@@ -111,23 +111,24 @@ Fonte: MoonWalkers,2023
 
 |Review the product backlog|Set interation GOAL|Aply DoR|Estabilish Interation Backlog|
 |---|---|---|---|
-|Houveram apenas correções nas declarações dos requisitos no backlog|• US1 - Mini-mapa<br><br>• US10 - dialogar NPCs<br><br>• US5 - Mini-game Pesca<br><br>• RFN4 - ler a história<br><br>• US3 - Movimentar 4 direções|Aplicamos o DoR em todas as US's e no RFN4, e tudo passou|• US1 - Mini-mapa<br><br>• US10 - dialogar NPCs<br><br>• US5 - Mini-game Pesca<br><br>• RFN4 - ler a história<br><br>• US3 - Movimentar 4 direções|
+|Houve uma mudança no mvp devido ao desligamento de um membro|• US5 - Mini-Game space shooter(mecânica)<br><br>• US11 - QUIZ NPC<br><br>• US7 - Mini-Game space shooter<br><br>• US9 - diálogo com NPC's<br><br>• US2 - acessar todas as subáreas <br><br>•US12 - Minicarderno de atividades|Aplicamos o DoR em todas as US's|• US5 - Mini-Game space shooter(mecânica)<br><br>• US11 - QUIZ NPC<br><br>• US7 - Mini-Game space shooter<br><br>• US9 - diálogo com NPC's<br><br>• US2 - acessar todas as subáreas <br><br>•US12 - Minicarderno de atividades|Aplicamos o DoR em todas as US's|
 
-
-
+ 
 **Tabela 11:** Review da Iteração 4 - 28/11
 
 |Iteration backlog Itens|Iteration backlog Itens APPROVED|Enviroments Changes|What to do? (Actions)|
 |---|---|---|---|
+|• US5 - Mini-Game space shooter(mecânica)<br><br>• US11 - QUIZ NPC<br><br>• US7 - Mini-Game space shooter<br><br>• US9 - diálogo com NPC's<br><br>• US2 - acessar todas as subáreas <br><br>•US12 - Minicarderno de atividades<br><br>• Atividade de casos de uso|• US5 - Mini-Game space shooter(mecânica)<br><br>• US11 - QUIZ NPC<br><br>• US7 - Mini-Game space shooter<br><br>• US9 - diálogo com NPC's<br><br>• US2 - acessar todas as subáreas <br><br>•US12 - Minicarderno de atividades<br><br>• Atividade de casos de uso|A unica mudança de ambiente foi uma atualização para a versão 4.2 do godot engine|finalizar as proximas us's que faltam para o mvp e realizar testes com usuário|
 
 **Tabela 12:** Retrospective Meeting da Iteração 4 - 28/11
 
 |What went WELL?| What Didn't go Well?|Actions plan and GOALs|
 |---|---|---|
-
+|Colaboração de toda a equipe ocorreu de maneira fluida, nessa iteração todos os membros colaboraram de maneira efetiva reduzindo o tempo das reuniões e equilibrando melhor o trabalho para todos| - |A organização das atividades colaborou com o rápido desenvolvimento então planejamos manter essa organização|
 <br></br>
 
 Fonte: MoonWalkers,2023
+
 </center>
 
 ### Iteração 5 - 06/12
@@ -138,6 +139,7 @@ Fonte: MoonWalkers,2023
 
 |Review the product backlog|Set interation GOAL|Aply DoR|Estabilish Interation Backlog|
 |---|---|---|---|
+| - |• US8- Salvar progresso<br><br>• US9 - diálogo com NPC's<br><br>• US7 - Mini-Game space shooter<br><br>• Correções gerais do codigo<br><br>• Atualização do pages|Aplicamos o DoR em todas as US's|• US8- Salvar progresso<br><br>• US9 - diálogo com NPC's<br><br>• US7 - Mini-Game space shooter<br><br>• Correções gerais do codigo<br><br>• Atualização do pages|
 
 **Tabela 14:** Review da Iteração 5 - 06/12
 
@@ -160,3 +162,4 @@ Fonte: MoonWalkers,2023
 | ------ | ---------- | ----------------- | ------------------------------------------------ |
 | 1.0    | 15/11/2023 | Criação da página | [Pablo Guilherme](https://github.com/PabloGJBS)|
 | 1.1    | 21/11/2023 | Adicionando as tabelas das reuniões | [Pablo Guilherme](https://github.com/PabloGJBS)|
+| 1.2    | 06/12/2023 | Adicionando iteração 4 e planning da iteração 5 | [Pablo Guilherme](https://github.com/PabloGJBS)|
