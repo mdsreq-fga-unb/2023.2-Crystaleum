@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://dbn08dlco5i3m"]
+[gd_scene load_steps=9 format=3 uid="uid://dbn08dlco5i3m"]
 
 [ext_resource type="Script" path="res://levels/Casa-Crys/casa.gd" id="1_g0hja"]
 [ext_resource type="Texture2D" uid="uid://ddfk8m7fx8lhg" path="res://levels/Casa-Crys/assets/casa.png" id="1_tkha2"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="5_mvvd7"]
 [ext_resource type="PackedScene" uid="uid://bwcwe0p7yr1ic" path="res://scenes/mae_crys.tscn" id="6_4tu8d"]
 [ext_resource type="PackedScene" uid="uid://bfufw66j05h7o" path="res://scenes/planta.tscn" id="6_eeleh"]
+[ext_resource type="PackedScene" uid="uid://d4hfr5u8h7wtj" path="res://scenes/bau.tscn" id="6_tdhmc"]
+[ext_resource type="PackedScene" uid="uid://b3esh5yjigtt6" path="res://scenes/chao.tscn" id="7_farpm"]
+[ext_resource type="PackedScene" uid="uid://clhkknt2dvs10" path="res://scenes/gambiarra_chao.tscn" id="8_oy1bc"]
 
 [node name="casa" type="Node2D"]
 script = ExtResource("1_g0hja")
@@ -15,10 +18,19 @@ scale = Vector2(0.555555, 0.5625)
 texture = ExtResource("1_tkha2")
 
 [node name="mae_crys" parent="." instance=ExtResource("6_4tu8d")]
-position = Vector2(255, 118)
+position = Vector2(176, 147)
+
+[node name="bau" parent="." instance=ExtResource("6_tdhmc")]
+position = Vector2(139, 11)
 
 [node name="Crys" parent="." instance=ExtResource("5_mvvd7")]
 position = Vector2(83, 116)
 
 [node name="planta" parent="." instance=ExtResource("6_eeleh")]
-position = Vector2(299, 75)
+position = Vector2(21, 87)
+
+[node name="chao" parent="." instance=ExtResource("7_farpm")]
+position = Vector2(158, -3)
+
+[node name="gambiarra-chao" parent="." instance=ExtResource("8_oy1bc")]
+position = Vector2(182, 18)
