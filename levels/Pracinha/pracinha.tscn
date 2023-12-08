@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://cgolxov5bpb55" path="res://scenes/mercenaria.tscn" id="10_5ntao"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="11_px2go"]
 
-[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_hkpei"]
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_305s4"]
 script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
@@ -23,15 +23,15 @@ scale = Vector2(0.553819, 0.5625)
 texture = ExtResource("1_uyqq8")
 
 [node name="Mini-caderno-pracinha" type="TextureButton" parent="."]
-offset_left = 10.0
-offset_top = 105.0
-offset_right = 35.0
-offset_bottom = 133.0
+offset_left = 286.0
+offset_top = 6.0
+offset_right = 314.0
+offset_bottom = 34.0
 texture_normal = ExtResource("4_0rgwm")
 stretch_mode = 0
 
 [node name="CodeEdit" parent="." instance=ExtResource("5_r44jh")]
-syntax_highlighter = SubResource("SyntaxHighlighter_hkpei")
+syntax_highlighter = SubResource("SyntaxHighlighter_305s4")
 
 [node name="caçador" parent="." instance=ExtResource("7_ui10n")]
 position = Vector2(282, 92)

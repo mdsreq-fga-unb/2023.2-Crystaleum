@@ -1,34 +1,43 @@
-[gd_scene load_steps=4 format=3 uid="uid://bxeryqxs6ut5g"]
+[gd_scene load_steps=5 format=3 uid="uid://bxeryqxs6ut5g"]
 
 [ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="1_24wer"]
-[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://levels/FishingOnigiri/assets/fundo-preto.png" id="2_q6ygb"]
+[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="2_q6ygb"]
+[ext_resource type="Texture2D" uid="uid://ifvr30233wvw" path="res://assets/ponto-mapa.png" id="3_co5i4"]
 
 [sub_resource type="GDScript" id="GDScript_27lne"]
 script/source = "extends Node2D
 
+var atividadeResource = preload(\"res://resources/mini-caderno-resource/new_resource.tres\")
+var minifase = atividadeResource.get_mini_fase()
+@onready var pontoCasaAband = $\"ponto-casa-abandonada\"
+@onready var pontoPracinha = $\"ponto-pracinha\"
+@onready var pontoFarol = $\"ponto-farol\"
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
-
-func _on_farolbuttonmapa_pressed():
-	get_tree().change_scene_to_file(\"res://levels/Farol/farol.tscn\")
-
-
-func _on_pracinhabuttonmapa_pressed():
-	get_tree().change_scene_to_file(\"res://levels/Pracinha/pracinha.tscn\")
-
-func _on_casaabandonadabuttonmapa_pressed():
-	get_tree().change_scene_to_file(\"res://levels/Casa-abandonada/casa_abandonada.tscn\")
+func _process(_delta):
+	mapavisivel()
+	
+func mapavisivel():
+	if minifase > 0:
+		pontoCasaAband.visible = true
+	if minifase > 1:
+		pontoPracinha.visible = true
+	if minifase > 3:
+		pontoFarol.visible = true
 
 func _on_casabuttonmapa_pressed():
 	get_tree().change_scene_to_file(\"res://levels/Casa-Crys/casa.tscn\")
+
+func _on_casaabandonadabuttonmapa_pressed():
+	if minifase > 0:
+		get_tree().change_scene_to_file(\"res://levels/Casa-abandonada/casa_abandonada.tscn\")
+
+func _on_pracinhabuttonmapa_pressed():
+	if minifase > 1:
+		get_tree().change_scene_to_file(\"res://levels/Pracinha/pracinha.tscn\")
+
+func _on_farolbuttonmapa_pressed():
+	if minifase > 3:
+		get_tree().change_scene_to_file(\"res://levels/Farol/farol.tscn\")
 "
 
 [node name="Mini-mapa-aberto" type="Node2D"]
@@ -71,6 +80,29 @@ offset_left = 219.0
 offset_top = 63.0
 offset_right = 253.0
 offset_bottom = 112.0
+
+[node name="ponto-casa" type="Sprite2D" parent="."]
+position = Vector2(186, 146)
+scale = Vector2(0.375, 0.328125)
+texture = ExtResource("3_co5i4")
+
+[node name="ponto-casa-abandonada" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(129, 92)
+scale = Vector2(0.375, 0.328125)
+texture = ExtResource("3_co5i4")
+
+[node name="ponto-pracinha" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(178, 69)
+scale = Vector2(0.375, 0.328125)
+texture = ExtResource("3_co5i4")
+
+[node name="ponto-farol" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(213, 106)
+scale = Vector2(0.375, 0.328125)
+texture = ExtResource("3_co5i4")
 
 [connection signal="pressed" from="casabuttonmapa" to="." method="_on_casabuttonmapa_pressed"]
 [connection signal="pressed" from="casaabandonadabuttonmapa" to="." method="_on_casaabandonadabuttonmapa_pressed"]

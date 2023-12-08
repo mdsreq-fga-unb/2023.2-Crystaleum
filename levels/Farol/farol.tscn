@@ -4,9 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_aqr8l"]
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_o8imi"]
-[ext_resource type="PackedScene" uid="uid://nvx8v527847q" path="res://scenes/copo.tscn" id="5_6s4eh"]
-[ext_resource type="PackedScene" uid="uid://blir15774l15d" path="res://scenes/mesadebar.tscn" id="5_enbos"]
-[ext_resource type="PackedScene" uid="uid://mlroccvbkqcq" path="res://scenes/bebidinha.tscn" id="6_dpqbg"]
+[ext_resource type="PackedScene" path="res://scenes/copo.tscn" id="5_6s4eh"]
+[ext_resource type="PackedScene" path="res://scenes/mesadebar.tscn" id="5_enbos"]
+[ext_resource type="PackedScene" path="res://scenes/bebidinha.tscn" id="6_dpqbg"]
 
 [node name="farol" type="Node2D"]
 script = ExtResource("1_k48ld")
@@ -36,10 +36,10 @@ position = Vector2(9, -49)
 position = Vector2(-15, -24)
 
 [node name="Mini-caderno-farol" type="TextureButton" parent="."]
-offset_left = 10.0
-offset_top = 105.0
-offset_right = 35.0
-offset_bottom = 133.0
+offset_left = 286.0
+offset_top = 6.0
+offset_right = 314.0
+offset_bottom = 34.0
 texture_normal = ExtResource("4_o8imi")
 stretch_mode = 0
 

@@ -40,7 +40,8 @@ func _physics_process(_delta: float) -> void:
 		if npc == "mae_crys":
 			if Input.is_action_just_pressed("ui_accept"):
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
-				atividadeResource.set_mini_fase(1)
+				if atividadeResource.get_mini_fase() < 1:
+					atividadeResource.set_mini_fase(1)
 				'''
 				usando o resource aqui
 				'''

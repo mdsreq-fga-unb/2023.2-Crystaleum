@@ -592,9 +592,9 @@ visibility_mode = 1
 
 [node name="minimapabutton-casa-crys" type="TextureButton" parent="Test/UI"]
 offset_left = 6.0
-offset_top = 5.0
+offset_top = 6.0
 offset_right = 34.0
-offset_bottom = 33.0
+offset_bottom = 34.0
 texture_normal = ExtResource("11_lc6on")
 stretch_mode = 0
 

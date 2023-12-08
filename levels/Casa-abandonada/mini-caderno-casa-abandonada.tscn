@@ -31,4 +31,12 @@ offset_top = 5.0
 offset_right = 233.0
 offset_bottom = 27.0
 
+[node name="atividade" type="Label" parent="."]
+offset_left = 134.0
+offset_top = 87.0
+offset_right = 219.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 8
+autowrap_mode = 3
+
 [connection signal="pressed" from="botao-de saida" to="." method="_on_botaode_saida_pressed"]
