@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4a0c8fg68oeu"]
+
+[ext_resource type="Texture2D" uid="uid://b8q1ugc7yvik4" path="res://assets/sofa.png" id="1_okjs4"]
+
+[node name="sofa" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(171, 87.25)
+scale = Vector2(0.56, 0.4425)
+texture = ExtResource("1_okjs4")

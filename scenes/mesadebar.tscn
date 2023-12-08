@@ -3,14 +3,14 @@
 [ext_resource type="Texture2D" uid="uid://cbdhg16nu0e6p" path="res://assets/mesa.png" id="1_fl0tt"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xt4kg"]
-size = Vector2(61, 46)
+size = Vector2(61, 50)
 
 [node name="mesadebar" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(194.5, 91)
+position = Vector2(194.5, 93)
 shape = SubResource("RectangleShape2D_xt4kg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
