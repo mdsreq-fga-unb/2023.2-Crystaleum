@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://b32t4of8mqt8j"]
+[gd_scene load_steps=3 format=3 uid="uid://cipj714cb87nv"]
 
-[ext_resource type="PackedScene" uid="uid://c8peyoai6pebm" path="res://levels/SpaceShooter-mini-game/scenes/enemy.tscn" id="1_rq5pu"]
+[ext_resource type="PackedScene" path="res://levels/SpaceShooter-mini-game/scenes/enemy.tscn" id="1_rq5pu"]
 [ext_resource type="Texture2D" uid="uid://ddj6xe5jrih37" path="res://levels/SpaceShooter-mini-game/assets/enemyBlack5.png" id="2_63125"]
 
 [node name="SlowEnemy" instance=ExtResource("1_rq5pu")]

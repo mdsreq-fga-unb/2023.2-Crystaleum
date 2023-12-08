@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bs4xsod4ah3ey"
-path="res://.godot/imported/fantasminha.png-9b474a2fcbc9a2c54a6ca0aa1c533497.ctex"
+uid="uid://buvoyifg3hds3"
+path="res://.godot/imported/botao-carinha.png-babd21c88fdfed637b2ea4d37b2c9a39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/fantasminha.png"
-dest_files=["res://.godot/imported/fantasminha.png-9b474a2fcbc9a2c54a6ca0aa1c533497.ctex"]
+source_file="res://botao-carinha.png"
+dest_files=["res://.godot/imported/botao-carinha.png-babd21c88fdfed637b2ea4d37b2c9a39.ctex"]
 
 [params]
 

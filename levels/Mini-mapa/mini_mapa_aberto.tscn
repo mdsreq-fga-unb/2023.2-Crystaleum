@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://bxeryqxs6ut5g"]
+[gd_scene load_steps=6 format=3 uid="uid://bxeryqxs6ut5g"]
 
 [ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="1_24wer"]
 [ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="2_q6ygb"]
-[ext_resource type="Texture2D" uid="uid://ifvr30233wvw" path="res://assets/ponto-mapa.png" id="3_co5i4"]
+[ext_resource type="Texture2D" uid="uid://cc57wo7joujia" path="res://assets/botao-minimapaa.png" id="3_i03va"]
+[ext_resource type="Texture2D" uid="uid://buvoyifg3hds3" path="res://botao-carinha.png" id="4_y3yd1"]
 
 [sub_resource type="GDScript" id="GDScript_27lne"]
 script/source = "extends Node2D
@@ -82,27 +83,25 @@ offset_right = 253.0
 offset_bottom = 112.0
 
 [node name="ponto-casa" type="Sprite2D" parent="."]
-position = Vector2(186, 146)
-scale = Vector2(0.375, 0.328125)
-texture = ExtResource("3_co5i4")
+position = Vector2(180, 138)
+scale = Vector2(0.0472572, 0.0568658)
+texture = ExtResource("3_i03va")
 
 [node name="ponto-casa-abandonada" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(129, 92)
-scale = Vector2(0.375, 0.328125)
-texture = ExtResource("3_co5i4")
+position = Vector2(134.811, 84.339)
+scale = Vector2(0.454945, 0.547214)
+texture = ExtResource("4_y3yd1")
 
 [node name="ponto-pracinha" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(178, 69)
-scale = Vector2(0.375, 0.328125)
-texture = ExtResource("3_co5i4")
+position = Vector2(206.445, 98.84)
+scale = Vector2(0.0485814, 0.05525)
+texture = ExtResource("3_i03va")
 
 [node name="ponto-farol" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(213, 106)
-scale = Vector2(0.375, 0.328125)
-texture = ExtResource("3_co5i4")
+position = Vector2(169, 69)
+scale = Vector2(0.0625727, 0.0597656)
+texture = ExtResource("3_i03va")
 
 [connection signal="pressed" from="casabuttonmapa" to="." method="_on_casabuttonmapa_pressed"]
 [connection signal="pressed" from="casaabandonadabuttonmapa" to="." method="_on_casaabandonadabuttonmapa_pressed"]
