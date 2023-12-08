@@ -77,8 +77,8 @@ transitions = ["Start", "portasede", SubResource("AnimationNodeStateMachineTrans
 [node name="portafaccao" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(161, 97)
-scale = Vector2(0.0956166, 0.10846)
+position = Vector2(180, 98)
+scale = Vector2(0.291667, 0.320312)
 texture = ExtResource("1_af38q")
 hframes = 8
 
