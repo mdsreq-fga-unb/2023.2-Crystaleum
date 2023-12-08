@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buvoyifg3hds3"
-path="res://.godot/imported/botao-carinha.png-babd21c88fdfed637b2ea4d37b2c9a39.ctex"
+uid="uid://bt2l2sbc5eq42"
+path="res://.godot/imported/piso.png-45ca41b63dee43e764472952574bf59a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://botao-carinha.png"
-dest_files=["res://.godot/imported/botao-carinha.png-babd21c88fdfed637b2ea4d37b2c9a39.ctex"]
+source_file="res://assets/piso.png"
+dest_files=["res://.godot/imported/piso.png-45ca41b63dee43e764472952574bf59a.ctex"]
 
 [params]
 

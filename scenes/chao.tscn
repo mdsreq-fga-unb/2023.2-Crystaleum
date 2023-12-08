@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3esh5yjigtt6"]
+
+[ext_resource type="Texture2D" uid="uid://bt2l2sbc5eq42" path="res://assets/piso.png" id="1_kfw2q"]
+
+[node name="chao" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(157.314, 98.2271)
+rotation = 2.34572
+scale = Vector2(0.410947, 0.304386)
+texture = ExtResource("1_kfw2q")

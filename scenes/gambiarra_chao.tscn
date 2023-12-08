@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://clhkknt2dvs10"]
+
+[ext_resource type="Texture2D" uid="uid://bt2l2sbc5eq42" path="res://assets/piso.png" id="1_he35n"]
+
+[node name="gambiarra-chao" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(137, 76)
+scale = Vector2(0.375, 0.5)
+texture = ExtResource("1_he35n")

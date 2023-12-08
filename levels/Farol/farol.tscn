@@ -3,9 +3,9 @@
 [ext_resource type="Script" path="res://levels/Farol/farol.gd" id="1_k48ld"]
 [ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_aqr8l"]
-[ext_resource type="PackedScene" path="res://scenes/copo.tscn" id="5_6s4eh"]
+[ext_resource type="PackedScene" uid="uid://nvx8v527847q" path="res://scenes/copo.tscn" id="5_6s4eh"]
 [ext_resource type="PackedScene" uid="uid://blir15774l15d" path="res://scenes/mesadebar.tscn" id="5_enbos"]
-[ext_resource type="PackedScene" path="res://scenes/bebidinha.tscn" id="6_dpqbg"]
+[ext_resource type="PackedScene" uid="uid://mlroccvbkqcq" path="res://scenes/bebidinha.tscn" id="6_dpqbg"]
 
 [node name="farol" type="Node2D"]
 script = ExtResource("1_k48ld")
