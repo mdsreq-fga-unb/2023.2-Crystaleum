@@ -1,21 +1,23 @@
-[gd_scene load_steps=4 format=3 uid="uid://bchey21unenbd"]
+[gd_scene load_steps=4 format=3 uid="uid://brlrql77273xr"]
 
-[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="1_hkmns"]
-[ext_resource type="Script" path="res://levels/Casa-Crys/mini-caderno-casa-Crys.gd" id="1_mksak"]
-[ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="2_c7xt6"]
+[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="1_dvlty"]
+[ext_resource type="Script" path="res://levels/mini-caderno_aberto/mini_cadernoAberto.gd" id="1_pd2nr"]
+[ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="2_x3krx"]
 
-[node name="mini-caderno-casa-Crys" type="Node2D"]
-script = ExtResource("1_mksak")
+[node name="Mini-caderno" type="TextureButton"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_pd2nr")
 
 [node name="fundo preto" type="Sprite2D" parent="."]
 position = Vector2(161, 90.5)
 scale = Vector2(5, 2.79688)
-texture = ExtResource("1_hkmns")
+texture = ExtResource("1_dvlty")
 
 [node name="mini-caderno" type="Sprite2D" parent="."]
 position = Vector2(151, 91)
 scale = Vector2(10.25, 10.6875)
-texture = ExtResource("2_c7xt6")
+texture = ExtResource("2_x3krx")
 
 [node name="x" type="Label" parent="."]
 offset_left = 213.0

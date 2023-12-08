@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bxeryqxs6ut5g"]
+[gd_scene load_steps=5 format=3 uid="uid://bxeryqxs6ut5g"]
 
 [ext_resource type="Texture2D" uid="uid://djxm0d4k5xlxy" path="res://assets/mapa.png" id="1_24wer"]
 [ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="2_q6ygb"]
 [ext_resource type="Texture2D" uid="uid://cc57wo7joujia" path="res://assets/botao-minimapaa.png" id="3_i03va"]
-[ext_resource type="Texture2D" uid="uid://buvoyifg3hds3" path="res://botao-carinha.png" id="4_y3yd1"]
 
 [sub_resource type="GDScript" id="GDScript_27lne"]
 script/source = "extends Node2D
@@ -58,49 +57,51 @@ texture = ExtResource("1_24wer")
 modulate = Color(1, 1, 1, 0)
 offset_left = 109.0
 offset_top = 101.0
-offset_right = 168.0
+offset_right = 181.0
 offset_bottom = 151.0
 
 [node name="casaabandonadabuttonmapa" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
 offset_left = 69.0
 offset_top = 62.0
-offset_right = 127.0
+offset_right = 131.0
 offset_bottom = 95.0
 
 [node name="pracinhabuttonmapa" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 124.0
+offset_left = 131.0
 offset_top = 11.0
 offset_right = 220.0
-offset_bottom = 59.0
+offset_bottom = 70.0
 
 [node name="farolbuttonmapa" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 219.0
+offset_left = 210.0
 offset_top = 63.0
 offset_right = 253.0
 offset_bottom = 112.0
 
 [node name="ponto-casa" type="Sprite2D" parent="."]
-position = Vector2(180, 138)
-scale = Vector2(0.0472572, 0.0568658)
+position = Vector2(174, 143)
+scale = Vector2(0.045, 0.05)
 texture = ExtResource("3_i03va")
 
 [node name="ponto-casa-abandonada" type="Sprite2D" parent="."]
-position = Vector2(134.811, 84.339)
-scale = Vector2(0.454945, 0.547214)
-texture = ExtResource("4_y3yd1")
+visible = false
+position = Vector2(125, 91)
+scale = Vector2(0.045, 0.05)
+texture = ExtResource("3_i03va")
 
 [node name="ponto-pracinha" type="Sprite2D" parent="."]
-position = Vector2(206.445, 98.84)
-scale = Vector2(0.0485814, 0.05525)
+visible = false
+position = Vector2(173, 66)
+scale = Vector2(0.045, 0.05)
 texture = ExtResource("3_i03va")
 
 [node name="ponto-farol" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(169, 69)
-scale = Vector2(0.0625727, 0.0597656)
+position = Vector2(216, 106)
+scale = Vector2(0.045, 0.05)
 texture = ExtResource("3_i03va")
 
 [connection signal="pressed" from="casabuttonmapa" to="." method="_on_casabuttonmapa_pressed"]
