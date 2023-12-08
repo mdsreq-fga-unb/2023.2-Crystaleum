@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://kql77v2lxexj"
+path="res://.godot/imported/DialogoComandante.dialogue-11c296501a3bf4fd4ba18358e565f78b.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoComandante.dialogue"
+dest_files=["res://.godot/imported/DialogoComandante.dialogue-11c296501a3bf4fd4ba18358e565f78b.tres"]
+
+[params]
+
+defaults=true

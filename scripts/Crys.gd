@@ -35,6 +35,10 @@ func _physics_process(_delta: float) -> void:
 		if npc == "cacador":
 			if Input.is_action_just_pressed("ui_accept"):
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "startC")
+		if npc == "comandante":
+			if Input.is_action_just_pressed("ui_accept"):
+				get_tree().change_scene_to_file("res://scenes/comandante.tscn")
+				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante")
 		if npc == "mae_crys":
 			if Input.is_action_just_pressed("ui_accept"):
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
@@ -92,6 +96,8 @@ func _on_detection_area_body_entered(body):
 		npc = "cacador"
 	if body.has_method("mae_crys"):
 		npc = "mae_crys"
+	if body.has_method("comandante"):
+		npc = "comandante"
 
 
 func _on_detection_area_body_exited(body):
