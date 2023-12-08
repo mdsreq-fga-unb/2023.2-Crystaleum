@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cw3al20aq038g"]
+[gd_scene load_steps=4 format=3 uid="uid://d3kvjkbaqglap"]
 
 [ext_resource type="Script" path="res://scripts/tv.gd" id="1_8u7s2"]
 [ext_resource type="Texture2D" uid="uid://cex06n64m7btf" path="res://personagem/assets/comandante/TV.png" id="1_v55yb"]
@@ -7,7 +7,7 @@
 size = Vector2(70, 40)
 
 [node name="TV" type="StaticBody2D"]
-position = Vector2(3, -1)
+position = Vector2(-7, 1)
 script = ExtResource("1_8u7s2")
 metadata/_edit_group_ = true
 

@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwq4s3djweujf"]
+
+[ext_resource type="Texture2D" uid="uid://caj1l5pv47btf" path="res://assets/saidafaccao.png" id="1_4xw1n"]
+
+[node name="placa-saida" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(165, 15)
+scale = Vector2(0.0702479, 0.0562015)
+texture = ExtResource("1_4xw1n")

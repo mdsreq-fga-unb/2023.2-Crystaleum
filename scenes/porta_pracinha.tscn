@@ -1,0 +1,100 @@
+[gd_scene load_steps=8 format=3 uid="uid://djjxitwyj5jrj"]
+
+[ext_resource type="Texture2D" uid="uid://cl1o4efdvxf6n" path="res://assets/porta-lado-fora.png" id="1_xjwp0"]
+
+[sub_resource type="Animation" id="Animation_teerq"]
+resource_name = "porta-abrindo"
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_xjwp0")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 1, 2, 3, 4]
+}
+
+[sub_resource type="Animation" id="Animation_71njg"]
+length = 0.001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_xjwp0")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [5]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_uhrho"]
+_data = {
+"RESET": SubResource("Animation_71njg"),
+"porta-abrindo": SubResource("Animation_teerq")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_et3se"]
+animation = &"porta-abrindo"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_8t7fa"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_mg8ga"]
+states/porta-abrindo/node = SubResource("AnimationNodeAnimation_et3se")
+states/porta-abrindo/position = Vector2(534.234, 111)
+transitions = ["Start", "porta-abrindo", SubResource("AnimationNodeStateMachineTransition_8t7fa")]
+graph_offset = Vector2(123.234, 0)
+
+[node name="porta-pracinha" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(117.25, 60.375)
+scale = Vector2(0.186508, 0.206522)
+texture = ExtResource("1_xjwp0")
+hframes = 6
+frame = 5
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+root_node = NodePath(".")
+libraries = {
+"": SubResource("AnimationLibrary_uhrho")
+}
+tree_root = SubResource("AnimationNodeStateMachine_mg8ga")
+anim_player = NodePath("../AnimationPlayer")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../AnimationTree")
+libraries = {
+"": SubResource("AnimationLibrary_uhrho")
+}
