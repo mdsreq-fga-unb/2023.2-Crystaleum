@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp2hw2bnpujh4"]
+
+[ext_resource type="Texture2D" uid="uid://b5nsdgynq7st8" path="res://assets/botao VERMELHO.png" id="1_i261i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mff0x"]
+size = Vector2(19, 36)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+position = Vector2(-10, -3)
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(167.5, 92)
+shape = SubResource("RectangleShape2D_mff0x")
+one_way_collision_margin = 13.7
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(168, 91)
+texture = ExtResource("1_i261i")
