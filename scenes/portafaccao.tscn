@@ -1,0 +1,95 @@
+[gd_scene load_steps=8 format=3 uid="uid://bffpyv10kw37t"]
+
+[ext_resource type="Texture2D" uid="uid://chu05vlgtlblj" path="res://assets/portataccao.png" id="1_af38q"]
+
+[sub_resource type="Animation" id="Animation_o52bh"]
+resource_name = "portasede"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_af38q")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6]
+}
+
+[sub_resource type="Animation" id="Animation_5400c"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_af38q")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5qppt"]
+_data = {
+"RESET": SubResource("Animation_5400c"),
+"portasede": SubResource("Animation_o52bh")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_8ho8n"]
+animation = &"portasede"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bbb7q"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ru6k4"]
+states/portasede/node = SubResource("AnimationNodeAnimation_8ho8n")
+states/portasede/position = Vector2(485, 113)
+transitions = ["Start", "portasede", SubResource("AnimationNodeStateMachineTransition_bbb7q")]
+
+[node name="portafaccao" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(161, 97)
+scale = Vector2(0.0956166, 0.10846)
+texture = ExtResource("1_af38q")
+hframes = 8
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_5qppt")
+}
+tree_root = SubResource("AnimationNodeStateMachine_ru6k4")
+anim_player = NodePath("../AnimationPlayer")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_5qppt")
+}
