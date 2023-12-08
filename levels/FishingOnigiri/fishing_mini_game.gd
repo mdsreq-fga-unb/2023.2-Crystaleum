@@ -9,6 +9,7 @@ Se a barra alcançar o máx, o peixe foi pego
 A barra tem limites superiores e inferiores tb
 
 '''
+var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
 
 var numOnigirisCought = 0
 @onready var playerHook: CharacterBody2D = $PlayerHook
@@ -42,7 +43,8 @@ func caught_onigiri():
 	update_label()
 	$TextureProgressBar.value = 0
 	if (numOnigirisCought >= 3):
-		get_tree().paused = true
+		if atividadeResource.get_mini_fase() < 5:
+			atividadeResource.set_mini_fase(5)
 		get_tree().change_scene_to_file("res://levels/FishingOnigiri/end_key.tscn")
 
 func update_label():

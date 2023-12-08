@@ -22,10 +22,10 @@ position = Vector2(255, 118)
 position = Vector2(83, 116)
 
 [node name="Mini-caderno-casa-crys" type="TextureButton" parent="."]
-offset_left = 10.0
-offset_top = 105.0
-offset_right = 35.0
-offset_bottom = 133.0
+offset_left = 286.0
+offset_top = 6.0
+offset_right = 314.0
+offset_bottom = 34.0
 texture_normal = ExtResource("4_82v4u")
 stretch_mode = 0
 
