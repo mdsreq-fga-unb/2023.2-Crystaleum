@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crv6ttneb5tfb"
-path="res://.godot/imported/starjedi hollow sample.jpg-de7bcc1649216af202f2fcdb352b89df.ctex"
+uid="uid://c6o13j31yot3v"
+path="res://.godot/imported/Star Jedi Outline sample.jpg-651c246dd059d4acff2405e83503c995.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/starwarsFonte/starjedi/starjedi hollow sample.jpg"
-dest_files=["res://.godot/imported/starjedi hollow sample.jpg-de7bcc1649216af202f2fcdb352b89df.ctex"]
+source_file="res://assets/fontes/starwarsFonte/starjout/Star Jedi Outline sample.jpg"
+dest_files=["res://.godot/imported/Star Jedi Outline sample.jpg-651c246dd059d4acff2405e83503c995.ctex"]
 
 [params]
 

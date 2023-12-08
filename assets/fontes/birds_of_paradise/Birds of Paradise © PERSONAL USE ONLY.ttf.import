@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://ehb0deiew15p"
-path="res://.godot/imported/Kenney Space.ttf-78868bc5004754ae9edd5d5418551668.fontdata"
+uid="uid://c4dct02xmrlgc"
+path="res://.godot/imported/Birds of Paradise © PERSONAL USE ONLY.ttf-552db59a219ddf9d641dd96d4f7fc8b7.fontdata"
 
 [deps]
 
-source_file="res://assets/kenneyFonte/Kenney Space.ttf"
-dest_files=["res://.godot/imported/Kenney Space.ttf-78868bc5004754ae9edd5d5418551668.fontdata"]
+source_file="res://assets/fontes/birds_of_paradise/Birds of Paradise © PERSONAL USE ONLY.ttf"
+dest_files=["res://.godot/imported/Birds of Paradise © PERSONAL USE ONLY.ttf-552db59a219ddf9d641dd96d4f7fc8b7.fontdata"]
 
 [params]
 

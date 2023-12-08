@@ -3,8 +3,8 @@
 [ext_resource type="Script" path="res://scripts/historia2.gd" id="1_kh127"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_jn5so"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_p85fs"]
-[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/kenneyFonte/Kenney Space.ttf" id="4_v1eoi"]
-[ext_resource type="FontFile" uid="uid://do47ib87n3yjw" path="res://assets/starwarsFonte/stjedise/STJEDISE.TTF" id="6_w7oaq"]
+[ext_resource type="FontFile" uid="uid://ehb0deiew15p" path="res://assets/fontes/kenneyFonte/Kenney Space.ttf" id="4_v1eoi"]
+[ext_resource type="FontFile" uid="uid://d0sycey4s1c3a" path="res://assets/fontes/conthrax/conthrax-sb.otf" id="5_tfvmo"]
 
 [node name="Historia2" type="Control"]
 layout_mode = 3
@@ -38,17 +38,21 @@ grow_vertical = 2
 texture_filter = 6
 texture_repeat = 1
 layout_direction = 2
-layout_mode = 2
-offset_left = 257.0
-offset_top = 157.0
-offset_right = 312.0
-offset_bottom = 176.0
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -34.0
+offset_top = 5.0
+offset_right = -5.0
+offset_bottom = 24.0
+grow_horizontal = 0
 size_flags_vertical = 0
 size_flags_stretch_ratio = 0.0
 theme = ExtResource("3_p85fs")
 theme_override_fonts/font = ExtResource("4_v1eoi")
 theme_override_font_sizes/font_size = 9
-text = "Skip>>"
+text = ">>"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
@@ -60,8 +64,8 @@ size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_w7oaq")
-theme_override_font_sizes/font_size = 8
+theme_override_fonts/font = ExtResource("5_tfvmo")
+theme_override_font_sizes/font_size = 9
 text = "Diante deste cenário caótico em Calamum
 Caereleum, foi fundado o Comando Estelar, 
 uma força especial de combate que uniu

@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://xdsd267gc58c"
-path="res://.godot/imported/Stjldbl1.ttf-4c72dc0738debc7125736d79831a0669.fontdata"
+uid="uid://d0sycey4s1c3a"
+path="res://.godot/imported/conthrax-sb.otf-f0faaff9f37a6f9bd3e2838da525afea.fontdata"
 
 [deps]
 
-source_file="res://assets/starwarsFonte/stjelogo/Stjldbl1.ttf"
-dest_files=["res://.godot/imported/Stjldbl1.ttf-4c72dc0738debc7125736d79831a0669.fontdata"]
+source_file="res://assets/fontes/conthrax/conthrax-sb.otf"
+dest_files=["res://.godot/imported/conthrax-sb.otf-f0faaff9f37a6f9bd3e2838da525afea.fontdata"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6o13j31yot3v"
-path="res://.godot/imported/Star Jedi Outline sample.jpg-9f5e7792d872548e34810734ac157ffe.ctex"
+uid="uid://eeuvk64pgocc"
+path="res://.godot/imported/starjedi sample.jpg-df5f3a6c68c5ee9268ffdefaeb8b9469.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/starwarsFonte/starjout/Star Jedi Outline sample.jpg"
-dest_files=["res://.godot/imported/Star Jedi Outline sample.jpg-9f5e7792d872548e34810734ac157ffe.ctex"]
+source_file="res://assets/fontes/starwarsFonte/starjedi/starjedi sample.jpg"
+dest_files=["res://.godot/imported/starjedi sample.jpg-df5f3a6c68c5ee9268ffdefaeb8b9469.ctex"]
 
 [params]
 

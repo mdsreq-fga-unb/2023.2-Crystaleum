@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://ckgchcyyvuupq"
-path="res://.godot/imported/Stjldbl2.ttf-6a29943080339273f17ccdc05a19c4a8.fontdata"
+uid="uid://bpr60lfgwdhq6"
+path="res://.godot/imported/Starjedi.ttf-e19769b33b5b60584478850d678df9f4.fontdata"
 
 [deps]
 
-source_file="res://assets/starwarsFonte/stjelogo/Stjldbl2.ttf"
-dest_files=["res://.godot/imported/Stjldbl2.ttf-6a29943080339273f17ccdc05a19c4a8.fontdata"]
+source_file="res://assets/fontes/starwarsFonte/starjedi/Starjedi.ttf"
+dest_files=["res://.godot/imported/Starjedi.ttf-e19769b33b5b60584478850d678df9f4.fontdata"]
 
 [params]
 

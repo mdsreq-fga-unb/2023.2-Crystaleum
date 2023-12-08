@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://do47ib87n3yjw"
-path="res://.godot/imported/STJEDISE.TTF-1b8fbf1d451018c9c57534d3ec579305.fontdata"
+uid="uid://75u6oo7vev3p"
+path="res://.godot/imported/Strjmono.ttf-e73afbbf1f4e0ad6853560b9034ad479.fontdata"
 
 [deps]
 
-source_file="res://assets/starwarsFonte/stjedise/STJEDISE.TTF"
-dest_files=["res://.godot/imported/STJEDISE.TTF-1b8fbf1d451018c9c57534d3ec579305.fontdata"]
+source_file="res://assets/fontes/starwarsFonte/stjelogo/Strjmono.ttf"
+dest_files=["res://.godot/imported/Strjmono.ttf-e73afbbf1f4e0ad6853560b9034ad479.fontdata"]
 
 [params]
 

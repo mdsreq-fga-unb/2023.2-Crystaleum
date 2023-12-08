@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cysfuu0galaia"
-path="res://.godot/imported/sample003.jpg-9fb34cc985f90a132060a7e4bbe25031.ctex"
+uid="uid://ddpm4nbwmd1b6"
+path="res://.godot/imported/stjedise sample.jpg-687803ed3c7be05ca6788bdf65a16ba5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/starwarsFonte/starjedi/sample003.jpg"
-dest_files=["res://.godot/imported/sample003.jpg-9fb34cc985f90a132060a7e4bbe25031.ctex"]
+source_file="res://assets/fontes/starwarsFonte/stjedise/stjedise sample.jpg"
+dest_files=["res://.godot/imported/stjedise sample.jpg-687803ed3c7be05ca6788bdf65a16ba5.ctex"]
 
 [params]
 

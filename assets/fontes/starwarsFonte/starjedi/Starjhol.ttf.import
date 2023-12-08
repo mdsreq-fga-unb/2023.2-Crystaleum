@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dciokpuclyfa1"
-path="res://.godot/imported/Starjhol.ttf-45d09589ee028ea6521a8c2cbd46dcb1.fontdata"
+path="res://.godot/imported/Starjhol.ttf-e6f04cbe0a954386870cfc25bc0a30b1.fontdata"
 
 [deps]
 
-source_file="res://assets/starwarsFonte/starjedi/Starjhol.ttf"
-dest_files=["res://.godot/imported/Starjhol.ttf-45d09589ee028ea6521a8c2cbd46dcb1.fontdata"]
+source_file="res://assets/fontes/starwarsFonte/starjedi/Starjhol.ttf"
+dest_files=["res://.godot/imported/Starjhol.ttf-e6f04cbe0a954386870cfc25bc0a30b1.fontdata"]
 
 [params]
 

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://brlrql77273xr"]
+[gd_scene load_steps=5 format=3 uid="uid://brlrql77273xr"]
 
-[ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="1_dvlty"]
 [ext_resource type="Script" path="res://levels/mini-caderno_aberto/mini_cadernoAberto.gd" id="1_pd2nr"]
+[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="2_8weov"]
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="2_x3krx"]
+[ext_resource type="FontFile" uid="uid://c4dct02xmrlgc" path="res://assets/fontes/birds_of_paradise/Birds of Paradise © PERSONAL USE ONLY.ttf" id="4_cbj35"]
 
 [node name="Mini-caderno" type="TextureButton"]
 offset_right = 40.0
@@ -11,8 +12,8 @@ script = ExtResource("1_pd2nr")
 
 [node name="fundo preto" type="Sprite2D" parent="."]
 position = Vector2(161, 90.5)
-scale = Vector2(5, 2.79688)
-texture = ExtResource("1_dvlty")
+scale = Vector2(1, 0.56)
+texture = ExtResource("2_8weov")
 
 [node name="mini-caderno" type="Sprite2D" parent="."]
 position = Vector2(151, 91)
@@ -20,6 +21,7 @@ scale = Vector2(10.25, 10.6875)
 texture = ExtResource("2_x3krx")
 
 [node name="x" type="Label" parent="."]
+layout_mode = 0
 offset_left = 213.0
 offset_top = 4.0
 offset_right = 223.0
@@ -28,24 +30,30 @@ text = "X"
 
 [node name="botao-de saida" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
+layout_mode = 0
 offset_left = 202.0
 offset_top = 5.0
 offset_right = 233.0
 offset_bottom = 27.0
 
 [node name="atividade" type="Label" parent="."]
+layout_mode = 0
 offset_left = 134.0
 offset_top = 87.0
 offset_right = 219.0
 offset_bottom = 160.0
-theme_override_font_sizes/font_size = 8
+theme_override_fonts/font = ExtResource("4_cbj35")
+theme_override_font_sizes/font_size = 12
 autowrap_mode = 3
 
 [node name="Titulo" type="Label" parent="."]
+layout_mode = 0
 offset_left = 133.0
 offset_top = 42.0
 offset_right = 218.0
 offset_bottom = 65.0
+theme_override_fonts/font = ExtResource("4_cbj35")
+theme_override_font_sizes/font_size = 22
 text = "Atividades:"
 
 [connection signal="pressed" from="botao-de saida" to="." method="_on_botaode_saida_pressed"]

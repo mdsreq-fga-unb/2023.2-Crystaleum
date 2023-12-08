@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br3gyi3i3knu"
-path="res://.godot/imported/logomonoline samples.jpg-75f0dcf66e17b49ef41aa36a01df0e4f.ctex"
+uid="uid://cysfuu0galaia"
+path="res://.godot/imported/sample003.jpg-60c2582a7641d1059d7050727e0400c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/starwarsFonte/stjelogo/logomonoline samples.jpg"
-dest_files=["res://.godot/imported/logomonoline samples.jpg-75f0dcf66e17b49ef41aa36a01df0e4f.ctex"]
+source_file="res://assets/fontes/starwarsFonte/starjedi/sample003.jpg"
+dest_files=["res://.godot/imported/sample003.jpg-60c2582a7641d1059d7050727e0400c2.ctex"]
 
 [params]
 
