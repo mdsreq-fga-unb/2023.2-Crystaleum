@@ -1,5 +1,7 @@
 extends Node2D
 
+@onready var bau = $bau
+var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -7,5 +9,6 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if atividadeResource.get_mini_fase() > 4:
+		bau.visible = true
 

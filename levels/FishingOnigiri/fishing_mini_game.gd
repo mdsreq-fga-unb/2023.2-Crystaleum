@@ -45,7 +45,7 @@ func caught_onigiri():
 	if (numOnigirisCought >= 3):
 		if atividadeResource.get_mini_fase() < 5:
 			atividadeResource.set_mini_fase(5)
-		get_tree().change_scene_to_file("res://levels/FishingOnigiri/end_key.tscn")
+		get_tree().change_scene_to_file("res://levels/Farol/farol.tscn")
 
 func update_label():
 	$Label.text = str(numOnigirisCought)

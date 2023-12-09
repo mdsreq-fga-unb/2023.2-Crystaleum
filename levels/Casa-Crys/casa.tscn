@@ -31,6 +31,7 @@ position = Vector2(-71, 43)
 scale = Vector2(0.999043, 1.00777)
 
 [node name="bau" parent="." instance=ExtResource("6_tdhmc")]
+visible = false
 position = Vector2(139, 11)
 
 [node name="gambiarra-rosa" parent="." instance=ExtResource("10_65gc8")]
