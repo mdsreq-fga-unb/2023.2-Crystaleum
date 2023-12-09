@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://dtb1d3rcu5ows" path="res://scenes/caçador.tscn" id="7_ui10n"]
 [ext_resource type="PackedScene" uid="uid://b43d8vqylis1d" path="res://scenes/exploradora.tscn" id="8_una6w"]
 [ext_resource type="PackedScene" uid="uid://dtfw7d3foembt" path="res://scenes/guardiao.tscn" id="9_1bfyn"]
-[ext_resource type="PackedScene" uid="uid://djjxitwyj5jrj" path="res://scenes/porta_pracinha.tscn" id="9_hssun"]
+[ext_resource type="PackedScene" uid="uid://cjqfb4cr22r1j" path="res://scenes/porta_pracinha.tscn" id="9_hssun"]
 [ext_resource type="PackedScene" uid="uid://cgolxov5bpb55" path="res://scenes/mercenaria.tscn" id="10_5ntao"]
 [ext_resource type="PackedScene" uid="uid://dln7d5nwggqcm" path="res://scenes/espaconave.tscn" id="11_gscaf"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="11_px2go"]
@@ -16,7 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://bmes7oviqco1r" path="res://scenes/plantinha_1.tscn" id="13_krh12"]
 [ext_resource type="PackedScene" uid="uid://b6g8ty5blrhm7" path="res://scenes/plantinha_3.tscn" id="14_ipghw"]
 
-[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_8xu0y"]
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_pbt1v"]
 script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
@@ -28,7 +28,7 @@ scale = Vector2(0.5625, 0.578125)
 texture = ExtResource("1_uyqq8")
 
 [node name="CodeEdit" parent="." instance=ExtResource("5_r44jh")]
-syntax_highlighter = SubResource("SyntaxHighlighter_8xu0y")
+syntax_highlighter = SubResource("SyntaxHighlighter_pbt1v")
 
 [node name="caçador" parent="." instance=ExtResource("7_ui10n")]
 position = Vector2(265, 107)
