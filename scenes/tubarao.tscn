@@ -1,0 +1,98 @@
+[gd_scene load_steps=8 format=3 uid="uid://caa000ros25ou"]
+
+[ext_resource type="Texture2D" uid="uid://fje73etfabb2" path="res://assets/tubarao.png" id="1_d8d82"]
+
+[sub_resource type="Animation" id="Animation_nby4b"]
+length = 0.001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_d8d82")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_pqqrl"]
+resource_name = "tubarao"
+loop_mode = 1
+step = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_d8d82")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_i5hub"]
+_data = {
+"RESET": SubResource("Animation_nby4b"),
+"tubarao": SubResource("Animation_pqqrl")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hhbet"]
+animation = &"tubarao"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_e0pft"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_d0xdg"]
+states/tubarao/node = SubResource("AnimationNodeAnimation_hhbet")
+states/tubarao/position = Vector2(447, 136)
+transitions = ["Start", "tubarao", SubResource("AnimationNodeStateMachineTransition_e0pft")]
+
+[node name="tubarao" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(109, 56)
+scale = Vector2(0.056125, 0.0575945)
+texture = ExtResource("1_d8d82")
+hframes = 10
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_i5hub")
+}
+speed_scale = 0.75
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_i5hub")
+}
+tree_root = SubResource("AnimationNodeStateMachine_d0xdg")
+anim_player = NodePath("../AnimationPlayer")

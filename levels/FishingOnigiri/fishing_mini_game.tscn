@@ -1,13 +1,15 @@
-[gd_scene load_steps=13 format=3 uid="uid://bojgvwhs7rkjp"]
+[gd_scene load_steps=15 format=3 uid="uid://bojgvwhs7rkjp"]
 
 [ext_resource type="Script" path="res://levels/FishingOnigiri/fishing_mini_game.gd" id="1_ahc27"]
 [ext_resource type="Texture2D" uid="uid://ys7yvhn1l85s" path="res://levels/FishingOnigiri/assets/local-pesca.png" id="2_jeixe"]
+[ext_resource type="PackedScene" uid="uid://caa000ros25ou" path="res://scenes/tubarao.tscn" id="3_47uhq"]
 [ext_resource type="Texture2D" uid="uid://d0ajepjvov07p" path="res://levels/FishingOnigiri/assets/pescaria-onigiri-completo.png" id="3_k8b77"]
 [ext_resource type="Texture2D" uid="uid://2rdd2pklhdsq" path="res://levels/FishingOnigiri/assets/barra de progresso.png" id="4_sgpah"]
 [ext_resource type="Script" path="res://levels/FishingOnigiri/PlayerHook.gd" id="5_nc1vi"]
 [ext_resource type="Script" path="res://levels/FishingOnigiri/Onigiri.gd" id="6_kldpi"]
 [ext_resource type="Texture2D" uid="uid://bof3iq6cbca38" path="res://levels/FishingOnigiri/assets/Pirata e manivela 2.png" id="7_td02i"]
 [ext_resource type="PackedScene" uid="uid://3lpkqn01prw3" path="res://scenes/pirata.tscn" id="8_3iyes"]
+[ext_resource type="PackedScene" uid="uid://b17jm5gux1ikb" path="res://scenes/barco_pirata.tscn" id="10_vuxdl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_23iq2"]
 size = Vector2(42.4999, 37.5)
@@ -24,11 +26,15 @@ size = Vector2(37, 16)
 [node name="Fishing mini game" type="Node2D"]
 position = Vector2(256, 96)
 script = ExtResource("1_ahc27")
+metadata/_edit_horizontal_guides_ = [88.0, 53.0, 44.0]
 
 [node name="Fundo" type="Sprite2D" parent="."]
 position = Vector2(-94.7504, -4.9998)
 scale = Vector2(0.496095, 0.499999)
 texture = ExtResource("2_jeixe")
+
+[node name="tubarao" parent="." instance=ExtResource("3_47uhq")]
+position = Vector2(-66, -45)
 
 [node name="Barras-pesca" type="Sprite2D" parent="."]
 position = Vector2(-328.083, -84.8466)
@@ -127,6 +133,9 @@ scale = Vector2(0.9375, 0.892858)
 texture = ExtResource("7_td02i")
 region_enabled = true
 region_rect = Rect2(129.872, 151.209, 40.2897, 35.2864)
+
+[node name="barco-pirata" parent="." instance=ExtResource("10_vuxdl")]
+position = Vector2(-312, -71)
 
 [connection signal="_progress_decreased" from="PlayerHook" to="." method="decreaseProgress"]
 [connection signal="_progress_increased" from="PlayerHook" to="." method="increaseProgress"]
