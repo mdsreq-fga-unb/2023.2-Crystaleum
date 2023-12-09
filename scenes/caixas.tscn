@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnil85eyu41l4"]
+
+[ext_resource type="Texture2D" uid="uid://uluq0dibs7" path="res://assets/caixas.png" id="1_xaqxi"]
+
+[node name="caixas" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(176, 100)
+scale = Vector2(0.23, 0.232)
+texture = ExtResource("1_xaqxi")

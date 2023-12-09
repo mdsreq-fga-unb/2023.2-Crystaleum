@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxug47o62oxiw"]
+
+[ext_resource type="Texture2D" uid="uid://dj6hrdq43ebv8" path="res://assets/vela1.png" id="1_ej5vs"]
+
+[node name="vela2" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(171, 62.125)
+scale = Vector2(0.254545, 0.163828)
+texture = ExtResource("1_ej5vs")
