@@ -1,12 +1,14 @@
-[gd_scene load_steps=8 format=3 uid="uid://b6eanxffy4jw3"]
+[gd_scene load_steps=10 format=3 uid="uid://b6eanxffy4jw3"]
 
 [ext_resource type="Script" path="res://levels/Farol/farol.gd" id="1_k48ld"]
 [ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
-[ext_resource type="PackedScene" path="res://scenes/pirata.tscn" id="3_0qqpj"]
+[ext_resource type="PackedScene" uid="uid://3lpkqn01prw3" path="res://scenes/pirata.tscn" id="3_0qqpj"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_aqr8l"]
+[ext_resource type="PackedScene" uid="uid://buxkvwwvi66vq" path="res://scenes/dragao_espacial.tscn" id="5_6oi28"]
 [ext_resource type="PackedScene" uid="uid://nvx8v527847q" path="res://scenes/copo.tscn" id="5_6s4eh"]
 [ext_resource type="PackedScene" uid="uid://blir15774l15d" path="res://scenes/mesadebar.tscn" id="5_enbos"]
 [ext_resource type="PackedScene" uid="uid://mlroccvbkqcq" path="res://scenes/bebidinha.tscn" id="6_dpqbg"]
+[ext_resource type="PackedScene" uid="uid://fgb64uvf773o" path="res://scenes/barco_pirata_farol.tscn" id="6_yjsfi"]
 
 [node name="farol" type="Node2D"]
 script = ExtResource("1_k48ld")
@@ -27,10 +29,16 @@ offset_bottom = 116.0
 position = Vector2(36, 30)
 
 [node name="Crys" parent="." instance=ExtResource("4_aqr8l")]
-position = Vector2(254, 84)
+position = Vector2(248, 98)
+
+[node name="dragao-espacial" parent="." instance=ExtResource("5_6oi28")]
+position = Vector2(133, -115)
 
 [node name="mesadebar" parent="." instance=ExtResource("5_enbos")]
 position = Vector2(-9, 53)
+
+[node name="barco-pirata" parent="mesadebar" instance=ExtResource("6_yjsfi")]
+position = Vector2(-13, -64)
 
 [node name="copo" parent="mesadebar" instance=ExtResource("5_6s4eh")]
 position = Vector2(9, -49)
