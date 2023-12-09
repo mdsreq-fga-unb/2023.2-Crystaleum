@@ -76,7 +76,7 @@ states/mae-crys/position = Vector2(478, 113)
 transitions = ["Start", "mae-crys", SubResource("AnimationNodeStateMachineTransition_4qaso")]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cplt4"]
-size = Vector2(32, 66)
+size = Vector2(26, 60)
 
 [node name="mami-crys" type="CharacterBody2D"]
 
@@ -100,5 +100,5 @@ tree_root = SubResource("AnimationNodeStateMachine_3pce4")
 anim_player = NodePath("../AnimationPlayer")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(186, 102)
+position = Vector2(186, 103)
 shape = SubResource("RectangleShape2D_cplt4")

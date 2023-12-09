@@ -27,7 +27,7 @@ visible = false
 position = Vector2(141, 138)
 
 [node name="mami-crys" parent="." instance=ExtResource("4_8m450")]
-position = Vector2(-71, 43)
+position = Vector2(-75, 47)
 scale = Vector2(0.999043, 1.00777)
 
 [node name="bau" parent="." instance=ExtResource("6_tdhmc")]
@@ -59,3 +59,12 @@ scale = Vector2(0.978672, 1.10746)
 [node name="comidinha" parent="." instance=ExtResource("13_c4tiw")]
 position = Vector2(54, 6)
 scale = Vector2(0.98821, 1.15213)
+
+[node name="button-cena-final-bau" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = 276.0
+offset_top = 68.0
+offset_right = 319.0
+offset_bottom = 98.0
+
+[connection signal="pressed" from="button-cena-final-bau" to="." method="_on_buttoncenafinalbau_pressed"]

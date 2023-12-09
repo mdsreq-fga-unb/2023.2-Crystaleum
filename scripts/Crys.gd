@@ -96,6 +96,7 @@ func _animate() -> void:
 
 
 func _on_detection_area_body_entered(body):
+	print(body)
 	if body.has_method("npc"):
 		npc_in_range = true
 	if body.has_method("explorador"):
