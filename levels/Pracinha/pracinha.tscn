@@ -16,7 +16,11 @@
 [ext_resource type="PackedScene" path="res://scenes/plantinha_1.tscn" id="13_krh12"]
 [ext_resource type="PackedScene" path="res://scenes/plantinha_3.tscn" id="14_ipghw"]
 
+<<<<<<< HEAD
 [sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_mldf5"]
+=======
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_rnmwb"]
+>>>>>>> fa75303c4b1963abedbcdebe56a65f4eefbec3b8
 script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
@@ -48,17 +52,32 @@ position = Vector2(66, 13)
 [node name="plantinha1" parent="." instance=ExtResource("13_krh12")]
 position = Vector2(62, 68)
 
-[node name="espaconave" parent="." instance=ExtResource("11_gscaf")]
-position = Vector2(54, -92)
+[node name="plantinha" parent="plantinha1" instance=ExtResource("12_arlbb")]
+position = Vector2(-213, -96)
 
 [node name="plantinha2" parent="." instance=ExtResource("12_my7a8")]
 position = Vector2(-138, -25)
 
-[node name="plantinha" parent="." instance=ExtResource("12_arlbb")]
-position = Vector2(-151, -28)
-
 [node name="plantinha3" parent="." instance=ExtResource("14_ipghw")]
 position = Vector2(72, -27)
+
+[node name="exploradora" parent="." instance=ExtResource("8_una6w")]
+position = Vector2(96, 75)
+
+[node name="caçador" parent="." instance=ExtResource("7_ui10n")]
+position = Vector2(292, 127)
+
+[node name="guardiao" parent="." instance=ExtResource("9_1bfyn")]
+position = Vector2(22, 119)
+
+[node name="mercenaria" parent="." instance=ExtResource("10_5ntao")]
+position = Vector2(246, 83)
+
+[node name="porta-pracinha" parent="." instance=ExtResource("9_hssun")]
+position = Vector2(65, 12)
+
+[node name="espaconave" parent="." instance=ExtResource("11_gscaf")]
+position = Vector2(54, -92)
 
 [node name="Crys" parent="." instance=ExtResource("11_px2go")]
 position = Vector2(163, 148)

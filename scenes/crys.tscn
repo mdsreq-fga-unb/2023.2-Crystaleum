@@ -534,7 +534,7 @@ states/Walk/node = SubResource("AnimationNodeBlendSpace2D_rtc7h")
 states/Walk/position = Vector2(441, 92)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gejar"]
-radius = 33.0606
+radius = 28.0
 
 [node name="Crys" type="CharacterBody2D" node_paths=PackedStringArray("_animation_tree")]
 script = ExtResource("1_76leb")
@@ -564,7 +564,6 @@ parameters/Idle/blend_position = Vector2(0.00169778, -0.00529099)
 parameters/Walk/blend_position = Vector2(1, 0)
 
 [node name="detection_area" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShap2D" type="CollisionShape2D" parent="detection_area"]
 shape = SubResource("CircleShape2D_gejar")

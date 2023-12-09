@@ -25,16 +25,28 @@ func _physics_process(_delta: float) -> void:
 	if npc_in_range == true:
 		if npc == "explorador":
 			if Input.is_action_just_pressed("ui_accept"):
-				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoExploradora.dialogue"), "start")
+				if Global.chosen_faction == false:
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoExploradora.dialogue"), "start")
+				if Global.chosen_faction == true:	
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoExploradora.dialogue"), "chosed_faction")
 		if npc == "guardiao":
 			if Input.is_action_just_pressed("ui_accept"):
-				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoGuardiao.dialogue"), "startG")
+				if Global.chosen_faction == false:
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoGuardiao.dialogue"), "startG")
+				if Global.chosen_faction == true:	
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoGuardiao.dialogue"), "chosed_faction")
 		if npc == "mercenaria":
 			if Input.is_action_just_pressed("ui_accept"):
-				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMercenaria.dialogue"), "startM")
+				if Global.chosen_faction == false:
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMercenaria.dialogue"), "startM")
+				if Global.chosen_faction == true:	
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMercenaria.dialogue"), "chosed_faction")
 		if npc == "cacador":
 			if Input.is_action_just_pressed("ui_accept"):
-				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "startC")
+				if Global.chosen_faction == false:
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "startC")
+				if Global.chosen_faction == true:
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "chosed_faction")	
 		if npc == "comandante":
 			if Input.is_action_just_pressed("ui_accept"):
 				get_tree().change_scene_to_file("res://scenes/comandante.tscn")

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://levels/Farol/farol.gd" id="1_k48ld"]
 [ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
-[ext_resource type="PackedScene" uid="uid://3lpkqn01prw3" path="res://scenes/pirata.tscn" id="3_0qqpj"]
+[ext_resource type="PackedScene" path="res://scenes/pirata.tscn" id="3_0qqpj"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_aqr8l"]
 [ext_resource type="PackedScene" uid="uid://nvx8v527847q" path="res://scenes/copo.tscn" id="5_6s4eh"]
 [ext_resource type="PackedScene" uid="uid://blir15774l15d" path="res://scenes/mesadebar.tscn" id="5_enbos"]

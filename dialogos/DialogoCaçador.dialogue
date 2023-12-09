@@ -1,10 +1,27 @@
 ~ startC
-
 Caçador de recompensas: [[O que deseja?|O que foi jovem?]]
 - Você é estiloso! O que você faz?
 	Caçador de recompensas: Sobrevivo.
 	Caçador de recompensas: Como dizia Thanos, uma alma por outra alma.
 	Caçador de recompensas: O crime compensa.
-	=> END
+	Caçador de recompensas: O que acha de entrar na nossa facção?
+	Deseja entrar na facção?
+	- Sim.
+		set Global.chosen_faction = true
+		set Global.cacador = true
+		Caçador de recompensas: Certo! Mas antes disso você deve passar por uma provação.
+		=> END
+	- Não.
+		=> END
 - Nada não.
-=> END
+	=> END
+
+~ chosed_faction
+if Global.cacador == true
+	Caçador de recompensas: Bem vinda novamente aos Caçadores de recompensa!
+	Caçador de recompensas: Vá a sede do comando estelar e faça seu treinamento.
+	=> END
+if Global.cacador == false:
+	Caçador de recompensas: É uma pena você não ter entrado para facção.
+	Caçador de recompensas: Mas é bom ter você no comando estelar.
+	=> END

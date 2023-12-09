@@ -3,6 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://c2niy0jmhfqiq" path="res://personagem/assets/exploradora/exploradoraa.png" id="1_bblt3"]
 [ext_resource type="Script" path="res://scripts/exploradora.gd" id="1_j1e06"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bdee"]
+size = Vector2(31, 62)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_6mhje"]
 atlas = ExtResource("1_bblt3")
 region = Rect2(0, 0, 64, 64)
@@ -46,19 +49,16 @@ animations = [{
 "speed": 3.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bdee"]
-size = Vector2(31, 62)
-
 [node name="exploradora" type="StaticBody2D" groups=["npc"]]
 position = Vector2(136, 76)
 script = ExtResource("1_j1e06")
 metadata/_edit_group_ = true
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_6lxy3")
-autoplay = "default"
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
 position = Vector2(-1.5, 1)
 shape = SubResource("RectangleShape2D_1bdee")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_6lxy3")
+autoplay = "default"
