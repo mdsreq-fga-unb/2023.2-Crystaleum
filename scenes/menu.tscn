@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://c41nl5o573pp7"]
+[gd_scene load_steps=6 format=3 uid="uid://c41nl5o573pp7"]
 
 [ext_resource type="Script" path="res://scripts/Menu.gd" id="1_0cip4"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_y1brn"]
+[ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="4_i8hwp"]
 [ext_resource type="FontFile" uid="uid://d0sycey4s1c3a" path="res://assets/fontes/conthrax/conthrax-sb.otf" id="4_r7xky"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="4_tbowp"]
 
@@ -29,9 +30,9 @@ stretch_mode = 2
 z_as_relative = false
 texture_filter = 4
 layout_mode = 2
-offset_left = 161.0
-offset_top = 49.0
-offset_right = 234.0
+offset_left = 125.0
+offset_top = 50.0
+offset_right = 197.0
 offset_bottom = 70.0
 theme = ExtResource("4_tbowp")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -43,36 +44,36 @@ theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 0
 theme_override_constants/h_separation = 20
 theme_override_constants/icon_max_width = 0
-theme_override_fonts/font = ExtResource("4_r7xky")
+theme_override_fonts/font = ExtResource("4_i8hwp")
 theme_override_font_sizes/font_size = 14
-text = "Jogar"
+text = "jogar"
 
 [node name="Config" type="Button" parent="TextureRect" groups=["button"]]
 layout_mode = 2
-offset_left = 161.0
+offset_left = 125.0
 offset_top = 80.0
-offset_right = 234.0
-offset_bottom = 101.0
+offset_right = 197.0
+offset_bottom = 100.0
 theme = ExtResource("4_tbowp")
 theme_override_constants/outline_size = 0
 theme_override_constants/icon_max_width = 0
-theme_override_fonts/font = ExtResource("4_r7xky")
+theme_override_fonts/font = ExtResource("4_i8hwp")
 theme_override_font_sizes/font_size = 14
 text = "opções"
 
 [node name="Sair" type="Button" parent="TextureRect" groups=["button"]]
 layout_mode = 2
-offset_left = 162.0
-offset_top = 108.0
-offset_right = 235.0
-offset_bottom = 129.0
+offset_left = 125.0
+offset_top = 110.0
+offset_right = 197.0
+offset_bottom = 130.0
 size_flags_vertical = 4
 theme = ExtResource("4_tbowp")
 theme_override_constants/outline_size = 0
 theme_override_constants/icon_max_width = 0
-theme_override_fonts/font = ExtResource("4_r7xky")
+theme_override_fonts/font = ExtResource("4_i8hwp")
 theme_override_font_sizes/font_size = 14
-text = "Sair"
+text = "sair"
 
 [node name="Label" type="Label" parent="TextureRect"]
 layout_mode = 2

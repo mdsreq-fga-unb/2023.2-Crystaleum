@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://levels/mini-caderno_aberto/mini_cadernoAberto.gd" id="1_pd2nr"]
 [ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="2_8weov"]
 [ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="2_x3krx"]
-[ext_resource type="FontFile" uid="uid://c4dct02xmrlgc" path="res://assets/fontes/birds_of_paradise/Birds of Paradise © PERSONAL USE ONLY.ttf" id="4_cbj35"]
+[ext_resource type="FontFile" uid="uid://bwrdb5hiniyto" path="res://assets/fontes/rainyhearts/rainyhearts.ttf" id="4_3mr4d"]
 
 [node name="Mini-caderno" type="TextureButton"]
 offset_right = 40.0
@@ -39,21 +39,21 @@ offset_bottom = 27.0
 [node name="atividade" type="Label" parent="."]
 layout_mode = 0
 offset_left = 134.0
-offset_top = 87.0
+offset_top = 85.0
 offset_right = 219.0
-offset_bottom = 160.0
-theme_override_fonts/font = ExtResource("4_cbj35")
-theme_override_font_sizes/font_size = 12
+offset_bottom = 158.0
+theme_override_fonts/font = ExtResource("4_3mr4d")
+theme_override_font_sizes/font_size = 14
 autowrap_mode = 3
 
 [node name="Titulo" type="Label" parent="."]
 layout_mode = 0
-offset_left = 133.0
+offset_left = 134.0
 offset_top = 42.0
-offset_right = 218.0
+offset_right = 219.0
 offset_bottom = 65.0
-theme_override_fonts/font = ExtResource("4_cbj35")
-theme_override_font_sizes/font_size = 22
+theme_override_fonts/font = ExtResource("4_3mr4d")
+theme_override_font_sizes/font_size = 20
 text = "Atividades:"
 
 [connection signal="pressed" from="botao-de saida" to="." method="_on_botaode_saida_pressed"]

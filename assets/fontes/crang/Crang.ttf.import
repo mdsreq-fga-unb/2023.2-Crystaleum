@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://c4dct02xmrlgc"
-path="res://.godot/imported/Birds of Paradise © PERSONAL USE ONLY.ttf-552db59a219ddf9d641dd96d4f7fc8b7.fontdata"
+uid="uid://ncbwmv62n8av"
+path="res://.godot/imported/Crang.ttf-38dedd4435dc466326b1b9ba04d9c4e2.fontdata"
 
 [deps]
 
-source_file="res://assets/fontes/birds_of_paradise/Birds of Paradise © PERSONAL USE ONLY.ttf"
-dest_files=["res://.godot/imported/Birds of Paradise © PERSONAL USE ONLY.ttf-552db59a219ddf9d641dd96d4f7fc8b7.fontdata"]
+source_file="res://assets/fontes/crang/Crang.ttf"
+dest_files=["res://.godot/imported/Crang.ttf-38dedd4435dc466326b1b9ba04d9c4e2.fontdata"]
 
 [params]
 

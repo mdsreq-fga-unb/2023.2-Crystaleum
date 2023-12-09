@@ -3,8 +3,8 @@
 [ext_resource type="Script" path="res://scripts/historia1.gd" id="1_73xqy"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="1_q3jvy"]
 [ext_resource type="FontFile" path="res://assets/kenneyFonte/Kenney Space.ttf" id="2_0hepk"]
-[ext_resource type="FontFile" uid="uid://d0sycey4s1c3a" path="res://assets/fontes/conthrax/conthrax-sb.otf" id="3_744g3"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_q8cev"]
+[ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="3_v8x8f"]
 
 [node name="Historia" type="Control"]
 layout_mode = 3
@@ -36,38 +36,47 @@ grow_vertical = 2
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
-offset_left = 18.0
-offset_top = 10.0
-offset_right = 282.0
-offset_bottom = 170.0
+offset_left = 17.0
+offset_top = 20.0
+offset_right = 281.0
+offset_bottom = 161.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_744g3")
+theme_override_fonts/font = ExtResource("3_v8x8f")
 theme_override_font_sizes/font_size = 10
-text = "No ano de 3257, a exploração 
-espacial é um negócio extremamente 
-lucrativo. Por não haver uma legislação 
-universal, várias corporações buscam 
-planetas distantes para explorar seus 
-recursos de maneira agressiva, 
-sem se importar com as consequências.
-Inúmeros planetas foram destruídos e 
-raças inteiras dizimadas pela ganância 
-de algumas corporações. 
+text = "No  ano  de  3257,  a  exploração 
+espacial  é  um  negócio  extremamente  
+lucrativo.  Por  não  haver  uma  legislação  
+universal,  várias  corporações  buscam  
+planetas  distantes  para  explorar  seus  
+recursos  de  maneira  agressiva,  
+sem  se  importar  com  as  consequências. 
+Inúmeros  planetas  foram  destruídos  e  
+raças  inteiras  dizimadas  pela  ganância  
+de  algumas  corporações. 
 "
+max_lines_visible = 10
+visible_ratio = -0.00247525
 text_direction = 1
 
 [node name="ButtonSkip" type="Button" parent="."]
 texture_filter = 6
 texture_repeat = 1
 layout_direction = 2
-layout_mode = 2
-offset_left = 286.0
-offset_top = 7.0
-offset_right = 312.0
-offset_bottom = 26.0
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -34.0
+offset_top = -27.0
+offset_right = -8.0
+offset_bottom = -8.0
+grow_horizontal = 0
+grow_vertical = 0
 size_flags_vertical = 0
 size_flags_stretch_ratio = 0.0
 theme = ExtResource("3_q8cev")
