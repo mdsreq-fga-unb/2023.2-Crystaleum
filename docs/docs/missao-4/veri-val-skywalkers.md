@@ -1,4 +1,4 @@
-# Casos de Uso 
+# Verificação e Validação dos SkyWalkers
 
 ## Introdução
 
@@ -22,3 +22,6 @@ Para realizar as técnicas de verificação e validação do Caso de Uso apresen
 |Todos os relacionamentos são pertinentes?| Não| O relacionamentos com o calendário não fazem sentido|
 | Todos os nomes dos casos de uso possuem relação com os objetivos definidos por cada ator?| Sim | |
 |É possível estabelecer um resultado identificável para todos eles? Isto é, é possível identificar nas nomenclaturas a estrutura VERBO + OBJETO| Não| |
+
+
+# Checklists de Verificação e Validação das especificações de casos de uso do SkyWalkers
