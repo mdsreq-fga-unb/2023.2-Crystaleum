@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://c5ke6l2iia6sa" path="res://assets/bota-acao-altadefinicao.png" id="5_6tc51"]
 [ext_resource type="PackedScene" uid="uid://tx5aith2gsys" path="res://levels/SpaceShooter-mini-game/scenes/game_over_screen.tscn" id="5_gjdnt"]
 [ext_resource type="PackedScene" uid="uid://c8peyoai6pebm" path="res://levels/SpaceShooter-mini-game/scenes/enemy.tscn" id="6_12d7h"]
-[ext_resource type="PackedScene" uid="uid://b32t4of8mqt8j" path="res://levels/SpaceShooter-mini-game/scenes/slow_enemy.tscn" id="6_rsicd"]
+[ext_resource type="PackedScene" uid="uid://cipj714cb87nv" path="res://levels/SpaceShooter-mini-game/scenes/slow_enemy.tscn" id="6_rsicd"]
 [ext_resource type="PackedScene" uid="uid://dm6528oqoofro" path="res://levels/SpaceShooter-mini-game/scenes/game_space_win_space_screen.tscn" id="6_wgnua"]
 [ext_resource type="Texture2D" uid="uid://dc0b4t87cc7yl" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Base.png" id="7_42nud"]
 [ext_resource type="Texture2D" uid="uid://cjag02vpg50qs" path="res://levels/SpaceShooter-mini-game/assets/purple.png" id="9_sk0gd"]

@@ -13,6 +13,7 @@ var atividadeResource = preload("res://resources/mini-caderno-resource/new_resou
 
 var numOnigirisCought = 0
 @onready var playerHook: CharacterBody2D = $PlayerHook
+@onready var winscreen = $game_fishing_win_screen
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -43,9 +44,11 @@ func caught_onigiri():
 	update_label()
 	$TextureProgressBar.value = 0
 	if (numOnigirisCought >= 3):
+		playerHook.queue_free()
 		if atividadeResource.get_mini_fase() < 5:
 			atividadeResource.set_mini_fase(5)
-		get_tree().change_scene_to_file("res://levels/Farol/farol.tscn")
+			winscreen.visible = true
+			
 
 func update_label():
 	$Label.text = str(numOnigirisCought)

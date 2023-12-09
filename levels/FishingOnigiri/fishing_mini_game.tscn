@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bojgvwhs7rkjp"]
+[gd_scene load_steps=16 format=3 uid="uid://bojgvwhs7rkjp"]
 
 [ext_resource type="Script" path="res://levels/FishingOnigiri/fishing_mini_game.gd" id="1_ahc27"]
 [ext_resource type="Texture2D" uid="uid://ys7yvhn1l85s" path="res://levels/FishingOnigiri/assets/local-pesca.png" id="2_jeixe"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://bof3iq6cbca38" path="res://levels/FishingOnigiri/assets/Pirata e manivela 2.png" id="7_td02i"]
 [ext_resource type="PackedScene" uid="uid://3lpkqn01prw3" path="res://scenes/pirata.tscn" id="8_3iyes"]
 [ext_resource type="PackedScene" uid="uid://b17jm5gux1ikb" path="res://scenes/barco_pirata.tscn" id="10_vuxdl"]
+[ext_resource type="PackedScene" uid="uid://du32aluylxx1v" path="res://levels/FishingOnigiri/game_fishing_win_screen.tscn" id="11_c4adf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_23iq2"]
 size = Vector2(42.4999, 37.5)
@@ -29,8 +30,8 @@ script = ExtResource("1_ahc27")
 metadata/_edit_horizontal_guides_ = [88.0, 53.0, 44.0]
 
 [node name="Fundo" type="Sprite2D" parent="."]
-position = Vector2(-94.7504, -4.9998)
-scale = Vector2(0.496095, 0.499999)
+position = Vector2(-96.5, -5.49999)
+scale = Vector2(0.501563, 0.502778)
 texture = ExtResource("2_jeixe")
 
 [node name="tubarao" parent="." instance=ExtResource("3_47uhq")]
@@ -136,6 +137,13 @@ region_rect = Rect2(129.872, 151.209, 40.2897, 35.2864)
 
 [node name="barco-pirata" parent="." instance=ExtResource("10_vuxdl")]
 position = Vector2(-312, -71)
+
+[node name="game_fishing_win_screen" parent="." instance=ExtResource("11_c4adf")]
+visible = false
+offset_left = -114.0
+offset_top = -22.0
+offset_right = -74.0
+offset_bottom = 18.0
 
 [connection signal="_progress_decreased" from="PlayerHook" to="." method="decreaseProgress"]
 [connection signal="_progress_increased" from="PlayerHook" to="." method="increaseProgress"]

@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://d4hfr5u8h7wtj"]
+[gd_scene load_steps=10 format=3 uid="uid://d4hfr5u8h7wtj"]
 
 [ext_resource type="Texture2D" uid="uid://dr20wcu8o6m2h" path="res://assets/bau-crytal.png" id="1_ekqge"]
+[ext_resource type="Script" path="res://scenes/bau.gd" id="1_mf0ld"]
 
 [sub_resource type="Animation" id="Animation_cyp4s"]
 length = 0.001
@@ -78,6 +79,7 @@ transitions = ["Start", "bau-abrindo", SubResource("AnimationNodeStateMachineTra
 size = Vector2(41, 28)
 
 [node name="bau" type="CharacterBody2D"]
+script = ExtResource("1_mf0ld")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(159, 72)
