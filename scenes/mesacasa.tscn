@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpdtc1hbxqe73"]
+
+[ext_resource type="Texture2D" uid="uid://dgd5qwksxdmu5" path="res://assets/mesa-casa.png" id="1_ykpy3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v3xt5"]
+size = Vector2(60.5, 22.7808)
+
+[node name="mesacasa" type="CharacterBody2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(134, 142)
+scale = Vector2(0.167127, 0.199152)
+texture = ExtResource("1_ykpy3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(132.75, 156.5)
+scale = Vector2(1.0776, 1.79976)
+shape = SubResource("RectangleShape2D_v3xt5")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dbn08dlco5i3m"]
+[gd_scene load_steps=14 format=3 uid="uid://dbn08dlco5i3m"]
 
 [ext_resource type="Script" path="res://levels/Casa-Crys/casa.gd" id="1_g0hja"]
 [ext_resource type="Texture2D" uid="uid://ddfk8m7fx8lhg" path="res://levels/Casa-Crys/assets/casa.png" id="1_tkha2"]
@@ -11,6 +11,8 @@
 [ext_resource type="PackedScene" uid="uid://clhkknt2dvs10" path="res://scenes/gambiarra_chao.tscn" id="8_oy1bc"]
 [ext_resource type="PackedScene" uid="uid://cj3fb7ijb1xsw" path="res://scenes/gambiarra_rosa.tscn" id="10_65gc8"]
 [ext_resource type="PackedScene" uid="uid://duslok1lcetto" path="res://scenes/quadros.tscn" id="11_wkl4e"]
+[ext_resource type="PackedScene" uid="uid://bpdtc1hbxqe73" path="res://scenes/mesacasa.tscn" id="12_fuu8a"]
+[ext_resource type="PackedScene" uid="uid://dctoc46g2vyk3" path="res://scenes/comidinha.tscn" id="13_c4tiw"]
 
 [node name="casa" type="Node2D"]
 script = ExtResource("1_g0hja")
@@ -25,25 +27,34 @@ visible = false
 position = Vector2(141, 138)
 
 [node name="mami-crys" parent="." instance=ExtResource("4_8m450")]
-position = Vector2(44, 41)
+position = Vector2(-71, 43)
+scale = Vector2(0.999043, 1.00777)
 
 [node name="bau" parent="." instance=ExtResource("6_tdhmc")]
 position = Vector2(139, 11)
-
-[node name="Crys" parent="." instance=ExtResource("5_mvvd7")]
-position = Vector2(83, 116)
-
-[node name="planta" parent="." instance=ExtResource("6_eeleh")]
-position = Vector2(21, 87)
-
-[node name="chao" parent="." instance=ExtResource("7_farpm")]
-position = Vector2(158, -3)
-
-[node name="gambiarra-chao" parent="." instance=ExtResource("8_oy1bc")]
-position = Vector2(182, 18)
 
 [node name="gambiarra-rosa" parent="." instance=ExtResource("10_65gc8")]
 position = Vector2(-43, -25)
 
 [node name="quadros" parent="gambiarra-rosa" instance=ExtResource("11_wkl4e")]
 position = Vector2(92, 28)
+
+[node name="gambiarra-chao" parent="." instance=ExtResource("8_oy1bc")]
+position = Vector2(182, 18)
+
+[node name="chao" parent="gambiarra-chao" instance=ExtResource("7_farpm")]
+position = Vector2(-24, -21)
+
+[node name="planta" parent="." instance=ExtResource("6_eeleh")]
+position = Vector2(25, 82)
+
+[node name="Crys" parent="." instance=ExtResource("5_mvvd7")]
+position = Vector2(143, 87)
+
+[node name="mesacasa" parent="." instance=ExtResource("12_fuu8a")]
+position = Vector2(104, -12)
+scale = Vector2(0.978672, 1.10746)
+
+[node name="comidinha" parent="." instance=ExtResource("13_c4tiw")]
+position = Vector2(54, 6)
+scale = Vector2(0.98821, 1.15213)

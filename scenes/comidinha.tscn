@@ -7,6 +7,6 @@
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(185.75, 102)
-scale = Vector2(0.05625, 0.0533333)
+position = Vector2(183.5, 101.5)
+scale = Vector2(0.0525, 0.05)
 texture = ExtResource("1_on6d0")

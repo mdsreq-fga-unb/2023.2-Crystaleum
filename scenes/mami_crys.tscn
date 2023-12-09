@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://clbdoce1o1b6m"]
+[gd_scene load_steps=9 format=3 uid="uid://clbdoce1o1b6m"]
 
 [ext_resource type="Texture2D" uid="uid://dnc1yeut667dh" path="res://personagem/assets/mami/Mãe Crys.png" id="1_y1ns2"]
 
@@ -75,12 +75,16 @@ states/mae-crys/node = SubResource("AnimationNodeAnimation_sojat")
 states/mae-crys/position = Vector2(478, 113)
 transitions = ["Start", "mae-crys", SubResource("AnimationNodeStateMachineTransition_4qaso")]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cplt4"]
+size = Vector2(32, 66)
+
 [node name="mami-crys" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(186.125, 93.5)
 scale = Vector2(1.55859, 1.79688)
 texture = ExtResource("1_y1ns2")
+flip_h = true
 hframes = 6
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -96,3 +100,5 @@ tree_root = SubResource("AnimationNodeStateMachine_3pce4")
 anim_player = NodePath("../AnimationPlayer")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(186, 102)
+shape = SubResource("RectangleShape2D_cplt4")
