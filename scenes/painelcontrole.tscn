@@ -75,15 +75,15 @@ states/painelcontrole/position = Vector2(500, 112)
 transitions = ["Start", "painelcontrole", SubResource("AnimationNodeStateMachineTransition_4hk0v")]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vcjc5"]
-size = Vector2(52, 76)
+size = Vector2(47.75, 97)
 
 [node name="painelcontrole" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(162.458, 125.125)
-scale = Vector2(0.338976, 0.363281)
+position = Vector2(213.335, 121.311)
+rotation = -1.5708
+scale = Vector2(0.300113, 0.476148)
 texture = ExtResource("1_byjvk")
-flip_h = true
 hframes = 6
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
@@ -99,5 +99,6 @@ libraries = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(163, 123)
+position = Vector2(212.5, 121.125)
+rotation = 1.5708
 shape = SubResource("RectangleShape2D_vcjc5")

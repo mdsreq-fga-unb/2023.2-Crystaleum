@@ -1,12 +1,13 @@
-[gd_scene load_steps=8 format=3 uid="uid://d0phhojehq4u2"]
+[gd_scene load_steps=9 format=3 uid="uid://d0phhojehq4u2"]
 
 [ext_resource type="Texture2D" uid="uid://cvx8gvrlf5kt0" path="res://levels/Sede-Faccao/sede-faccao.png" id="1_2x3br"]
 [ext_resource type="Script" path="res://levels/Sede-Faccao/Sede-Faccao.gd" id="1_gxtd4"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="2_o2r7p"]
 [ext_resource type="PackedScene" uid="uid://d3kvjkbaqglap" path="res://scenes/tv.tscn" id="4_pk4uk"]
-[ext_resource type="PackedScene" uid="uid://bffpyv10kw37t" path="res://scenes/portafaccao.tscn" id="5_w2sce"]
-[ext_resource type="PackedScene" path="res://scenes/painelcontrole.tscn" id="6_bm024"]
+[ext_resource type="PackedScene" uid="uid://ofoa3ei2g1g2" path="res://scenes/portafaccao.tscn" id="5_w2sce"]
+[ext_resource type="PackedScene" uid="uid://benj26wps8osy" path="res://scenes/painelcontrole.tscn" id="6_bm024"]
 [ext_resource type="PackedScene" uid="uid://dwq4s3djweujf" path="res://scenes/placa_saida.tscn" id="6_fvfv8"]
+[ext_resource type="PackedScene" uid="uid://bpgt2pl1550u" path="res://scenes/flipe.tscn" id="7_l8tix"]
 
 [node name="Sede-Faccao" type="Node2D"]
 script = ExtResource("1_gxtd4")
@@ -26,16 +27,19 @@ position = Vector2(15, 44)
 position = Vector2(-52, 7)
 
 [node name="painelcontrole" parent="." instance=ExtResource("6_bm024")]
-position = Vector2(135, -29)
+position = Vector2(-71, 51)
+
+[node name="flipe" parent="." instance=ExtResource("7_l8tix")]
+position = Vector2(34, -5)
 
 [node name="Crys" parent="." instance=ExtResource("2_o2r7p")]
-position = Vector2(157, 112)
+position = Vector2(191, 91)
 
 [node name="Button" type="Button" parent="."]
 modulate = Color(1, 1, 1, 0)
-offset_left = 246.0
-offset_top = 28.0
-offset_right = 280.0
-offset_bottom = 65.0
+offset_left = 233.0
+offset_top = 29.0
+offset_right = 284.0
+offset_bottom = 113.0
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
