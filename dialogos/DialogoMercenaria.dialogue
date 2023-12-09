@@ -1,9 +1,24 @@
 ~ startM
-
 Mercenária: [[Posso ajudá-la?|Como vai?]]
 - Oi! Gostaria de saber mais sobre sua facção.
 	Mercenária: Não sou boa com palavras mais vamos lá rs.
-	Mercenária: Minha facção vem de um lugar tão tão distante rs.
-	=> END
+	Mercenária: Minha facção vem de um lugar tão tão distante.
+	Deseja entrar na facção?
+	- Sim
+		set Global.chosen_faction = true
+		set Global.mercenario = true
+		Mercenária: É assim que se fala!
+		Mercenária: Mas primeiro você deve provar que está pronta!
+		=> END	
+	- Agora não 
+		=> END
 - Nada não. Tchau.
-=> END
+	=> END
+~ chosed_faction
+if Global.mercenario == true:
+	Mercenária: É um prazer ter você no grupo!
+	=> END
+			
+if Global.mercenario == false:
+	Mercenária: Vai pra sua facção canalha
+	=> END

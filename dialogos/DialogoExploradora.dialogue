@@ -1,12 +1,34 @@
 ~ start
-
 Exploradora: Oi, posso ajuda-la?
 - Oi, estou procurando algo.
 	Exploradora: O que você procura?
-	Exploradora: Um báu velho? Não me lembro de ter visto um recentemente.
-	Exploradora: Mas há uma cabana abandonada perto do rio. Talvez você encontre algo lá.
+	Exploradora: A chave de um báu velho? Não me lembro de ter visto algo parecido recentemente.
+	Exploradora: Talvez possa ter informações no comando estelar.
+	- Comando estelar?
+		Exploradora: O comando estelar é a organização que reúni todas as facções.
+		- Interessante
+			Exploradora: Você deve entrar em uma facção para ir ao comando estelar
+			Exploradora: Você parece gostar de explorar
+			Exploradora: O que acha de se tornar uma exploradora?
+			Deseja entrar na facção?
+			- Sim
+				set Global.chosen_faction = true
+				set Global.explorador = true
+				Exploradora: Eu sabia que tinha encontrado a pessoa certa.
+				Exploradora: Mas antes é preciso que você passe por um teste.
+				=> END
+			- Não
+				=> END
 	- Obrigada!
 		Exploradora: De nada! Foi um prazer te conhecer.
 		=> END
 - Tchau.
-=> END
+	=> END
+~ chosed_faction
+if Global.explorador == true
+	Exploradora: Que bom ter você conosco.
+	Exploradora: Vamos participar de muitas aventuras juntas.
+	=> END
+if Global.explorador == false
+	Exploradora: Eu jurava que você sería uma ótima exploradora.
+	=> END

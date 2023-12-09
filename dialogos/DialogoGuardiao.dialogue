@@ -1,11 +1,29 @@
 ~ startG
-
 Guardião: [[Olá|Saudações]], como vai jovem?
 - Vou bem!
 	Guardião: O que deseja?
 	- Queria saber mais sobre sua facção.
-		Guardião: O que deseja?
+		Guardião: Minha facção é responsável por proteger o comando estelar.
+		Guardião: O que acha de proteger o comando estelar conosco?
+		Deseja entrar na facção?
+		- Sim
+			set Global.chosen_faction = true
+			set Global.guardiao = true
+			Guardião: Ótima escolha!
+			Guardião: Será que você está pronta para o desafio?
+			Guardião: Passe em uma provação e você estará dentro.
+			=> END
+		- Não
+			=> END
 	- Nada, deixa pra lá.
 	=> END
 - Tchau.
-=> END
+	=> END
+~ chosed_faction
+if Global.guardiao == true
+	Guardião: É uma honra ter você como parte da equipe.
+	Guardião: Vá ao comando estelar para receber as proxímas instruções.
+	=> END
+if Global.guardiao == false
+	Guardião: É uma pena que você não vai nos ajudar a proteger Calamum Caereleum.
+	Guardião: Mas você pode ajudar de outras formas.
