@@ -2,6 +2,7 @@ extends Node
 
 
 var current_place = "res://levels/Casa-Crys/casa.tscn" #casa crys
+var finishedQuiz = false
 
 func set_current_place(value):
 	current_place = value

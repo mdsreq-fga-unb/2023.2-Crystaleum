@@ -1,0 +1,68 @@
+import "res://dialogos/DialogoEscolhaErrada.dialogue" as escolhaErrada
+
+~ startQuiz
+
+if Global.finishedQuiz == false:
+	NPC: Agora para provar que você está preparada para ajudar o Comando Estelar terá de responder algumas perguntas, ok?
+	Crys:
+	- OK! Vamos Nessa!
+		NPC: Primeira pergunta: O que são requisitos de software?
+		- Ferramentas de desenvolvimento
+			NPC: Sinto muito! Resposta errada!
+			=> escolhaErrada/escolhaErrada
+		- Documentos formais
+			NPC: Sinto muito! Resposta errada!
+			=> escolhaErrada/escolhaErrada
+		- Funções específicas de um programa
+			NPC: Parabéns! Isso mesmo!
+		- Linguagens de programação
+			NPC: Sinto muito! Resposta errada!
+			=> escolhaErrada/escolhaErrada
+		NPC: Próxima pergunta: Qual é o propósito dos requisitos de software?
+		- Guia para testes
+			NPC: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada/escolhaErrada
+		- Documentar a arquitetura do sistema
+			NPC: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada/escolhaErrada
+		- Definir as funcionalidades do software
+			NPC: Responsta correta!
+		- Todas as opções acima
+			NPC: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada/escolhaErrada
+		NPC: Você está indo muito bem! 
+		NPC: Agora me diga...
+		NPC: O que são requisitos funcionais?
+		- Descrição de interfaces de usuário
+			NPC: Infelizmente você errou
+			=> escolhaErrada/escolhaErrada
+		- Definição de desempenho do sistema
+			NPC: Infelizmente você errou
+			=> escolhaErrada/escolhaErrada
+		- Especificação das operações do software
+			NPC: Isso mesmo!
+		- Requisitos de hardware necessários
+			NPC: Infelizmente você errou
+			=> escolhaErrada/escolhaErrada
+		NPC: Estamos muito orgulhosos até onde você chegou!
+		NPC: Agora para finalizar, me responda:
+		NPC: Qual abordagem de desenvolvimento de software enfatiza a entrega incremental e iterativa, adaptação contínua aos requisitos em mudança e feedback constante dos usuários?
+		- Desenvolvimento em Cascata
+			NPC: Não é essa a resposta correta!
+			=> escolhaErrada/escolhaErrada
+		- Desenvolvimento Ágil
+			NPC: Isso mesmo! Parabéns!
+			set Global.finishedQuiz = true
+		- Desenvolvimento em Espiral
+			NPC: Não é essa a resposta correta!
+			=> escolhaErrada/escolhaErrada
+		- Desenvolvimento RAD (Rapid Application Development)
+			 NPC: Não é essa a resposta correta!
+			=> escolhaErrada/escolhaErrada
+	- Não me sinto preparada.
+		NPC: Poxa! Tudo bem. Te aguardo quando se sentir preparada!
+		=> END
+
+if Global.finishedQuiz == true:
+	NPC: Você finalizou a sua etapa de provação!
+	NPC: Contamos contigo para salvar *nome do universo*
