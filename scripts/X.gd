@@ -1,4 +1,4 @@
-extends Control
+extends Sprite2D
 
 
 # Called when the node enters the scene tree for the first time.
@@ -12,4 +12,4 @@ func _process(delta):
 
 
 func _on_button_pressed():
-	get_tree().change_scene_to_file("res://levels/Sede-Faccao/Sede-Faccao.tscn")
+	pass # Replace with function body.
