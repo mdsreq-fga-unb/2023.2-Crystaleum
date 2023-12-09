@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://bojgvwhs7rkjp"]
+[gd_scene load_steps=13 format=3 uid="uid://bojgvwhs7rkjp"]
 
 [ext_resource type="Script" path="res://levels/FishingOnigiri/fishing_mini_game.gd" id="1_ahc27"]
 [ext_resource type="Texture2D" uid="uid://ys7yvhn1l85s" path="res://levels/FishingOnigiri/assets/local-pesca.png" id="2_jeixe"]
@@ -7,6 +7,7 @@
 [ext_resource type="Script" path="res://levels/FishingOnigiri/PlayerHook.gd" id="5_nc1vi"]
 [ext_resource type="Script" path="res://levels/FishingOnigiri/Onigiri.gd" id="6_kldpi"]
 [ext_resource type="Texture2D" uid="uid://bof3iq6cbca38" path="res://levels/FishingOnigiri/assets/Pirata e manivela 2.png" id="7_td02i"]
+[ext_resource type="PackedScene" uid="uid://3lpkqn01prw3" path="res://scenes/pirata.tscn" id="8_3iyes"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_23iq2"]
 size = Vector2(42.4999, 37.5)
@@ -117,12 +118,8 @@ texture = ExtResource("3_k8b77")
 region_enabled = true
 region_rect = Rect2(299, 32.5, 153, 146.377)
 
-[node name="pirata" type="Sprite2D" parent="."]
-position = Vector2(-179, 20)
-scale = Vector2(0.892046, 0.867951)
-texture = ExtResource("7_td02i")
-region_enabled = true
-region_rect = Rect2(18.2774, 33.47, 66.699, 133.012)
+[node name="pirata2" parent="." instance=ExtResource("8_3iyes")]
+position = Vector2(-233, -28)
 
 [node name="manivela-vara" type="Sprite2D" parent="."]
 position = Vector2(-117, 36)
