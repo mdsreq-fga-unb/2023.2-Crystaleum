@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj3fb7ijb1xsw"]
+
+[ext_resource type="Texture2D" uid="uid://bhxe48onu24bv" path="res://assets/gambiarra-rosa.png" id="1_lcqlt"]
+
+[node name="gambiarra-rosa" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(206.938, 73.3125)
+scale = Vector2(0.160245, 0.133065)
+texture = ExtResource("1_lcqlt")

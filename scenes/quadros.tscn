@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://duslok1lcetto"]
+
+[ext_resource type="Texture2D" uid="uid://bmlak37liiobs" path="res://assets/quadros.png" id="1_u5fo1"]
+
+[node name="quadros" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(110, 45.375)
+scale = Vector2(0.215447, 0.191815)
+texture = ExtResource("1_u5fo1")

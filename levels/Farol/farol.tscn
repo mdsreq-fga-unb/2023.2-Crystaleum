@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://b6eanxffy4jw3"]
+[gd_scene load_steps=8 format=3 uid="uid://b6eanxffy4jw3"]
 
 [ext_resource type="Script" path="res://levels/Farol/farol.gd" id="1_k48ld"]
 [ext_resource type="Texture2D" uid="uid://dgy460hpyvgh3" path="res://levels/Farol/farol.png" id="1_sjqe1"]
+[ext_resource type="PackedScene" uid="uid://3lpkqn01prw3" path="res://scenes/pirata.tscn" id="3_0qqpj"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_aqr8l"]
 [ext_resource type="PackedScene" uid="uid://nvx8v527847q" path="res://scenes/copo.tscn" id="5_6s4eh"]
 [ext_resource type="PackedScene" uid="uid://blir15774l15d" path="res://scenes/mesadebar.tscn" id="5_enbos"]
@@ -22,11 +23,14 @@ offset_top = 49.0
 offset_right = 314.0
 offset_bottom = 116.0
 
+[node name="pirata" parent="." instance=ExtResource("3_0qqpj")]
+position = Vector2(36, 30)
+
 [node name="Crys" parent="." instance=ExtResource("4_aqr8l")]
-position = Vector2(169, 108)
+position = Vector2(254, 84)
 
 [node name="mesadebar" parent="." instance=ExtResource("5_enbos")]
-position = Vector2(-32, 67)
+position = Vector2(-9, 53)
 
 [node name="copo" parent="mesadebar" instance=ExtResource("5_6s4eh")]
 position = Vector2(9, -49)
