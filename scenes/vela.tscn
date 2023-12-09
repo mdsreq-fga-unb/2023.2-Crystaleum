@@ -1,12 +1,12 @@
 [gd_scene load_steps=2 format=3 uid="uid://cuqoyarf0hotp"]
 
-[ext_resource type="Texture2D" uid="uid://cckgk1m8ux1ke" path="res://assets/vela.png" id="1_umw20"]
+[ext_resource type="Texture2D" uid="uid://dra7mbeyxb1mm" path="res://assets/vela2.png" id="1_hkejn"]
 
 [node name="vela" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(133.125, 27.5)
-scale = Vector2(0.0924242, 0.0813492)
-texture = ExtResource("1_umw20")
+position = Vector2(202.585, 130.667)
+scale = Vector2(0.0613836, 0.0498649)
+texture = ExtResource("1_hkejn")

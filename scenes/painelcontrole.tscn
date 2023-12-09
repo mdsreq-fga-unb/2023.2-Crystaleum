@@ -1,6 +1,33 @@
-[gd_scene load_steps=8 format=3 uid="uid://benj26wps8osy"]
+[gd_scene load_steps=9 format=3 uid="uid://benj26wps8osy"]
 
 [ext_resource type="Texture2D" uid="uid://72boqlewc3ut" path="res://assets/painel-controle.png" id="1_byjvk"]
+
+[sub_resource type="Animation" id="Animation_qipx2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_byjvk")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
 
 [sub_resource type="Animation" id="Animation_ksb82"]
 resource_name = "painelcontrole"
@@ -30,33 +57,6 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5]
 }
 
-[sub_resource type="Animation" id="Animation_qipx2"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("1_byjvk")]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:frame")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [0]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_t0mdg"]
 _data = {
 "RESET": SubResource("Animation_qipx2"),
@@ -74,13 +74,16 @@ states/painelcontrole/node = SubResource("AnimationNodeAnimation_sqiiv")
 states/painelcontrole/position = Vector2(500, 112)
 transitions = ["Start", "painelcontrole", SubResource("AnimationNodeStateMachineTransition_4hk0v")]
 
-[node name="painelcontrole" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vcjc5"]
+size = Vector2(47.75, 97)
+
+[node name="painelcontrole" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(162.458, 125.125)
-scale = Vector2(0.338976, 0.363281)
+position = Vector2(213.335, 121.311)
+rotation = -1.5708
+scale = Vector2(0.300113, 0.476148)
 texture = ExtResource("1_byjvk")
-flip_h = true
 hframes = 6
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
@@ -94,3 +97,8 @@ anim_player = NodePath("../AnimationPlayer")
 libraries = {
 "": SubResource("AnimationLibrary_t0mdg")
 }
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(212.5, 121.125)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_vcjc5")

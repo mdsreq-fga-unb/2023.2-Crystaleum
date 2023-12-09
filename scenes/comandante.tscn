@@ -83,6 +83,14 @@ offset_right = -10.0
 offset_bottom = -2.0
 script = ExtResource("1_fud3m")
 
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 1.0
+offset_right = 331.0
+offset_bottom = 181.0
+color = Color(0.141176, 0.14902, 0.380392, 1)
+
 [node name="AnimatedSprite2DComandante" type="AnimatedSprite2D" parent="."]
 position = Vector2(171, 65)
 scale = Vector2(1.78125, 1.64844)
@@ -90,6 +98,7 @@ sprite_frames = SubResource("SpriteFrames_5do6c")
 autoplay = "default"
 
 [node name="Button" type="Button" parent="."]
+layout_mode = 0
 offset_left = 296.0
 offset_top = 16.0
 offset_right = 318.0

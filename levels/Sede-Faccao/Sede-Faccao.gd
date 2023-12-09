@@ -13,3 +13,8 @@ func _process(delta):
 
 func _on_button_pressed():
 	get_tree().change_scene_to_file("res://levels/SpaceShooter-mini-game/scenes/SpaceGame.tscn")
+
+
+func _on_button_tv_pressed():
+	get_tree().change_scene_to_file("res://scenes/comandante.tscn")
+	DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante")

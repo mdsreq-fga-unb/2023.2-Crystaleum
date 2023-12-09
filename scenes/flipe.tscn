@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpgt2pl1550u"]
+
+[ext_resource type="Texture2D" uid="uid://dqcq7uatccmwg" path="res://assets/flipee.png" id="1_3krud"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dngy6"]
+size = Vector2(54, 88)
+
+[node name="flipe" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(226, 77)
+shape = SubResource("RectangleShape2D_dngy6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(226.812, 78.5)
+scale = Vector2(0.18274, 0.148693)
+texture = ExtResource("1_3krud")

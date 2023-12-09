@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://c7fgyrbwywfni"
+path="res://.godot/imported/DialogoDiario.dialogue-d2e64f202039d082bb23818ed0d6d262.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoDiario.dialogue"
+dest_files=["res://.godot/imported/DialogoDiario.dialogue-d2e64f202039d082bb23818ed0d6d262.tres"]
+
+[params]
+
+defaults=true

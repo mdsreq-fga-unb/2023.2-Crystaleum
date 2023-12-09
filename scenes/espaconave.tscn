@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dln7d5nwggqcm"]
+
+[ext_resource type="Texture2D" uid="uid://ctujewqmy5y6c" path="res://assets/espaconavee.png" id="1_1smap"]
+
+[node name="espaconave" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(194.5, 112)
+scale = Vector2(0.0860656, 0.126984)
+texture = ExtResource("1_1smap")
