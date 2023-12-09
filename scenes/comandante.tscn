@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://b2fpsflyljk7w"]
+[gd_scene load_steps=14 format=3 uid="uid://b2fpsflyljk7w"]
 
 [ext_resource type="Script" path="res://scripts/comandante.gd" id="1_fud3m"]
 [ext_resource type="Texture2D" uid="uid://lmjtaivsik7m" path="res://personagem/assets/comandante/ComandanteEstelarAnimado.png" id="1_gh77f"]
@@ -74,11 +74,13 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_3bh67"]
-size = Vector2(147, 91)
-
-[node name="Comandante" type="StaticBody2D"]
-position = Vector2(-10, -2)
+[node name="Comandante" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -10.0
+offset_top = -2.0
+offset_right = -10.0
+offset_bottom = -2.0
 script = ExtResource("1_fud3m")
 
 [node name="AnimatedSprite2DComandante" type="AnimatedSprite2D" parent="."]
@@ -87,21 +89,15 @@ scale = Vector2(1.78125, 1.64844)
 sprite_frames = SubResource("SpriteFrames_5do6c")
 autoplay = "default"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(175.5, 58.5)
-shape = SubResource("RectangleShape2D_3bh67")
+[node name="Button" type="Button" parent="."]
+offset_left = 296.0
+offset_top = 16.0
+offset_right = 318.0
+offset_bottom = 31.0
 
 [node name="X" type="Sprite2D" parent="."]
 position = Vector2(307, 23.5)
 scale = Vector2(0.181818, 0.178571)
 texture = ExtResource("3_enkqv")
-
-[node name="Button" type="Button" parent="."]
-visible = false
-offset_left = 296.0
-offset_top = 16.0
-offset_right = 318.0
-offset_bottom = 31.0
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

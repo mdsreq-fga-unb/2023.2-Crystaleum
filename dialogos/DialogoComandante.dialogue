@@ -1,13 +1,14 @@
 ~ comandante
 
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
+Comandante: [[Olha só!|Saudações!]], [[parece que temos uma nova recruta.|Você deve ser a nova recruta]]
+Comandante: Bem-vinda a sede das facções!
+- Obrigada!
+	Comandante: Vocẽ agr deve pipipopo.
+	=> END
+- Quem seria você tio?
+	Comandante: Tio é escambau pipipopo.
 - Start again => comandante
 - End the conversation => END
-Nathan: For more information see the online documentation.
+
 
 => END
