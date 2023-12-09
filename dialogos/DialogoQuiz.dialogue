@@ -44,6 +44,31 @@ if Global.finishedQuiz == false:
 		- Requisitos de hardware necessários
 			NPC: Infelizmente você errou
 			=> escolhaErrada/escolhaErrada
+		NPC: Me responda...
+		NPC: Qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
+		- Ciclo de vida Iterativo
+			NPC: Boa! Isso mesmo!
+		- Ciclo de vida Incremental
+			NPC: Poxa, não é essa a opção correta
+			=> escolhaErrada/escolhaErrada
+		- Ciclo de vida Preditivo
+			NPC: Poxa, não é essa a opção correta
+			=> escolhaErrada/escolhaErrada
+		- Ciclo de vida Ágil
+			NPC: Poxa, não é essa a opção correta
+			=> escolhaErrada/escolhaErrada
+		NPC: Qual dos processos abaixo NÃO podem ser utilizados com uma abordagem dirigida a plano?
+		- Cascata
+			NPC: Resposta incorreta!
+			=> escolhaErrada/escolhaErrada
+		- Processo Unificado
+			NPC: Resposta incorreta!
+			=> escolhaErrada/escolhaErrada
+		- Spiral
+			NPC: Resposta incorreta!
+			=> escolhaErrada/escolhaErrada
+		- RAD
+			NPC: Isso mesmo! O RAD é um processo que deve ser utilizado junto de uma abordagem ágil!
 		NPC: Estamos muito orgulhosos até onde você chegou!
 		NPC: Agora para finalizar, me responda:
 		NPC: Qual abordagem de desenvolvimento de software enfatiza a entrega incremental e iterativa, adaptação contínua aos requisitos em mudança e feedback constante dos usuários?
