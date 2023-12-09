@@ -1,6 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://ofoa3ei2g1g2"]
 
 [ext_resource type="Texture2D" uid="uid://chu05vlgtlblj" path="res://assets/portataccao.png" id="1_af38q"]
+[ext_resource type="Script" path="res://scripts/portafaccao.gd" id="1_sljqo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bwrj2"]
+size = Vector2(334.142, 261)
 
 [sub_resource type="Animation" id="Animation_5400c"]
 length = 0.001
@@ -31,7 +35,7 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_o52bh"]
 resource_name = "portasede"
-loop_mode = 1
+length = 1.2
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -57,24 +61,32 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6]
 }
 
+[sub_resource type="Animation" id="Animation_nvbww"]
+resource_name = "idle"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_5qppt"]
 _data = {
 "RESET": SubResource("Animation_5400c"),
+"idle": SubResource("Animation_nvbww"),
 "portasede": SubResource("Animation_o52bh")
 }
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_8ho8n"]
-animation = &"portasede"
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bbb7q"]
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ru6k4"]
-states/portasede/node = SubResource("AnimationNodeAnimation_8ho8n")
-states/portasede/position = Vector2(485, 113)
-transitions = ["Start", "portasede", SubResource("AnimationNodeStateMachineTransition_bbb7q")]
-
 [node name="portafaccao" type="Node2D"]
+script = ExtResource("1_sljqo")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(180, 98)
@@ -82,12 +94,12 @@ scale = Vector2(0.291667, 0.320312)
 texture = ExtResource("1_af38q")
 hframes = 8
 
-[node name="AnimationTree" type="AnimationTree" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_5qppt")
-}
-tree_root = SubResource("AnimationNodeStateMachine_ru6k4")
-anim_player = NodePath("../AnimationPlayer")
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D"]
+position = Vector2(-2.50006, 25.5976)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_bwrj2")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
