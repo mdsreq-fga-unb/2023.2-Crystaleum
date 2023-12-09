@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6g8ty5blrhm7"]
+
+[ext_resource type="Texture2D" uid="uid://dfng8e66kdi1g" path="res://assets/plantinha3.png" id="1_xonyr"]
+
+[node name="plantinha3" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(233, 139)
+texture = ExtResource("1_xonyr")
