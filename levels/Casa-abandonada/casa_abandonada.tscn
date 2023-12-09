@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://b7u6b0ngs008j" path="res://levels/Casa-abandonada/casa-abandonada-avo.png" id="1_wba56"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_gxk8l"]
 [ext_resource type="PackedScene" uid="uid://ct78hm3edxn0q" path="res://scenes/aranha_caindo.tscn" id="5_k3l42"]
-[ext_resource type="PackedScene" uid="uid://dxug47o62oxiw" path="res://scenes/vela_2.tscn" id="5_u3vh4"]
 [ext_resource type="PackedScene" uid="uid://brkxe4smyeasd" path="res://scenes/aranha.tscn" id="6_nr34f"]
 [ext_resource type="PackedScene" uid="uid://uk6lat85upm6" path="res://scenes/mesalencol.tscn" id="7_ufw1e"]
 [ext_resource type="PackedScene" uid="uid://cad84xn40t5wh" path="res://scenes/diario.tscn" id="8_pyn12"]
@@ -16,7 +15,7 @@
 script = ExtResource("1_ej1c7")
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(161, 89.4996)
+position = Vector2(160, 91)
 scale = Vector2(0.555555, 0.565628)
 texture = ExtResource("1_wba56")
 
@@ -38,6 +37,14 @@ position = Vector2(-60, 92)
 [node name="diario_avo" parent="." instance=ExtResource("8_pyn12")]
 position = Vector2(98, 22)
 
+[node name="Button" type="Button" parent="diario_avo"]
+modulate = Color(1, 1, 1, 0.0588235)
+show_behind_parent = true
+offset_left = 91.0
+offset_top = 86.0
+offset_right = 107.0
+offset_bottom = 102.0
+
 [node name="vela" parent="." instance=ExtResource("9_abxcn")]
 position = Vector2(9, -16)
 
@@ -46,3 +53,5 @@ position = Vector2(151, 16)
 
 [node name="aranha" parent="." instance=ExtResource("6_nr34f")]
 position = Vector2(56, 10)
+
+[connection signal="pressed" from="diario_avo/Button" to="." method="_on_button_pressed"]
