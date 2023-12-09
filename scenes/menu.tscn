@@ -1,10 +1,49 @@
-[gd_scene load_steps=6 format=3 uid="uid://c41nl5o573pp7"]
+[gd_scene load_steps=10 format=3 uid="uid://c41nl5o573pp7"]
 
 [ext_resource type="Script" path="res://scripts/Menu.gd" id="1_0cip4"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_y1brn"]
 [ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="4_i8hwp"]
 [ext_resource type="FontFile" uid="uid://d0sycey4s1c3a" path="res://assets/fontes/conthrax/conthrax-sb.otf" id="4_r7xky"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="4_tbowp"]
+[ext_resource type="Texture2D" uid="uid://uku7676e1obu" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Explode.png" id="6_0u8yf"]
+
+[sub_resource type="Animation" id="Animation_vceuy"]
+resource_name = "meteoro"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 6, 5, 4, 3, 2, 1, 0]
+}
+
+[sub_resource type="Animation" id="Animation_dqgkt"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1jnk3"]
+_data = {
+"RESET": SubResource("Animation_dqgkt"),
+"meteoro": SubResource("Animation_vceuy")
+}
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -20,6 +59,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 1.0
+offset_right = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_y1brn")
@@ -88,6 +129,18 @@ theme_override_font_sizes/font_size = 22
 text = "Crystaleum"
 horizontal_alignment = 1
 justification_flags = 160
+
+[node name="meteoro" type="Sprite2D" parent="."]
+position = Vector2(265, 29)
+scale = Vector2(0.729167, 0.75)
+texture = ExtResource("6_0u8yf")
+hframes = 8
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="meteoro"]
+libraries = {
+"": SubResource("AnimationLibrary_1jnk3")
+}
+autoplay = "meteoro"
 
 [connection signal="pressed" from="TextureRect/Jogar" to="." method="_on_jogar_pressed"]
 [connection signal="pressed" from="TextureRect/Config" to="." method="_on_config_pressed"]
