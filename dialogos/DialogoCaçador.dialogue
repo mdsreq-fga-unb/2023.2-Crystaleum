@@ -1,20 +1,23 @@
 import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ startC
-Caçador de recompensas: [[O que deseja?|O que foi jovem?]]
-- Você é estiloso! O que você faz?
-	Caçador de recompensas: Sobrevivo.
-	Caçador de recompensas: Como dizia Thanos, uma alma por outra alma.
-	Caçador de recompensas: O crime compensa.
-	Caçador de recompensas: O que acha de entrar na nossa facção?
-	Deseja entrar na facção?
-	- Sim.
-		set Global.chosen_faction = true
-		set Global.cacador = true
-		Caçador de recompensas: Certo! Mas antes disso você deve passar por uma provação.
-		=> provacao/startQuiz
-	- Não.
-		=> END
-- Nada não.
+Crys: Olá, sou neta de G.M. 
+Crys: Decidi me juntar ao Comando Estelar para derrotar os conglomerados!
+Crys: Poderia me contar mais sobre vocês?
+Caçador de recompensas: Seja muito bem vinda a sede do Comando Estelar.
+Caçador de recompensas: Nós somos os Caçadores de Recompensa, um grupo motivado a realizar missões diversas para conseguir dinheiro e fama.
+Caçador de recompensas: Apesar de parecermos perigosos, possuímos um código de moral próprio que, nos permite ganhar fama, dinheiro e respeito.
+Caçador de recompensas: Através da realização de missões diversas, que vão desde capturar criminosos até capturar bestas em risco de extinção.
+Caçador de recompensas: O que acha de se juntar a nos?
+Deseja entrar na facção?
+- Uau, quero muito aprender mais com vocês! O que preciso fazer para entrar nessa facção?
+	set Global.chosen_faction = true
+	set Global.cacador = true
+	Caçador de recompensas: Sabia que você aceitaria!
+	Caçador de recompensas: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.
+	Caçador de recompensas: Para isso, deverá realizar um teste de conhecimento.
+	Caçador de recompensas: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
+	=> provacao/startQuiz
+- Não.
 	=> END
 
 ~ chosed_faction
