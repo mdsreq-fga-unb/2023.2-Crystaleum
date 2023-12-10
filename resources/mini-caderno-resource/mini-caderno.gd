@@ -21,7 +21,7 @@ func get_atividade ():
 		2:	
 			atividade = "ir até a pracinha e entre em uma facção legal"
 		3:	
-			atividade = "ir para a porta da sede do Comando Estelar e fale com o Comandante"
+			atividade = "Entrar na porta do Comando Estelar e fale com o Comandante"
 		4: 
 			atividade = "ir para o farol e pesque 3 oniguiris para ganhar a chave dos piratas espaciais"
 		5:	

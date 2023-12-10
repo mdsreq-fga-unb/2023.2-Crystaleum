@@ -43,7 +43,7 @@ offset_top = 85.0
 offset_right = 219.0
 offset_bottom = 158.0
 theme_override_fonts/font = ExtResource("4_3mr4d")
-theme_override_font_sizes/font_size = 14
+theme_override_font_sizes/font_size = 12
 autowrap_mode = 3
 
 [node name="Titulo" type="Label" parent="."]
