@@ -8,8 +8,8 @@
 [ext_resource type="PackedScene" uid="uid://d4hfr5u8h7wtj" path="res://scenes/bau.tscn" id="6_tdhmc"]
 [ext_resource type="PackedScene" uid="uid://b3esh5yjigtt6" path="res://scenes/chao.tscn" id="7_farpm"]
 [ext_resource type="PackedScene" uid="uid://clhkknt2dvs10" path="res://scenes/gambiarra_chao.tscn" id="8_oy1bc"]
-[ext_resource type="PackedScene" path="res://scenes/gambiarra_rosa.tscn" id="10_65gc8"]
-[ext_resource type="PackedScene" path="res://scenes/quadros.tscn" id="11_wkl4e"]
+[ext_resource type="PackedScene" uid="uid://cj3fb7ijb1xsw" path="res://scenes/gambiarra_rosa.tscn" id="10_65gc8"]
+[ext_resource type="PackedScene" uid="uid://duslok1lcetto" path="res://scenes/quadros.tscn" id="11_wkl4e"]
 [ext_resource type="PackedScene" uid="uid://bpdtc1hbxqe73" path="res://scenes/mesacasa.tscn" id="12_fuu8a"]
 [ext_resource type="PackedScene" uid="uid://dctoc46g2vyk3" path="res://scenes/comidinha.tscn" id="13_c4tiw"]
 

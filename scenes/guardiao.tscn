@@ -1,7 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://dtfw7d3foembt"]
+[gd_scene load_steps=10 format=3 uid="uid://dtfw7d3foembt"]
 
 [ext_resource type="Texture2D" uid="uid://dox1th2ny1j1l" path="res://personagem/assets/guardião/guardião.png" id="1_edyhe"]
 [ext_resource type="Script" path="res://scripts/guardiao.gd" id="1_th6yb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bxy6y"]
+size = Vector2(33.1434, 77.9704)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o1g43"]
 size = Vector2(28, 50)
@@ -46,6 +49,12 @@ animations = [{
 script = ExtResource("1_th6yb")
 metadata/_edit_group_ = true
 
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-3.42831, 9.04774)
+shape = SubResource("RectangleShape2D_bxy6y")
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
 position = Vector2(2, -2)
@@ -56,3 +65,15 @@ sprite_frames = SubResource("SpriteFrames_e1yy8")
 autoplay = "default"
 frame = 1
 frame_progress = 0.125647
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -10.0
+offset_top = -29.0
+offset_right = 13.0
+offset_bottom = 34.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Guardiao_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Guardiao_body_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

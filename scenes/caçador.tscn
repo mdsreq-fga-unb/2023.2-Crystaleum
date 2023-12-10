@@ -1,7 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://dtb1d3rcu5ows"]
+[gd_scene load_steps=11 format=3 uid="uid://dtb1d3rcu5ows"]
 
 [ext_resource type="Texture2D" uid="uid://dvqr8eh4lyl84" path="res://personagem/assets/caçador/CaçadorDeRecompensas.png" id="1_4426p"]
 [ext_resource type="Script" path="res://scripts/caçador.gd" id="1_a8f3m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_abwxu"]
+size = Vector2(36.1434, 77.9704)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l33le"]
 size = Vector2(26, 60)
@@ -53,6 +56,12 @@ animations = [{
 script = ExtResource("1_a8f3m")
 metadata/_edit_group_ = true
 
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-4.92831, 9.04774)
+shape = SubResource("RectangleShape2D_abwxu")
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
 shape = SubResource("RectangleShape2D_l33le")
@@ -62,3 +71,15 @@ sprite_frames = SubResource("SpriteFrames_o5ra6")
 autoplay = "default"
 frame = 1
 frame_progress = 0.154024
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -10.0
+offset_top = -29.0
+offset_right = 13.0
+offset_bottom = 34.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Caçador_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Caçador_body_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

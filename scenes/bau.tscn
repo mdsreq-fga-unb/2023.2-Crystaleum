@@ -107,5 +107,15 @@ libraries = {
 "": SubResource("AnimationLibrary_wwjch")
 }
 
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 130.0
+offset_top = 64.0
+offset_right = 179.0
+offset_bottom = 96.0
+flat = true
+
 [connection signal="body_entered" from="Area2D" to="." method="_on_Bau_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_Bau_body_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
