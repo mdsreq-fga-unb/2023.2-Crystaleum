@@ -35,7 +35,7 @@ position = Vector2(-43, -25)
 position = Vector2(92, 28)
 
 [node name="gambiarra-chao" parent="." instance=ExtResource("8_oy1bc")]
-position = Vector2(182, 18)
+position = Vector2(185, 32)
 
 [node name="chao" parent="gambiarra-chao" instance=ExtResource("7_farpm")]
 position = Vector2(-24, -21)
