@@ -1,3 +1,4 @@
+import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ startM
 Mercenária: [[Posso ajudá-la?|Como vai?]]
 - Oi! Gostaria de saber mais sobre sua facção.
@@ -9,7 +10,7 @@ Mercenária: [[Posso ajudá-la?|Como vai?]]
 		set Global.mercenario = true
 		Mercenária: É assim que se fala!
 		Mercenária: Mas primeiro você deve provar que está pronta!
-		=> END	
+		=> provacao/startQuiz
 	- Agora não 
 		=> END
 - Nada não. Tchau.

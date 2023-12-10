@@ -533,8 +533,8 @@ states/Walk/position = Vector2(441, 92)
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bsm1f"]
 height = 48.0
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jrwr6"]
-height = 48.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_olhk7"]
+size = Vector2(21, 4)
 
 [node name="Crys" type="CharacterBody2D" node_paths=PackedStringArray("_animation_tree")]
 script = ExtResource("1_76leb")
@@ -560,6 +560,7 @@ parameters/Idle/blend_position = Vector2(0.00169778, -0.00529099)
 parameters/Walk/blend_position = Vector2(1, 0)
 
 [node name="detection_area" type="Area2D" parent="."]
+visible = false
 
 [node name="CollisionShap2D" type="CollisionShape2D" parent="detection_area"]
 shape = SubResource("CapsuleShape2D_bsm1f")
@@ -603,7 +604,8 @@ texture_normal = ExtResource("12_o0tsy")
 stretch_mode = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_jrwr6")
+position = Vector2(-1.5, 20)
+shape = SubResource("RectangleShape2D_olhk7")
 
 [connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
 [connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]

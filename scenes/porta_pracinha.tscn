@@ -3,10 +3,8 @@
 [ext_resource type="Script" path="res://scripts/porta_pracinha.gd" id="1_amcfj"]
 [ext_resource type="Texture2D" uid="uid://cl1o4efdvxf6n" path="res://assets/porta-lado-fora.png" id="1_xjwp0"]
 
-[sub_resource type="Animation" id="Animation_0wo01"]
-resource_name = "idle"
-length = 0.3
-loop_mode = 1
+[sub_resource type="Animation" id="Animation_2s2ve"]
+length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -20,8 +18,10 @@ tracks/0/keys = {
 "values": [0]
 }
 
-[sub_resource type="Animation" id="Animation_2s2ve"]
-length = 0.001
+[sub_resource type="Animation" id="Animation_0wo01"]
+resource_name = "idle"
+length = 0.3
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -59,7 +59,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xjp8y"]
-size = Vector2(128.681, 188.092)
+size = Vector2(128.681, 166.677)
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_xagd2"]
 
@@ -80,7 +80,7 @@ libraries = {
 [node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D"]
-position = Vector2(-1.34043, 7.8684)
+position = Vector2(-1.34033, -2.83884)
 shape = SubResource("RectangleShape2D_xjp8y")
 
 [node name="AnimationTree" type="AnimationTree" parent="."]

@@ -1,3 +1,4 @@
+import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ start
 Exploradora: Oi, posso ajuda-la?
 - Oi, estou procurando algo.
@@ -16,7 +17,7 @@ Exploradora: Oi, posso ajuda-la?
 				set Global.explorador = true
 				Exploradora: Eu sabia que tinha encontrado a pessoa certa.
 				Exploradora: Mas antes é preciso que você passe por um teste.
-				=> END
+				=> provacao/startQuiz
 			- Não
 				=> END
 	- Obrigada!

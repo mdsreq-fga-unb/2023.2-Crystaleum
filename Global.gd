@@ -10,6 +10,7 @@ var cacador = false
 var explorador = false
 var guardiao = false
 
+
 func set_current_place(value):
 	current_place = value
 

@@ -1,3 +1,4 @@
+import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ startG
 Guardião: [[Olá|Saudações]], como vai jovem?
 - Vou bem!
@@ -12,7 +13,7 @@ Guardião: [[Olá|Saudações]], como vai jovem?
 			Guardião: Ótima escolha!
 			Guardião: Será que você está pronta para o desafio?
 			Guardião: Passe em uma provação e você estará dentro.
-			=> END
+			=> provacao/startQuiz
 		- Não
 			=> END
 	- Nada, deixa pra lá.

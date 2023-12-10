@@ -3,7 +3,7 @@ import "res://dialogos/DialogoEscolhaErrada.dialogue" as escolhaErrada
 ~ startQuiz
 
 if Global.finishedQuiz == false:
-	NPC: Agora para provar que você está preparada para ajudar o Comando Estelar terá de responder algumas perguntas, ok?
+	NPC: Agora para provar que você está preparada para ajudar o Comando Estelar você terá que responder algumas perguntas, ok?
 	Crys:
 	- OK! Vamos Nessa!
 		NPC: Primeira pergunta: O que são requisitos de software?
@@ -90,4 +90,4 @@ if Global.finishedQuiz == false:
 
 if Global.finishedQuiz == true:
 	NPC: Você finalizou a sua etapa de provação!
-	NPC: Contamos contigo para salvar Calamum Caereleum
+	NPC: Contamos contigo para salvar *nome do universo*
