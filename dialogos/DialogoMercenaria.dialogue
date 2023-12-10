@@ -3,7 +3,8 @@ import "res://dialogos/DialogoQuiz.dialogue" as provacao
 Crys: Olá, sou neta de G.M e decidi me juntar ao Comando Estelar para derrotar os conglomerados! 
 Crys: Poderia me contar mais sobre vocês?
 Mercenária: Seja muito bem vinda a sede do Comando Estelar.
-Mercenária: Nós somos os Mercenários, um grupo de guerreiros experientes e habilidosos, que vão de uma guerra a outra, buscando a adrenalina da batalha, a glória da vitória e os espólios retirados de suas vítimas.
+Mercenária: Nós somos os Mercenários, um grupo de guerreiros experientes e habilidosos...
+Mercenria: Nós vamos de uma guerra a outra, buscando a adrenalina da batalha, a glória da vitória e os espólios retirados de suas vítimas.
 Mercenária: Queremos obter glória, reconhecimento e riquezas em todos os planetas que passamos, deixando nossos nomes marcados na história e vivendo como reis.
 Mercenária: O que acha de entrar para nossa facção?
 Deseja entrar na facção?
@@ -16,6 +17,7 @@ Deseja entrar na facção?
 	Mercenária: Para isso, deverá realizar um teste de conhecimento.
 	Mercenária: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
 	=> provacao/startQuiz
+	=> END
 - Agora não 
 	=> END
 

@@ -18,6 +18,7 @@ Deseja entrar na facção?
 	Caçador de recompensas: Para isso, deverá realizar um teste de conhecimento.
 	Caçador de recompensas: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
 	=> provacao/startQuiz
+	=> END
 - Não.
 	=> END
 
