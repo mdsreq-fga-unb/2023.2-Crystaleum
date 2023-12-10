@@ -11,7 +11,6 @@ Exploradora: Que tal entrar para nossa facção?
 - Uau, parece incrível!
 	Deseja entrar na facção?
 	- Sim
-		set Global.chosen_faction = true
 		set Global.explorador = true
 		Crys: O que preciso fazer para entrar nessa facção?
 		Exploradora: Eu sabia que tinha encontrado a pessoa certa.

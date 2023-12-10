@@ -1,5 +1,5 @@
 extends Node2D
-
+var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
 # Chamado quando o nó entra na árvore de cena pela primeira vez.
 func _ready():
 	Global.set_current_place("res://levels/Pracinha/pracinha.tscn")
@@ -10,4 +10,6 @@ func _ready():
 
 # Chamado a cada quadro. 'delta' é o tempo decorrido desde o quadro anterior.
 func _process(delta):
-	pass
+	if Global.finishedQuiz == true:
+		if atividadeResource.get_mini_fase() < 3:
+			atividadeResource.set_mini_fase(3)
