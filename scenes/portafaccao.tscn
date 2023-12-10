@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://scripts/portafaccao.gd" id="1_sljqo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bwrj2"]
-size = Vector2(334.142, 261)
+size = Vector2(334.142, 304.708)
 
 [sub_resource type="Animation" id="Animation_5400c"]
 length = 0.001
@@ -27,6 +27,23 @@ tracks/1/path = NodePath("Sprite2D:frame")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_nvbww"]
+resource_name = "idle"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
@@ -61,23 +78,6 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6]
 }
 
-[sub_resource type="Animation" id="Animation_nvbww"]
-resource_name = "idle"
-length = 0.6
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [0]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_5qppt"]
 _data = {
 "RESET": SubResource("Animation_5400c"),
@@ -94,10 +94,11 @@ scale = Vector2(0.291667, 0.320312)
 texture = ExtResource("1_af38q")
 hframes = 8
 
-[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D"]
+[node name="Area2D" type="Area2D" parent="Sprite2D"]
+scale = Vector2(1, 1)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D"]
-position = Vector2(-2.50006, 25.5976)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
+position = Vector2(-2.50006, 47.4514)
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_bwrj2")
 
@@ -105,3 +106,6 @@ shape = SubResource("RectangleShape2D_bwrj2")
 libraries = {
 "": SubResource("AnimationLibrary_5qppt")
 }
+
+[connection signal="body_entered" from="Sprite2D/Area2D" to="." method="_on_PortaSede_body_entered"]
+[connection signal="body_exited" from="Sprite2D/Area2D" to="." method="_on_PortaSede_body_exited"]

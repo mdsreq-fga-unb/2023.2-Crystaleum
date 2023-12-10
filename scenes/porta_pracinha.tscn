@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://cjqfb4cr22r1j"]
+[gd_scene load_steps=8 format=3 uid="uid://cjqfb4cr22r1j"]
 
 [ext_resource type="Script" path="res://scripts/porta_pracinha.gd" id="1_amcfj"]
 [ext_resource type="Texture2D" uid="uid://cl1o4efdvxf6n" path="res://assets/porta-lado-fora.png" id="1_xjwp0"]
@@ -59,9 +59,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xjp8y"]
-size = Vector2(128.681, 166.677)
-
-[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_xagd2"]
+size = Vector2(128.681, 268.361)
 
 [node name="porta-pracinha" type="Node2D"]
 script = ExtResource("1_amcfj")
@@ -77,12 +75,11 @@ libraries = {
 "": SubResource("AnimationLibrary_a3gni")
 }
 
-[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D"]
+[node name="Area2D" type="Area2D" parent="Sprite2D"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D"]
-position = Vector2(-1.34033, -2.83884)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
+position = Vector2(-1.34033, 48.0033)
 shape = SubResource("RectangleShape2D_xjp8y")
 
-[node name="AnimationTree" type="AnimationTree" parent="."]
-root_node = NodePath("")
-tree_root = SubResource("AnimationNodeStateMachine_xagd2")
+[connection signal="body_entered" from="Sprite2D/Area2D" to="." method="_on_PortaPraca_body_entered"]
+[connection signal="body_exited" from="Sprite2D/Area2D" to="." method="_on_PortaPraca_body_exited"]

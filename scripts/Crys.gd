@@ -14,6 +14,7 @@ var npc
 @export_category("Objects")
 @export var _animation_tree: AnimationTree = null
 
+
 var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
 
 func _ready() -> void:
@@ -61,6 +62,7 @@ func _physics_process(_delta: float) -> void:
 				'''
 				usando o resource aqui
 				'''
+			
 	_animate()
 	_move()
 	move_and_slide()
@@ -93,9 +95,6 @@ func _animate() -> void:
 	
 	_state_machine.travel("Idle")
 	
-
-
-
 func _on_detection_area_body_entered(body):
 	print(body)
 	if body.has_method("npc"):
@@ -114,7 +113,6 @@ func _on_detection_area_body_entered(body):
 		npc = "comandante"
 	if body.has_method("pirata"):
 		npc = "pirata"
-
 
 func _on_detection_area_body_exited(body):
 	if body.has_method("npc"):
