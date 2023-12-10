@@ -13,7 +13,3 @@ func _process(delta):
 		atividadeResource.set_mini_fase(6)
 		bau.visible = true
 
-
-
-func _on_buttoncenafinalbau_pressed():
-	get_tree().change_scene_to_file("res://levels/Casa-Crys/end_key.tscn")

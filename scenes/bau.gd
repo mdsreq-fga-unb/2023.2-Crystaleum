@@ -11,4 +11,4 @@ func _process(delta):
 		animation_player.play("bau-abrindo")  # Aciona a animação de abrir a porta
 		await animation_player.animation_finished
 		
-		#get_tree().change_scene_to_file("res://levels/Pracinha/pracinha.tscn")
+		get_tree().change_scene_to_file("res://levels/Casa-Crys/end_key.tscn")
