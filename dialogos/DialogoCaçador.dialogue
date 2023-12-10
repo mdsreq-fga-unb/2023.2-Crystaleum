@@ -11,7 +11,6 @@ Caçador de recompensas: O que acha de se juntar a nos?
 Deseja entrar na facção?
 - Uau, quero muito aprender mais com vocês! 
 	Crys: O que preciso fazer para entrar nessa facção?
-	set Global.chosen_faction = true
 	set Global.cacador = true
 	Caçador de recompensas: Sabia que você aceitaria!
 	Caçador de recompensas: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.

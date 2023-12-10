@@ -43,7 +43,7 @@ if Global.finishedQuiz == false:
 			NPC: Infelizmente você errou
 			=> escolhaErrada
 		NPC: Me responda...
-		NPC: Qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
+		NPC: Segundo Marsicano (2023), qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
 		- Ciclo de vida Iterativo
 			NPC: Boa! Isso mesmo!
 		- Ciclo de vida Incremental
@@ -82,12 +82,23 @@ if Global.finishedQuiz == false:
 		- Desenvolvimento RAD (Rapid Application Development)
 			 NPC: Não é essa a resposta correta!
 			=> escolhaErrada
-
+	- Não me sinto preparada ainda!
+		set Global.mercenario = false
+		set Global.guardiao = false
+		set Global.cacador = false
+		set Global.explorador = false
+		=> END
 if Global.finishedQuiz == true:
 	NPC: Você finalizou a sua etapa de provação!
 	NPC: Contamos contigo para salvar Calamum Caereleum
+	set Global.chosen_faction = true
+	=> END
 	
 ~ escolhaErrada
 NPC: Poxa! Você não conseguiu dessa vez. 
-NPC: Tente novamente acertar as questões!
-=> startQuiz
+NPC: Tente novamente acertar as questões! Estarei te esperando!
+set Global.mercenario = false
+set Global.guardiao = false
+set Global.cacador = false
+set Global.explorador = false
+=> END

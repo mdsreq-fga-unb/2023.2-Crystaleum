@@ -11,7 +11,6 @@ Guardião: O que acha de nos ajudar proteger a ordem?
 Deseja entrar na facção?
 - Que demais, quero muito entrar! 
 	Crys: O que preciso fazer para entrar nessa facção?
-	set Global.chosen_faction = true
 	set Global.guardiao = true
 	Guardião: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.
 	Guardião: Para isso, deverá realizar um teste de conhecimento.
