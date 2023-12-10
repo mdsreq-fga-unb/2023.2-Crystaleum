@@ -48,7 +48,7 @@ func caught_onigiri():
 		if atividadeResource.get_mini_fase() < 5:
 			atividadeResource.set_mini_fase(5)
 			winscreen.visible = true
-			
+			Global.pirate_fishing = true
 
 func update_label():
 	$Label.text = str(numOnigirisCought)
