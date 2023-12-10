@@ -1,7 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://cgolxov5bpb55"]
+[gd_scene load_steps=11 format=3 uid="uid://cgolxov5bpb55"]
 
 [ext_resource type="Texture2D" uid="uid://ccggpbi01u6fc" path="res://personagem/assets/mercenaria/mercenária.png" id="1_0b008"]
 [ext_resource type="Script" path="res://scripts/mercenaria.gd" id="1_2vm1d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_04e37"]
+size = Vector2(32.1814, 77.9704)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hdobj"]
 size = Vector2(17, 61)
@@ -50,8 +53,14 @@ animations = [{
 }]
 
 [node name="mercenaria" type="StaticBody2D"]
+rotation = -0.00478427
 script = ExtResource("1_2vm1d")
-metadata/_edit_group_ = true
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-2.94734, 9.04774)
+shape = SubResource("RectangleShape2D_04e37")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -62,3 +71,15 @@ shape = SubResource("RectangleShape2D_hdobj")
 sprite_frames = SubResource("SpriteFrames_lyoxl")
 autoplay = "default"
 frame_progress = 0.620005
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -10.0
+offset_top = -29.0
+offset_right = 13.0
+offset_bottom = 34.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Mercenaria_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Mercenaria_body_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -22,47 +22,6 @@ func _ready() -> void:
 	_animation_tree["parameters/Idle/blend_position"] = Vector2(0, 1)
 
 func _physics_process(_delta: float) -> void:
-	
-	if npc_in_range == true:
-		if npc == "explorador":
-			if Input.is_action_just_pressed("ui_accept"):
-				if Global.chosen_faction == false:
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoExploradora.dialogue"), "start")
-				if Global.chosen_faction == true:	
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoExploradora.dialogue"), "chosed_faction")
-		if npc == "guardiao":
-			if Input.is_action_just_pressed("ui_accept"):
-				if Global.chosen_faction == false:
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoGuardiao.dialogue"), "startG")
-				if Global.chosen_faction == true:	
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoGuardiao.dialogue"), "chosed_faction")
-		if npc == "mercenaria":
-			if Input.is_action_just_pressed("ui_accept"):
-				if Global.chosen_faction == false:
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMercenaria.dialogue"), "startM")
-				if Global.chosen_faction == true:	
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMercenaria.dialogue"), "chosed_faction")
-		if npc == "cacador":
-			if Input.is_action_just_pressed("ui_accept"):
-				if Global.chosen_faction == false:
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "startC")
-				if Global.chosen_faction == true:
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "chosed_faction")	
-		if npc == "pirata":
-			if Input.is_action_just_pressed("ui_accept"):
-				if Global.pirate_fishing == false:
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoPirata.dialogue"), "pirata")
-				if Global.pirate_fishing == true:
-					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoPirata.dialogue"), "pirata2")
-		if npc == "mae_crys":
-			if Input.is_action_just_pressed("ui_accept"):
-				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
-				if atividadeResource.get_mini_fase() < 1:
-					atividadeResource.set_mini_fase(1)
-				'''
-				usando o resource aqui
-				'''
-			
 	_animate()
 	_move()
 	move_and_slide()
@@ -110,39 +69,12 @@ func _animate() -> void:
 	
 	_state_machine.travel("Idle")
 	
-func _on_detection_area_body_entered(body):
-	print(body)
-	if body.has_method("npc"):
-		npc_in_range = true
-	if body.has_method("explorador"):
-		npc = "explorador"
-	if body.has_method("guardiao"):
-		npc = "guardiao"
-	if body.has_method("mercenaria"):
-		npc = "mercenaria"
-	if body.has_method("cacador"):
-		npc = "cacador"
-	if body.has_method("mae_crys"):
-		npc = "mae_crys"
-	if body.has_method("comandante"):
-		npc = "comandante"
-	if body.has_method("pirata"):
-		npc = "pirata"
-
 func _on_detection_area_body_exited(body):
 	if body.has_method("npc"):
 		npc_in_range = false
 
-
 func _on_minimapabutton_pressed():
 	get_tree().change_scene_to_file("res://levels/Mini-mapa/mini_mapa_aberto.tscn")
 	
-
-func _on_button_pressed():
-	Input.action_press("ui_accept")
-	await get_tree().create_timer(0.1).timeout
-	Input.action_release("ui_accept")
-
-
 func _on_minicadernocasacrys_pressed():
 	get_tree().change_scene_to_file("res://levels/mini-caderno_aberto/mini_cadernoAberto.tscn")

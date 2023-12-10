@@ -10,6 +10,7 @@ extends Node2D
 @onready var timerEnemy = $EnemySpawnTimer
 @onready var paralBack = $ParallaxBackground
 
+var player_win = false
 var score := 0:
 	set(value):
 		score = value
@@ -26,6 +27,8 @@ func _process(delta):
 	if paralBack.scroll_offset.x >= 320:
 		paralBack.scroll_offset.x = 0
 	if score >= 75: 
+		player_win = true
+		Global.space_shotter = true
 		await get_tree().create_timer(0.2).timeout
 		gameWinScreen.visible = true
 	
@@ -50,6 +53,7 @@ func _on_enemy_killed():
 	score += 1
 	
 func _on_player_loose():
-	gameOverScreen.set_score(score)
-	await get_tree().create_timer(1).timeout
-	gameOverScreen.visible = true
+	if player_win == false:
+		gameOverScreen.set_score(score)
+		await get_tree().create_timer(1).timeout
+		gameOverScreen.visible = true

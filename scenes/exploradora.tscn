@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://scripts/exploradora.gd" id="1_j1e06"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1bdee"]
-size = Vector2(31, 62)
+size = Vector2(37, 79)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6mhje"]
 atlas = ExtResource("1_bblt3")
@@ -54,11 +54,31 @@ position = Vector2(136, 76)
 script = ExtResource("1_j1e06")
 metadata/_edit_group_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(-1.5, 1)
+[node name="Area2D" type="Area2D" parent="."]
+light_mask = 3
+visibility_layer = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-4.5, 9.5)
 shape = SubResource("RectangleShape2D_1bdee")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_6lxy3")
 autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1.5, 1)
+shape = SubResource("RectangleShape2D_1bdee")
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -15.0
+offset_top = -29.0
+offset_right = 13.0
+offset_bottom = 30.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Exploradora_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Exploradora_body_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -81,5 +81,15 @@ libraries = {
 position = Vector2(-1.34033, 48.0033)
 shape = SubResource("RectangleShape2D_xjp8y")
 
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 105.0
+offset_top = 42.0
+offset_right = 129.0
+offset_bottom = 99.0
+flat = true
+
 [connection signal="body_entered" from="Sprite2D/Area2D" to="." method="_on_PortaPraca_body_entered"]
 [connection signal="body_exited" from="Sprite2D/Area2D" to="." method="_on_PortaPraca_body_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

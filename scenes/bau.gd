@@ -2,6 +2,7 @@ extends Node2D
 
 @onready var animation_player = $AnimationPlayer
 
+var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
 var is_character_colliding = false
 
 # Chamado quando o nó entra na árvore de cena pela primeira vez.
@@ -17,10 +18,10 @@ func _on_Bau_body_entered(body):
 func _on_Bau_body_exited(body):
 	if body.name == "Crys":
 		is_character_colliding = false
-	
-func _process(delta):
-	if is_character_colliding and Input.is_action_just_pressed("ui_accept"): 
+
+func _on_button_pressed():
+	if is_character_colliding and atividadeResource.get_mini_fase() > 4: 
 		animation_player.play("bau-abrindo")
 		await animation_player.animation_finished
 		
-		get_tree().change_scene_to_file("res://levels/Casa-Crys/end_key.tscn")
+		get_tree().change_scene_to_file("res://levels/Casa-Crys/end_key.tscn")# Replace with function body.
