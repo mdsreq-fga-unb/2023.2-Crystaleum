@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://dxug47o62oxiw" path="res://scenes/vela_2.tscn" id="5_u3vh4"]
 [ext_resource type="PackedScene" path="res://scenes/aranha.tscn" id="6_nr34f"]
 [ext_resource type="PackedScene" uid="uid://uk6lat85upm6" path="res://scenes/mesalencol.tscn" id="7_ufw1e"]
-[ext_resource type="PackedScene" path="res://scenes/diario.tscn" id="8_pyn12"]
+[ext_resource type="PackedScene" uid="uid://xs2oe31shx5h" path="res://scenes/diario.tscn" id="8_pyn12"]
 [ext_resource type="PackedScene" uid="uid://cuqoyarf0hotp" path="res://scenes/vela.tscn" id="9_abxcn"]
 [ext_resource type="PackedScene" uid="uid://bnil85eyu41l4" path="res://scenes/caixas.tscn" id="9_pt6p8"]
 [ext_resource type="PackedScene" uid="uid://hvauvgxhksoy" path="res://scenes/fantasminha.tscn" id="11_0xvpw"]
