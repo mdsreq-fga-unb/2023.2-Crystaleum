@@ -1,0 +1,31 @@
+~ pirata
+
+Crys: PARADO AI! Vocês são os piratas contratados pela corporação Celestia?
+Pirata: Parece que temos alguém novo em nossas terras..
+Pirata: Sim, somos os melhores piratas espaciais que o dinheiro pode comprar.
+Pirata: O que você quer, novata?
+Crys: Pegar o que é meu. Quero a chave dourada que roubaram do meu avô.
+Pirata: (Rindo)
+Pirata: Chaves douradas, avôs... pensa que isso é um conto de fadas?
+Pirata: Você não vai conseguir nada de nós, garota.
+Crys: Vocês roubaram algo que pertence à minha família. Não vou permitir que saiam impunes.
+Pirata: Veja só, temos uma valentona aqui. Acha que pode me desafiar?
+- Tenho certeza!
+	Crys: Não é uma questão de achar, tenho certeza que consigo vencer.
+	Crys: Se eu conseguir pescar mais oniguiris que você fico com a chave, caso contrário você pode me matar.
+	=> END
+
+~ pirata2
+
+Crys: Vocês subestimaram a força da minha facção. Devolvam a chave dourada agora.
+Pirata: Maldição... você venceu. Tome a sua chave.
+Crys: (Pegando a chave) Isso é apenas o começo.
+Crys: Mas antes de ir, quero saber por quê roubaram a chave e o que sabem sobre o baú.
+Pirata: Não temos escolha, não é? A chave... ela esconde um segredo.
+Pirata: Uma lenda que passamos de geração em geração que conta que a chave só abre o baú se estiver no lugar mais especial para a pessoa que o trancou.
+- Um lugar especial? O que isso significa?
+	Pirata: Cada chave é única, e o baú só pode ser aberto se a pessoa que o trancou o deixou no lugar que considera ser o mais especial de toda a galáxia.
+	Pirata: É um vínculo mágico que transcende o espaço.
+	Crys: Então, para abrir o baú do meu avô, eu preciso levá-lo ao lugar que ele considerava mais especial?
+	Pirata: Isso mesmo, novata. Boa sorte desvendando os mistérios do seu avô.
+	Crys: Espero que da próxima vez que nos encontrarmos, sejam em circunstâncias menos hostis :-)

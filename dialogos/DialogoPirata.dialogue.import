@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bp186g5l15etk"
+path="res://.godot/imported/DialogoPirata.dialogue-64b0da9a798938fbcecaf180a11a375e.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoPirata.dialogue"
+dest_files=["res://.godot/imported/DialogoPirata.dialogue-64b0da9a798938fbcecaf180a11a375e.tres"]
+
+[params]
+
+defaults=true

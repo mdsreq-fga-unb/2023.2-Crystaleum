@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://3lpkqn01prw3"]
+[gd_scene load_steps=10 format=3 uid="uid://3lpkqn01prw3"]
 
 [ext_resource type="Texture2D" uid="uid://pyveaxd3bhrw" path="res://personagem/assets/pirata/sprite-pirata.png" id="1_1kito"]
+[ext_resource type="Script" path="res://scripts/pirata.gd" id="1_l7rhm"]
 
 [sub_resource type="Animation" id="Animation_vbult"]
 length = 0.001
@@ -78,6 +79,7 @@ transitions = ["Start", "pirata", SubResource("AnimationNodeStateMachineTransiti
 size = Vector2(45, 87.75)
 
 [node name="pirata" type="CharacterBody2D"]
+script = ExtResource("1_l7rhm")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(64, 60.75)

@@ -47,10 +47,9 @@ func _physics_process(_delta: float) -> void:
 					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "startC")
 				if Global.chosen_faction == true:
 					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "chosed_faction")	
-		if npc == "comandante":
+		if npc == "pirata":
 			if Input.is_action_just_pressed("ui_accept"):
-				get_tree().change_scene_to_file("res://scenes/comandante.tscn")
-				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante")
+				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoPirata.dialogue"), "pirata")
 		if npc == "mae_crys":
 			if Input.is_action_just_pressed("ui_accept"):
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
@@ -59,7 +58,6 @@ func _physics_process(_delta: float) -> void:
 				'''
 				usando o resource aqui
 				'''
-				
 	_animate()
 	_move()
 	move_and_slide()
@@ -111,6 +109,8 @@ func _on_detection_area_body_entered(body):
 		npc = "mae_crys"
 	if body.has_method("comandante"):
 		npc = "comandante"
+	if body.has_method("pirata"):
+		npc = "pirata"
 
 
 func _on_detection_area_body_exited(body):
