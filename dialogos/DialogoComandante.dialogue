@@ -1,14 +1,48 @@
 ~ comandante
 
-Comandante: [[Olha só!|Saudações!]], [[parece que temos uma nova recruta.|Você deve ser a nova recruta]]
-Comandante: Bem-vinda a sede das facções!
-- Obrigada!
-	Comandante: Vocẽ agr deve pipipopo.
-	=> END
-- Quem seria você tio?
-	Comandante: Tio é escambau pipipopo.
-- Start again => comandante
-- End the conversation => END
+Comandante Estelar: [[Olha só!|Saudações!]]
+Comandante Estelar: Crys, saúdo sua vitória!
+Comandante Estelar: Seu desejo de lutar contra os conglomerados é admirável e, por isso, hoje você irá enfrentar sua primeira Missão..
+Comandante Estelar: Missão: "A Neutralização do Perigo Apache".
+Comandante Estelar: Os conglomerados Apache têm sido uma praga em nossa galáxia, explorando e oprimindo sistemas inteiros.
+Comandante Estelar: Seus líderes se escondem nas sombras, mas temos informações cruciais.
+- Estou pronta para fazer o que for preciso, Comandante.
+	Comandante Estelar: Sua missão é simples em conceito, mas desafiadora na prática.
+	Comandante Estelar: Você entrará no setor designado, onde os Apache têm uma presença forte.
+	Comandante Estelar: Nossos dados de inteligência indicam que eles estão se preparando para uma ofensiva em um planeta próximo.
+	Comandante Estelar: Sua tarefa é interceptar suas naves e neutralizar a ameaça antes que ela se torne incontrolável.
+	- Entendi. Alguma estratégia específica?
+		Comandante Estelar: Sim, Crys. Os Apache são ágeis e astutos.
+		Comandante Estelar: Precisará confiar em sua habilidade de pilotagem.
+		Comandante Estelar: Mantenha-se atenta aos padrões de ataque das naves deles e tente disparar contra eles o máximo que conseguir.
+		Comandante Estelar: Lembre-se, a agilidade é a chave nesta batalha.
+		- Comandante, prometo que não decepcionarei. Estou pronta para decolar.
+			Comandante Estelar: Boa sorte, Crys. Que as estrelas guiem seu caminho e que a justiça prevaleça.
+			=> END
 
+~ comandante2
 
+Comandante Estelar: Crys, você voltou triunfante da Missão 1. Seus feitos são dignos de admiração.
+- Obrigada, Comandante.
+	Crys: Foi uma batalha intensa, mas conseguimos neutralizar a ameaça dos Apache.
+	Comandante Estelar: Seu desempenho foi notável, mas a galáxia continua a ser um campo de batalha.
+	Comandante Estelar: Os desafios não cessam. Estamos agora diante da missão "Conquista de Celestia".
+	Comandante Estelar: Prepare-se para algo um pouco diferente, Crys. As águas de Celestia estão infestadas por piratas espaciais, e eles roubaram algo precioso de você.
+	- Piratas espaciais? O que eles têm a ver comigo?
+		Comandante Estelar: Durante uma de suas missões passadas seu avô encontrou um raro Crystal roxo que quando exposto à radiação, emite ondas eletromagnéticas poderosas.
+		Comandante Estelar: Pedi para que ele guardasse em algum lugar da casa em que morava.
+		Comandante Estelar: Na época, essa informação acabou vasando por espiões infiltrados em nossa facção, e os piratas conseguiram roubar a chave dourada.
+		Comandante Estelar: Mas, nunca descobriram onde seu avô escondeu o Crystal.
+		- O que devo fazer?
+			Comandante Estelar: Você irá até o farol de Celestia e desafiará esses piratas para um duelo de pescaria.
+			Comandante Estelar: Sim, pescaria.
+			Comandante Estelar: Eles são aficionados por oniguiris, e o objetivo é simples:
+			Comandante Estelar: pescar mais oniguiris do que eles. A chave do baú está em jogo.
+			- Crys: Pescaria espacial contra piratas?
+				Crys: Isso é inusitado, Comandante. Mas estou pronta para qualquer desafio.
+				Comandante Estelar: Sei que é um método peculiar, mas estes piratas são conhecidos por sua paixão por desafios únicos.
+				Comandante Estelar: O tempo está se esgotando, precisamos agir.
+				- Entendido, Comandante.
+					Crys: Vou até Celestia em busca do item que irá salvar nosso universo das garras do mal!
+					=> END
 => END
