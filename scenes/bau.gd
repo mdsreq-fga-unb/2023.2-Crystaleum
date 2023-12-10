@@ -4,11 +4,11 @@ extends Node2D
 
 # Chamado quando o nó entra na árvore de cena pela primeira vez.
 func _ready():
-	pass
+	animation_player.play("idle")  # Inicia com a animação de 'idle'
 # Chamado a cada quadro. 'delta' é o tempo decorrido desde o quadro anterior.
 func _process(delta):
 	if Input.is_action_just_pressed("ui_accept"):
 		animation_player.play("bau-abrindo")  # Aciona a animação de abrir a porta
 		await animation_player.animation_finished
 		
-		get_tree().change_scene_to_file("res://levels/Casa-Crys/end_key.tscn")
+		#get_tree().change_scene_to_file("res://levels/Pracinha/pracinha.tscn")
