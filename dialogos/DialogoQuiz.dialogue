@@ -1,5 +1,3 @@
-import "res://dialogos/DialogoEscolhaErrada.dialogue" as escolhaErrada
-
 ~ startQuiz
 
 if Global.finishedQuiz == false:
@@ -9,64 +7,64 @@ if Global.finishedQuiz == false:
 		NPC: Primeira pergunta: O que são requisitos de software?
 		- Ferramentas de desenvolvimento
 			NPC: Sinto muito! Resposta errada!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Documentos formais
 			NPC: Sinto muito! Resposta errada!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Funções específicas de um programa
 			NPC: Parabéns! Isso mesmo!
 		- Linguagens de programação
 			NPC: Sinto muito! Resposta errada!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		NPC: Próxima pergunta: Qual é o propósito dos requisitos de software?
 		- Guia para testes
 			NPC: Poxa! Essa não é a resposta correta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Documentar a arquitetura do sistema
 			NPC: Poxa! Essa não é a resposta correta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Definir as funcionalidades do software
 			NPC: Responsta correta!
 		- Todas as opções acima
 			NPC: Poxa! Essa não é a resposta correta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		NPC: Você está indo muito bem! 
 		NPC: Agora me diga...
 		NPC: O que são requisitos funcionais?
 		- Descrição de interfaces de usuário
 			NPC: Infelizmente você errou
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Definição de desempenho do sistema
 			NPC: Infelizmente você errou
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Especificação das operações do software
 			NPC: Isso mesmo!
 		- Requisitos de hardware necessários
 			NPC: Infelizmente você errou
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		NPC: Me responda...
 		NPC: Qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
 		- Ciclo de vida Iterativo
 			NPC: Boa! Isso mesmo!
 		- Ciclo de vida Incremental
 			NPC: Poxa, não é essa a opção correta
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Ciclo de vida Preditivo
 			NPC: Poxa, não é essa a opção correta
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Ciclo de vida Ágil
 			NPC: Poxa, não é essa a opção correta
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		NPC: Qual dos processos abaixo NÃO podem ser utilizados com uma abordagem dirigida a plano?
 		- Cascata
 			NPC: Resposta incorreta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Processo Unificado
 			NPC: Resposta incorreta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Spiral
 			NPC: Resposta incorreta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- RAD
 			NPC: Isso mesmo! O RAD é um processo que deve ser utilizado junto de uma abordagem ágil!
 		NPC: Estamos muito orgulhosos até onde você chegou!
@@ -74,20 +72,22 @@ if Global.finishedQuiz == false:
 		NPC: Qual abordagem de desenvolvimento de software enfatiza a entrega incremental e iterativa, adaptação contínua aos requisitos em mudança e feedback constante dos usuários?
 		- Desenvolvimento em Cascata
 			NPC: Não é essa a resposta correta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Desenvolvimento Ágil
 			NPC: Isso mesmo! Parabéns!
 			set Global.finishedQuiz = true
 		- Desenvolvimento em Espiral
 			NPC: Não é essa a resposta correta!
-			=> escolhaErrada/escolhaErrada
+			=> escolhaErrada
 		- Desenvolvimento RAD (Rapid Application Development)
 			 NPC: Não é essa a resposta correta!
-			=> escolhaErrada/escolhaErrada
-	- Não me sinto preparada.
-		NPC: Poxa! Tudo bem. Te aguardo quando se sentir preparada!
-		=> END
+			=> escolhaErrada
 
 if Global.finishedQuiz == true:
 	NPC: Você finalizou a sua etapa de provação!
 	NPC: Contamos contigo para salvar Calamum Caereleum
+	
+~ escolhaErrada
+NPC: Poxa! Você não conseguiu dessa vez. 
+NPC: Tente novamente acertar as questões!
+=> startQuiz
