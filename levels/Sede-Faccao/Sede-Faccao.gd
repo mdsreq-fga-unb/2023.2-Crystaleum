@@ -12,7 +12,7 @@ func _process(delta):
 
 
 func _on_button_pressed():
-	get_tree().change_scene_to_file("res://levels/SpaceShooter-mini-game/scenes/SpaceGame.tscn")
+		get_tree().change_scene_to_file("res://levels/SpaceShooter-mini-game/scenes/instructions.tscn")
 
 
 func _on_button_tv_pressed():
