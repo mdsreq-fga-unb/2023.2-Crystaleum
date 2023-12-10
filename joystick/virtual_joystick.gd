@@ -120,7 +120,7 @@ func _update_joystick(touch_position: Vector2) -> void:
 		is_pressed = false
 		output = Vector2.ZERO
 	
-	if use_input_actions:
+	if use_input_actions && is_pressed:
 		if output.x > 0:
 			_update_input_action(action_right, output.x)
 		else:
@@ -130,6 +130,12 @@ func _update_joystick(touch_position: Vector2) -> void:
 			_update_input_action(action_down, output.y)
 		else:
 			_update_input_action(action_up, -output.y)
+	else:
+		_update_input_action(action_right, 0)
+		_update_input_action(action_left, 0)
+		_update_input_action(action_down, 0)
+		_update_input_action(action_up, 0)
+		
 
 func _update_input_action(action:String, value:float):
 	if value > InputMap.action_get_deadzone(action):
