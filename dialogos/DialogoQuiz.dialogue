@@ -90,4 +90,4 @@ if Global.finishedQuiz == false:
 
 if Global.finishedQuiz == true:
 	NPC: Você finalizou a sua etapa de provação!
-	NPC: Contamos contigo para salvar *nome do universo*
+	NPC: Contamos contigo para salvar Calamum Caereleum
