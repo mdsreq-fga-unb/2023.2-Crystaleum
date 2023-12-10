@@ -1,17 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://hvauvgxhksoy"]
+[gd_scene load_steps=2 format=3 uid="uid://hvauvgxhksoy"]
 
 [ext_resource type="Texture2D" uid="uid://p4sv8qmolrse" path="res://assets/fantasminha.png" id="1_bv4l6"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xru45"]
-size = Vector2(67, 65)
-
 [node name="fantasminha" type="Node2D"]
-
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(268.5, 47.5)
-shape = SubResource("RectangleShape2D_xru45")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(268, 47)
