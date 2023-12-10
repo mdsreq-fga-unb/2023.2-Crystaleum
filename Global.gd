@@ -9,6 +9,7 @@ var mercenario = false
 var cacador = false
 var explorador = false
 var guardiao = false
+var space_shotter = false
 
 
 func set_current_place(value):

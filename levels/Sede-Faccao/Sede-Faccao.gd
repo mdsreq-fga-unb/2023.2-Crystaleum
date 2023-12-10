@@ -17,4 +17,7 @@ func _on_button_pressed():
 
 func _on_button_tv_pressed():
 	get_tree().change_scene_to_file("res://scenes/comandante.tscn")
-	DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante")
+	if Global.space_shotter == false:
+		DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante")
+	if Global.space_shotter == true:
+		DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante2")
