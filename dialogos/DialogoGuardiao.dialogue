@@ -8,7 +8,8 @@ Guardião: Nós somos os Guardiões, um grupo de pessoas destemidas e solidária
 Guardião: Nosso objetivo é instaurar e manter a ordem em planetas que sofrem com guerras contínuas e exploração desenfreada devido a ganância das corporações.
 Guardião: O que acha de nos ajudar proteger a ordem?
 Deseja entrar na facção?
-- Uau, quero muito aprender mais com vocês! O que preciso fazer para entrar nessa facção?
+- Que demais, quero muito entrar! 
+	Crys: O que preciso fazer para entrar nessa facção?
 	set Global.chosen_faction = true
 	set Global.guardiao = true
 	Guardião: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.

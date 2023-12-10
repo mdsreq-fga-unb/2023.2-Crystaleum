@@ -7,11 +7,12 @@ Exploradora: Nós somos os Exploradores, um grupo de aventureiros, motivados pel
 Exploradora: Buscam explorar lugares há muito tempo perdidos, documentar a história de civilizações prístinas, desenterrar tesouros ancestrais, catalogar formas de vida exóticas e encontrar regiões da galáxia ainda inexploradas.
 Exploradora: Desejamos participar de aventuras, explorar lugares inóspitos e realizar novas descobertas.
 Exploradora: Que tal entrar para nossa facção?
-- Uau, quero muito aprender mais com vocês! O que preciso fazer para entrar nessa facção?
+- Uau, parece incrível!
 	Deseja entrar na facção?
 	- Sim
 		set Global.chosen_faction = true
 		set Global.explorador = true
+		Crys: O que preciso fazer para entrar nessa facção?
 		Exploradora: Eu sabia que tinha encontrado a pessoa certa.
 		Exploradora: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.
 		Exploradora: Para isso, deverá realizar um teste de conhecimento.

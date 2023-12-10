@@ -7,7 +7,8 @@ Mercenária: Nós somos os Mercenários, um grupo de guerreiros experientes e ha
 Mercenária: Queremos obter glória, reconhecimento e riquezas em todos os planetas que passamos, deixando nossos nomes marcados na história e vivendo como reis.
 Mercenária: O que acha de entrar para nossa facção?
 Deseja entrar na facção?
-- Claro! O que preciso fazer para entrar nessa facção?
+- Claro! 
+	Crys: O que preciso fazer para entrar nessa facção?
 	set Global.chosen_faction = true
 	set Global.mercenario = true
 	Mercenária: É assim que se fala!
