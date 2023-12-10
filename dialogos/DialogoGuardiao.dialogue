@@ -4,17 +4,20 @@ Crys: Olá, sou neta de G.M e decidi me juntar ao Comando Estelar para derrotar 
 Crys: Poderia me contar mais sobre vocês?
 Guardião: [[Olá|Saudações]], jovem!
 Guardião: Seja muito bem vinda a sede do Comando Estelar.
-Guardião: Nós somos os Guardiões, um grupo de pessoas destemidas e solidárias que realizam missões com o intuito de ajudar povos vulneráveis, raças com risco de extinção, além de manter a ordem e a justiça nas terras de Calamum Caeruleum.
+Guardião: Nós somos os Guardiões, um grupo de pessoas destemidas e solidárias...
+Guardião: Realizamos missões com o intuito de ajudar povos vulneráveis, raças com risco de extinção, além de manter a ordem e a justiça nas terras de Calamum Caeruleum.
 Guardião: Nosso objetivo é instaurar e manter a ordem em planetas que sofrem com guerras contínuas e exploração desenfreada devido a ganância das corporações.
 Guardião: O que acha de nos ajudar proteger a ordem?
 Deseja entrar na facção?
-- Uau, quero muito aprender mais com vocês! O que preciso fazer para entrar nessa facção?
+- Que demais, quero muito entrar! 
+	Crys: O que preciso fazer para entrar nessa facção?
 	set Global.chosen_faction = true
 	set Global.guardiao = true
 	Guardião: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.
 	Guardião: Para isso, deverá realizar um teste de conhecimento.
 	Guardião: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
 	=> provacao/startQuiz
+	=> END
 - Não
 	=> END
 	
