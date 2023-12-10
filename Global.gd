@@ -3,7 +3,7 @@ extends Node
 
 var current_place = "res://levels/Casa-Crys/casa.tscn" #casa crys
 var finishedQuiz = false
-
+var pirate_fishing = true
 var chosen_faction = false
 var mercenario = false
 var cacador = false

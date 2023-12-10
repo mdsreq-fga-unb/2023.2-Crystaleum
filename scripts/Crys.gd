@@ -49,7 +49,10 @@ func _physics_process(_delta: float) -> void:
 					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoCaçador.dialogue"), "chosed_faction")	
 		if npc == "pirata":
 			if Input.is_action_just_pressed("ui_accept"):
-				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoPirata.dialogue"), "pirata")
+				if Global.pirate_fishing == false:
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoPirata.dialogue"), "pirata")
+				if Global.pirate_fishing == true:
+					DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoPirata.dialogue"), "pirata2")
 		if npc == "mae_crys":
 			if Input.is_action_just_pressed("ui_accept"):
 				DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoMaeCrys.dialogue"), "startMae")
