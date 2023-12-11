@@ -35,10 +35,10 @@ autowrap_mode = 3
 text_direction = 1
 
 [node name="Label" type="Label" parent="."]
-offset_left = 15.0
-offset_top = 36.0
-offset_right = 303.0
-offset_bottom = 173.0
+offset_left = 23.0
+offset_top = 34.0
+offset_right = 311.0
+offset_bottom = 185.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
@@ -46,9 +46,15 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 3
 theme_override_fonts/font = ExtResource("2_u0kye")
 theme_override_font_sizes/font_size = 10
-text = "Para movimentar a Crys, sua personagem, movimente o joystick na parte inferior esquerda. 
-Para mudar de ambiente, clique no mapa
- da parte superior esquerda, os lugares os quais você tem acesso estarão marcado com um botão roxo com um ícone da Crys.
+text = "Para movimentar a Crys, sua personagem, utilize  o joystick na parte inferior esquerda
+
+Para mudar de ambiente, clique no mapa 
+da parte superior esquerda
+
+As  regiões  do  mapa só serão  liberadas 
+ao  decorrer  do  jogo, mas os que 
+você já têm acesso estarão 
+marcadas por um botão roxo
 
 "
 horizontal_alignment = 1
@@ -64,9 +70,9 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 280.0
+offset_left = 285.0
 offset_top = 151.0
-offset_right = 306.0
+offset_right = 311.0
 offset_bottom = 170.0
 grow_horizontal = 0
 grow_vertical = 0
@@ -77,12 +83,15 @@ theme_override_font_sizes/font_size = 9
 text = ">>"
 
 [node name="Minimapabutton" type="Sprite2D" parent="."]
-position = Vector2(304, 81)
+position = Vector2(27, 89)
+scale = Vector2(1.4375, 1.25)
 texture = ExtResource("5_ph0ko")
 
 [node name="Botao-minimapaa" type="Sprite2D" parent="."]
-position = Vector2(289, 131)
-scale = Vector2(0.06, 0.06)
+position = Vector2(38, 148)
+scale = Vector2(0.0790116, 0.0832812)
 texture = ExtResource("6_07xa3")
+
+[node name="joystick" type="Sprite2D" parent="."]
 
 [connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]
