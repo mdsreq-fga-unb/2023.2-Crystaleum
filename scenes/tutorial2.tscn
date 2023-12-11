@@ -1,0 +1,82 @@
+[gd_scene load_steps=6 format=3 uid="uid://jqc5o2vedlun"]
+
+[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="1_mv25v"]
+[ext_resource type="Script" path="res://scripts/tutorial2.gd" id="1_ydddb"]
+[ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="2_ky60p"]
+[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_2il3x"]
+[ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="4_k4ikp"]
+
+[node name="Tutorial2" type="Node2D"]
+script = ExtResource("1_ydddb")
+
+[node name="fundo preto" type="Sprite2D" parent="."]
+position = Vector2(316, 84.8)
+scale = Vector2(1, 0.56)
+texture = ExtResource("1_mv25v")
+
+[node name="Titulo" type="Label" parent="."]
+offset_left = 125.0
+offset_top = 9.0
+offset_right = 202.0
+offset_bottom = 40.0
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 3
+theme_override_fonts/font = ExtResource("2_ky60p")
+theme_override_font_sizes/font_size = 13
+text = "TUTORIAL
+
+"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_direction = 1
+
+[node name="Label" type="Label" parent="."]
+offset_left = 15.0
+offset_top = 36.0
+offset_right = 303.0
+offset_bottom = 173.0
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 3
+theme_override_fonts/font = ExtResource("2_ky60p")
+theme_override_font_sizes/font_size = 9
+text = "Existem portas no jogo que podem ser abertas se você estiver perto delas e clicar nelas.
+
+O caderno na parte superior direita é o seu guia, sempre que não souber o que fazer, consulte-o, ele dirá sua próxima atividade.
+
+Para conversar com os NPCs do jogo, chegue perto deles e clique neles. Bom jogo!"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_direction = 1
+
+[node name="ButtonSkip" type="Button" parent="."]
+texture_filter = 6
+texture_repeat = 1
+layout_direction = 2
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 280.0
+offset_top = 151.0
+offset_right = 306.0
+offset_bottom = 170.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme = ExtResource("3_2il3x")
+theme_override_font_sizes/font_size = 9
+text = ">>"
+
+[node name="Mini-caderno" type="Sprite2D" parent="."]
+position = Vector2(304, 87)
+texture = ExtResource("4_k4ikp")
+
+[connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]

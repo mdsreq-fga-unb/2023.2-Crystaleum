@@ -1,0 +1,88 @@
+[gd_scene load_steps=7 format=3 uid="uid://cdto2wypsysnf"]
+
+[ext_resource type="Script" path="res://scripts/tutorial.gd" id="1_jq44e"]
+[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="1_kpyd7"]
+[ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="2_u0kye"]
+[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="4_b4ajb"]
+[ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="5_ph0ko"]
+[ext_resource type="Texture2D" uid="uid://cc57wo7joujia" path="res://assets/botao-minimapaa.png" id="6_07xa3"]
+
+[node name="Tutorial" type="Node2D"]
+script = ExtResource("1_jq44e")
+
+[node name="fundo preto" type="Sprite2D" parent="."]
+position = Vector2(316, 84.8)
+scale = Vector2(1, 0.56)
+texture = ExtResource("1_kpyd7")
+
+[node name="Titulo" type="Label" parent="."]
+offset_left = 125.0
+offset_top = 9.0
+offset_right = 202.0
+offset_bottom = 40.0
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 3
+theme_override_fonts/font = ExtResource("2_u0kye")
+theme_override_font_sizes/font_size = 13
+text = "TUTORIAL
+
+"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_direction = 1
+
+[node name="Label" type="Label" parent="."]
+offset_left = 15.0
+offset_top = 36.0
+offset_right = 303.0
+offset_bottom = 173.0
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 3
+theme_override_fonts/font = ExtResource("2_u0kye")
+theme_override_font_sizes/font_size = 10
+text = "Para movimentar a Crys, sua personagem, movimente o joystick na parte inferior esquerda. 
+Para mudar de ambiente, clique no mapa
+ da parte superior esquerda, os lugares os quais você tem acesso estarão marcado com um botão roxo com um ícone da Crys.
+
+"
+horizontal_alignment = 1
+autowrap_mode = 3
+text_direction = 1
+
+[node name="ButtonSkip" type="Button" parent="."]
+texture_filter = 6
+texture_repeat = 1
+layout_direction = 2
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 280.0
+offset_top = 151.0
+offset_right = 306.0
+offset_bottom = 170.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme = ExtResource("4_b4ajb")
+theme_override_font_sizes/font_size = 9
+text = ">>"
+
+[node name="Minimapabutton" type="Sprite2D" parent="."]
+position = Vector2(304, 81)
+texture = ExtResource("5_ph0ko")
+
+[node name="Botao-minimapaa" type="Sprite2D" parent="."]
+position = Vector2(289, 131)
+scale = Vector2(0.06, 0.06)
+texture = ExtResource("6_07xa3")
+
+[connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]

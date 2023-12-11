@@ -12,7 +12,7 @@ func _on_jogar_pressed():
 	
 
 func _on_config_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://scenes/tutorial.tscn")
 
 func _on_sair_pressed():
 	get_tree().quit()
