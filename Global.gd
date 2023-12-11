@@ -13,6 +13,7 @@ var space_shotter = false
 var talkpirate1 = false
 var talkpirate2 = false
 var talkcomandante1 = false
+var talkcomandante2 = false
 
 
 func set_current_place(value):

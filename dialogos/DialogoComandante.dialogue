@@ -46,5 +46,6 @@ Comandante Estelar: Crys, você voltou triunfante da Missão 1. Seus feitos são
 				Comandante Estelar: O tempo está se esgotando, precisamos agir.
 				- Entendido, Comandante.
 					Crys: Vou até Celestia em busca do item que irá salvar nosso universo das garras do mal!
+					set Global.talkcomandante2 = true
 					=> END
 => END
