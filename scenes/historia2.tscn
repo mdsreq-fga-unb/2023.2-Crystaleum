@@ -57,10 +57,10 @@ text = ">>"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
-offset_left = 21.0
-offset_top = 28.0
-offset_right = 284.0
-offset_bottom = 172.0
+offset_left = 24.0
+offset_top = 32.0
+offset_right = 289.0
+offset_bottom = 155.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
@@ -68,11 +68,14 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("4_17xqk")
 theme_override_font_sizes/font_size = 9
 text = "Diante  deste  cenário  caótico  em  Calamum
- Caereleum,  foi  fundado  o  Comando  Estelar: 
-uma  força  especial  de  combate  que  uniu 
+ Caereleum,  foi  fundado  o  Comando  Estelar.
+
+Uma  força  de  combate  que  uniu 
 as  vítimas  dos  conglomerados  em  prol  de 
 restaurar  o  equilíbrio  galático  e  frear  o 
-avanço  predatório  das  grandes  corporações."
+avanço  predatório  das  grandes  corporações.."
+horizontal_alignment = 1
+vertical_alignment = 1
 text_direction = 1
 
 [connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]
