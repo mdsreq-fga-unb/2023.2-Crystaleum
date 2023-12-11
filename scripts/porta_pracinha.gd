@@ -19,7 +19,8 @@ func _on_PortaPraca_body_exited(body):
 		
 
 func _on_button_pressed():
-	if is_character_colliding: 
-		animation_player.play("porta_abrindo")  # Aciona a animação de abrir a porta
-		await animation_player.animation_finished
-		get_tree().change_scene_to_file("res://levels/Sede-Faccao/Sede-Faccao.tscn")
+	if Global.finishedQuiz:
+		if is_character_colliding: 
+			animation_player.play("porta_abrindo")  # Aciona a animação de abrir a porta
+			await animation_player.animation_finished
+			get_tree().change_scene_to_file("res://levels/Sede-Faccao/Sede-Faccao.tscn")
