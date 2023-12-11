@@ -108,3 +108,9 @@ O Mini-Game da Pesca é a última grande fase do Crystaleum. Nele o jogador prec
 <center><b>Imagem 16:</b> Farol </center>
 
 ![Mini_Game_Pesca](../assets/images/jogo_pesca.jpeg)
+
+## Histórico de Versão
+
+| Versão | Data       | Descrição          | Autor(es)                                        |
+| ------ | ---------- | ------------------ | ------------------------------------------------ |
+| 1.0    | 11/12/2023 | Criação do Conteúdo  | [Taynara Vitorino](https://github.com/taybalau) |
