@@ -18,8 +18,9 @@ func _on_PortaSede_body_exited(body):
 		is_character_colliding = false
 		
 func _on_button_pressed():
-	if is_character_colliding: 
-		animation_player.play("portasede")  # Aciona a animação de abrir a porta
-		await animation_player.animation_finished
-		
-		get_tree().change_scene_to_file("res://levels/Pracinha/pracinha.tscn")
+	if Global.talkcomandante2:
+		if is_character_colliding: 
+			animation_player.play("portasede")  # Aciona a animação de abrir a porta
+			await animation_player.animation_finished
+			
+			get_tree().change_scene_to_file("res://levels/Pracinha/pracinha.tscn")
