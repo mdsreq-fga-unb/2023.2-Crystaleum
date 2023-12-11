@@ -16,7 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://bmes7oviqco1r" path="res://scenes/plantinha_1.tscn" id="13_krh12"]
 [ext_resource type="PackedScene" uid="uid://b6g8ty5blrhm7" path="res://scenes/plantinha_3.tscn" id="14_ipghw"]
 
-[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_sopd7"]
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_h2tek"]
 script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
@@ -28,7 +28,7 @@ scale = Vector2(0.5625, 0.578125)
 texture = ExtResource("1_uyqq8")
 
 [node name="CodeEdit" parent="." instance=ExtResource("5_r44jh")]
-syntax_highlighter = SubResource("SyntaxHighlighter_sopd7")
+syntax_highlighter = SubResource("SyntaxHighlighter_h2tek")
 
 [node name="plantinha1" parent="." instance=ExtResource("13_krh12")]
 position = Vector2(62, 68)

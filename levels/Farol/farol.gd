@@ -1,5 +1,7 @@
 extends Node2D
 
+var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -8,7 +10,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if Global.talkpirate2:
+		atividadeResource.set_mini_fase(6)
 
 
 func _on_fishing_minigame_pressed():
