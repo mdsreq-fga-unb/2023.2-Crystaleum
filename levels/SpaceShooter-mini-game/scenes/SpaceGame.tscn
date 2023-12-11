@@ -28,16 +28,6 @@ scale_max = 0.3
 script = ExtResource("1_o4b5e")
 enemy_scenes = Array[PackedScene]([ExtResource("6_12d7h"), ExtResource("6_rsicd")])
 
-[node name="UiLayer" type="CanvasLayer" parent="."]
-
-[node name="HUD" parent="UiLayer" instance=ExtResource("4_4n1oq")]
-
-[node name="GameOverScreen" parent="UiLayer" instance=ExtResource("5_gjdnt")]
-visible = false
-
-[node name="GameSpaceWinSpaceScreen" parent="UiLayer" instance=ExtResource("6_wgnua")]
-visible = false
-
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -84,6 +74,16 @@ position = Vector2(48, 119)
 scale = Vector2(0.07, 0.07)
 texture_normal = ExtResource("5_6tc51")
 action = "action_button"
+
+[node name="UiLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="UiLayer" instance=ExtResource("4_4n1oq")]
+
+[node name="GameOverScreen" parent="UiLayer" instance=ExtResource("5_gjdnt")]
+visible = false
+
+[node name="GameSpaceWinSpaceScreen" parent="UiLayer" instance=ExtResource("6_wgnua")]
+visible = false
 
 [node name="LaserContainer" type="Node2D" parent="."]
 position = Vector2(-30, -40)
