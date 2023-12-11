@@ -17,9 +17,9 @@ _Peso = (Valor de Negócio \* Viabilidade) / Complexibilidade_
 | E1        | C2             | F4          |RNF2 - O aluno deve conseguir visualizar uma aparência animada através das diferentes sprites dos personagens presentes ao decorrer do jogo   | 2      | 2                    | 1               | 4                |
 | E1        | C1             | F1          | US2 - Eu, como aluno, quero acessar todas as sub-áreas do mapa para percorrer todo o jogo                                                                                        | 2        | 3                    | 2               | 3                |
 | E1        | C1             | F3          | US6 - Eu, como aluno, gostaria de jogar o mini-game de pesca para obter o item chave para avançar na história do jogo                                                    | 3        | 2                    | 2               | 3                |
-| E1        | C2             | F3          | US7 - Eu como aluno gostaria de jogar o mini-game de shape para avançar na história do jogo | 3        | 2                    | 2               | 3                |
+| E1        | C2             | F3          | US7 - Eu como aluno gostaria de jogar o mini-game de space shooter nave para avançar na história do jogo | 3        | 2                    | 2               | 3                |
 | E1        | C2             | F2          | US4 - Eu, como aluno, gostaria de pescar oniguiris ao acessar o mini-game de pesca para que seja possível que meu personagem avance no desenvolver do jogo    | 2        | 2                    | 2               | 2                |
-| E1        | C2             | F2          | US5 - Eu, como aluno, gostaria de conseguir saltar no mini-game de shape para que seja possível que meu personagem avance no desenvolver do jogo    | 2        | 2                    | 2               | 2                |
+| E1        | C2             | F2          | US5 - Eu, como aluno, gostaria de conseguir atirar no mini-game de space shooter nave para que seja possível que meu personagem avance no desenvolver do jogo    | 2        | 2                    | 2               | 2                |
 | E2        | C3             | F7          | US11 - Eu, como aluno, quero responder perguntas de um QUIZ aos NPC's para conseguir revisar a disciplina                                                              | 2        | 2                    | 2               | 2                |
 | E1        | C2             | F5          | RNF4 - O jogo deve possuir efeitos sonoros para representar ações realizadas durante a gameplay  | 1      | 3                    | 2               | 1,5                |
 | E1        | C2             | F5          | RNF5 - O jogo deve possuir uma musica tema                                                                              | 2      | 2                    | 32               | 1,33                |
@@ -42,20 +42,16 @@ Definido o backlog priorizado, utilizamos os pesos dados a cada item para defini
 | US2 - Eu, como aluno, quero acessar todas as sub-áreas do mapa para percorrer todo o jogo     |
 | US3 - Eu, como aluno, gostaria de me movimentar nas 4 direções cartesianas no mapa do jogo para acessar novas áreas                                                                                  |
 | US4 - Eu, como aluno, gostaria de pescar oniguiris ao acessar o mini-game de pesca para que seja possível que meu personagem avance no desenvolver do jogo                                                         |
-| US5 - Eu, como aluno, gostaria de conseguir saltar no mini-game de shape para que seja possível que meu personagem avance no desenvolver do jogo                                                              |
+| US5 - Eu, como aluno, gostaria de conseguir atirar no mini-game de space shooter nave para que seja possível que meu personagem avance no desenvolver do jogo                                                              |
 | US6 - Eu, como aluno, gostaria de jogar o mini-game de pesca para obter o item chave para avançar na história do jogo                                                             |
-| US7 - Eu como aluno gostaria de jogar o mini-game de shape para avançar na história do jogo. |
+| US7 - Eu como aluno gostaria de jogar o mini-game de space shooter nave para avançar na história do jogo. |
 | US8 - Eu como aluno, desejo salvar o meu progresso no jogo para quando for jogar novamente continuar de onde foi salvo  |
 | US9 - Eu, como aluno, quero dialogar com os seis NPC's para iniciar um diálogo com eles e descobrir mais sobre a história das facções                                                                   |
 | US10 - Eu, como aluno, desejo escolher a minha facção para adquirir um sentimento de pertencimento com a temática da disciplina  |
 | US11 - Eu, como aluno, quero responder perguntas de um QUIZ aos NPC's para conseguir revisar a disciplina |
 | US12 - Eu, como aluno, quero poder compreender quais são minhas próximas atividades no jogo através do mini-caderno na lateral da tela para descobrir rapidamente qual caminho devo seguir|
-| RNF1 - O aluno deve conseguir aumentar ou diminuir o volume do jogo  |
-| RNF2 -  O aluno deve conseguir visualizar uma aparência animada através das diferentes sprites dos personagens presentes ao decorrer do jogo
-| RNF4 - O jogo deve possuir efeitos sonoros para representar ações realizadas durante a gameplay  |
-| RNF5 - O jogo deve possuir uma musica tema |
+| RNF2 -  O aluno deve conseguir visualizar uma aparência animada através das diferentes sprites dos personagens presentes ao decorrer do jogo|
 | RNF6 - O aluno deve poder ler a história do Calamum Caereleum ao percorrer o jogo |
-
 
 ## Alinhamento do MVP aos objetivos do projeto
 
@@ -91,6 +87,10 @@ Após realizado o MVP, foi possível realizar um alinhamento do mesmo aos objeti
 | **Descrição do Objetivo** | **Features relacionadas**                    |
 | ------------------------- | -------------------------------------------- |
 | OBJ4                      | F8 - Portabilidade de dados da turma via API |
+
+## Alterações
+
+Basicamente as alterações feitas no mvp do produto foram a alteração no mini-game de plataforma para um minigame de space shooter e a remoção dos RNF de musica e efeitos sonoros, motivados pela redução da equipe.
 
 ## Histórico de Versão
 

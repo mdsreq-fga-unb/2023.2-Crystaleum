@@ -34,11 +34,11 @@ position = Vector2(248, 98)
 [node name="dragao-espacial" parent="." instance=ExtResource("5_6oi28")]
 position = Vector2(133, -115)
 
-[node name="mesadebar" parent="." instance=ExtResource("5_enbos")]
-position = Vector2(-9, 53)
+[node name="barco-pirata" parent="." instance=ExtResource("6_yjsfi")]
+position = Vector2(-22, -11)
 
-[node name="barco-pirata" parent="mesadebar" instance=ExtResource("6_yjsfi")]
-position = Vector2(-13, -64)
+[node name="mesadebar" parent="." instance=ExtResource("5_enbos")]
+position = Vector2(-9, 66)
 
 [node name="copo" parent="mesadebar" instance=ExtResource("5_6s4eh")]
 position = Vector2(9, -49)

@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://d1cqcrn3qooy"]
+[gd_scene load_steps=6 format=3 uid="uid://d1cqcrn3qooy"]
 
 [ext_resource type="Script" path="res://scripts/historia1.gd" id="1_73xqy"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="1_q3jvy"]
+[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="2_ors4m"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_q8cev"]
 [ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="3_v8x8f"]
 
@@ -13,6 +14,10 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_73xqy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(10, 164)
+texture = ExtResource("2_ors4m")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1

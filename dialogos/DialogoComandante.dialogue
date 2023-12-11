@@ -19,6 +19,7 @@ Comandante Estelar: Seus líderes se escondem nas sombras, mas temos informaçõ
 		- Comandante, prometo que não decepcionarei.
 			Crys: Estou pronta para decolar.
 			Comandante Estelar: Boa sorte, Crys. Que as estrelas guiem seu caminho e que a justiça prevaleça.
+			set Global.talkcomandante1 = true
 			=> END
 
 ~ comandante2

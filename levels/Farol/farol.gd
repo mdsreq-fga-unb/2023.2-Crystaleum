@@ -12,4 +12,5 @@ func _process(delta):
 
 
 func _on_fishing_minigame_pressed():
-	get_tree().change_scene_to_file("res://levels/Farol/Instructions.tscn")
+	if Global.talkpirate1:
+		get_tree().change_scene_to_file("res://levels/Farol/Instructions.tscn")
