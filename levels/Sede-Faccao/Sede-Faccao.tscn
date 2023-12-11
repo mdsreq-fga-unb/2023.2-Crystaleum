@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://ofoa3ei2g1g2" path="res://scenes/portafaccao.tscn" id="5_w2sce"]
 [ext_resource type="PackedScene" uid="uid://benj26wps8osy" path="res://scenes/painelcontrole.tscn" id="6_bm024"]
 [ext_resource type="PackedScene" uid="uid://dwq4s3djweujf" path="res://scenes/placa_saida.tscn" id="6_fvfv8"]
-[ext_resource type="PackedScene" path="res://scenes/flipe.tscn" id="7_l8tix"]
+[ext_resource type="PackedScene" uid="uid://bpgt2pl1550u" path="res://scenes/flipe.tscn" id="7_l8tix"]
 [ext_resource type="Texture2D" uid="uid://bts22xn1pn3vd" path="res://assets/tapeteComandoEstelarOval.png" id="8_ybmnv"]
 
 [node name="Sede-Faccao" type="Node2D"]
