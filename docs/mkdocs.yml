@@ -213,10 +213,10 @@ nav:
   - Apresentação final: 
       - Overview: missao-4/overview.md
       - Alterações realizadas: missao-4/alteracoes.md
-      - Casos de uso  suas especificações: missao-4/casos-uso.md
+      - Gravações: missao-4/gravacoes.md
       - Missão 4: 
+        - Casos de uso  suas especificações: missao-4/casos-uso.md
         - Verificação e Validação dos SkyWalkers: missao-4/veri-val-skywalkers.md
-        - Gravações: missao-4/gravacoes.md
         - Evidências DOR e DOD: missao-4/dor-dod.md
         - Validação da entrega do produto: missao-4/validacao-mvp-us.md
 
