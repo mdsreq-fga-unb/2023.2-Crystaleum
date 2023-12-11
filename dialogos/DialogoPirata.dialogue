@@ -13,6 +13,7 @@ Pirata: Veja só, temos uma valentona aqui. Acha que pode me desafiar?
 - Tenho certeza!
 	Crys: Não é uma questão de achar, tenho certeza que consigo vencer.
 	Crys: Se eu conseguir pescar mais oniguiris que você fico com a chave, caso contrário você pode me matar.
+	set Global.talkpirate1 = true
 	=> END
 
 ~ pirata2

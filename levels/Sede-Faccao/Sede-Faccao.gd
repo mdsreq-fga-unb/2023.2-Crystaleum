@@ -12,6 +12,7 @@ func _process(delta):
 
 
 func _on_button_pressed():
+	if Global.talkcomandante1:
 		get_tree().change_scene_to_file("res://levels/SpaceShooter-mini-game/scenes/instructions.tscn")
 
 
