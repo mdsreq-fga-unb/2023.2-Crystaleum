@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://b8b83ewpti77n"
+path="res://.godot/imported/DialogoQuizGuardiao.dialogue-b1c937a5c7ff66860c608026a9d37107.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoQuizGuardiao.dialogue"
+dest_files=["res://.godot/imported/DialogoQuizGuardiao.dialogue-b1c937a5c7ff66860c608026a9d37107.tres"]
+
+[params]
+
+defaults=true

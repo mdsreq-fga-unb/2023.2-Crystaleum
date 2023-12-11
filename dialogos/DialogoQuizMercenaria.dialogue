@@ -1,0 +1,104 @@
+~ startQuiz
+
+if Global.finishedQuiz == false:
+	Mercenária: Agora para provar que você está preparada para ajudar o Comando Estelar você terá que responder algumas perguntas, ok?
+	Crys:
+	- OK! Vamos Nessa!
+		Mercenária: Primeira pergunta: O que são requisitos de software?
+		- Ferramentas de desenvolvimento
+			Mercenária: Sinto muito! Resposta errada!
+			=> escolhaErrada
+		- Documentos formais
+			Mercenária: Sinto muito! Resposta errada!
+			=> escolhaErrada
+		- Funções específicas de um programa
+			Mercenária: Parabéns! Isso mesmo!
+		- Linguagens de programação
+			Mercenária: Sinto muito! Resposta errada!
+			=> escolhaErrada
+		Mercenária: Próxima pergunta: Qual é o propósito dos requisitos de software?
+		- Guia para testes
+			Mercenária: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada
+		- Documentar a arquitetura do sistema
+			Mercenária: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada
+		- Definir as funcionalidades do software
+			Mercenária: Responsta correta!
+		- Todas as opções acima
+			Mercenária: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada
+		Mercenária: Você está indo muito bem! 
+		Mercenária: Agora me diga...
+		Mercenária: O que são requisitos funcionais?
+		- Descrição de interfaces de usuário
+			Mercenária: Infelizmente você errou
+			=> escolhaErrada
+		- Definição de desempenho do sistema
+			Mercenária: Infelizmente você errou
+			=> escolhaErrada
+		- Especificação das operações do software
+			Mercenária: Isso mesmo!
+		- Requisitos de hardware necessários
+			Mercenária: Infelizmente você errou
+			=> escolhaErrada
+		Mercenária: Me responda...
+		Mercenária: Segundo Marsicano (2023), qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
+		- Ciclo de vida Iterativo
+			Mercenária: Boa! Isso mesmo!
+		- Ciclo de vida Incremental
+			Mercenária: Poxa, não é essa a opção correta
+			=> escolhaErrada
+		- Ciclo de vida Preditivo
+			Mercenária: Poxa, não é essa a opção correta
+			=> escolhaErrada
+		- Ciclo de vida Ágil
+			Mercenária: Poxa, não é essa a opção correta
+			=> escolhaErrada
+		Mercenária: Qual dos processos abaixo NÃO podem ser utilizados com uma abordagem dirigida a plano?
+		- Cascata
+			Mercenária: Resposta incorreta!
+			=> escolhaErrada
+		- Processo Unificado
+			Mercenária: Resposta incorreta!
+			=> escolhaErrada
+		- Spiral
+			Mercenária: Resposta incorreta!
+			=> escolhaErrada
+		- RAD
+			Mercenária: Isso mesmo! O RAD é um processo que deve ser utilizado junto de uma abordagem ágil!
+		Mercenária: Estamos muito orgulhosos até onde você chegou!
+		Mercenária: Agora para finalizar, me responda:
+		Mercenária: Qual abordagem de desenvolvimento de software enfatiza a entrega incremental e iterativa, adaptação contínua aos requisitos em mudança e feedback constante dos usuários?
+		- Desenvolvimento em Cascata
+			Mercenária: Não é essa a resposta correta!
+			=> escolhaErrada
+		- Desenvolvimento Ágil
+			Mercenária: Isso mesmo! Parabéns!
+			set Global.finishedQuiz = true
+		- Desenvolvimento em Espiral
+			Mercenária: Não é essa a resposta correta!
+			=> escolhaErrada
+		- Desenvolvimento RAD (Rapid Application Development)
+			 Mercenária: Não é essa a resposta correta!
+			=> escolhaErrada
+	- Não me sinto preparada ainda!
+		set Global.mercenario = false
+		set Global.guardiao = false
+		set Global.cacador = false
+		set Global.explorador = false
+		=> END
+if Global.finishedQuiz == true:
+	Mercenária: Você finalizou a sua etapa de provação!
+	Mercenária: Contamos contigo para salvar Calamum Caereleum
+	set Global.chosen_faction = true
+	=> END
+	
+~ escolhaErrada
+Mercenária: Poxa! Você não conseguiu dessa vez. 
+Mercenária: Tente novamente acertar as questões! Estarei te esperando!
+set Global.mercenario = false
+set Global.guardiao = false
+set Global.cacador = false
+set Global.explorador = false
+=> END

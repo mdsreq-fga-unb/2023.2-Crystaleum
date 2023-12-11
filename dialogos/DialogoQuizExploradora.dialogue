@@ -1,0 +1,104 @@
+~ startQuiz
+
+if Global.finishedQuiz == false:
+	Exploradora: Agora para provar que você está preparada para ajudar o Comando Estelar você terá que responder algumas perguntas, ok?
+	Crys:
+	- OK! Vamos Nessa!
+		Exploradora: Primeira pergunta: O que são requisitos de software?
+		- Ferramentas de desenvolvimento
+			Exploradora: Sinto muito! Resposta errada!
+			=> escolhaErrada
+		- Documentos formais
+			Exploradora: Sinto muito! Resposta errada!
+			=> escolhaErrada
+		- Funções específicas de um programa
+			Exploradora: Parabéns! Isso mesmo!
+		- Linguagens de programação
+			Exploradora: Sinto muito! Resposta errada!
+			=> escolhaErrada
+		Exploradora: Próxima pergunta: Qual é o propósito dos requisitos de software?
+		- Guia para testes
+			Exploradora: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada
+		- Documentar a arquitetura do sistema
+			Exploradora: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada
+		- Definir as funcionalidades do software
+			Exploradora: Responsta correta!
+		- Todas as opções acima
+			Exploradora: Poxa! Essa não é a resposta correta!
+			=> escolhaErrada
+		Exploradora: Você está indo muito bem! 
+		Exploradora: Agora me diga...
+		Exploradora: O que são requisitos funcionais?
+		- Descrição de interfaces de usuário
+			Exploradora: Infelizmente você errou
+			=> escolhaErrada
+		- Definição de desempenho do sistema
+			Exploradora: Infelizmente você errou
+			=> escolhaErrada
+		- Especificação das operações do software
+			Exploradora: Isso mesmo!
+		- Requisitos de hardware necessários
+			Exploradora: Infelizmente você errou
+			=> escolhaErrada
+		Exploradora: Me responda...
+		Exploradora: Segundo Marsicano (2023), qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
+		- Ciclo de vida Iterativo
+			Exploradora: Boa! Isso mesmo!
+		- Ciclo de vida Incremental
+			Exploradora: Poxa, não é essa a opção correta
+			=> escolhaErrada
+		- Ciclo de vida Preditivo
+			Exploradora: Poxa, não é essa a opção correta
+			=> escolhaErrada
+		- Ciclo de vida Ágil
+			Exploradora: Poxa, não é essa a opção correta
+			=> escolhaErrada
+		Exploradora: Qual dos processos abaixo NÃO podem ser utilizados com uma abordagem dirigida a plano?
+		- Cascata
+			Exploradora: Resposta incorreta!
+			=> escolhaErrada
+		- Processo Unificado
+			Exploradora: Resposta incorreta!
+			=> escolhaErrada
+		- Spiral
+			Exploradora: Resposta incorreta!
+			=> escolhaErrada
+		- RAD
+			Exploradora: Isso mesmo! O RAD é um processo que deve ser utilizado junto de uma abordagem ágil!
+		Exploradora: Estamos muito orgulhosos até onde você chegou!
+		Exploradora: Agora para finalizar, me responda:
+		Exploradora: Qual abordagem de desenvolvimento de software enfatiza a entrega incremental e iterativa, adaptação contínua aos requisitos em mudança e feedback constante dos usuários?
+		- Desenvolvimento em Cascata
+			Exploradora: Não é essa a resposta correta!
+			=> escolhaErrada
+		- Desenvolvimento Ágil
+			Exploradora: Isso mesmo! Parabéns!
+			set Global.finishedQuiz = true
+		- Desenvolvimento em Espiral
+			Exploradora: Não é essa a resposta correta!
+			=> escolhaErrada
+		- Desenvolvimento RAD (Rapid Application Development)
+			 Exploradora: Não é essa a resposta correta!
+			=> escolhaErrada
+	- Não me sinto preparada ainda!
+		set Global.mercenario = false
+		set Global.guardiao = false
+		set Global.cacador = false
+		set Global.explorador = false
+		=> END
+if Global.finishedQuiz == true:
+	Exploradora: Você finalizou a sua etapa de provação!
+	Exploradora: Contamos contigo para salvar Calamum Caereleum
+	set Global.chosen_faction = true
+	=> END
+	
+~ escolhaErrada
+Exploradora: Poxa! Você não conseguiu dessa vez. 
+Exploradora: Tente novamente acertar as questões! Estarei te esperando!
+set Global.mercenario = false
+set Global.guardiao = false
+set Global.cacador = false
+set Global.explorador = false
+=> END

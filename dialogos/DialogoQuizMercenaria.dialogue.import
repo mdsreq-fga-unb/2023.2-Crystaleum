@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://cal7gos666mky"
+path="res://.godot/imported/DialogoQuizMercenaria.dialogue-e9a2d4c8ebb77214ffddc62d3ececc9f.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoQuizMercenaria.dialogue"
+dest_files=["res://.godot/imported/DialogoQuizMercenaria.dialogue-e9a2d4c8ebb77214ffddc62d3ececc9f.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_11"
+type="Resource"
+uid="uid://bog2rnnkrwoqq"
+path="res://.godot/imported/DialogoQuizExploradora.dialogue-a308ffd8926ba319f4ba90c92652f637.tres"
+
+[deps]
+
+source_file="res://dialogos/DialogoQuizExploradora.dialogue"
+dest_files=["res://.godot/imported/DialogoQuizExploradora.dialogue-a308ffd8926ba319f4ba90c92652f637.tres"]
+
+[params]
+
+defaults=true
