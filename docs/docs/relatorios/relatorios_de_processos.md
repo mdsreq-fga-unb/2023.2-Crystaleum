@@ -131,10 +131,23 @@ Segue abaixo os relatórios em ordem cronológica dividos por Iteração:
 | Próximos passos | Apresentar a atividade  |
 | Observações | sem observações |
 
+### Relatório do Milagre do MVP
 
+| Tópico | Descrição |
+|---|---|
+| Data | 10/12/2023 |
+| Horário | 15:48 : 22:00 |
+| Local | Microsoft teams |
+| Participantes | Ana Carolina, Artur Jackson, Pablo Guilherme, Suzane Alves e Taynara Gabrielle |
+| Objetivo | Finalizar tudo que faltava do mvp e gerar o apk do projeto |
+| Atos |Fizemos diversas correç~es no produto implementamos as us's faltantes e geramos o apk do projeto|
+| Conclusões |  A reunião foi bem longa devido a necessidade de corrigir algumas funcionalidades ja implementadas antes e problemas ao gerar o apk do projeto |
+| Próximos passos | Apresentar o apk ao cliente  |
+| Observações | sem observações |
 
 
 | Versão | Data       | Descrição         | Autor(es)                                        |
 | ------ | ---------- | ----------------- | ------------------------------------------------ |
 | 1.0    | 15/11/2023 | Criação da página | [Pedro Henrique](https:github.com/PedroHhenriq) |
 | 1.1    | 15/11/2023 | Pequeno ajuste na descrição | [Pedro Henrique](https:github.com/PedroHhenriq) |
+| 1.2    | 11/12/2023 | Adicionando relatorio da reuniao 10/12 |[Pablo Guilherme](https:github.com/PabloGJBS)|
