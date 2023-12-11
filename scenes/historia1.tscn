@@ -57,26 +57,29 @@ text = ">>"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
-offset_left = 15.0
-offset_top = 21.0
-offset_right = 303.0
-offset_bottom = 158.0
+offset_left = 2.0
+offset_top = 18.0
+offset_right = 309.0
+offset_bottom = 169.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_v8x8f")
 theme_override_font_sizes/font_size = 10
-text = "Estamos   viendo   o   ano   de   3257,
-  a  exploração  espacial  continua  sendo 
- um  negócio  extremamente  lucrativo,  
-e  por  não  haver  uma  legislação  universal, 
- várias  corporações  buscam  planetas  
-distantes  para  explorar  seus  recursos 
- de  maneira  agressiva.  Inúmeras regiões  
-foram  destruídas  e  raças  inteiras  dizimadas
- pela  ganância  dessas  corporações. 
+text = "Estamos    vivendo    o   ano   de   3257   e   
+a   exploração   espacial  é    um  negócio  
+extremamente  lucrativo...   
+
+ por  não  haver  uma  legislação  universal,
+  várias  corporações  buscam  planetas 
+distantes  para  explorar   recursos  
+
+Inúmeras regiões   foram  destruídas  e  
+raças  inteiras  dizimadas   pela 
+ganância   dessas   corporações! 
 "
+horizontal_alignment = 1
 text_direction = 1
 
 [connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]
