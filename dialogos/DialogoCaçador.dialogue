@@ -1,7 +1,7 @@
 import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ startC
-Crys: Olá, sou neta de G.M. 
-Crys: Decidi me juntar ao Comando Estelar para derrotar os conglomerados!
+Crys: Olá! 
+Crys: Quero me juntar ao Comando Estelar para derrotar os conglomerados!
 Crys: Poderia me contar mais sobre vocês?
 Caçador de recompensas: Seja muito bem vinda a sede do Comando Estelar.
 Caçador de recompensas: Nós somos os Caçadores de Recompensa, um grupo motivado a realizar missões diversas para conseguir dinheiro e fama.

@@ -16,7 +16,8 @@ Comandante Estelar: Seus líderes se escondem nas sombras, mas temos informaçõ
 		Comandante Estelar: Precisará confiar em sua habilidade de pilotagem.
 		Comandante Estelar: Mantenha-se atenta aos padrões de ataque das naves deles e tente disparar contra eles o máximo que conseguir.
 		Comandante Estelar: Lembre-se, a agilidade é a chave nesta batalha.
-		- Comandante, prometo que não decepcionarei. Estou pronta para decolar.
+		- Comandante, prometo que não decepcionarei.
+			Crys: Estou pronta para decolar.
 			Comandante Estelar: Boa sorte, Crys. Que as estrelas guiem seu caminho e que a justiça prevaleça.
 			=> END
 
@@ -38,7 +39,7 @@ Comandante Estelar: Crys, você voltou triunfante da Missão 1. Seus feitos são
 			Comandante Estelar: Sim, pescaria.
 			Comandante Estelar: Eles são aficionados por oniguiris, e o objetivo é simples:
 			Comandante Estelar: pescar mais oniguiris do que eles. A chave do baú está em jogo.
-			- Crys: Pescaria espacial contra piratas?
+			- Pescaria espacial contra piratas?
 				Crys: Isso é inusitado, Comandante. Mas estou pronta para qualquer desafio.
 				Comandante Estelar: Sei que é um método peculiar, mas estes piratas são conhecidos por sua paixão por desafios únicos.
 				Comandante Estelar: O tempo está se esgotando, precisamos agir.

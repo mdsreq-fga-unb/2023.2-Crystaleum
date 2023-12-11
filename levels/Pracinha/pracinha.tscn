@@ -9,14 +9,14 @@
 [ext_resource type="PackedScene" uid="uid://dtfw7d3foembt" path="res://scenes/guardiao.tscn" id="9_1bfyn"]
 [ext_resource type="PackedScene" uid="uid://cjqfb4cr22r1j" path="res://scenes/porta_pracinha.tscn" id="9_hssun"]
 [ext_resource type="PackedScene" uid="uid://cgolxov5bpb55" path="res://scenes/mercenaria.tscn" id="10_5ntao"]
-[ext_resource type="PackedScene" uid="uid://dln7d5nwggqcm" path="res://scenes/espaconave.tscn" id="11_gscaf"]
+[ext_resource type="PackedScene" path="res://scenes/espaconave.tscn" id="11_gscaf"]
 [ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="11_px2go"]
-[ext_resource type="PackedScene" uid="uid://bg0il4128dlay" path="res://scenes/plantinha.tscn" id="12_arlbb"]
-[ext_resource type="PackedScene" uid="uid://d07pymbf71270" path="res://scenes/plantinha_2.tscn" id="12_my7a8"]
-[ext_resource type="PackedScene" uid="uid://bmes7oviqco1r" path="res://scenes/plantinha_1.tscn" id="13_krh12"]
-[ext_resource type="PackedScene" uid="uid://b6g8ty5blrhm7" path="res://scenes/plantinha_3.tscn" id="14_ipghw"]
+[ext_resource type="PackedScene" path="res://scenes/plantinha.tscn" id="12_arlbb"]
+[ext_resource type="PackedScene" path="res://scenes/plantinha_2.tscn" id="12_my7a8"]
+[ext_resource type="PackedScene" path="res://scenes/plantinha_1.tscn" id="13_krh12"]
+[ext_resource type="PackedScene" path="res://scenes/plantinha_3.tscn" id="14_ipghw"]
 
-[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_w1g6b"]
+[sub_resource type="SyntaxHighlighter" id="SyntaxHighlighter_yw6eu"]
 script = ExtResource("6_64xay")
 
 [node name="pracinha" type="Node2D"]
@@ -28,7 +28,7 @@ scale = Vector2(0.5625, 0.578125)
 texture = ExtResource("1_uyqq8")
 
 [node name="CodeEdit" parent="." instance=ExtResource("5_r44jh")]
-syntax_highlighter = SubResource("SyntaxHighlighter_w1g6b")
+syntax_highlighter = SubResource("SyntaxHighlighter_yw6eu")
 
 [node name="plantinha1" parent="." instance=ExtResource("13_krh12")]
 position = Vector2(62, 68)
@@ -49,7 +49,7 @@ position = Vector2(96, 75)
 position = Vector2(292, 127)
 
 [node name="guardiao" parent="." instance=ExtResource("9_1bfyn")]
-position = Vector2(22, 119)
+position = Vector2(28, 116)
 
 [node name="mercenaria" parent="." instance=ExtResource("10_5ntao")]
 position = Vector2(246, 83)
