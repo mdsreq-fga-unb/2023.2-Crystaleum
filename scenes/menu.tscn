@@ -1,8 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://c41nl5o573pp7"]
+[gd_scene load_steps=9 format=3 uid="uid://c41nl5o573pp7"]
 
 [ext_resource type="Script" path="res://scripts/Menu.gd" id="1_0cip4"]
 [ext_resource type="Texture2D" uid="uid://bxr1m0ai4ujdr" path="res://assets/background.png" id="2_5avxn"]
-[ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="4_i8hwp"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="4_tbowp"]
 [ext_resource type="FontFile" uid="uid://dciokpuclyfa1" path="res://assets/fontes/starwarsFonte/starjedi/Starjhol.ttf" id="5_qirgu"]
 [ext_resource type="Texture2D" uid="uid://uku7676e1obu" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Explode.png" id="6_0u8yf"]
@@ -70,10 +69,10 @@ expand_mode = 1
 z_as_relative = false
 texture_filter = 4
 layout_mode = 2
-offset_left = 114.0
-offset_top = 54.0
+offset_left = 116.0
+offset_top = 60.0
 offset_right = 201.0
-offset_bottom = 81.0
+offset_bottom = 89.0
 theme = ExtResource("4_tbowp")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
@@ -84,7 +83,7 @@ theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 0
 theme_override_constants/h_separation = 20
 theme_override_constants/icon_max_width = 0
-theme_override_fonts/font = ExtResource("4_i8hwp")
+theme_override_fonts/font = ExtResource("5_qirgu")
 theme_override_font_sizes/font_size = 14
 text = "jogar"
 
@@ -95,43 +94,43 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -45.0
-offset_top = -3.0
+offset_left = -44.0
+offset_top = 5.0
 offset_right = 41.0
-offset_bottom = 24.0
+offset_bottom = 34.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("4_tbowp")
 theme_override_constants/outline_size = 0
 theme_override_constants/icon_max_width = 0
-theme_override_fonts/font = ExtResource("4_i8hwp")
+theme_override_fonts/font = ExtResource("5_qirgu")
 theme_override_font_sizes/font_size = 14
 text = "tutorial"
 
 [node name="Sair" type="Button" parent="TextureRect" groups=["button"]]
 layout_mode = 2
-offset_left = 115.0
-offset_top = 119.0
-offset_right = 200.0
-offset_bottom = 145.0
+offset_left = 116.0
+offset_top = 129.0
+offset_right = 201.0
+offset_bottom = 158.0
 size_flags_vertical = 4
 theme = ExtResource("4_tbowp")
 theme_override_constants/outline_size = 0
 theme_override_constants/icon_max_width = 0
-theme_override_fonts/font = ExtResource("4_i8hwp")
+theme_override_fonts/font = ExtResource("5_qirgu")
 theme_override_font_sizes/font_size = 14
 text = "sair"
 
 [node name="Label" type="Label" parent="TextureRect"]
 layout_mode = 2
-offset_left = 30.0
-offset_top = 15.0
-offset_right = 282.0
-offset_bottom = 62.0
+offset_left = 28.0
+offset_top = 18.0
+offset_right = 280.0
+offset_bottom = 65.0
 theme_override_colors/font_color = Color(0.890196, 0.360784, 0.788235, 1)
 theme_override_colors/font_shadow_color = Color(0.756863, 0, 0.219608, 1)
 theme_override_fonts/font = ExtResource("5_qirgu")
-theme_override_font_sizes/font_size = 22
+theme_override_font_sizes/font_size = 25
 text = "CRYSTALEUM"
 horizontal_alignment = 1
 justification_flags = 160
