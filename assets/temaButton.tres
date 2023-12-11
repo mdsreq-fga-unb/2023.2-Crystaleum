@@ -1,12 +1,12 @@
 [gd_resource type="Theme" load_steps=3 format=3 uid="uid://dyyka4ilsiwu8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_50dlq"]
-bg_color = Color(0.890196, 0.360784, 0.788235, 1)
+bg_color = Color(0.254902, 0.152941, 0.321569, 0)
 border_width_left = 2
 border_width_top = 2
 border_width_right = 2
 border_width_bottom = 2
-border_color = Color(0.623529, 0, 0.686275, 1)
+border_color = Color(0.756863, 0, 0.219608, 1)
 corner_radius_top_left = 4
 corner_radius_top_right = 4
 corner_radius_bottom_right = 4
@@ -15,7 +15,7 @@ expand_margin_left = 1.0
 expand_margin_top = 1.0
 expand_margin_right = 1.0
 expand_margin_bottom = 1.0
-shadow_color = Color(0.729412, 0, 0.513726, 0.6)
+shadow_color = Color(0.729412, 0, 0.513726, 0)
 shadow_size = 2
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b3oqv"]
