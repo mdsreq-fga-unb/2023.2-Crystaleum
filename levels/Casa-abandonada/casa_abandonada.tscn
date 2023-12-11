@@ -38,14 +38,6 @@ position = Vector2(107, 147)
 [node name="diario_avo" parent="." instance=ExtResource("8_pyn12")]
 position = Vector2(98, 22)
 
-[node name="Button" type="Button" parent="diario_avo"]
-modulate = Color(1, 1, 1, 0.0588235)
-show_behind_parent = true
-offset_left = 91.0
-offset_top = 86.0
-offset_right = 107.0
-offset_bottom = 102.0
-
 [node name="vela" parent="." instance=ExtResource("9_abxcn")]
 position = Vector2(9, -16)
 
@@ -54,5 +46,3 @@ position = Vector2(151, 16)
 
 [node name="aranha" parent="." instance=ExtResource("6_nr34f")]
 position = Vector2(56, 10)
-
-[connection signal="pressed" from="diario_avo/Button" to="." method="_on_button_pressed"]

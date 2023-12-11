@@ -30,4 +30,5 @@ Pirata: Uma lenda que passamos de geração em geração que conta que a chave s
 	Crys: Então, para abrir o baú do meu avô, eu preciso levá-lo ao lugar que ele considerava mais especial?
 	Pirata: Isso mesmo, novata. Boa sorte desvendando os mistérios do seu avô.
 	Crys: Espero que da próxima vez que nos encontrarmos, sejam em circunstâncias menos hostis :-)
+	set Global.talkpirate2 = true
 	=> END

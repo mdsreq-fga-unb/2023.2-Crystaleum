@@ -25,7 +25,9 @@ func get_atividade ():
 		4: 
 			atividade = "vá para o farol e converse com os piratas espaciais"
 		5:	
-			atividade = "volte para sua casa e abra o baú deixado pelo vovô"
+			atividade = "pegue a chave que você ganhou com o pirata espacial"
 		6:	
+			atividade = "volte para sua casa e abra o baú deixado pelo vovô"
+		7:	
 			atividade = "achei o crystal!!!!"
 	return atividade

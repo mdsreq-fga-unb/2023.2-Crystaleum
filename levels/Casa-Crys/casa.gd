@@ -10,6 +10,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if atividadeResource.get_mini_fase() > 4:
-		atividadeResource.set_mini_fase(6)
+		if atividadeResource.get_mini_fase() < 7:
+			atividadeResource.set_mini_fase(6)
 		bau.visible = true
 
