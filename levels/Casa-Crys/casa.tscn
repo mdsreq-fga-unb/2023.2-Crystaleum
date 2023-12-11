@@ -8,8 +8,8 @@
 [ext_resource type="PackedScene" uid="uid://d4hfr5u8h7wtj" path="res://scenes/bau.tscn" id="6_tdhmc"]
 [ext_resource type="PackedScene" uid="uid://b3esh5yjigtt6" path="res://scenes/chao.tscn" id="7_farpm"]
 [ext_resource type="PackedScene" uid="uid://clhkknt2dvs10" path="res://scenes/gambiarra_chao.tscn" id="8_oy1bc"]
-[ext_resource type="PackedScene" path="res://scenes/gambiarra_rosa.tscn" id="10_65gc8"]
-[ext_resource type="PackedScene" path="res://scenes/quadros.tscn" id="11_wkl4e"]
+[ext_resource type="PackedScene" uid="uid://cj3fb7ijb1xsw" path="res://scenes/gambiarra_rosa.tscn" id="10_65gc8"]
+[ext_resource type="PackedScene" uid="uid://duslok1lcetto" path="res://scenes/quadros.tscn" id="11_wkl4e"]
 [ext_resource type="PackedScene" uid="uid://bpdtc1hbxqe73" path="res://scenes/mesacasa.tscn" id="12_fuu8a"]
 [ext_resource type="PackedScene" uid="uid://dctoc46g2vyk3" path="res://scenes/comidinha.tscn" id="13_c4tiw"]
 
@@ -43,9 +43,6 @@ position = Vector2(-24, -21)
 [node name="planta" parent="." instance=ExtResource("6_eeleh")]
 position = Vector2(25, 82)
 
-[node name="Crys" parent="." instance=ExtResource("5_mvvd7")]
-position = Vector2(177, 87)
-
 [node name="mesacasa" parent="." instance=ExtResource("12_fuu8a")]
 position = Vector2(104, -12)
 scale = Vector2(0.978672, 1.10746)
@@ -53,3 +50,6 @@ scale = Vector2(0.978672, 1.10746)
 [node name="comidinha" parent="." instance=ExtResource("13_c4tiw")]
 position = Vector2(54, 6)
 scale = Vector2(0.98821, 1.15213)
+
+[node name="Crys" parent="." instance=ExtResource("5_mvvd7")]
+position = Vector2(177, 87)

@@ -3,14 +3,14 @@
 [ext_resource type="Texture2D" uid="uid://d3vwk0e882ytg" path="res://assets/mesalencol.png" id="1_1imfg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2wq7e"]
-size = Vector2(90, 30)
+size = Vector2(90, 55)
 
 [node name="mesalencol" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(261, 58)
+position = Vector2(261, 47.5)
 shape = SubResource("RectangleShape2D_2wq7e")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

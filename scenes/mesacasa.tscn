@@ -1,9 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://bpdtc1hbxqe73"]
+[gd_scene load_steps=2 format=3 uid="uid://bpdtc1hbxqe73"]
 
 [ext_resource type="Texture2D" uid="uid://dgd5qwksxdmu5" path="res://assets/mesa-casa.png" id="1_ykpy3"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_v3xt5"]
-size = Vector2(60.5, 22.7808)
 
 [node name="mesacasa" type="CharacterBody2D"]
 
@@ -14,7 +11,5 @@ position = Vector2(134, 142)
 scale = Vector2(0.167127, 0.199152)
 texture = ExtResource("1_ykpy3")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(132.75, 156.5)
-scale = Vector2(1.0776, 1.79976)
-shape = SubResource("RectangleShape2D_v3xt5")
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(134, 114, 118, 119, 116, 132, 105, 137, 103, 164, 112, 170, 128, 166, 142, 161, 163, 155, 160, 126, 151, 121)

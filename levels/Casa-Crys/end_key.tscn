@@ -1,17 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://bbmcqt7lwugev"]
+[gd_scene load_steps=6 format=3 uid="uid://bbmcqt7lwugev"]
 
 [ext_resource type="Texture2D" uid="uid://cy51onlmp74gt" path="res://assets/fundo-preto.png" id="1_p05dn"]
-[ext_resource type="Script" path="res://levels/FishingOnigiri/Background.gd" id="2_82w71"]
+[ext_resource type="Script" path="res://levels/Casa-Crys/end_key.gd" id="1_xlwbs"]
 [ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="4_pcwid"]
 [ext_resource type="Texture2D" uid="uid://dqfacsbr67u8e" path="res://levels/FishingOnigiri/assets/comando-estelar.png" id="5_47rl1"]
+[ext_resource type="Texture2D" uid="uid://cpjkwahiycwd3" path="res://assets/x.png" id="5_ifqp6"]
 
 [node name="end_key" type="Node2D"]
+script = ExtResource("1_xlwbs")
 
 [node name="Background-end-key" type="Sprite2D" parent="."]
 position = Vector2(160.5, 89.0001)
 scale = Vector2(5.04687, 2.8125)
 texture = ExtResource("1_p05dn")
-script = ExtResource("2_82w71")
 
 [node name="nave-ce2" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0.254902)
@@ -20,10 +21,10 @@ scale = Vector2(5.89062, 4.20312)
 texture = ExtResource("5_47rl1")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 15.0
-offset_top = 21.0
-offset_right = 303.0
-offset_bottom = 158.0
+offset_left = 17.0
+offset_top = 28.0
+offset_right = 305.0
+offset_bottom = 169.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
@@ -37,3 +38,17 @@ Agora,  além  do  domínio  sobre  a  galáxia,  essas  corporações  querem  
  Só  você  é  capaz  de  derrotar  essa  era  de  tirania!  Se  una  à  sua  facção  e  ao  Comando  estelar  e  vença  essa  guerra  galática  através  das  próximas  Missões.."
 autowrap_mode = 3
 text_direction = 1
+
+[node name="X" type="Sprite2D" parent="."]
+position = Vector2(304, 12)
+scale = Vector2(0.181818, 0.178571)
+texture = ExtResource("5_ifqp6")
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0.0156863)
+offset_left = 292.0
+offset_top = 4.0
+offset_right = 315.0
+offset_bottom = 19.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -75,7 +75,7 @@ states/painelcontrole/position = Vector2(500, 112)
 transitions = ["Start", "painelcontrole", SubResource("AnimationNodeStateMachineTransition_4hk0v")]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vcjc5"]
-size = Vector2(47.75, 97)
+size = Vector2(73.75, 97)
 
 [node name="painelcontrole" type="CharacterBody2D"]
 
@@ -99,6 +99,6 @@ libraries = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(212.5, 121.125)
+position = Vector2(212.5, 134.125)
 rotation = 1.5708
 shape = SubResource("RectangleShape2D_vcjc5")
