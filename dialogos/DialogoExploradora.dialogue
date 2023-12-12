@@ -1,33 +1,33 @@
 import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ start
-Crys: Olá, sou neta de G.M. e decidi me juntar ao Comando Estelar para derrotar os conglomerados.
+Crys: Olá, sou neta de G.M. e decidi me juntar ao Comando Estelar para derrotar os conglomerados
 Crys: Poderia me contar mais sobre vocês?
-Exploradora: Seja muito bem-vinda à sede do Comando Estelar.
-Exploradora: Nós somos os Exploradores, um grupo de aventureiros motivados pelos mistérios e tesouros escondidos em ruínas de civilizações antigas e planetas exóticos.
-Exploradora: Nós exploramos lugares há muito tempo perdidos, documentamos a história de civilizações pristinas...
+Exploradora: Seja muito bem vinda a sede do Comando Estelar.
+Exploradora: Nós somos os Exploradores, um grupo de aventureiros, motivados pelos mistérios e tesouros escondidos em ruínas de civilizações antigas e planetas exóticos.
+Exploradora: Nós exploramos lugares há muito tempo perdidos, documentamos a história de civilizações prístinas...
 Exploradora: Desenterramos tesouros ancestrais, catalogamos formas de vida exóticas e também encontramos regiões da galáxia ainda inexploradas.
 Exploradora: Desejamos participar de aventuras, explorar lugares inóspitos e realizar novas descobertas.
-Exploradora: Que tal entrar para a nossa facção?
+Exploradora: Que tal entrar para nossa facção?
 - Uau, parece incrível!
-  Deseja entrar na facção?
-  - Sim
-    set Global.explorador = true
-    Crys: O que preciso fazer para entrar nessa facção?
-    Exploradora: Eu sabia que tinha encontrado a pessoa certa.
-    Exploradora: Antes de qualquer coisa, você deve se mostrar capacitada para entrar em nossa facção.
-    Exploradora: Para isso, deverá realizar um teste de conhecimento.
-    Exploradora: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
-    => provacao/startQuiz
-    => END
-  - Não
-    => END
+	Deseja entrar na facção?
+	- Sim
+		set Global.explorador = true
+		Crys: O que preciso fazer para entrar nessa facção?
+		Exploradora: Eu sabia que tinha encontrado a pessoa certa.
+		Exploradora: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.
+		Exploradora: Para isso, deverá realizar um teste de conhecimento.
+		Exploradora: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
+		=> provacao/startQuiz
+		=> END
+	- Não
+		=> END
 - Tchau.
-  => END
+	=> END
 ~ chosed_faction
 if Global.explorador == true
 	Exploradora: Que bom ter você conosco.
- 	Exploradora: Vamos participar de muitas aventuras juntas.
-  	=> END
+	Exploradora: Vamos participar de muitas aventuras juntas.
+	=> END
 if Global.explorador == false
-	Exploradora: Eu jurava que você seria uma ótima exploradora.
-  	=> END
+	Exploradora: Eu jurava que você sería uma ótima exploradora.
+	=> END

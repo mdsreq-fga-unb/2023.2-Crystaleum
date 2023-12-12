@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://qitrsxlt8215"]
+[gd_scene load_steps=7 format=3 uid="uid://qitrsxlt8215"]
 
+[ext_resource type="Script" path="res://scripts/moonwalkers.gd" id="1_rf4ht"]
 [ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="1_t6o2g"]
 [ext_resource type="Texture2D" uid="uid://dyyxu5d0oyn16" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 03 - Stars.png" id="2_pukh1"]
 [ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="3_5ev8p"]
@@ -13,6 +14,7 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [node name="Moonwalkers" type="Node2D"]
+script = ExtResource("1_rf4ht")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(23, 151)
@@ -46,4 +48,10 @@ offset_right = 318.0
 offset_bottom = 22.0
 theme_override_font_sizes/font_size = 10
 theme_override_styles/normal = SubResource("StyleBoxFlat_dkj5b")
+theme_override_styles/hover = SubResource("StyleBoxFlat_dkj5b")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_dkj5b")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_dkj5b")
+theme_override_styles/focus = SubResource("StyleBoxFlat_dkj5b")
 text = "X"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

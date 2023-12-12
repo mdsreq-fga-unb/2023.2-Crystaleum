@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://levels/Casa-Crys/end_key.gd" id="1_xlwbs"]
 [ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="4_pcwid"]
 [ext_resource type="Texture2D" uid="uid://dqfacsbr67u8e" path="res://levels/FishingOnigiri/assets/comando-estelar.png" id="5_47rl1"]
-[ext_resource type="Texture2D" uid="uid://cpjkwahiycwd3" path="res://assets/x.png" id="5_ifqp6"]
+[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="6_qxwho"]
 
 [node name="end_key" type="Node2D"]
 script = ExtResource("1_xlwbs")
@@ -22,33 +22,43 @@ texture = ExtResource("5_47rl1")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 17.0
-offset_top = 28.0
+offset_top = 13.0
 offset_right = 305.0
-offset_bottom = 169.0
+offset_bottom = 154.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("4_pcwid")
 theme_override_font_sizes/font_size = 8
-text = "Depois  que  um  lindo  Crystal  roxo  foi  exposto  do  baú,  ele  emitiu  ondas  eletromagnéticas  que  foram  captadas  pelos  radares  de  ponta  das  corporações  perigosas!!! 
+text = "Depois  que  um  lindo  Crystal  roxo  foi  exposto  do  baú,  ele  emitiu  ondas  eletromagnéticas  que  foram  captadas  pelos  radares  de  ponta  das  corporações  perigosas.
 
-Agora,  além  do  domínio  sobre  a  galáxia,  essas  corporações  querem   sua  cabeça  para  roubar  o  Crystal!!!
+Agora,  além  do  domínio  sobre  a  galáxia,  essas  corporações  querem   sua  cabeça  para  roubar  o  Crystal!
 
  Só  você  é  capaz  de  derrotar  essa  era  de  tirania!  Se  una  à  sua  facção  e  ao  Comando  estelar  e  vença  essa  guerra  galática  através  das  próximas  Missões.."
+horizontal_alignment = 1
 autowrap_mode = 3
 text_direction = 1
 
-[node name="X" type="Sprite2D" parent="."]
-position = Vector2(304, 12)
-scale = Vector2(0.181818, 0.178571)
-texture = ExtResource("5_ifqp6")
-
-[node name="Button" type="Button" parent="."]
-modulate = Color(1, 1, 1, 0.0156863)
-offset_left = 292.0
-offset_top = 4.0
+[node name="ButtonSkip" type="Button" parent="."]
+texture_filter = 6
+texture_repeat = 1
+layout_direction = 2
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 289.0
+offset_top = 156.0
 offset_right = 315.0
-offset_bottom = 19.0
+offset_bottom = 175.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme = ExtResource("6_qxwho")
+theme_override_font_sizes/font_size = 9
+text = ">>"
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]
