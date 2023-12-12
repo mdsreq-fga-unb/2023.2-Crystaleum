@@ -22,7 +22,6 @@ Para que um item seja validado pelo DoD ele deve estar de acordo com todos os se
 - A interface gráfica foi aprovada pela equipe e pelo professor
 - O código implementado representa um incremento para o jogo
 - O código implementado passou nos testes manuais no sistema
-- O código foi documentado
 - O código foi integrado ao repositório
 - O código foi escrito conforme os padrões da equipe
 - O aplicativo foi testado nas plataformas propostas

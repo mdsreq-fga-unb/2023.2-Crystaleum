@@ -25,3 +25,37 @@ Para realizar as técnicas de verificação e validação do Caso de Uso apresen
 
 
 # Checklists de Verificação e Validação das especificações de casos de uso do SkyWalkers
+
+## Verificação
+
+Para verificas as especificações dos casos de uso do grupo Skywalkers utilizamos um checklist com as estruturas principais dos itens que uma especificação deve conter. Como podemos ver abaixo, as duas especifícações disponibilizadas pelo grupo contemplam todos os itens da estrutura.
+
+|Critério            |Caso de uso - Acessar Inspirações de Viagens|Caso de uso - Reserva de Atividades|Observação|
+|--------------------|--------------------------------------------|-----------------------------------|----------|
+|Breve Descrição     |✅                                           |✅                                  |          |
+|Fluxo de Caso de Uso|✅                                           |✅                                  |          |
+|Requisitos Especiais|✅                                           |✅                                  |          |
+|Pré-condições       |✅                                           |✅                                  |          |
+|Pós-condições       |✅                                           |✅                                  |          |
+
+
+## Validação
+
+Já para validação o nosso checklist considerou o conteúdo das especificações e analisamos com base nele se elas apresentavam os critérios que uma especificação deve ter.
+
+|Critério                                                                                    |Caso de uso - Acessar Inspirações de Viagens|Caso de uso - Reserva de Atividades|Observação|
+|--------------------------------------------------------------------------------------------|--------------------------------------------|-----------------------------------|----------|
+|A breve descrição do caso de uso reflete sua finalidade?                                    |✅                                           |✅                                  |          |
+|O fluxo básico apresenta uma seqüência de passos?                                           |✅                                           |✅                                  |          |
+|Os passos descrevem trocas de informação (interação), validação ou mudança de estado?       |✅                                           |✅                                  |          |
+|O fluxo alternativo abrange cenários que não são tratados no fluxo principal?               |✅                                           |✅                                  |          |
+|As pré-condições explicitam o estado do sistema para que o caso de uso possa começar?       |✅                                           |✅                                  |          |
+| As pós-condição do caso de uso lista os possíveis estados do sistema no fim do caso de uso?|✅                                           |✅                                  |          |
+|Existe uma compreensão clara das situações que podem levar a condições de exceção?          |✅                                           |✅                                  |          |
+
+
+## Histórico de Versão
+
+| Versão | Data       | Descrição          | Autor(es)                                        |
+| ------ | ---------- | ------------------ | ------------------------------------------------ |
+| 1.0    | 11/12/2023 | Criação do Conteúdo  | [Taynara Vitorino](https://github.com/taybalau) |

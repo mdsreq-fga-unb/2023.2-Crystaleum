@@ -12,9 +12,9 @@
 
 | Questionamentos     | Descrição                                                                                                                                      |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Para                | Integrantes da disciplina de requisitos de software                                                                                            |
-| Quem                | Oportunidade do desenvolvimento de um produto inovador                                                                                         |
+| Para                | Ingressantes da disciplina de requisitos de software                                                                                            |
+| Quem                | Estudantes desisteressados na contextualização do professor em sala de aula                                                                                         |
 | O (nome do produto) | Crystaleum                                                                                                                                     |
 | Que                 | Irá gerar um maior engajamento dos estudantes com a disciplina                                                                                 |
 | Ao contrário        | Da metodologia tradicional de aula, o jogo introduz a disciplina de forma lúdica e motiva os estudantes a lerem o documento posteriormente. |
-| Nosso produto       | também irá servir como meio lúdico de revisão do conteúdo da matéria                                                                           |
+| Nosso produto       | irá possibilitar ao professor oferecer aos estudantes uma forma lúdica de introdução da matéria |
