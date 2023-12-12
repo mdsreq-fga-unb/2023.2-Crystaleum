@@ -31,7 +31,6 @@ O diagrama UML foi criado a partir da ferramenta chamada Lucidchart, conforme po
 |6 - Pré-condições|O usuário não possui uma conta no aplicativo.|
 |7 - Pós-condições|O usuário tem uma conta ativa no aplicativo e pode acessar suas funcionalidades.|
 
-<<<<<<< HEAD
 ### Entrar no aplicativo
 
 |Passo|Descrição|
@@ -43,7 +42,7 @@ O diagrama UML foi criado a partir da ferramenta chamada Lucidchart, conforme po
 |5 - Fluxos de Exceção|5.1 Usuário erra a senha ou email, o sistema deve emitir a mensagem:  “Senha ou e-mail inválido!”. E, o caso de uso retorna ao fluxo principal na etapa "i"|
 |6 - Pré-condições|O usuário possui uma conta no aplicativo.|
 |7 - Pós-condições|O usuário está autenticado e tem acesso às funcionalidades do aplicativo de acordo com seu perfil.|
-=======
+
 ### Buscar atividades locais
 
 |Passo|Descrição|
@@ -55,4 +54,3 @@ O diagrama UML foi criado a partir da ferramenta chamada Lucidchart, conforme po
 |5 - Fluxos de Exceção|Se a reserva não puder ser concluída:<br><br>• O sistema exibe uma mensagem de erro.<br><br>• O viajante pode tentar novamente ou falar com o suporte.|
 |6 - Pré-condições|O viajante está registrado e autenticado no aplicativo.|
 |7 - Pós-condições| O viajante tem uma atividade reservada para a viagem.|
->>>>>>> 9b2700fd3bcd5b39002465ea6106911b897e8daf
