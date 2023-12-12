@@ -30,13 +30,13 @@ Para realizar as técnicas de verificação e validação do Caso de Uso apresen
 
 Para verificas as especificações dos casos de uso do grupo Skywalkers utilizamos um checklist com as estruturas principais dos itens que uma especificação deve conter. Como podemos ver abaixo, as duas especifícações disponibilizadas pelo grupo contemplam todos os itens da estrutura.
 
-|Critério            |Caso de uso - Acessar Inspirações de Viagens|Caso de uso - Reserva de Atividades|Observação|
+|Critério            |Caso de uso - Acessar Inspirações de Viagens|Caso de uso - Reserva de Atividades|Caso de uso - Gerenciar acomodações|
 |--------------------|--------------------------------------------|-----------------------------------|----------|
-|Breve Descrição     |✅                                           |✅                                  |          |
-|Fluxo de Caso de Uso|✅                                           |✅                                  |          |
-|Requisitos Especiais|✅                                           |✅                                  |          |
-|Pré-condições       |✅                                           |✅                                  |          |
-|Pós-condições       |✅                                           |✅                                  |          |
+|Breve Descrição     |✅                                           |✅                                  |    ✅       |
+|Fluxo de Caso de Uso|✅                                           |✅                                  |    ✅       |
+|Requisitos Especiais|✅                                           |✅                                  |    ✅       |
+|Pré-condições       |✅                                           |✅                                  |     ✅      |
+|Pós-condições       |✅                                           |✅                                  |     ✅      |
 
 
 ## Validação
