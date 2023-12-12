@@ -15,19 +15,21 @@ func get_atividade ():
 	
 	match mini_fase:
 		0:
-			atividade = "converse com sua mãe sobre o vovô e os mistérios que o cercam"
+			atividade = "Converse com sua mãe sobre o vovô e os mistérios que o cercam"
 		1:
-			atividade = "vá para casa abandonada do vovô e explore todo aquele lugar"
+			atividade = "Vá para casa abandonada do vovô e explore todo aquele lugar"
 		2:	
-			atividade = "vá para os três prédios do mapa e converse com os líderes de facção"
+			atividade = "Vá para os três prédios do mapa e converse com os líderes de facção"
 		3:	
-			atividade = "entre pela porta do Comando Estelar e fale com o Comandante na TV"
-		4: 
-			atividade = "vá para o farol e converse com os piratas espaciais"
-		5:	
-			atividade = "pegue a chave que você ganhou com o pirata espacial"
+			atividade = "Entre pela porta do Comando Estelar e fale com o Comandante na TV"
+		4:	
+			atividade = "Relate os resultados da missão para o Comandante"
+		5: 
+			atividade = "Vá para o farol e converse com os piratas espaciais"
 		6:	
-			atividade = "volte para sua casa e abra o baú deixado pelo vovô"
+			atividade = "Fale com o pirata espacial para pegar a chave que você ganhou"
 		7:	
-			atividade = "achei o crystal!!!!"
+			atividade = "Volte para sua casa e abra o baú deixado pelo vovô"
+		8:	
+			atividade = "Parabéns, você terminou o jogo e está livre para explorar"
 	return atividade

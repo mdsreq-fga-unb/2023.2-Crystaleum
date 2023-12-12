@@ -43,10 +43,10 @@ func caught_onigiri():
 	numOnigirisCought += 1
 	update_label()
 	$TextureProgressBar.value = 0
-	if (numOnigirisCought >= 3):
+	if (numOnigirisCought >= 5):
 		playerHook.queue_free()
-		if atividadeResource.get_mini_fase() < 5:
-			atividadeResource.set_mini_fase(5)
+		if atividadeResource.get_mini_fase() < 6:
+			atividadeResource.set_mini_fase(6)
 		winscreen.visible = true
 		Global.pirate_fishing = true
 

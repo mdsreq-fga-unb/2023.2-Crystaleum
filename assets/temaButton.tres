@@ -1,6 +1,4 @@
-[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dyyka4ilsiwu8"]
-
-[ext_resource type="FontFile" uid="uid://b0x1m7b4onjki" path="res://assets/fontes/pricedown bl.otf" id="1_u35sf"]
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dyyka4ilsiwu8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_50dlq"]
 bg_color = Color(0.254902, 0.152941, 0.321569, 1)
@@ -21,7 +19,6 @@ shadow_color = Color(0.729412, 0, 0.513726, 0)
 shadow_size = 2
 
 [resource]
-default_font = ExtResource("1_u35sf")
 Button/colors/font_color = Color(1, 1, 1, 1)
 Button/styles/focus = SubResource("StyleBoxFlat_50dlq")
 Button/styles/hover = SubResource("StyleBoxFlat_50dlq")

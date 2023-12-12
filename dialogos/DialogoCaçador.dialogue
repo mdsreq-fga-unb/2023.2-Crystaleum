@@ -1,32 +1,32 @@
 import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ startC
-Crys: Olá! 
+Crys: Olá!
 Crys: Quero me juntar ao Comando Estelar para derrotar os conglomerados!
 Crys: Poderia me contar mais sobre vocês?
-Caçador de recompensas: Seja muito bem vinda a sede do Comando Estelar.
+Caçador de recompensas: Seja muito bem-vinda à sede do Comando Estelar.
 Caçador de recompensas: Nós somos os Caçadores de Recompensa, um grupo motivado a realizar missões diversas para conseguir dinheiro e fama.
-Caçador de recompensas: Apesar de parecermos perigosos, possuímos um código de moral próprio que, nos permite ganhar fama, dinheiro e respeito.
+Caçador de recompensas: Apesar de parecermos perigosos, possuímos um código de moral próprio que nos permite ganhar fama, dinheiro e respeito.
 Caçador de recompensas: Através da realização de missões diversas, que vão desde capturar criminosos até capturar bestas em risco de extinção.
-Caçador de recompensas: O que acha de se juntar a nos?
+Caçador de recompensas: O que acha de se juntar a nós?
 Deseja entrar na facção?
-- Uau, quero muito aprender mais com vocês! 
-	Crys: O que preciso fazer para entrar nessa facção?
-	set Global.cacador = true
-	Caçador de recompensas: Sabia que você aceitaria!
-	Caçador de recompensas: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.
-	Caçador de recompensas: Para isso, deverá realizar um teste de conhecimento.
-	Caçador de recompensas: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
-	=> provacao/startQuiz
-	=> END
+- Uau, quero muito aprender mais com vocês!
+  Crys: O que preciso fazer para entrar nessa facção?
+  set Global.cacador = true
+  Caçador de recompensas: Sabia que você aceitaria!
+  Caçador de recompensas: Antes de qualquer coisa, você deve se mostrar capacitada para entrar em nossa facção.
+  Caçador de recompensas: Para isso, deverá realizar um teste de conhecimento.
+  Caçador de recompensas: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
+  => provacao/startQuiz
+  => END
 - Não.
-	=> END
+  => END
 
 ~ chosed_faction
 if Global.cacador == true
-	Caçador de recompensas: Bem vinda novamente aos Caçadores de recompensa!
-	Caçador de recompensas: Vá a sede do comando estelar e faça seu treinamento.
+	Caçador de recompensas: Bem-vinda novamente aos Caçadores de Recompensa!
+	Caçador de recompensas: Vá à sede do comando estelar e faça seu treinamento.
 	=> END
 if Global.cacador == false:
-	Caçador de recompensas: É uma pena você não ter entrado para facção.
+	Caçador de recompensas: É uma pena você não ter entrado para a facção.
 	Caçador de recompensas: Mas é bom ter você no comando estelar.
 	=> END

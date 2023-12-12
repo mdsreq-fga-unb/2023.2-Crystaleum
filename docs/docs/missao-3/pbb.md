@@ -51,6 +51,8 @@ Retirados do MIRO, os tópicos abaixo são capturas de cada parte do canvas.
 
 ## Personas
 
+![Personas PBB](../assets/images/personasPBB-Correção.png)
+
 ### **Maria, A recepcionista**
 
 -> O que faz:
@@ -125,6 +127,8 @@ Retirados do MIRO, os tópicos abaixo são capturas de cada parte do canvas.
 - Gerar relatórios de conformidade; 
 
 ## Features
+
+![Features](../assets/images/featuresPBB-Correção.png)
 
 ### **Features derivadas da Paciente:** 
 
@@ -258,6 +262,8 @@ Retirados do MIRO, os tópicos abaixo são capturas de cada parte do canvas.
 
 ## PBI
 
+![PBI](../assets/images/pbiPBB-Correção.png)
+
 ### **Feature: Registra e atualiza pacientes** 
 
 - Atualiza os dados dos pacientes; 
@@ -329,6 +335,48 @@ Fórmula da prioridade: (+) frequência (+) valor
 |1| | | | | | | | | | |
 
 ## Critérios de aceitação das USs
+
+### US's e Critérios de aceitação
+
+### Recepicionista
+
+![US's e Critérios](../assets/images/CriteriosRecepicionista1.png)
+
+### Médico
+
+![US's e Critérios](../assets/images/CriterioMedico.png)
+
+![US's e Critérios](../assets/images/CriterioMedico1.png)
+
+![US's e Critérios](../assets/images/CriterioMedico2.png)
+
+![US's e Critérios](../assets/images/CriterioMedico3.png)
+
+### Paciente
+
+![US's e Critérios](../assets/images/CriterioPaciente1.png)
+
+![US's e Critérios](../assets/images/CriterioPaciente2.png)
+
+![US's e Critérios](../assets/images/CriterioPaciente3.png)
+
+![US's e Critérios](../assets/images/CriterioPaciente4.png)
+
+### Farmacêutico
+
+![US's e Critérios](../assets/images/CrietrioFarmaceutico1.png)
+
+![US's e Critérios](../assets/images/CriterioFarmaceutico2.png)
+
+![US's e Critérios](../assets/images/CriterioFarmaceutico3.png)
+
+### Coordenador de Agendamento
+
+![US's e Critérios](../assets/images/CriterioCoordenador.png)
+
+### Diretor de tecnologia
+
+![US's e Critérios](../assets/images/CriterioDiretor1.png)
 
 ### US: Eu, como Recepcinosta, quero registrar os dados dos pacientes para garantir a precisão dos registros dos pacientes 
 

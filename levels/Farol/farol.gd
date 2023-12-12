@@ -11,7 +11,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Global.talkpirate2:
-		atividadeResource.set_mini_fase(6)
+		atividadeResource.set_mini_fase(7)
 
 
 func _on_fishing_minigame_pressed():

@@ -1,5 +1,6 @@
 extends Node2D
 
+var atividadeResource = preload("res://resources/mini-caderno-resource/new_resource.tres")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -21,4 +22,6 @@ func _on_button_tv_pressed():
 	if Global.space_shotter == false:
 		DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante")
 	if Global.space_shotter == true:
+		if atividadeResource.get_mini_fase() < 5:
+			atividadeResource.set_mini_fase(5)
 		DialogueManager.show_example_dialogue_balloon(load("res://dialogos/DialogoComandante.dialogue"), "comandante2")
