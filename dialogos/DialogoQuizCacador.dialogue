@@ -1,86 +1,86 @@
 ~ startQuiz
 
 if Global.finishedQuiz == false:
-	Caçador: Agora, para provar que você está preparada para ajudar o Comando Estelar, você terá que responder algumas perguntas, ok?
+	Caçador de Recompensas: Agora para provar que você está preparada para ajudar o Comando Estelar você terá que responder algumas perguntas, ok?
 	Crys:
-	- OK! Vamos nessa!
-		Caçador: Primeira pergunta: O que são requisitos de software?
+	- OK! Vamos Nessa!
+		Caçador de Recompensas: Primeira pergunta: O que são requisitos de software?
 		- Ferramentas de desenvolvimento
-			Caçador: Sinto muito! Resposta errada!
+			Caçador de Recompensas: Sinto muito! Resposta errada!
 			=> escolhaErrada
 		- Documentos formais
-			Caçador: Sinto muito! Resposta errada!
+			Caçador de Recompensas: Sinto muito! Resposta errada!
 			=> escolhaErrada
 		- Funções específicas de um programa
-			Caçador: Parabéns! Isso mesmo!
+			Caçador de Recompensas: Parabéns! Isso mesmo!
 		- Linguagens de programação
-			Caçador: Sinto muito! Resposta errada!
+			Caçador de Recompensas: Sinto muito! Resposta errada!
 			=> escolhaErrada
-		Caçador: Próxima pergunta: Qual é o propósito dos requisitos de software?
+		Caçador de Recompensas: Próxima pergunta: Qual é o propósito dos requisitos de software?
 		- Guia para testes
-			Caçador: Poxa! Essa não é a resposta correta!
+			Caçador de Recompensas: Poxa! Essa não é a resposta correta!
 			=> escolhaErrada
 		- Documentar a arquitetura do sistema
-			Caçador: Poxa! Essa não é a resposta correta!
+			Caçador de Recompensas: Poxa! Essa não é a resposta correta!
 			=> escolhaErrada
 		- Definir as funcionalidades do software
-			Caçador: Resposta correta!
+			Caçador de Recompensas: Responsta correta!
 		- Todas as opções acima
-			Caçador: Poxa! Essa não é a resposta correta!
+			Caçador de Recompensas: Poxa! Essa não é a resposta correta!
 			=> escolhaErrada
-		Caçador: Você está indo muito bem!
-		Caçador: Agora me diga...
-		Caçador: O que são requisitos funcionais?
+		Caçador de Recompensas: Você está indo muito bem! 
+		Caçador de Recompensas: Agora me diga...
+		Caçador de Recompensas: O que são requisitos funcionais?
 		- Descrição de interfaces de usuário
-			Caçador: Infelizmente, você errou.
+			Caçador de Recompensas: Infelizmente você errou
 			=> escolhaErrada
 		- Definição de desempenho do sistema
-			Caçador: Infelizmente, você errou.
+			Caçador de Recompensas: Infelizmente você errou
 			=> escolhaErrada
 		- Especificação das operações do software
-			Caçador: Isso mesmo!
+			Caçador de Recompensas: Isso mesmo!
 		- Requisitos de hardware necessários
-			Caçador: Infelizmente, você errou.
+			Caçador de Recompensas: Infelizmente você errou
 			=> escolhaErrada
-		Caçador: Me responda...
-		Caçador: Segundo Marsicano (2023), qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
+		Caçador de Recompensas: Me responda...
+		Caçador de Recompensas: Segundo Marsicano (2023), qual ciclo de vida permite feedback sobre o trabalho parcialmente concluído ou inacabado para melhorar e modificar esse trabalho?
 		- Ciclo de vida Iterativo
-			Caçador: Boa! Isso mesmo!
+			Caçador de Recompensas: Boa! Isso mesmo!
 		- Ciclo de vida Incremental
-			Caçador: Poxa, não é essa a opção correta.
+			Caçador de Recompensas: Poxa, não é essa a opção correta
 			=> escolhaErrada
 		- Ciclo de vida Preditivo
-			Caçador: Poxa, não é essa a opção correta.
+			Caçador de Recompensas: Poxa, não é essa a opção correta
 			=> escolhaErrada
 		- Ciclo de vida Ágil
-			Caçador: Poxa, não é essa a opção correta.
+			Caçador de Recompensas: Poxa, não é essa a opção correta
 			=> escolhaErrada
-		Caçador: Qual dos processos abaixo NÃO pode ser utilizado com uma abordagem dirigida a plano?
+		Caçador de Recompensas: Qual dos processos abaixo NÃO podem ser utilizados com uma abordagem dirigida a plano?
 		- Cascata
-			Caçador: Resposta incorreta!
+			Caçador de Recompensas: Resposta incorreta!
 			=> escolhaErrada
 		- Processo Unificado
-			Caçador: Resposta incorreta!
+			Caçador de Recompensas: Resposta incorreta!
 			=> escolhaErrada
 		- Spiral
-			Caçador: Resposta incorreta!
+			Caçador de Recompensas: Resposta incorreta!
 			=> escolhaErrada
 		- RAD
-			Caçador: Isso mesmo! O RAD é um processo que deve ser utilizado junto de uma abordagem ágil!
-		Caçador: Estamos muito orgulhosos até onde você chegou!
-		Caçador: Agora, para finalizar, me responda:
-		Caçador: Qual abordagem de desenvolvimento de software enfatiza a entrega incremental e iterativa, adaptação contínua aos requisitos em mudança e feedback constante dos usuários?
+			Caçador de Recompensas: Isso mesmo! O RAD é um processo que deve ser utilizado junto de uma abordagem ágil!
+		Caçador de Recompensas: Estamos muito orgulhosos até onde você chegou!
+		Caçador de Recompensas: Agora para finalizar, me responda:
+		Caçador de Recompensas: Qual abordagem de desenvolvimento de software enfatiza a entrega incremental e iterativa, adaptação contínua aos requisitos em mudança e feedback constante dos usuários?
 		- Desenvolvimento em Cascata
-			Caçador: Não é essa a resposta correta!
+			Caçador de Recompensas: Não é essa a resposta correta!
 			=> escolhaErrada
 		- Desenvolvimento Ágil
-			Caçador: Isso mesmo! Parabéns!
+			Caçador de Recompensas: Isso mesmo! Parabéns!
 			set Global.finishedQuiz = true
 		- Desenvolvimento em Espiral
-			Caçador: Não é essa a resposta correta!
+			Caçador de Recompensas: Não é essa a resposta correta!
 			=> escolhaErrada
 		- Desenvolvimento RAD (Rapid Application Development)
-			Caçador: Não é essa a resposta correta!
+			 Caçador de Recompensas: Não é essa a resposta correta!
 			=> escolhaErrada
 	- Não me sinto preparada ainda!
 		set Global.mercenario = false
@@ -89,14 +89,14 @@ if Global.finishedQuiz == false:
 		set Global.explorador = false
 		=> END
 if Global.finishedQuiz == true:
-	Caçador: Você finalizou a sua etapa de provação!
-	Caçador: Contamos contigo para salvar Calamum Caereleum.
+	Caçador de Recompensas: Você finalizou a sua etapa de provação!
+	Caçador de Recompensas: Contamos contigo para salvar Calamum Caereleum
 	set Global.chosen_faction = true
 	=> END
-
+	
 ~ escolhaErrada
-Caçador: Poxa! Você não conseguiu dessa vez.
-Caçador: Tente novamente para acertar as questões! Estarei te esperando!
+Caçador de Recompensas: Poxa! Você não conseguiu dessa vez. 
+Caçador de Recompensas: Tente novamente acertar as questões! Estarei te esperando!
 set Global.mercenario = false
 set Global.guardiao = false
 set Global.cacador = false
