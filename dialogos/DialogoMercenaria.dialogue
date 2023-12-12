@@ -1,30 +1,30 @@
 import "res://dialogos/DialogoQuiz.dialogue" as provacao
 ~ startM
-Crys: Olá, sou neta de G.M e decidi me juntar ao Comando Estelar para derrotar os conglomerados! 
+Crys: Olá, sou neta de G.M. e decidi me juntar ao Comando Estelar para derrotar os conglomerados!
 Crys: Poderia me contar mais sobre vocês?
-Mercenária: Olá jovem! Seja bem vinda a sede do Comando Estelar.
+Mercenária: Olá, jovem! Seja bem-vinda à sede do Comando Estelar.
 Mercenária: Nós somos os Mercenários, um grupo de guerreiros experientes e habilidosos...
 Mercenária: Nós vamos de uma guerra a outra, buscando a adrenalina da batalha, a glória da vitória e os espólios retirados de suas vítimas.
 Mercenária: Queremos obter glória, reconhecimento e riquezas em todos os planetas que passamos, deixando nossos nomes marcados na história e vivendo como reis.
 Mercenária: O que acha de entrar para nossa facção?
 Deseja entrar na facção?
-- Claro! 
-	Crys: O que preciso fazer para entrar nessa facção?
-	set Global.mercenario = true
-	Mercenária: É assim que se fala!
-	Mercenária: Antes de qualquer coisa você deve se mostrar capacitada para entrar em nossa facção.
-	Mercenária: Para isso, deverá realizar um teste de conhecimento.
-	Mercenária: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
-	=> provacao/startQuiz
-	=> END
-- Agora não 
-	=> END
+- Claro!
+  Crys: O que preciso fazer para entrar nessa facção?
+  set Global.mercenario = true
+  Mercenária: É assim que se fala!
+  Mercenária: Antes de qualquer coisa, você deve se mostrar capacitada para entrar em nossa facção.
+  Mercenária: Para isso, deverá realizar um teste de conhecimento.
+  Mercenária: Se conseguir alcançar a pontuação suficiente, já receberá sua primeira missão diretamente do Comandante Estelar.
+  => provacao/startQuiz
+  => END
+- Agora não
+  => END
 
 ~ chosed_faction
 if Global.mercenario == true:
 	Mercenária: É um prazer ter você no grupo!
-	=> END
-			
+ 	=> END
+            
 if Global.mercenario == false:
-	Mercenária: Vá se apresentar a sua facção.
+	Mercenária: Vá se apresentar à sua facção.
 	=> END

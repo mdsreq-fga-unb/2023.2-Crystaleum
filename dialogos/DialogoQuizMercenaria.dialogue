@@ -101,4 +101,4 @@ set Global.mercenario = false
 set Global.guardiao = false
 set Global.cacador = false
 set Global.explorador = false
-=> END
+=> startQuiz

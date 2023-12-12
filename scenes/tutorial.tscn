@@ -46,15 +46,15 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 3
 theme_override_fonts/font = ExtResource("2_u0kye")
 theme_override_font_sizes/font_size = 10
-text = "Para movimentar a Crys, sua personagem, utilize  o joystick na parte inferior esquerda
+text = "Para movimentar a Crys, sua personagem, utilize  o joystick na parte inferior esquerda.
 
 Para mudar de ambiente, clique no mapa 
-da parte superior esquerda
+da parte superior esquerda.
 
 As  regiões  do  mapa só serão  liberadas 
 ao  decorrer  do  jogo, mas os que 
 você já têm acesso estarão 
-marcadas por um botão roxo
+marcadas por um botão roxo.
 
 "
 horizontal_alignment = 1
