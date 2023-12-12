@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://qitrsxlt8215"]
+
+[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="1_t6o2g"]
+[ext_resource type="Texture2D" uid="uid://dyyxu5d0oyn16" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 03 - Stars.png" id="2_pukh1"]
+[ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="3_5ev8p"]
+[ext_resource type="FontFile" uid="uid://bdabfvtj6gt0q" path="res://assets/fontes/starwarsFonte/starjout/Starjout.ttf" id="4_i8a8i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dkj5b"]
+bg_color = Color(1, 0, 0.227451, 0.701961)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="Moonwalkers" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(23, 151)
+texture = ExtResource("1_t6o2g")
+
+[node name="StarryBackground-Layer03-Stars" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(63, -66)
+texture = ExtResource("2_pukh1")
+
+[node name="StarryBackground-Layer02-Stars" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(77, -51)
+texture = ExtResource("3_5ev8p")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 18.0
+offset_top = 19.0
+offset_right = 306.0
+offset_bottom = 66.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_i8a8i")
+theme_override_font_sizes/font_size = 13
+text = "um oferecimento Moonwalkers, 2023"
+horizontal_alignment = 1
+justification_flags = 160
+
+[node name="Button" type="Button" parent="."]
+offset_left = 290.0
+offset_top = 5.0
+offset_right = 318.0
+offset_bottom = 22.0
+theme_override_font_sizes/font_size = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_dkj5b")
+text = "X"
