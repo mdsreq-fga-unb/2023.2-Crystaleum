@@ -1,4 +1,4 @@
-# Validação Final dos Itens de Backlog
+# Evidências do DOD 
 
 ## Checklist Definition of Done (DoD)
 
@@ -8,9 +8,9 @@
 |US2            | Eu como aluno quero acessar todas as sub-áreas do mapa para percorrer todo o jogo                                                                                               |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
 |US3            |Eu, como aluno, gostaria de me movimentar nas 4 direções cartesianas no mapa do jogo para acessar novas áreas                                                                    |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
 |US4            |Eu, como aluno, gostaria de pescar oniguiris ao acessar o mini-game de pesca para que seja possível que meu personagem avance no desenvolver do jogo                             |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
-|US5            |Eu, como aluno, gostaria de conseguir saltar no mini-game de shape para que seja possível que meu personagem avance no desenvolver do jogo                                       |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
+|US5            |Eu, como aluno, gostaria de conseguir saltar no mini-game de Espacial para que seja possível que meu personagem avance no desenvolver do jogo                                       |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
 |US6            |Eu como aluno gostaria de jogar o mini-game de pesca para obter o item chave para avançar na história do jogo                                                                    |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
-|US7            | Eu como aluno gostaria de jogar o mini-game de shape para avançar na história do jogo                                                                                           |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
+|US7            | Eu como aluno gostaria de jogar o mini-game de Espacial para avançar na história do jogo                                                                                           |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
 |US9            |Eu, como aluno, quero dialogar com os seis NPC's para iniciar um diálogo com eles e descobrir mais sobre a história das facções                                                  |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
 |US10           | Eu como aluno desejo escolher a minha facção para adquirir um sentimento de pertencimento com a temática da disciplina                                                          |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
 |US11           | Eu como aluno quero responder perguntas de um QUIZ aos NPC's para conseguir revisar a disciplina                                                                                |✅                                                            |✅                                                         |✅                                                         |✅                                    |✅                                                 |✅                                                 |✅                                             |✅                                     |
@@ -36,6 +36,29 @@
 |US12           |Critério 1 - O mini-caderno deve ser apresentado na lateral da tela do usuário<br><br>Critério 2 - Deve ser possível visualizar todos as atividades que estão liberadas até o momento de forma sequencial que foi liberada para que o jogador possa prosseguir no jogo                                                                                                  |      ✅<br><br>✅        |
 |RNF2           |Critério 1 - O personagem deve possuir animação ao ficar parado, pelo menos 3 sprites<br><br>Critério 2 - O personagem deve possuir animação de movimentação, pelo menos 3 sprites                                                                                          |      ✅<br><br>✅        |
 |RNF6           |Critério 1 - Ao iniciar deve ser apresentada a abertura do jogo através de uma história sobre Calamum Caereleum                                                                       |✅        |
+
+## Checklist do DoR (apresentado anteriormente)
+
+| US | Cada item do backlog deve ser possível de ser realizado em uma sprint |Todos os critérios de aceitação devem ser aprovados pelo PO | Todos os requisitos funcionais e não funcionais contemplados no MVP devem possuir critérios de aceitação | Os requisitos funcionais devem estar declarados em US's | Os itens do backlog devem ser independentes, caso tenham dependências, estas devem ser identificadas | Os itens do backlog devem ter sua primeira versão do protótipo finalizada e aprovada pela equipe |
+|---------|---------------------------|----------------------------|--------------------|-------------------|  -------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|US1 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US2| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US3| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US4| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US5| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US6| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US7| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US8| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US9| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US10| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US11| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|US12| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|RNF1| ✅ | ✅ | ✅ | ✅ | ✅ | ✅  |
+|RNF2 | ✅ | ✅ | ✅ | N/A | ✅ | ✅ |
+|RNF4| ✅ | ✅ | ✅ | N/A | ✅ | N/A |
+|RNF5| ✅ | ✅ | ✅ | N/A | ✅ | N/A |
+|RNF6| ✅ | ✅ | ✅ | N/A | ✅ | N/A |
+
 
 ## Histórico de Versão
 
