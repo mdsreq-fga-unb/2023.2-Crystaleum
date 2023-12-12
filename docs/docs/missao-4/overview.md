@@ -30,7 +30,7 @@ Sendo assim, o Crystaleum contempla a resolução desse problema e ainda alcanç
 
 - Promover o Uso de Recursos de Apoio
 
-### **Conclusão**:
+### Conclusão:
  A equipe conseguiu criar um produto que atendeu às expectativas dos clientes, isto é, um jogo divertido que introduzisse os alunos que estão começando a matéria de requisitos à gamificação, além de revisar a matéria de pré-requisito, métodos de desenvolvimento de software.
 
 
@@ -62,7 +62,7 @@ Nessa seção, apresentamos o Kanbam da equipe seguindo o processo escolhido (RA
 | Iteração 4 | 28/11 até 05/12 | US2 - acessar todas as subáreas <br><br>US5 - Mini-game Shape - pular mecânica<br><br>US7 jogar minigame shape<br><br>US10 - Escolher facção<br><br> US11 - QUIZ NPC |                     |                   |                                                                                                                                                                                                                                                                                                                                                |                   |                                                                                                                                         |                                                                                                                                                                                                                                                                    |
 | Iteração 5 | 06/12 até 13/12 | US8- Salvar progresso<br><br>RFN4 - Efeitos sonoros<br><br>US12 - Minicarderno de atividades<br><br>RFN1 - Aumentar e diminuir o volume<br><br>RFN5 - música tema    |                     |                   |                                                                                                                                                                                                                                                                                                                                                |                   |                                                                                                                                         |                                                                                                                                                                                                                                                                    |
 
-### **Conclusão:** 
+### Conclusão:
 
 Para seguir o RAD, foi criado o Kanban acima onde foi inserido uma coluna para cada fase do RAD. Inicialmente, o grupo teve um pouco de dificuldades para se adaptar ao processo escolhido, uma vez que nenhum dos membros tinha experiência e conhecimentos prévios sobre. Mas, a partir do feedback ao final da segunda missão a equipe se organizou para seguir o processo estabelecido de fato, dessa forma, os testes e aprovações foram feitos várias vezes ao longo do semestre presencialmente com o docente, onde rapidamente mostrávamos o que tínhamos feito e recebíamos feedbacks sobre as entregas. Sendo assim, a equipe conseguia realizar testes de aprovação com constância e já podiam iniciar a próxima tarefa pendente no Kanban. 
 
@@ -70,7 +70,7 @@ Para seguir o RAD, foi criado o Kanban acima onde foi inserido uma coluna para c
 ## **Planejamento**
 
 
-### **Conclusão:**
+### Conclusão:
 
 No planejamento inicial, tínhamos realizado o levantamento de 17 requisitos (entre US e RFN) para serem cumpridos. No entanto, um dia antes de iniciar o desenvolvimento, nosso colega de equipe Pedro precisou abandonar a disciplina por motivos maiores. 
 

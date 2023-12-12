@@ -18,3 +18,4 @@
 | Que                 | Irá gerar um maior engajamento dos estudantes com a disciplina                                                                                 |
 | Ao contrário        | Da metodologia tradicional de aula, o jogo introduz a disciplina de forma lúdica e motiva os estudantes a lerem o documento posteriormente. |
 | Nosso produto       | irá possibilitar ao professor oferecer aos estudantes uma forma lúdica de introdução da matéria |
+

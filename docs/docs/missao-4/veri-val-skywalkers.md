@@ -43,15 +43,15 @@ Para verificas as especificações dos casos de uso do grupo Skywalkers utilizam
 
 Já para validação o nosso checklist considerou o conteúdo das especificações e analisamos com base nele se elas apresentavam os critérios que uma especificação deve ter.
 
-|Critério                                                                                    |Caso de uso - Acessar Inspirações de Viagens|Caso de uso - Reserva de Atividades|Observação|
+|Critério                                                                                    |Caso de uso - Acessar Inspirações de Viagens|Caso de uso - Reserva de Atividades|Caso de uso - Gerenciar acomodações|
 |--------------------------------------------------------------------------------------------|--------------------------------------------|-----------------------------------|----------|
-|A breve descrição do caso de uso reflete sua finalidade?                                    |✅                                           |✅                                  |          |
-|O fluxo básico apresenta uma seqüência de passos?                                           |✅                                           |✅                                  |          |
-|Os passos descrevem trocas de informação (interação), validação ou mudança de estado?       |✅                                           |✅                                  |          |
-|O fluxo alternativo abrange cenários que não são tratados no fluxo principal?               |✅                                           |✅                                  |          |
-|As pré-condições explicitam o estado do sistema para que o caso de uso possa começar?       |✅                                           |✅                                  |          |
-| As pós-condição do caso de uso lista os possíveis estados do sistema no fim do caso de uso?|✅                                           |✅                                  |          |
-|Existe uma compreensão clara das situações que podem levar a condições de exceção?          |✅                                           |✅                                  |          |
+|A breve descrição do caso de uso reflete sua finalidade?                                    |✅                                           |✅                                  |      ✅     |
+|O fluxo básico apresenta uma seqüência de passos?                                           |✅                                           |✅                                  |  ✅         |
+|Os passos descrevem trocas de informação (interação), validação ou mudança de estado?       |✅                                           |✅                                  |   ✅        |
+|O fluxo alternativo abrange cenários que não são tratados no fluxo principal?               |✅                                           |✅                                  |  ✅         |
+|As pré-condições explicitam o estado do sistema para que o caso de uso possa começar?       |✅                                           |✅                                  |   ✅        |
+| As pós-condição do caso de uso lista os possíveis estados do sistema no fim do caso de uso?|✅                                           |✅                                  |   ✅        |
+|Existe uma compreensão clara das situações que podem levar a condições de exceção?          |✅                                           |✅                                  |   ✅        |
 
 
 ## Histórico de Versão
