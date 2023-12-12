@@ -18,3 +18,16 @@ O diagrama UML foi criado a partir da ferramenta chamada Lucidchart, conforme po
 ![](../assets/images/use-case.png)
 
 ## Especificações dos casos de uso 
+
+
+### Cadastro de Novo Usuário
+
+|Passo|Descrição|
+|---|---|
+|1 - Ator princípal| Usuário (Viajante, Provedor de Serviços Turísticos, Guia de Idioma, Provedor de Hospedagem)|
+|2 - Breve descrição||
+|3 - Fluxo básico de eventos|3.1 O usuário abre o aplicativo "VoyageX".<br><br>3.2 O usuário seleciona a opção 'Criar Conta'.<br><br>3.3 O usuário escolhe o tipo de perfil (viajante, provedor de serviços, etc.).<br><br>3.4 O usuário preenche o formulário de cadastro com informações pessoais e de contato.<br><br>3.5 O aplicativo solicita ao usuário que crie um nome de usuário e senha.<br><br>3.6 O usuário aceita os termos de uso e política de privacidade.<br><br>3.7 O aplicativo verifica as informações e cria a nova conta.<br><br>3.8 O aplicativo envia um e-mail de confirmação para o endereço fornecido.<br><br>3.9 O usuário confirma o cadastro através do link no e-mail.<br><br>3.10 O aplicativo confirma a ativação da conta e o usuário pode começar a usá-la.<br><br>|
+|4 - Fluxos Alternativos|4.1 Se o e-mail fornecido já estiver em uso, o aplicativo notificará o usuário e solicitará um e-mail diferente, e retorna para o fluxo basico 3.4<br><br>4.2 Se o usuário não completar a confirmação por e-mail, o aplicativo enviará lembretes, e retorna para o fluxo basico 3.4<br><br>4.3 Se o usuário selecionar que é um guia de idiomas, deve-se abrir campos para que ele insira os idiomas de proficiência, os dias e horários disponíveis para atendimento dos viajantes, e retorna para o fluxo basico 3.4 com os campos novos<br><br>4.4 Se o usuário selecionar que é um provedor de hospedagem, deve-se abrir campos novos para inserir informações do hotel (CNPJ, endereço e fotos), e retorna para o fluxo basico 3.4 com os campos novos|
+|5 - Fluxos de Exceção|5.1 Conta ja exise, se a conta ja tiver sido criada o app avisa o usuário e leva para o login|
+|6 - Pré-condições|O usuário não possui uma conta no aplicativo.|
+|7 - Pós-condições|O usuário tem uma conta ativa no aplicativo e pode acessar suas funcionalidades.|
