@@ -1,28 +1,37 @@
-# ANA
-
 # Overview 
-
-- Da Visão de produto
-
-- Dos processo que executamos, se vcs executaram e como executamos - Inserir evidências do processo (explicar sobre os testes de aprovação com o cliente presencialmente etc etc)
-
-- Do Planejamento (informar se seguimos ou não, justificativas do por que nao seguir)
-
-
 
 ## **Visão de produto**
 
-1. Qual é o produto que você se propõe a desenvolver? Um jogo mobile com a temática de gamificação semelhante à utilizada na matéria de requisitos de software.
+### Problema 
 
-2. O que torna este produto diferente dos seus concorrentes? Não existe nenhum outro jogo desenvolvido nessa disciplina. Dessa forma, essa escolha demonstra ser uma opção inovadora.
+O principal problema trago pela equipe na Visão geral do Produto foi o fato da disciplina de requisitos de software ofertada pelo professor George Marsicano Corrêa durante esse semestre ter adotado uma metodologia gamificada, mas, ainda não ter alcançado o nível de imersão dos alunos desejado. 
 
-3. Quem são os usuários-alvo e clientes do produto? Os usuários-alvo são os próprios alunos de requisitos de software com o professor George Marsicano Corrêa. Já o cliente do produto serão os membros da equipe do Super-R
+Sendo assim, o Crystaleum contempla a resolução desse problema e ainda alcança outros objetivos propostos, justamente por contextualizar a história proposta pelo docente de uma forma mais interativa e próxima aos interesses dos estudantes. 
 
-4. Por que os clientes deveriam utilizar / comprar este produto? Além de compreender melhor a temática da gamificação da matéria e aumentar a imersão na mesma, é um jogo que além de entreter, conta com perguntas da matéria para revisão dos alunos. O jogo também foi produzido de forma a também aumentar a interação entre os próprios aluons no primeiro dia de aula.
+### Declaração de Posição do Produto
 
+| Questionamentos     | Descrição                                                                                                                                      |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Para                | Ingressantes da disciplina de requisitos de software                                                                                            |
+| Quem                | Estudantes desisteressados na contextualização do professor em sala de aula                                                                                         |
+| O (nome do produto) | Crystaleum                                                                                                                                     |
+| Que                 | Irá gerar um maior engajamento dos estudantes com a disciplina                                                                                 |
+| Ao contrário        | Da metodologia tradicional de aula, o jogo introduz a disciplina de forma lúdica e motiva os estudantes a lerem o documento posteriormente. |
+| Nosso produto       | irá possibilitar ao professor oferecer aos estudantes uma forma lúdica de introdução da matéria |
+
+
+### Objetivos do Produto
+
+- Melhor Compreensão dos Conceitos
+
+- Facilitar a Revisão de Conteúdo
+
+- Aumentar a Imersão e Interesse na Gamificação
+
+- Promover o Uso de Recursos de Apoio
 
 ### **Conclusão**:
- Conseguimos criar um produto que atendeu as expectativas dos clientes, que fosse um jogo divertido, que introduziria os alunos que estão começando a matéria de requisitos à gamificação além de revisar a matéria de pré-requisito, métodos de desenvolvimento de software.
+ A equipe conseguiu criar um produto que atendeu às expectativas dos clientes, isto é, um jogo divertido que introduzisse os alunos que estão começando a matéria de requisitos à gamificação, além de revisar a matéria de pré-requisito, métodos de desenvolvimento de software.
 
 
 
@@ -36,12 +45,9 @@ Além disso, o RAD supre a necessidade de planejamento inicial mais detalhado e,
 - Curto período de tempo para entrega.
 - Ter feedbacks constantes em cima de protótipos seria de muita utilidade por se tratar de um jogo.
 
-![RAD](../assets/images/RAD.png)
-
 ### Kanbam
 
 Nessa seção, apresentamos o Kanbam da equipe seguindo o processo escolhido (RAD). Disponibilizamos ele de forma iterativa através do Miro, e em formato de tabela a seguir, além de uma imagem do processo.
-
 
 
 ### Miro Utilizado para confecção do Kanbam
@@ -56,16 +62,18 @@ Nessa seção, apresentamos o Kanbam da equipe seguindo o processo escolhido (RA
 | Iteração 4 | 28/11 até 05/12 | US2 - acessar todas as subáreas <br><br>US5 - Mini-game Shape - pular mecânica<br><br>US7 jogar minigame shape<br><br>US10 - Escolher facção<br><br> US11 - QUIZ NPC |                     |                   |                                                                                                                                                                                                                                                                                                                                                |                   |                                                                                                                                         |                                                                                                                                                                                                                                                                    |
 | Iteração 5 | 06/12 até 13/12 | US8- Salvar progresso<br><br>RFN4 - Efeitos sonoros<br><br>US12 - Minicarderno de atividades<br><br>RFN1 - Aumentar e diminuir o volume<br><br>RFN5 - música tema    |                     |                   |                                                                                                                                                                                                                                                                                                                                                |                   |                                                                                                                                         |                                                                                                                                                                                                                                                                    |
 
-### **Conclusão** :
-Para seguir o RAD, criamos esse Kanban no MIRO onde colocamos cada fase do RAD e todas as atividades que tínhamos pendentes. No início ficamos com dificuldades para seguir e se adaptar, mas a partir do feedback do final da segunda missão nos organizamos e seguimos o processo. Os testes e aprovações foram feitos várias vezes ao longo do semestre no final da aula, onde rapidamente mostrávamos o que tínhamos feito e recebíamos feedback sobre as entregas e logo depois a tarefa avançava no Kanban
+### **Conclusão:** 
+
+Para seguir o RAD, foi criado o Kanban acima onde foi inserido uma coluna para cada fase do RAD. Inicialmente, o grupo teve um pouco de dificuldades para se adaptar ao processo escolhido, uma vez que nenhum dos membros tinha experiência e conhecimentos prévios sobre. Mas, a partir do feedback ao final da segunda missão a equipe se organizou para seguir o processo estabelecido de fato, dessa forma, os testes e aprovações foram feitos várias vezes ao longo do semestre presencialmente com o docente, onde rapidamente mostrávamos o que tínhamos feito e recebíamos feedbacks sobre as entregas. Sendo assim, a equipe conseguia realizar testes de aprovação com constância e já podiam iniciar a próxima tarefa pendente no Kanban. 
 
 
 ## **Planejamento**
 
 
-### **Conclusão** :
-No planejamento inicial, tínhamos 17 requisitos (US e RFN) para serem cumpridos. No entanto, um dia antes de iniciar o desenvolimento, nosso colega Pedro teve que sair da disciplina por motivos maiores. 
+### **Conclusão:**
 
-Dessa forma, conversamos com nosso cliente, o professor George e negociamos o nosso planejamento. Dos 18, retiramos 4 requisitos, relacionados à música e efeitos sonoros e ao salvamento do jogo, já que concluímos que esse é um jogo que só será mais usado no primeiro dia de aula e ele é curto demais para a necessidade de salvar o estado do jogo.
+No planejamento inicial, tínhamos realizado o levantamento de 17 requisitos (entre US e RFN) para serem cumpridos. No entanto, um dia antes de iniciar o desenvolvimento, nosso colega de equipe Pedro precisou abandonar a disciplina por motivos maiores. 
 
-Também mudamos o mini-game de plataforma para um space-shooter, clássico de fliperama, que se encaixava melhor na narrativa da disciplina.
+Dessa forma, debatemos com nosso cliente, professor George, e ajustamos nosso planejamento conforme a prioridade levantada anteriormente. Dos 17, retiramos 4 requisitos, relacionados à música, aos efeitos sonoros e ao salvamento do jogo. Isso porque a equipe concluiu que o Crystaleum é um jogo que será utilizado para contextualização da gamificação da disciplina no primeiro dia de aula, sendo curto demais para a necessidade de salvamento do estado do jogo.
+
+Outra alteração realizada foi relacionado ao mini-game de plataforma, ao qual foi modificado para um space-shooter, clássico de fliperama, e que se encaixava melhor na narrativa da disciplina. 
