@@ -24,9 +24,11 @@ func _process(delta):
 	if timerEnemy.wait_time > 0.2:
 		timerEnemy.wait_time -= delta * 0.040
 	paralBack.scroll_offset.x -= delta * scroll_speed
+	
 	if paralBack.scroll_offset.x >= 320:
 		paralBack.scroll_offset.x = 0
-	if score >= 5: 
+		
+	if score >= 75: 
 		player_win = true
 		Global.space_shotter = true
 		await get_tree().create_timer(0.2).timeout
