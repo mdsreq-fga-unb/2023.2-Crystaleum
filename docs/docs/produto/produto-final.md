@@ -9,28 +9,24 @@ O Crystaleum tem início em um menu com três opção: iniciar o jogo, abrir o t
 ![Menu_Crystaleum](../assets/images/menu_crystaleum.jpeg)
 
 O tutorial explica três objetos interativos principais do nosso jogo: 
-* O mini-mapa que fica a esquerda da tela do jogo, o qual deve ser utilzado para orientar visualmente o jogador sobre o universo de Crystaleum.
-* Vários botões roxos que ficam dentro do mini-mapa, os quais devem ser utilzados para mostrar quais ambientes do universo de Crystaleum estão liberados para acesso e clicados quando o jogador quiser se movimentar para algum desses ambientes.
-* O mini-caderno que fica a direito da tela do jogo, o qual deve ser utilizado para orientar o jogador a respeito dos seus próximos passos.
+
+- O mini-mapa que fica a esquerda da tela do jogo, o qual deve ser utilzado para orientar visualmente o jogador sobre o universo de Crystaleum.
+- Vários botões roxos que ficam dentro do mini-mapa, os quais devem ser utilzados para mostrar quais ambientes do universo de Crystaleum estão liberados para acesso e clicados quando o jogador quiser se movimentar para algum desses ambientes.
+- O mini-caderno que fica a direito da tela do jogo, o qual deve ser utilizado para orientar o jogador a respeito dos seus próximos passos.
 
 <center><b>Imagem 2:</b> Tutorial</center>
 
 ![Tutorial_Menu](../assets/images/tutorial_crystaleum.jpeg)
 
+## Abertura da história 
 
-Já a tela de história é mostrada quando o jogador clicar em jogar e der inicio ao Crystaleum.
+É apresentada uma tela inicial contendo a história de Calamum, a qual é apresentada assim que o jogador iniciar o jogo. 
 
 <center><b>Imagem 3:</b> História do Crystaleum</center>
 
 ![História](../assets/images/historia_crystaleum.jpeg)
 
-## Casa da Crys
-
-A primeira fase do jogo traz a casa da Crys. Nela o jogador encontra a mãe da nossa personagem e pode entender um pouco mais da história do Crystaleum.
-
-<center><b>Imagem 4:</b> Casa da Crys</center>
-
-![Casa_Crys](../assets/images/casa_crys.jpeg)
+## Itens de Interação
 
 Abaixo estão os objetos interativos que acompanharão o jogador por toda a narrativa, além de já ter sua explicação na seção de tutorial no menu do Crystaleum. Estes são:
 
@@ -42,9 +38,17 @@ Abaixo estão os objetos interativos que acompanharão o jogador por toda a narr
 
 ![Mini_Caderno](../assets/images/diário_crys.jpeg)
 
+## Casa da Crys
+
+A primeira fase do jogo traz a casa da Crys. Nela, a personagem encontra sua mãe e pretende saber um pouco mais sobre seu avô. 
+<center><b>Imagem 4:</b> Casa da Crys</center>
+
+![Casa_Crys](../assets/images/casa_crys.jpeg)
+
+
 ## Casa do Avô da Crys
 
-A segunda fase do jogo se passa na casa do Avô da Crys. Nela você consegue encontrar o diário do mesmo e e pode um pouco mais sobre o que se passa na história.
+A segunda fase do jogo se passa na casa do Avô da Crys. Nela, você consegue encontrar o diário do mesmo e descobre um pouco mais sobre o que se passa na história do universo.
 
 <center><b>Imagem 7:</b> Casa do Avô da Crys</center>
 
@@ -55,11 +59,11 @@ A segunda fase do jogo se passa na casa do Avô da Crys. Nela você consegue enc
 
 ![Diário_Avó](../assets/images/diário_vô.jpeg)
 
-## Praça das Facções
+## Prédios das facções e Sede do Comando Estelar
 
 Já na terceira fase do Crystaleum, o jogador estará em um praça com 4 NPCs, sendo que cada um explicará um pouco mais sobre as facções de Calamum Caereleum para Crys.
 
-<center><b>Imagem 9:</b> Praça das Facções</center>
+<center><b>Imagem 9:</b> Prédios das Facções</center>
 
 ![Pracinha](../assets/images/pracinha.jpeg)
 
@@ -75,7 +79,7 @@ Além disso, é a primeira parte do jogo com uma porta interativa.
 
 ## Sede do Comando Estelar
 
-Na Sede do Comando Estelar, temos duas principais etapas: uma conversa com o Comandante Estelar e o mini-game do Shape.
+Na Sede do Comando Estelar, temos duas principais etapas: uma conversa com o Comandante Estelar e o mini-game espacial.
 
 <center><b>Imagem 12:</b> Sede do Comando Estelar </center>
 
@@ -85,17 +89,17 @@ Na Sede do Comando Estelar, temos duas principais etapas: uma conversa com o Com
 
 ![TV_Comandante](../assets/images/comandante_estelar.jpeg)
 
-### Mini-Game Shape
+### Mini-Game Espacial
 
-No mini-game do Shape o jogador precisa derrotar uma quantidade x de naves dos Conglomerados para poder liberar a próxima fase do Crystaleum.
+No mini-game do Espacial o jogador precisa derrotar uma quantidade x de naves dos Conglomerados para poder liberar a próxima fase do Crystaleum.
 
-<center><b>Imagem 14:</b> Mini-Game Shape </center>
+<center><b>Imagem 14:</b> Mini-Game Espacial </center>
 
-![Mini_Game_Shape](../assets/images/jogo_shape.jpeg)
+![Mini_Game_Espacial](../assets/images/jogo_shape.jpeg)
 
 ## Farol
 
-A última fase do Crystaleum o jogador encontra um dos vilões de Calamum Caereleum e nele precisa enfrentar outra provação para derrotá-los. 
+Na última fase do Crystaleum o jogador encontra um dos vilões de Calamum Caereleum e nele precisa enfrentar outra provação para derrotá-los. 
 
 <center><b>Imagem 15:</b> Farol </center>
 
@@ -108,6 +112,8 @@ O Mini-Game da Pesca é a última grande fase do Crystaleum. Nele o jogador prec
 <center><b>Imagem 16:</b> Farol </center>
 
 ![Mini_Game_Pesca](../assets/images/jogo_pesca.jpeg)
+
+Ao vencer o record de pesca de oniguiris dos piratas, o personagem consegue a chave para abrir o baú de seu avô. A partir disso, ele abre o baú e finaliza a história. 
 
 ## Histórico de Versão
 
