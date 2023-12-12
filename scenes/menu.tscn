@@ -121,7 +121,7 @@ theme_override_fonts/font = ExtResource("5_qirgu")
 theme_override_font_sizes/font_size = 14
 text = "sair"
 
-[node name="Label" type="Label" parent="TextureRect"]
+[node name="Crystaleum" type="Label" parent="TextureRect"]
 layout_mode = 2
 offset_left = 28.0
 offset_top = 18.0

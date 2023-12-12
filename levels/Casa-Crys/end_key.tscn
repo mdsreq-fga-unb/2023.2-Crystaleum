@@ -16,8 +16,8 @@ texture = ExtResource("1_p05dn")
 
 [node name="nave-ce2" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0.254902)
-position = Vector2(160.5, 94.5)
-scale = Vector2(5.89062, 4.20312)
+position = Vector2(160.5, 92.0001)
+scale = Vector2(5.89062, 4.125)
 texture = ExtResource("5_47rl1")
 
 [node name="Label" type="Label" parent="."]
