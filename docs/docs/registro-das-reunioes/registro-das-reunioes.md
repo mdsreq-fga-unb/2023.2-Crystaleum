@@ -87,13 +87,13 @@ Fonte: MoonWalkers,2023
 |---|---|---|---|
 |• Revisão nos critérios de aceitação das Us's<br><br>• Trocamos a representação dos requisitos não funcionais de US's para uma nova categoria de apenas requisitos não funcionais|• Sprites do Comandante Estelar<br><br>• Sprites do NPC Mercenários<br><br>• Sprites do NPC Caçadores de Recompensa<br><br>• Configuração do ambiente inicial<br><br>• Aprimoramento DOD e DOR após feedbacks<br><br>• atualização Planejamento Fases em Visão Geral do Projeto<br><br>• atualização do Definição de MVP em Missão 2<br><br>• Alterações na Visão Geral do Produto /Projeto<br><br>• Registros Planning, Review e Retrospectiva<br><br>• Registro dos Relatórios - Matriz de comunicação<br><br>• Backbone do USM<br><br>• US4 - pescar o oniguiri-mecanica<br><br>• Atividades com os Insurgentes<br><br>• US3 - Movimentar 4 direções<br><br>US1 - Mini-mapa<br><br>US6 - Mini-game Pesca <br><br>RFN2 sprites animados<br><br>US9 - dialogar NPCs|Aplicamos o DoR na us5 e na US8|• Sprites do Comandante Estelar<br><br>• Sprites do NPC Mercenários<br><br>• Sprites do NPC Caçadores de Recompensa<br><br>• Configuração do ambiente inicial<br><br>• Aprimoramento DOD e DOR após feedbacks<br><br>• atualização Planejamento Fases em Visão Geral do Projeto<br><br>• atualização do Definição de MVP em Missão 2<br><br>• Alterações na Visão Geral do Produto /Projeto<br><br>• Registros Planning, Review e Retrospectiva<br><br>• Registro dos Relatórios - Matriz de comunicação<br><br>• Backbone do USM<br><br>• US4 - pescar o oniguiri-mecanica<br><br>• Atividades com os Insurgentes<br><br>• US3 - Movimentar 4 direções<br><br>US1 - Mini-mapa<br><br>US6 - Mini-game Pesca <br><br>RFN2 sprites animados<br><br>US9 - dialogar NPCs|
 
-**Tabela 8:** Review da Iteração 3 - 31/10
+**Tabela 8:** Review da Iteração 3 - 27/10
 
 |Iteration backlog Itens|Iteration backlog Itens APPROVED|Enviroments Changes|What to do? (Actions)|
 |---|---|---|---|
 |• Sprites do Comandante Estelar<br><br>• Sprites do NPC Mercenários<br><br>• Sprites do NPC Caçadores de Recompensa<br><br>• Configuração do ambiente inicial<br><br>• Aprimoramento DOD e DOR após feedbacks<br><br>• atualização Planejamento Fases em Visão Geral do Projeto<br><br>• atualização do Definição de MVP em Missão 2<br><br>• Alterações na Visão Geral do Produto /Projeto<br><br>• Registros Planning, Review e Retrospectiva<br><br>• Registro dos Relatórios - Matriz de comunicação<br><br>• Backbone do USM<br><br>• US4 - pescar o oniguiri-mecanica<br><br>• Atividades com os Insurgentes<br><br>• US3 - Movimentar 4 direções<br><br>US1 - Mini-mapa<br><br>US6 - Mini-game Pesca <br><br>RFN2 sprites animados<br><br>US9 - dialogar NPCs|• Sprites do Comandante Estelar<br><br>• Sprites do NPC Mercenários<br><br>• Sprites do NPC Caçadores de Recompensa<br><br>• Configuração do ambiente inicial<br><br>• Aprimoramento DOD e DOR após feedbacks<br><br>• atualização Planejamento Fases em Visão Geral do Projeto<br><br>• atualização do Definição de MVP em Missão 2<br><br>• Alterações na Visão Geral do Produto /Projeto<br><br>• Registros Planning, Review e Retrospectiva<br><br>• Registro dos Relatórios - Matriz de comunicação<br><br>• Backbone do USM<br><br>• US4 - pescar o oniguiri-mecanica<br><br>• Atividades com os Insurgentes<br><br>• US3 - Movimentar 4 direções<br><br>US1 - Mini-mapa<br><br>US6 - Mini-game Pesca <br><br>RFN2 sprites animados<br><br>US9 - dialogar NPCs|Finalizar o mini-game de pesca|
 
-**Tabela 9:** Retrospective Meeting da Iteração 3 - 31/10
+**Tabela 9:** Retrospective Meeting da Iteração 3 - 27/10
 
 |What went WELL?| What Didn't go Well?|Actions plan and GOALs|
 |---|---|---|
@@ -139,17 +139,19 @@ Fonte: MoonWalkers,2023
 
 |Review the product backlog|Set interation GOAL|Aply DoR|Estabilish Interation Backlog|
 |---|---|---|---|
-| - |• US8- Salvar progresso<br><br>• US9 - diálogo com NPC's<br><br>• US7 - Mini-Game space shooter<br><br>• Correções gerais do codigo<br><br>• Atualização do pages|Aplicamos o DoR em todas as US's|• US8- Salvar progresso<br><br>• US9 - diálogo com NPC's<br><br>• US7 - Mini-Game space shooter<br><br>• Correções gerais do codigo<br><br>• Atualização do pages|
+|Não teve alterações no backlog nesta iteração|• US10 - Escolher facção<br><br>• US9 - diálogo com NPC's<br><br>• Correções gerais do codigo<br><br>• Atualização do pages<br><br>• BUGS<br><br>• Avaliação com cliente|Aplicamos o DoR em todas as US's|• US10 - Escolher facção<br><br>• US9 - diálogo com NPC's<br><br>• Correções gerais do codigo<br><br>• Atualização do pages<br><br>• BUGS<br><br>• Avaliação com cliente|
 
-**Tabela 14:** Review da Iteração 5 - 06/12
+**Tabela 14:** Review da Iteração 5 - 11/12
 
 |Iteration backlog Itens|Iteration backlog Itens APPROVED|Enviroments Changes|What to do? (Actions)|
 |---|---|---|---|
+|• US10 - Escolher facção<br><br>• US9 - diálogo com NPC's<br><br>• Correções gerais do codigo<br><br>• Atualização do pages<br><br>• BUGS<br><br>• Avaliação com cliente|• US10 - Escolher facção<br><br>• US9 - diálogo com NPC's<br><br>• Correções gerais do codigo<br><br>• Atualização do pages<br><br>• BUGS<br><br>• Avaliação com cliente|Não tiveram mudanças de ambiente|Apresentação final do projeto|
 
-**Tabela 15:** Retrospective Meeting da Iteração 5 - 06/12
+**Tabela 15:** Retrospective Meeting da Iteração 5 - 11/12
 
 |What went WELL?| What Didn't go Well?|Actions plan and GOALs|
 |---|---|---|
+|Nesta etapa final todos se ajudaram a terminar tudo conseguimos entregar com tempo de sobra podendo revisar bugs e realizar alterações que o cliente pediu|-|Acabou|
 
 <br></br>
 
